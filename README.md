@@ -24,3 +24,48 @@ Any and all suggestions welcome.
 [TryHackMe](https://tryhackme.com/p/th4ntis)
 
 [HackTheBox](https://app.hackthebox.com/profile/274909)
+
+
+
+{% content-ref url="personal/guides-and-how-tos/" %}
+[guides-and-how-tos](personal/guides-and-how-tos/)
+{% endcontent-ref %}
+
+{% content-ref url="general/networking/" %}
+[networking](general/networking/)
+{% endcontent-ref %}
+
+{% content-ref url="general/linux/" %}
+[linux](general/linux/)
+{% endcontent-ref %}
+
+{% content-ref url="general/windows/" %}
+[windows](general/windows/)
+{% endcontent-ref %}
+
+{% content-ref url="general/osint/" %}
+[osint](general/osint/)
+{% endcontent-ref %}
+
+{% content-ref url="general/attack-and-defense/" %}
+[attack-and-defense](general/attack-and-defense/)
+{% endcontent-ref %}
+
+{% content-ref url="personal/guides-and-how-tos/" %}
+[guides-and-how-tos](personal/guides-and-how-tos/)
+{% endcontent-ref %}
+
+{% content-ref url="personal/tryhackme/" %}
+[tryhackme](personal/tryhackme/)
+{% endcontent-ref %}
+
+{% content-ref url="personal/hackthebox/" %}
+[hackthebox](personal/hackthebox/)
+{% endcontent-ref %}
+
+
+
+
+
+
+
