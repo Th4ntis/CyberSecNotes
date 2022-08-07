@@ -13,6 +13,15 @@ Any and all suggestions welcome.
 
 **Note:** I do not claim any copyrighted content. Any of the tools or methods here are for reference, research, and educational purposes only and not to be used for unethical, questionable or illegal activities.
 
+|                                  |                                                   |
+| -------------------------------- | ------------------------------------------------- |
+| [General](general/general-info/) | [Networking](general/networking/)                 |
+| [Linux](general/linux/)          | [Windows](general/windows/)                       |
+| [OSINT](general/osint/)          | [Attack and Defense](general/attack-and-defense/) |
+| [TryHackMe](personal/tryhackme/) | [HackTheBox](personal/hackthebox/)                |
+
+[Guides and How-To's](personal/guides-and-how-tos/)
+
 
 
 [Twitter](https://twitter.com/Th4ntis)
@@ -22,12 +31,3 @@ Any and all suggestions welcome.
 [TryHackMe](https://tryhackme.com/p/th4ntis)
 
 [HackTheBox](https://app.hackthebox.com/profile/274909)
-
-[Guides and How-To's](personal/guides-and-how-tos/)
-
-|                                  |                                                   |
-| -------------------------------- | ------------------------------------------------- |
-| [General](general/general-info/) | [Networking](general/networking/)                 |
-| [Linux](general/linux/)          | [Windows](general/windows/)                       |
-| [OSINT](general/osint/)          | [Attack and Defense](general/attack-and-defense/) |
-| [TryHackMe](personal/tryhackme/) | [HackTheBox](personal/hackthebox/)                |
