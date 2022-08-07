@@ -76,6 +76,7 @@
   * [Attacking Kerberos](personal/tryhackme/attacking-kerberos.md)
   * [Hacking with Powershell](personal/tryhackme/hacking-with-powershell.md)
   * [Powershell for Pentesters](personal/tryhackme/powershell-for-pentesters.md)
+  * [Attacktive Directory](personal/tryhackme/attacktive-directory.md)
 * [📦 HackTheBox](personal/hackthebox/README.md)
   * [Walkthroughs](personal/hackthebox/walkthroughs/README.md)
     * [Starting Point](personal/hackthebox/walkthroughs/starting-point/README.md)
