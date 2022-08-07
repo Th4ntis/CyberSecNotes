@@ -47,7 +47,7 @@ With our browser proxy setup, when we open Burpsuite we can choose a temporary p
 
 When we're ready to start intercepting our traffic, we can go to the proxy tab, and turn on intercept.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (7).png>)
 
 **\*NOTE** - This will intercept ALL browser traffic. If we want to intercept only specific IPs or websites, we need to setup our scope.
 
