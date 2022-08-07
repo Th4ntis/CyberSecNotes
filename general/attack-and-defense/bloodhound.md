@@ -60,7 +60,7 @@ Once we have that started, download a Pre-Compiled binary from [here](https://gi
 sudo ./BloodHound.bin --no-sandbox
 ```
 
-![](<../../.gitbook/assets/image (104).png>)
+![](<../../.gitbook/assets/image (104) (2).png>)
 
 ![](<../../.gitbook/assets/image (99).png>)
 

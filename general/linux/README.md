@@ -1,4 +1,4 @@
-# Linux
+# 🐧 Linux
 
 This is my notes on the linux OS and will cover commands and configs. I personally use [Kubuntu](https://kubuntu.org/) ([Ubuntu](https://ubuntu.com/) but with KDE as opposed the default Gnome desktop environment.) as it is lightweight, has a lot customization options and just works with little to no issues from my experience.
 

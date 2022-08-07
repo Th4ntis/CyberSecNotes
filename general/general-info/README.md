@@ -2,7 +2,7 @@
 description: General and Random Information
 ---
 
-# General Info
+# 🖥 General Info
 
 ## Red Team
 

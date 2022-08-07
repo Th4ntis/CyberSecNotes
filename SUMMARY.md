@@ -36,6 +36,7 @@
   * [Mimikatz](general/attack-and-defense/mimikatz.md)
   * [Impacket](general/attack-and-defense/impacket.md)
   * [Bloodhound](general/attack-and-defense/bloodhound.md)
+  * [Social-Engineer Toolkit (SET)](general/attack-and-defense/social-engineer-toolkit-set.md)
   * [Powershell Obfuscation](general/attack-and-defense/powershell-obfuscation.md)
   * [Privilege Escalation](general/attack-and-defense/privilege-escalation.md)
   * [BurpSuite](general/attack-and-defense/burpsuite.md)

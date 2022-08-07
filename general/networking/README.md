@@ -2,7 +2,7 @@
 description: Networking Basics
 ---
 
-# Networking
+# 💻 Networking
 
 This will be my notes on networking, covering the basics and details that I feel most everyone should grasp and understand.
 

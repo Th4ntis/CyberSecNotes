@@ -2,7 +2,7 @@
 description: Open Source Intelligence
 ---
 
-# OSINT
+# 🔎 OSINT
 
 ## OSINT
 

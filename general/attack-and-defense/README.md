@@ -1,4 +1,4 @@
-# Attack and Defense
+# 🛡 Attack and Defense
 
 This section will cover various attack tools, vectors, methods, and how we can use them, as well as what to look for to defend against them.
 
