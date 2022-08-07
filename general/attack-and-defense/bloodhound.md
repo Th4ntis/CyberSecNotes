@@ -10,18 +10,6 @@
 
 Pre-Compiled binaries can be found [here](https://github.com/BloodHoundAD/BloodHound/releases)
 
-Install Java:&#x20;
-
-```bash
-sudo echo "deb http://httpredir.debian.org/debian stretch-backports main" | sudo tee -a /etc/apt/sources.list.d/stretch-backports.list
-```
-
-Update apt:
-
-```bash
-sudo apt update
-```
-
 Add the neo4j repo to your apt sources (Echoing this out kept fighting me so I nano'd the file myself)
 
 ```bash
