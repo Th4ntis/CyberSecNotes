@@ -138,7 +138,7 @@ Copy the hashes to a .txt file and begin the cracking with hashcat.
 
 `Summer2020`
 
-![](<../../.gitbook/assets/image (99).png>)
+![](<../../.gitbook/assets/image (99) (1).png>)
 
 ### Question 2: What is the SQLService Password?
 

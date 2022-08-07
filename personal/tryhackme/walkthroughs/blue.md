@@ -25,7 +25,7 @@ We can find our answer pretty easily.
 
 Our argument of --script vuln scanned the target for any known vulnerabilities, which returned:
 
-![](<../../../.gitbook/assets/image (103).png>)
+![](<../../../.gitbook/assets/image (103) (1).png>)
 
 showing the target is vulnerable to: ms17-010
 

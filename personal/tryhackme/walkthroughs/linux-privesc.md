@@ -74,7 +74,7 @@ We can now `cat` the file to receive our flag.
 
 So let's run `sudo find . -exec /bin/sh ; -quit` and see if we get root.
 
-![](<../../../.gitbook/assets/image (100).png>)
+![](<../../../.gitbook/assets/image (100) (1).png>)
 
 We do! So now we can find our flag.
 
