@@ -112,7 +112,7 @@ This basically says if we assign the variable of LFILE to to a file, then use ba
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8) (1).png>)
 
 Now we can use unshadow from the JohnTheRipper package to combine the files
 
