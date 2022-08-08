@@ -74,7 +74,7 @@ Answer: SELECT
 
 Run INFO
 
-![](<../../../../.gitbook/assets/image (4).png>)
+![](<../../../../.gitbook/assets/image (4) (1).png>)
 
 Answer: 4
 
@@ -90,6 +90,6 @@ Answer: keys \*
 
 #### Submit root flag
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (4).png>)
 
 Answer: 03e1d2b376c37ab3f5319922053953eb
