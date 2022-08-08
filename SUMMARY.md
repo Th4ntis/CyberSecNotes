@@ -83,5 +83,6 @@
       * [Meow](personal/hackthebox/walkthroughs/starting-point/meow.md)
       * [Fawn](personal/hackthebox/walkthroughs/starting-point/fawn.md)
       * [Dancing](personal/hackthebox/walkthroughs/starting-point/dancing.md)
+      * [Redeemer](personal/hackthebox/walkthroughs/starting-point/redeemer.md)
       * [Explosion](personal/hackthebox/walkthroughs/starting-point/explosion.md)
       * [Preignition](personal/hackthebox/walkthroughs/starting-point/preignition.md)

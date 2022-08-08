@@ -37,7 +37,7 @@ Click Save and ta-da!
 
 From here, when we want to use BurpSuite, we can click on the extension icon and select our Burp proxy
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 ## Usage
 
@@ -55,4 +55,4 @@ When we're ready to start intercepting our traffic, we can go to the proxy tab, 
 
 The scope will be sure to only intercept traffic to the specific IPs or websites. We can set our scope by Selecting Target > Scope
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)

@@ -72,4 +72,4 @@ Login with neo4j:(password you set), and we're done installing and running.
 
 This is a screenshot from an example but this is what you \*can\* see
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)

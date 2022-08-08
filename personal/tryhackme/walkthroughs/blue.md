@@ -75,7 +75,7 @@ This may or may not work for you so try different processes to migrate to.
 
 From our meterpreter session, we can run hashdump to show us all the users and hashed passwords of the users on the system.
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 ### Question #2: Copy this password hash to a file and research how to crack it. What is the cracked password?
 
