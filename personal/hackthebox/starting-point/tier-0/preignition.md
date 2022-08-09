@@ -72,7 +72,7 @@ Answer: nginx 1.14.2
 
 [Gobuster man page](https://manpages.ubuntu.com/manpages/impish/man1/gobuster.1.html)
 
-![](../../../../.gitbook/assets/image.png)
+![](<../../../../.gitbook/assets/image (5).png>)
 
 Answer: dir
 
@@ -80,7 +80,7 @@ Answer: dir
 
 #### What page is found during our dir busting activities?
 
-![](<../../../../.gitbook/assets/image (1).png>)
+![](<../../../../.gitbook/assets/image (1) (2).png>)
 
 Answer: admin.php
 

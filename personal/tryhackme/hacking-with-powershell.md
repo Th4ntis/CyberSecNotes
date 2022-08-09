@@ -72,7 +72,7 @@ One way of manipulating objects is pulling out the properties from the output of
 
 An example of listing the directories and just selecting the mode and the name:
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 We can also use the following flags to select particular information:
 
@@ -159,7 +159,7 @@ An example of sort the list of directories:
 
 `Invoke-WebRequest`
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../../.gitbook/assets/image (11) (1).png>)
 
 ### Question 8: Base64 decode the file b64.txt on Windows
 
@@ -234,7 +234,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `20` - Run `Get-Hotfix` and count OR `Get-Hotfix | Measure`
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 ### Question 9: When was the patch with ID KB4023834 installed?
 
