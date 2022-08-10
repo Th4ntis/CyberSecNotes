@@ -79,17 +79,19 @@ Answer: **3306**
 
 #### What community-developed MySQL version is the target running?
 
+Found in initial scan
 
-
-Answer: **XXX**
+Answer: MariaDB
 
 ## Task 4
 
 #### What switch do we need to use in order to specify a login username for the MySQL service?
 
+`mysql --help`
 
 
-Answer: **XXX**
+
+Answer: **-u**
 
 ## Task 5
 
