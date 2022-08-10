@@ -89,7 +89,11 @@ Answer: MariaDB
 
 `mysql --help`
 
-
+```bash
+mysql --help | grep user    
+  -u, --user=name     User for login if not current user.
+user                                      (No default value)
+```
 
 Answer: **-u**
 
