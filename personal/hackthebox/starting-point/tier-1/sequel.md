@@ -63,15 +63,17 @@ Nmap done: 1 IP address (1 host up) scanned in 179.92 seconds
 
 #### What does the acronym SQL stand for?
 
-Previous rooms and general knowledge Answer: **Structured Query Language**
+Previous rooms and general knowledge
+
+Answer: **Structured Query Language**
 
 ## Task 2
 
 #### During our scan, which port running mysql do we find?
 
+Found in initial scan
 
-
-Answer: **XXX**
+Answer: **3306**
 
 ## Task 3
 
