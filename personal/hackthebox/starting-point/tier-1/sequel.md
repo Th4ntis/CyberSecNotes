@@ -101,9 +101,11 @@ Answer: **-u**
 
 #### Which username allows us to log into MariaDB without providing a password?
 
+Google'd for this answer
 
+> Using unix\_socket means that if you are the system root user, you can login as root@locahost without a password. This technique was pioneered by Otto Kekäläinen in Debian MariaDB packages and has been successfully used in Debian since as early as MariaDB 10.0.
 
-Answer: **XXX**
+Answer: **root**
 
 ## Task 6
 
