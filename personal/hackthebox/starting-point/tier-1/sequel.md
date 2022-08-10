@@ -111,17 +111,21 @@ Answer: **root**
 
 #### What symbol can we use to specify within the query that we want to display everything inside a table?
 
+The typical common symbol that's used mean "everything", the asterisk/wildcard.
 
-
-Answer: **XXX**
+Answer: **\***
 
 ## Task 7
 
 #### What symbol do we need to end each query with?
 
+Looking at SQL examples, we see queries ending with a semi-colon (;)
 
+```sql
+use users_database;
+```
 
-Answer: **XXX**
+Answer: **;**
 
 ## Task 8
 
