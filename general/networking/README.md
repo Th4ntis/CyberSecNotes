@@ -12,5 +12,5 @@ This will be my notes on networking, covering the basics and details that I feel
 * [IPv4/IPv6](ipv4-and-ipv6.md)
 * [Subnetting](subnetting.md)
 * [NMap](nmap.md)
-* [Wireless](wireless.md)
+* [Wireless](wireless/)
 * [Additional Notes](etc..md)
