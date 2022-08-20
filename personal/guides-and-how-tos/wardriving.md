@@ -79,7 +79,7 @@ OR
 gpsd -b /dev/ttyUSB0
 ```
 
-To very if it works we can run `gpsmon` OR `cgps`
+To verify if it is working properly we can run `gpsmon` OR `cgps`
 
 ![](<../../.gitbook/assets/image (7).png>)
 
@@ -99,7 +99,7 @@ Now as the banner at the top says, we can go to the web interface at [http://loc
 
 ![](<../../.gitbook/assets/image (3).png>)
 
-From here we can verify the GPS is working with the green icon cross hair icon in the top right, as well as seeing the info. This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
+From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info. This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
 
 ![](<../../.gitbook/assets/image (1).png>)
 
