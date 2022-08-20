@@ -6,7 +6,7 @@ Basic info of War driving can be found [here](../../general/networking/wireless/
 
 ## Software
 
-* [Kismet](https://www.kismetwireless.net/) - Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.It works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware.
+* [Kismet](https://www.kismetwireless.net/) - A powerful and popular tool made by [Dragorn](https://twitter.com/KismetWireless). "Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.It works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware."
   * To install kismet, follow [the guide on their docs](https://www.kismetwireless.net/docs/readme/packages/).
 * [GPSD](https://en.wikipedia.org/wiki/Gpsd) - **gpsd** is a computer software program that collects data from a GPS receiver and provides the data via an IP network to potentially multiple client applications in a server-client application architecture.
   * This can be installed on most Ubuntu/Raspbian `sudo apt install gpsd gpsd-clients`
