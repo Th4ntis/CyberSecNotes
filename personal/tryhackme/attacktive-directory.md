@@ -18,7 +18,7 @@ _This answer came from previous knowledge of enumeration tools... and guessing._
 
 Answer: **THM-AD**
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (2).png>)
 
 ### Question 3: What invalid TLD do people commonly use for their Active Directory Domain?
 

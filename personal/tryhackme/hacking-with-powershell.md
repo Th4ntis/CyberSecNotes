@@ -234,7 +234,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `20` - Run `Get-Hotfix` and count OR `Get-Hotfix | Measure`
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 ### Question 9: When was the patch with ID KB4023834 installed?
 

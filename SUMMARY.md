@@ -67,6 +67,7 @@
     * [Ubuntu VM](personal/guides-and-how-tos/lab-setup/ubuntu-vm.md)
     * [Windows User VM](personal/guides-and-how-tos/lab-setup/windows-user-vm.md)
     * [Windows Server VM](personal/guides-and-how-tos/lab-setup/windows-server-vm.md)
+  * [Wardriving](personal/guides-and-how-tos/wardriving.md)
   * [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting.md)
 * [☁ TryHackMe](personal/tryhackme/README.md)
   * [Walkthroughs](personal/tryhackme/walkthroughs/README.md)

@@ -55,4 +55,4 @@ When we're ready to start intercepting our traffic, we can go to the proxy tab, 
 
 The scope will be sure to only intercept traffic to the specific IPs or websites. We can set our scope by Selecting Target > Scope
 
-![](<../../.gitbook/assets/image (4) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1).png>)
