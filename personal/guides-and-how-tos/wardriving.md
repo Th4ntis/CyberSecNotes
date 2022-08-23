@@ -83,7 +83,7 @@ To verify if it is working properly we can run `gpsmon` OR `cgps`
 
 ![](<../../.gitbook/assets/image (7) (2).png>)
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../../.gitbook/assets/image (8) (2).png>)
 
 ## Running - Normal Mode
 
@@ -131,6 +131,8 @@ From here we can verify the GPS is working with the green cross hair icon in the
 
 ## Post Capture
 
+### Normal Mode
+
 This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
 
 ![](<../../.gitbook/assets/image (1) (2).png>)
@@ -156,3 +158,23 @@ kismetdb_to_wiglecsv --in some-kismet-log-file.kismet --out some-wigle-file.csv
 ```
 
 You can then upload it.
+
+### Wardrive Mode
+
+This mode will automatically create 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/).
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+
+
+If we have GPS enabled and the info, we can convert the file into a KML File to be used with [Google Earth](https://earth.google.com/web/). [More info here](https://www.kismetwireless.net/docs/readme/kml/).
+
+```bash
+kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
+```
+
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+
+```
+kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
+```
