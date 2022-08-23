@@ -64,7 +64,7 @@ An example of running this to view the members for Get-Command is:
 
 `Get-Command | Get-Member -MemberType Method`
 
-![](<../../.gitbook/assets/image (17).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 #### Creating Objects From Previous _cmdlets_
 

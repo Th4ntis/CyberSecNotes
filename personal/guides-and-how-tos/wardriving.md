@@ -55,7 +55,7 @@ GlobatSat BU-353-S4:
 /dev/ttyUSB0
 ```
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (3).png>)
 
 VK-162/VK172:
 
@@ -81,9 +81,11 @@ gpsd -b /dev/ttyUSB0
 
 To verify if it is working properly we can run `gpsmon` OR `cgps`
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (2).png>)
 
 ![](<../../.gitbook/assets/image (8).png>)
+
+## Running - Normal Mode
 
 Now we can start and run kismet! We need to specify the WiFi Adapter and gps.
 
@@ -97,11 +99,41 @@ kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (2).png>)
 
-From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info. This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
+If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-![](<../../.gitbook/assets/image (1).png>)
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
+
+## Running - Wardrive Mode
+
+If you're on the newest kismet version (2022-01-git and subsequent releases) we can run kismet in a specified [wardriving mode](https://www.kismetwireless.net/docs/readme/wardriving/).
+
+```
+kismet -t some_wardrive --override wardrive
+```
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+
+and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
+
+## Post Capture
+
+This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
+
+![](<../../.gitbook/assets/image (1) (2).png>)
 
 If we have GPS enabled and the info, we can convert the file into a KML File to be used with [Google Earth](https://earth.google.com/web/). [More info here](https://www.kismetwireless.net/docs/readme/kml/).
 
@@ -115,7 +147,7 @@ We are able to convert the file to pcap to be analyzed in [Wireshark](../../gene
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
 ```
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (3).png>)
 
 We can also upload the logs to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wigle/).
 
