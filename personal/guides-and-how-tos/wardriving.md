@@ -93,7 +93,7 @@ Now we can start and run kismet! We need to specify the WiFi Adapter and gps.
 kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 ```
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (2).png>)
 
 ![](<../../.gitbook/assets/image (14).png>)
 
@@ -149,7 +149,7 @@ We are able to convert the file to pcap to be analyzed in [Wireshark](../../gene
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
 ```
 
-![](<../../.gitbook/assets/image (3).png>)
+![](<../../.gitbook/assets/image (3) (3).png>)
 
 We can also upload the logs to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wigle/).
 
@@ -163,7 +163,7 @@ You can then upload it.
 
 This mode will automatically create 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/).
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -159,7 +159,7 @@ An example of sort the list of directories:
 
 `Invoke-WebRequest`
 
-![](<../../.gitbook/assets/image (11) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1).png>)
 
 ### Question 8: Base64 decode the file b64.txt on Windows
 
