@@ -117,7 +117,7 @@ If you're on the newest kismet version (2022-01-git and subsequent releases) we 
 kismet -t some_wardrive --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 

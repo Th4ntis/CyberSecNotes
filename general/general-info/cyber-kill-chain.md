@@ -6,11 +6,13 @@ The [cyber kill chain](https://www.crowdstrike.com/cybersecurity-101/cyber-kill-
 
 The cyber kill chain is intended to defend against sophisticated cyberattacks, also known as [advanced persistent threats (APTs)](https://www.crowdstrike.com/cybersecurity-101/advanced-persistent-threat-apt/), wherein attackers spend significant time surveilling and planning an attack. Most commonly these attacks involve a combination of malware, ransomware, Trojans, spoofing and [social engineering techniques](https://www.crowdstrike.com/cybersecurity-101/social-engineering-attacks/) to carry out their plan.
 
-There are other Kill Chains out there, which some can found [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) from SentinelOne but here is the standard one.
+There are other Kill Chains out there, which some can found [here](https://www.sentinelone.com/cybersecurity-101/cyber-kill-chain/) from SentinelOne but here is the standard one. Another good article from Varonis can be found [here](https://www.varonis.com/blog/cyber-kill-chain).
 
 ## Standard Kill Chain
 
 The standard kill chain is broken into these phases:
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Phase 1: Reconnaissance**
 * **Phase 2: Weaponization**
