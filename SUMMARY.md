@@ -36,6 +36,7 @@
   * [Wireshark](general/attack-and-defense/wireshark.md)
   * [Mimikatz](general/attack-and-defense/mimikatz.md)
   * [Impacket](general/attack-and-defense/impacket.md)
+  * [Cobalt Strike](general/attack-and-defense/cobalt-strike.md)
   * [Bloodhound](general/attack-and-defense/bloodhound.md)
   * [Social-Engineer Toolkit (SET)](general/attack-and-defense/social-engineer-toolkit-set.md)
   * [Powershell Obfuscation](general/attack-and-defense/powershell-obfuscation.md)
