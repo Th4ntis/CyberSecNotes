@@ -99,6 +99,6 @@ We can interact with it now by running `sudo docker exec -it buntu bash`
 
 ![](<../../.gitbook/assets/image (314).png>)
 
-To leave the instance, type exit. Then to stop the instance, run `sudo docker stop Kali` then verify it's not running with `sudo docker ps`.
+To leave the instance, type exit. Then to stop the instance, run `sudo docker stop buntu` then verify it's not running with `sudo docker ps`.
 
 ![](<../../.gitbook/assets/image (312) (1).png>)
