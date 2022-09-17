@@ -65,7 +65,7 @@ VK-162/VK172:
 
 ![](<../../.gitbook/assets/image (13).png>)
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16) (2).png>)
 
 With the device plugged in, set GPSD to the device, it shouldn't return an error, if it does you may need to troubleshoot the error.
 
@@ -163,7 +163,7 @@ You can then upload it.
 
 This mode will automatically create 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/).
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -38,7 +38,7 @@ cd /usr/bin
 sudo ./neo4j console
 ```
 
-![](<../../.gitbook/assets/image (102).png>)
+![](<../../.gitbook/assets/image (102) (1).png>)
 
 If it start properly, start the service
 
@@ -48,7 +48,7 @@ sudo systemctl start neo4j
 
 Once started, go to: [http://localhost:7474/](https://localhost:7474/) log in with neo4j:neo4j, change the password when prompted.
 
-![](<../../.gitbook/assets/image (98).png>)
+![](<../../.gitbook/assets/image (98) (1).png>)
 
 After logging in we should see:
 

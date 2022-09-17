@@ -4,7 +4,7 @@
 
 `ls -la`: Lists all files/folders in a directory, including hidden files/folders.
 
-![](<../../.gitbook/assets/image (98) (1).png>)
+![](<../../.gitbook/assets/image (98) (1) (1).png>)
 
 Example1: `.bashrc` is a file(Indicated by -), and the owner can read and write to it, but not execute. The group it belongs to can read it, but not write or execute, and any other user can't do anything with the file.
 

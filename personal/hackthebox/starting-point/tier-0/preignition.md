@@ -72,7 +72,7 @@ Answer: nginx 1.14.2
 
 [Gobuster man page](https://manpages.ubuntu.com/manpages/impish/man1/gobuster.1.html)
 
-![](<../../../../.gitbook/assets/image (5) (2).png>)
+![](<../../../../.gitbook/assets/image (5) (2) (1).png>)
 
 Answer: dir
 

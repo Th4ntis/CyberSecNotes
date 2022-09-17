@@ -118,13 +118,13 @@ Now we can use unshadow from the JohnTheRipper package to combine the files
 
 ![](<../../../.gitbook/assets/image (128).png>)
 
-![](<../../../.gitbook/assets/image (109).png>)
+![](<../../../.gitbook/assets/image (109) (1).png>)
 
 Time to crack the passwords!
 
 `john --wordlist=(WORDLIST.TXT) (FILE.TXT)`
 
-![](<../../../.gitbook/assets/image (107).png>)
+![](<../../../.gitbook/assets/image (107) (1).png>)
 
 ![](<../../../.gitbook/assets/image (32).png>)
 

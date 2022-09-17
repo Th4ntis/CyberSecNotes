@@ -168,7 +168,7 @@ As it says in the room, be sure to Insert `23$` after `$krb5asrep$` so that the 
 
 `Kerberos 5 AS-REP etype 23`
 
-![](<../../.gitbook/assets/image (108).png>)
+![](<../../.gitbook/assets/image (108) (1).png>)
 
 ### Question 2: Which User is vulnerable to AS-REP Roasting?
 

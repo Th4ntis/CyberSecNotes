@@ -74,7 +74,7 @@ We add the above code into a .c file then we can compile it.
 
 Now we get the file onto the machine via whatever means we can. I'll be adding it by using a simple python web server. `python3 -m http.server` onmy attacker machine.
 
-![](<../../../.gitbook/assets/image (102) (1).png>)
+![](<../../../.gitbook/assets/image (102) (1) (1).png>)
 
 Now we stop and start the DLL service with: `sc stop dllsvc` followed by `sc start dllsvc`
 
