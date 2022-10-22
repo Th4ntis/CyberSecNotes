@@ -161,7 +161,11 @@ You can then upload it.
 
 ### Wardrive Mode
 
-This mode will automatically create 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/).
+This mode will automatically create 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/). This will sho that logging is greately reduced and will only be used  for Access Point(AP) collection.
+
+```
+kismet --override wardrive
+```
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
