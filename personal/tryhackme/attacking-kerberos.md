@@ -158,7 +158,7 @@ During pre-authentication, the users hash will be used to encrypt a timestamp th
 
 After running `Rubeus.exe asreproast` we can get what is seen below
 
-![](<../../.gitbook/assets/image (18).png>)
+![](<../../.gitbook/assets/image (18) (1).png>)
 
 ![](<../../.gitbook/assets/image (25).png>)
 
