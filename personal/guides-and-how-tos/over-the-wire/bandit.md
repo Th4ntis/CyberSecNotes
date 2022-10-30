@@ -24,13 +24,33 @@ The password to get to level 2 is found in file - located in the home directory.
 
 Now with this, we can't just cat the file as it starts with(is) special character, so we need to use `cat ./(character)` like this: `cat ./-`.  Now we get our next password, which is `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Level 2
 
+We can log into Level 2 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit2` using the password we obtained from level 1, `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`.
+
+<figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+
+For this game, the password for the next level is located in a file called **spaces in this filename** located in the home directory.
+
+To cat a file with spaces in the name, we need to "breakout" using the bacspace (`\`) character at the and of each word.
+
+<figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
+
+We can now see the password is `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`.
+
 ## Level 3
 
+From this point on, SSHing into the new machine pics won't be posted. We can log into Level 3 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit3` and using the password from the previous session, `aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG`.
+
+The password for the next level is in a hidden file in the **inhere** directory. Hidden files in linux are started with a perdio (`.`) so looking in the inhere directory, we see nothing, but using ls -al we can see all the files, including hidden, in that directory. So we can cat that file to obtain the password `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`.
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
 ## Level 4
+
+Log into Level 3 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit4` and using the password from the previous session, `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`.
 
 ## Level 5
 
