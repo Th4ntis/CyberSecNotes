@@ -64,14 +64,7 @@ Example: `hashcat -a # -m # -w # CrackMe.txt`
 
 The types of attackmodes are:
 
-| # |         Mode         |     |
-| - | :------------------: | :-: |
-| 0 |       Straight       |     |
-| 1 |      Combination     |     |
-| 3 |      Brute-Force     |     |
-| 6 | Hybrid Wordlist+Mask |     |
-| 7 | Hyrbid Mask+Wordlist |     |
-| 9 |      Association     |     |
+<table><thead><tr><th align="center">#</th><th align="center">Mode</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">0</td><td align="center">Straight</td><td></td></tr><tr><td align="center">1</td><td align="center">Combination</td><td></td></tr><tr><td align="center">3</td><td align="center">Brute-Force</td><td></td></tr><tr><td align="center">6</td><td align="center">Hybrid Wordlist+Mask</td><td></td></tr><tr><td align="center">7</td><td align="center">Hyrbid Mask+Wordlist</td><td></td></tr><tr><td align="center">9</td><td align="center">Association</td><td></td></tr></tbody></table>
 
 * Straight - Tries the exact words that are in your chosen wordlist(s), with no modifications other than rules.
 * Combination(Combinator) - Combines the current word with the rest of the words in the wordlist.
