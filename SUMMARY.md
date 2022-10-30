@@ -70,6 +70,7 @@
     * [Windows Server VM](personal/guides-and-how-tos/lab-setup/windows-server-vm.md)
   * [Wardriving](personal/guides-and-how-tos/wardriving.md)
   * [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting.md)
+  * [Over The Wire](personal/guides-and-how-tos/over-the-wire.md)
 * [☁ TryHackMe](personal/tryhackme/README.md)
   * [Walkthroughs](personal/tryhackme/walkthroughs/README.md)
     * [Linux PrivEsc](personal/tryhackme/walkthroughs/linux-privesc.md)
