@@ -2,19 +2,27 @@
 
 [Bandit](https://overthewire.org/wargames/bandit/). This game is aimed at absolute beginners. It teaches the basics needed to be able to play the other games.
 
-## Level 0
+## Starting out
 
 Level 0 has us SSH into to log in. We can use `ssh bandit.labs.overthewire.org -p 2220 -l bandit0` with the password of `bandit0`, as they provide the uername and password.
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-## Level 1
+## Level 0
 
 Now that we're in, we need to log in using user `bandit1` now, the password is located in a file called `readme` in the home directory. So lets use ls to verify the file is there with `ls`, and `cat` the file to see it's contents.
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Now we can log into level 2 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit1` with the new password `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL`
+
+<figure><img src="../../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
+
+## Level 1
+
+The password to get to level 2 is found in file - located in the home directory.
+
+Now with this, we can't just cat the file as it starts with(is) special character, so we need to use `cat ./(character)` like this: `cat ./-`.  Now we get our next password, which is `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`.
 
 <figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
