@@ -46,13 +46,31 @@ From this point on, SSHing into the new machine pics won't be posted. We can log
 
 The password for the next level is in a hidden file in the **inhere** directory. Hidden files in linux are started with a perdio (`.`) so looking in the inhere directory, we see nothing, but using ls -al we can see all the files, including hidden, in that directory. So we can cat that file to obtain the password `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`.
 
-<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Level 4
 
-Log into Level 3 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit4` and using the password from the previous session, `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`.
+Log into Level 4 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit4` and using the password from the previous session, `2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe`.
+
+This level, the password is in the only 'human-readable' file in the `inhere` directory.
+
+<figure><img src="../../../.gitbook/assets/image (424).png" alt=""><figcaption></figcaption></figure>
+
+We can see the what they mean by human-readable. So, we can cat each file individually but, theres another way using the `file` command. We can run `file ./*` to identify each file type.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+We see -file07 is ASCII text. So now we can cat the file to see it's contents.
+
+<figure><img src="../../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
+
+We can see the password is `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`.
 
 ## Level 5
+
+Log into Level 5 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit5` and using the password from the previous session, `lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR`.
+
+
 
 ## Level 6
 
