@@ -5,7 +5,7 @@
 
 ### Online Games:
 
-1. [Bandit](https://overthewire.org/wargames/bandit)
+1. [Bandit](bandit.md)
 2. [Leviathan](https://overthewire.org/wargames/leviathan) or [Natas](https://overthewire.org/wargames/natas) or [Krypton](https://overthewire.org/wargames/krypton)
 3. [Narnia](https://overthewire.org/wargames/narnia)
 4. [Behemoth](https://overthewire.org/wargames/behemoth)
