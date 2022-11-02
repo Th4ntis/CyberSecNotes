@@ -6,15 +6,15 @@
 ### Online Games:
 
 1. [Bandit](bandit.md)
-2. [Leviathan](https://overthewire.org/wargames/leviathan) or [Natas](https://overthewire.org/wargames/natas) or [Krypton](https://overthewire.org/wargames/krypton)
-3. [Narnia](https://overthewire.org/wargames/narnia)
-4. [Behemoth](https://overthewire.org/wargames/behemoth)
-5. [Utumno](https://overthewire.org/wargames/utumno)
-6. [Maze](https://overthewire.org/wargames/maze)
-7. [Vortex](https://overthewire.org/wargames/vortex)
-8. [Manpage](https://overthewire.org/wargames/manpage)
+2. [Leviathan](leviathan.md) or [Natas](natas.md) or [Krypton](krypton.md)
+3. [Narnia](narnia.md)
+4. [Behemoth](behemoth.md)
+5. [Utumno](utumno.md)
+6. [Maze](maze.md)
+7. [Vortex](vortex.md)
+8. [Manpage](manpage.md)
 
 ### Offline Games:
 
-1. [Semtex](https://overthewire.org/wargames/semtex)
-2. [Drifter](https://overthewire.org/wargames/drifter)
+1. [Semtex](semtex.md)
+2. [Drifter](drifter.md)
