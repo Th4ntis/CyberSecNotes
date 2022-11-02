@@ -13,8 +13,3 @@
 6. [Maze](maze.md)
 7. [Vortex](vortex.md)
 8. [Manpage](manpage.md)
-
-### Offline Games:
-
-1. [Semtex](semtex.md)
-2. [Drifter](drifter.md)
