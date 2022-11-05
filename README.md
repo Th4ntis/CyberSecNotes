@@ -25,6 +25,8 @@ Any and all suggestions welcome.
 
 [Twitter](https://twitter.com/Th4ntis)
 
+[Mastodon](https://infosec.exchange/web/@th4ntis)
+
 [Github](https://github.com/Th4ntis)
 
 [TryHackMe](https://tryhackme.com/p/th4ntis)
