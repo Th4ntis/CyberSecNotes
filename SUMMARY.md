@@ -100,6 +100,7 @@
       * [Redeemer](personal/hackthebox/starting-point/tier-0/redeemer.md)
       * [Explosion](personal/hackthebox/starting-point/tier-0/explosion.md)
       * [Preignition](personal/hackthebox/starting-point/tier-0/preignition.md)
+      * [Mongod](personal/hackthebox/starting-point/tier-0/mongod.md)
     * [Tier 1](personal/hackthebox/starting-point/tier-1/README.md)
       * [Appointment](personal/hackthebox/starting-point/tier-1/appointment.md)
       * [Sequel](personal/hackthebox/starting-point/tier-1/sequel.md)
