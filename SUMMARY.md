@@ -11,6 +11,7 @@
   * [SOC Tools](general/general-info/soc-tools.md)
   * [Docker](general/general-info/docker.md)
 * [💻 Networking](general/networking/README.md)
+  * [TCP/IP Model](general/networking/tcp-ip-model.md)
   * [OSI Model](general/networking/osi-model.md)
   * [IPv4 and IPv6](general/networking/ipv4-and-ipv6.md)
   * [Subnetting](general/networking/subnetting.md)

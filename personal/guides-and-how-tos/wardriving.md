@@ -55,7 +55,7 @@ GlobatSat BU-353-S4:
 /dev/ttyUSB0
 ```
 
-![](<../../.gitbook/assets/image (2) (3).png>)
+![](<../../.gitbook/assets/image (2) (3) (1).png>)
 
 VK-162/VK172:
 

