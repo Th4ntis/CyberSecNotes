@@ -16,10 +16,10 @@ Hack The Box Starting Point Tier 1 Machines:
 
 [Three](three.md)
 
-[Ignition](ignition.md)
+[Ignition](broken-reference)
 
-[Bike](bike.md)
+[Bike](broken-reference)
 
-[Pennyworth](pennyworth.md)
+[Pennyworth](broken-reference)
 
-[Tactics](tactics.md)
+[Tactics](broken-reference)

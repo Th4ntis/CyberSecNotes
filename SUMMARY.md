@@ -108,8 +108,4 @@
       * [Crocodile](personal/hackthebox/starting-point/tier-1/crocodile.md)
       * [Responder](personal/hackthebox/starting-point/tier-1/responder.md)
       * [Three](personal/hackthebox/starting-point/tier-1/three.md)
-      * [Ignition](personal/hackthebox/starting-point/tier-1/ignition.md)
-      * [Bike](personal/hackthebox/starting-point/tier-1/bike.md)
-      * [Pennyworth](personal/hackthebox/starting-point/tier-1/pennyworth.md)
-      * [Tactics](personal/hackthebox/starting-point/tier-1/tactics.md)
   * [Walkthroughs](personal/hackthebox/walkthroughs.md)
