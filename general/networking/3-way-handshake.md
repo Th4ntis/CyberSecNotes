@@ -2,13 +2,7 @@
 description: Additional notes
 ---
 
-# Etc.
-
-## Mac Addresses:
-
-A Mac Address is a physical address and have identifiers, and is on layer 2 of the OSI Model. An example MAC Address 00:0c:29:0a:42:05. If you look up the first 3 sets in a MAC Address Lookup, you can find the vendor of that hardware that has that MAC Address. Eg. 00:0c:29 comes up with VMWare Inc. as that is part of the MAC address of my VM.
-
-MAC = Media Access Control
+# 3-Way Handshake
 
 ## 3-Way Handshake Process:
 
@@ -45,24 +39,3 @@ To close a 3-way handshake connection:
 
 ## Common ports/protocols:
 
-Common TCP Ports:
-
-* 21 - FTP
-* 22 - SSH
-* 23 - Telnet
-* 25 - SMTP
-* 53 - DNS
-* 80 - HTTP
-* 443 - HTTPS
-* 110 - POP3
-* 139/445 - SMB
-* 143 - IMAP
-
-Common UDP Ports:&#x20;
-
-* 53 - DNS
-* 67/68 - DHCP
-* 69 - TFTP
-* 161 SNMP
-
-\*Note:\* some ISPs(Comcast) block port 25(SMTP) for residential and some commercial by default so sometimes they will change it to Port 587.
