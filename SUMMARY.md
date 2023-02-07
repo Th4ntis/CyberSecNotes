@@ -8,7 +8,7 @@
   * [Learning Resources](general/general-info/learning-resources.md)
   * [MITRE ATT\&CK](general/general-info/mitre-att-and-ck.md)
   * [Cyber Kill Chain](general/general-info/cyber-kill-chain.md)
-  * [SOC Tools](general/general-info/soc-tools.md)
+  * [OSINT Tools](general/general-info/osint-tools.md)
   * [Docker](general/general-info/docker.md)
 * [💻 Networking](general/networking/README.md)
   * [Common Ports and Protocols](general/networking/common-ports-and-protocols.md)
