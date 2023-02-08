@@ -56,7 +56,7 @@ Finally, the KDC creates a service ticket that includes the client id, client ne
 
 Kerberoasting is an attack method that allows an attacker to take advantage of how service accounts leverage Kerberos authentication with Service Principle Names (SPN). It allows the attacker to crack the passwords of the service accounts in Active Directory. Cracking the password is often done offline to avoid being detected. While the attacker doesn't exploit any security loophole, all that is being done is using the working of the protocol to get into the network and persist.
 
-[Attacking Kerberos](../../personal/tryhackme/attacking-kerberos.md)
+[Attacking Kerberos](../../../personal/tryhackme/attacking-kerberos.md)
 
 [Attacking Kerberos on TryHackMe](https://tryhackme.com/room/attackingkerberos)
 

