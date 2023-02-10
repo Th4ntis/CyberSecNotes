@@ -2,6 +2,8 @@
 
 ## Passive Information Gathering
 
+Passive Information Gathering is looking at tools/techniques to obtain information of a target through publicly available information through the internet.
+
 ### Website Recon & Footprinting
 
 ### Looking for:
@@ -135,6 +137,8 @@ Google dorking is a way of using google searches for more potentially hidden inf
 * [HaveIBeenPwned](https://haveibeenpwned.com/) - Check if your email or phone is in a data breach
 
 ## Active Information Gathering
+
+Active Information Gathering is actively interacting with the targets systems to gather information.
 
 ### DNS Zone Transfers
 
