@@ -6,7 +6,7 @@ Passive Information Gathering is looking at tools/techniques to obtain informati
 
 ### Website Recon & Footprinting
 
-### Looking for:
+With Website Recon and footprinting, we are looking for:
 
 * IP Addresses
 * Directories hidden from search engines
