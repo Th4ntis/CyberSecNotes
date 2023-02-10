@@ -63,7 +63,7 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (2).png>)
 
 ![](<../../.gitbook/assets/image (16) (2).png>)
 
@@ -95,7 +95,7 @@ kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 
 ![](<../../.gitbook/assets/image (4) (2).png>)
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../../.gitbook/assets/image (14) (2).png>)
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
@@ -149,7 +149,7 @@ We are able to convert the file to pcap to be analyzed in [Wireshark](../../gene
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
 ```
 
-![](<../../.gitbook/assets/image (3) (3).png>)
+![](<../../.gitbook/assets/image (3) (3) (1).png>)
 
 We can also upload the logs to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wigle/).
 
@@ -167,7 +167,7 @@ This mode will automatically create 2 files: a kismet file and a wiglecsv file t
 kismet --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

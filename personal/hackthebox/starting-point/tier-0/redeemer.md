@@ -2,7 +2,7 @@
 
 ## Initial Scan:
 
-![](<../../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../../.gitbook/assets/image (5) (1) (2).png>)
 
 ## Task 1:
 
@@ -90,6 +90,6 @@ Answer: keys \*
 
 #### Submit root flag
 
-![](<../../../../.gitbook/assets/image (9) (1).png>)
+![](<../../../../.gitbook/assets/image (9) (1) (2).png>)
 
 Answer: 03e1d2b376c37ab3f5319922053953eb
