@@ -14,6 +14,9 @@ There are a lot of learning resources out there and some are free, some paid, so
 * [Cybrary](https://www.cybrary.it/)
 * [VulnHub](https://www.vulnhub.com/)
 * [PentesterLab](https://www.pentesterlab.com/)
+* [CyberSecLabs](https://www.cyberseclabs.co.uk/)
+* [LetsDefend](https://letsdefend.io/)
+* [EchoCTF](https://echoctf.com/)
 
 ### People(Videos and channels)
 
@@ -25,3 +28,4 @@ There are a lot of learning resources out there and some are free, some paid, so
 * [DefCON](https://www.youtube.com/user/DEFCONConference)
 * [DC CyberSec](https://www.youtube.com/c/DCcybersec)
 * [David Bombal](https://www.youtube.com/c/DavidBombal)
+* [InfoSecEDU](https://www.youtube.com/@InfosecEdu)
