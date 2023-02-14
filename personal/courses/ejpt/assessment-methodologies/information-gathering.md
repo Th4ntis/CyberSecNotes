@@ -221,4 +221,4 @@ The target of this is to obtain as much info on a specific host on services, ver
 
 In my example above, I will have 3 machines I can/will be targeting. .81, .82, and .116.
 
-Default scan of `nmap 192.178.1.81` does a default SYN scan
+Default scan of `nmap 192.168.1.81` does a default SYN scan
