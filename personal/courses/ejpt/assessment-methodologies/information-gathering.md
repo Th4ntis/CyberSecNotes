@@ -34,9 +34,9 @@ Using command `host` to find IP address of a website/domain
 
 ### Whois Enumeration
 
-WHOIS is a query and response protocol used to quey databases that store the registered users or assignees of a resource, such as domain names, IP address blocks, etc.
+WHOIS is a query and response protocol used to query databases that store the registered users or assignee's of a resource, such as domain names, IP address blocks, etc.
 
-* Commandline utility for `whois`.
+* Command line utility for `whois`.
 
 ```bash
 whois hackersploit.org
@@ -66,7 +66,7 @@ Registrant Postal Code: REDACTED FOR PRIVACY
 
 ### Website footprinting with Netcraft
 
-[Netcraft](https://www.netcraft.com/) is used to gateher information about a target domain, such as email, registrar, technologies, etc.
+[Netcraft](https://www.netcraft.com/) is used to gather information about a target domain, such as email, registrar, technologies, etc.
 
 ### DNS Recon
 
@@ -120,7 +120,7 @@ Google dorking is a way of using google searches for more potentially hidden inf
   * `filetype:pdf`
 * Limit results to indexs: `intitle:index of`
   * Let users view results for an index for a website.
-* FInd older, cached versions of website: `cache:[domain]`
+* Find older, cached versions of website: `cache:[domain]`
   * `cache:ine.com`
 * Waybackmachine(archive.org) That has snapshots of older version of websites.
 * [ExploitDB Google Hacking Database](https://www.exploit-db.com/google-hacking-database) - A database of google dorks that have found useful info such as "juicy" information, users, password, etc.
@@ -144,7 +144,7 @@ Active Information Gathering is actively interacting with the targets systems to
 
 DNS(Domain Name System) Servers, or name servers, are used to resolve domain names to IP addresses. DNS is setup by a number of companies, like Google(8.8.8.8) and Cloudflare(1.1.1.1).
 
-In certain cases. DNS server admins may want to copy or transfer zone files from one DNS server to another. This process is known as a Zone Transfer. If this is misconfigured and left unsecured, this funcationality can be abused by attackers to copy the zone file from the primary DNS server to another. This can provide penetration testeres with a wode view of an organizations network layout. It can also in some cases, internal network addresses may be found on an organizations DNS server.
+In certain cases. DNS server admins may want to copy or transfer zone files from one DNS server to another. This process is known as a Zone Transfer. If this is mis-configured and left unsecured, this functionality can be abused by attackers to copy the zone file from the primary DNS server to another. This can provide penetration testers with a wide view of an organizations network layout. It can also in some cases, internal network addresses may be found on an organizations DNS server.
 
 ### DNS Records
 
@@ -161,7 +161,7 @@ In certain cases. DNS server admins may want to copy or transfer zone files from
 
 ### DNS Interrogation
 
-DNS interrogation is the process of enumerating DNS Records for a speficic domain.T he objective of the this is to the probe a DNS Server to provide us weith DNS record for the specified domain. This can provide us with important information such as the IP address, subdomains, mail server addresses, etc.
+DNS interrogation is the process of enumerating DNS Records for a specific domain.T he objective of the this is to the probe a DNS Server to provide us with DNS record for the specified domain. This can provide us with important information such as the IP address, subdomains, mail server addresses, etc.
 
 ## Demo
 
@@ -217,8 +217,8 @@ With Nmap we use the `-sn` argument, for no port scan. This is just to discover 
 
 ### Port scanning with NMap
 
-The target of this is to obtain as much info on a speficic host on services, versions, OS, etc. with both TCP and UPD scanning.
+The target of this is to obtain as much info on a specific host on services, versions, OS, etc. with both TCP and UPD scanning.
 
 In my example above, I will have 3 machines I can/will be targeting. .81, .82, and .116.
 
-Default scan of nmap `nmap 192.178.1.81` does a defauly SYN scan
+Default scan of `nmap 192.178.1.81` does a default SYN scan
