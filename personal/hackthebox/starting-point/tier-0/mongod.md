@@ -82,7 +82,7 @@ Another google search.
 
 <figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (112) (3).png" alt=""><figcaption></figcaption></figure>
 
 Answer: show dbs
 
@@ -94,7 +94,7 @@ Similar to last answer just with collections rather than databases.
 
 We see the secsitive\_information database, so let use that.
 
-<figure><img src="../../../../.gitbook/assets/image (426).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (426) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: show collections
 
