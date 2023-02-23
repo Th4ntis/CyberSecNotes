@@ -22,5 +22,5 @@
 3. [NextCloud](https://nextcloud.com/) for File hosting.
 4. [LibreWolf](https://librewolf.net/) or [Brave](https://brave.com/) Browser.
 5. [Signal](https://signal.org/en/), [Element](https://element.io/), or [Session](https://getsession.org/) for chat messaging, though you will need other people on the platform as well or your message will not encrypted.
-6. [MySudo](https://mysudo.com/) for creating phone numbers to use instead of your real phone number.
+6. [MySudo](https://mysudo.com/) for creating phone numbers, emails, etc. to use instead of your real personal information.
 7. **Self host as much as possible**, such as storing your bitwarden manager and files on your own machines.
