@@ -21,7 +21,7 @@ Table of Contents:
 | [Linux](general/linux/)                             | [Windows](general/windows/)                       |
 | [OSINT](general/osint/)                             | [Attack and Defense](general/attack-and-defense/) |
 | [TryHackMe](personal/tryhackme/)                    | [HackTheBox](personal/hackthebox/)                |
-| [Guides and How-To's](personal/guides-and-how-tos/) | -                                                 |
+| [Guides and How-To's](personal/guides-and-how-tos/) | [Courses](personal/courses/)                      |
 
 Social:
 
