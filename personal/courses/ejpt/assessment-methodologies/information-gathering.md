@@ -297,7 +297,7 @@ Now that we know the open ports, we need to find the services and service versio
 nmap -Pn -F -sV 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 With the versions, we may be able to find a vulnerability for this specific version.
 

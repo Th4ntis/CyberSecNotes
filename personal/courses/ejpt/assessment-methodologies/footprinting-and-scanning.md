@@ -36,7 +36,15 @@ ICMP can be used for network connectivity issues using Ping or Traceroute.
 
 We will be looking at the `vmnet8` adapter to start a packet capture.
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+We can go to Statistics > Endpoints to see a list of MAC addresses.
+
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Looking in the logs, we can also see a reply telling us the MAC address of the IP
+
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### ARP-Scan
 
@@ -48,8 +56,26 @@ Wecan initiate the arp-scan with `sudo arp-scan -I (interface) (IP and Subnet)`
 
 ### Ping
 
+We can ping an IP we have found from our scanning to verify communication with the host.
+
 ### FPing
+
+Will send out pings to multiple hosts at one time. Using `fping -i (internaface) -g (IP Range) -a 2>/dev/null` to show us only the alive hosts removing the all the errors of the unreachable hosts.
+
+`fping -I vmnet8 -g 172.16.8.0/24 -a 2>/dev/null`
+
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+Notice the .131 address is missing, this is due to the machine not responding to ping requests.
 
 ### Nmap
 
+We have seen in the previous section
+
+`sudo nmap -sn 172.16.8.0/24`
+
+<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
 ### Zenmap
+
+Simple, a GUI version of NMap

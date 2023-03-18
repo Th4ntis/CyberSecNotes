@@ -93,7 +93,7 @@ Now we can start and run kismet! We need to specify the WiFi Adapter and gps.
 kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 ```
 
-![](<../../.gitbook/assets/image (4) (2).png>)
+![](<../../.gitbook/assets/image (4) (2) (1).png>)
 
 ![](<../../.gitbook/assets/image (14) (2) (1).png>)
 

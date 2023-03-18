@@ -47,7 +47,7 @@ Get-Command gets all the _cmdlets_ installed on the current Computer. This _cmdl
 
 Running `Get-Command New-*` to view all the _cmdlets_ for the verb new displays:
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 #### Object Manipulation
 
@@ -72,7 +72,7 @@ One way of manipulating objects is pulling out the properties from the output of
 
 An example of listing the directories and just selecting the mode and the name:
 
-![](<../../.gitbook/assets/image (12) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1).png>)
 
 We can also use the following flags to select particular information:
 
