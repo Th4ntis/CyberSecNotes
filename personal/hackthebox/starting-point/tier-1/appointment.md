@@ -152,7 +152,7 @@ Answer: #
 
 Gobuster didn't us much unfortunately.
 
-![](<../../../../.gitbook/assets/image (10) (1) (2).png>)
+![](<../../../../.gitbook/assets/image (10) (1) (2) (1).png>)
 
 Nor did trying default passwords
 

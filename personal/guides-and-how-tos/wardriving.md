@@ -63,7 +63,7 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13) (2).png>)
+![](<../../.gitbook/assets/image (13) (2) (1).png>)
 
 ![](<../../.gitbook/assets/image (16) (2).png>)
 
@@ -95,7 +95,7 @@ kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 
 ![](<../../.gitbook/assets/image (4) (2).png>)
 
-![](<../../.gitbook/assets/image (14) (2).png>)
+![](<../../.gitbook/assets/image (14) (2) (1).png>)
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
@@ -119,7 +119,7 @@ kismet -t some_wardrive --override wardrive
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
@@ -167,7 +167,7 @@ This mode will automatically create 2 files: a kismet file and a wiglecsv file t
 kismet --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

@@ -22,7 +22,7 @@ sudo apt-get update
 sudo nano /etc/apt/sources.list.d/neo4j.list
 ```
 
-![](<../../../.gitbook/assets/image (100).png>)
+![](<../../../.gitbook/assets/image (100) (2).png>)
 
 Install apt-transport-https and neo4j
 
@@ -62,7 +62,7 @@ sudo ./BloodHound.bin --no-sandbox
 
 ![](<../../../.gitbook/assets/image (104) (2).png>)
 
-![](<../../../.gitbook/assets/image (99).png>)
+![](<../../../.gitbook/assets/image (99) (2).png>)
 
 Login with neo4j:(password you set), and we're done installing and running.
 
@@ -72,4 +72,4 @@ Login with neo4j:(password you set), and we're done installing and running.
 
 This is a screenshot from an example but this is what you \*can\* see
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (2).png>)

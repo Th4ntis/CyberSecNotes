@@ -6,7 +6,7 @@
 
 Level 0 has us SSH into to log in. We can use `ssh bandit.labs.overthewire.org -p 2220 -l bandit0` with the password of `bandit0`, as they provide the uername and password.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Level 0
 
