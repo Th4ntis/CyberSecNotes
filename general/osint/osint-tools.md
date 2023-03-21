@@ -36,6 +36,8 @@ No one tool is the end all-be-all, please make sure to use multiple resources to
   * Search for devices connected to the internet
 * [IBM X-Force](https://exchange.xforce.ibmcloud.com/)
   * Scan for a multitude of things such as IP/Domain, File Hash, Vulnerabilities, upload files for analysis, etc.
+* [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/)
+  * View Windows Event codes, CVE's, and multiple other tools relating to WIndows Security.
 * [AlienVaultOTX](https://otx.alienvault.com/)
   * Extensive threat intelligence feed
 * [Censys](https://search.censys.io/)
