@@ -34,7 +34,7 @@ Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us
 ## Commands
 
 * `Get-Help` shows information about a cmdlet_._ `Get-Help Command-Name`
-* `Get-Command` - Gets all the cmdlets __ installed on the current Computer. This cmdlet allows for pattern matching such as `Get-Command Verb-*` or `Get-Command *-Noun`
+* `Get-Command` - Gets all the cmdlets installed on the current Computer. This cmdlet allows for pattern matching such as `Get-Command Verb-*` or `Get-Command *-Noun`
 * `The Pipe( | )` - Used to pass output from one cmdlet to another. Eg. `Verb-Noun | Get-Member`&#x20;
 * `Invoke-Webrequest` - Makes a request to a webserver. Sends HTTP and HTTPS requests to a web page or web service. It parses the response and returns collections of links, images, and other significant HTML elements. More info can be found [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.2).
   * Download a file: `Invoke-WebRequest -URI http://(IP):(PORT)/(FILE) -Outfile (FILE)`

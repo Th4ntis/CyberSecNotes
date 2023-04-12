@@ -169,7 +169,7 @@ DNS interrogation is the process of enumerating DNS Records for a specific domai
 
 [DNSDumpster](https://dnsdumpster.com)&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### DNSRecon:
 
@@ -205,7 +205,7 @@ With Nmap we use the `-sn` argument, for no port scan. This is just to discover 
 
 <figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Netdiscover
 
@@ -213,7 +213,7 @@ With Nmap we use the `-sn` argument, for no port scan. This is just to discover 
 
 <figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (100) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Port scanning with NMap
 
@@ -233,7 +233,7 @@ Widows typically blocks ICMP pings/probes, so we use the `-Pn` argument.
 nmap -Pn 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 Running a TCP Scan on all 65535 ports. So after the `-Pn` option for WIndows machine, we can add the `-p-` argument. As this scan hits ALL the ports, it can take a few minutes to scan.
 
@@ -309,7 +309,7 @@ Now we can determine the Operating System(OS) of the target system(s) with the `
 sudo nmap -Pn -F -sV -O 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Script Scans
 

@@ -4,7 +4,7 @@
 
 ## Level 0
 
-We can start **** with **leviathan.labs.overthewire.org** through SSH on port 2223
+We can start with **leviathan.labs.overthewire.org** through SSH on port 2223
 
 ```
 Username: leviathan0

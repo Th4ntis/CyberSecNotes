@@ -134,7 +134,7 @@ Never give SUDO rights to the programming language compiler, interpreter or edit
 
 ### Tools
 
-* [LinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) **** - A script that search for possible paths to escalate privileges on Linux/Unix\*/MacOS hosts. The checks are explained [here](https://book.hacktricks.xyz/linux-unix/privilege-escalation).
+* [LinPeas](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS) - A script that search for possible paths to escalate privileges on Linux/Unix\*/MacOS hosts. The checks are explained [here](https://book.hacktricks.xyz/linux-unix/privilege-escalation).
 * [LinEnum](https://github.com/rebootuser/LinEnum) - An older shell script will show relevant information about the security of the local Linux system, helping to escalate privileges.
 * [LES (Linux Exploit Suggester)](https://github.com/mzet-/linux-exploit-suggester) - A tool is designed to assist in detecting security deficiencies for given Linux kernel/Linux-based machine.
 * [Linux Smart Enumeration](https://github.com/diego-treitos/linux-smart-enumeration) - A tool based off of [LinEnum](https://github.com/rebootuser/LinEnum) and its uses. A shell script will show relevant information about the security of the local Linux system, helping to escalate privileges.

@@ -22,7 +22,7 @@ sudo apt-get update
 sudo nano /etc/apt/sources.list.d/neo4j.list
 ```
 
-![](<../../../.gitbook/assets/image (100) (2).png>)
+![](<../../../.gitbook/assets/image (100) (2) (1).png>)
 
 Install apt-transport-https and neo4j
 
@@ -52,7 +52,7 @@ Once started, go to: [http://localhost:7474/](https://localhost:7474/) log in wi
 
 After logging in we should see:
 
-![](<../../../.gitbook/assets/image (103).png>)
+![](<../../../.gitbook/assets/image (103) (2).png>)
 
 Once we have that started, download a Pre-Compiled binary from [here](https://github.com/BloodHoundAD/BloodHound/releases). From inside the unzipped folder we can start Bloodhound.
 
@@ -62,11 +62,11 @@ sudo ./BloodHound.bin --no-sandbox
 
 ![](<../../../.gitbook/assets/image (104) (2).png>)
 
-![](<../../../.gitbook/assets/image (99) (2).png>)
+![](<../../../.gitbook/assets/image (99) (2) (1).png>)
 
 Login with neo4j:(password you set), and we're done installing and running.
 
-![](<../../../.gitbook/assets/image (101).png>)
+![](<../../../.gitbook/assets/image (101) (2).png>)
 
 ## Usage
 

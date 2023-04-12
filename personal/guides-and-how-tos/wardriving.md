@@ -65,7 +65,7 @@ VK-162/VK172:
 
 ![](<../../.gitbook/assets/image (13) (2) (1).png>)
 
-![](<../../.gitbook/assets/image (16) (2).png>)
+![](<../../.gitbook/assets/image (16) (2) (1).png>)
 
 With the device plugged in, set GPSD to the device, it shouldn't return an error, if it does you may need to troubleshoot the error.
 
@@ -83,7 +83,7 @@ To verify if it is working properly we can run `gpsmon` OR `cgps`
 
 ![](<../../.gitbook/assets/image (7) (2).png>)
 
-![](<../../.gitbook/assets/image (8) (2).png>)
+![](<../../.gitbook/assets/image (8) (2) (1).png>)
 
 ## Running - Normal Mode
 
@@ -99,7 +99,7 @@ kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
-![](<../../.gitbook/assets/image (3) (2).png>)
+![](<../../.gitbook/assets/image (3) (2) (1).png>)
 
 If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
@@ -119,7 +119,7 @@ kismet -t some_wardrive --override wardrive
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
@@ -135,7 +135,7 @@ From here we can verify the GPS is working with the green cross hair icon in the
 
 This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
 
-![](<../../.gitbook/assets/image (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (2) (2).png>)
 
 If we have GPS enabled and the info, we can convert the file into a KML File to be used with [Google Earth](https://earth.google.com/web/). [More info here](https://www.kismetwireless.net/docs/readme/kml/).
 
