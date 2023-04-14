@@ -18,7 +18,7 @@ With Website Recon and footprinting, we are looking for:
 
 Using command `host` to find IP address of a website/domain
 
-<figure><img src="../../../../.gitbook/assets/image (8) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (5).png" alt=""><figcaption></figcaption></figure>
 
 2 IPs usually means they a behind a proxy
 
@@ -169,17 +169,17 @@ DNS interrogation is the process of enumerating DNS Records for a specific domai
 
 [DNSDumpster](https://dnsdumpster.com)&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### DNSRecon:
 
-<figure><img src="../../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### DNSEnum:
 
-<figure><img src="../../../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is for active recon. This can enumerate publically available records, as well as it can perform Zone Transfer automatically, DNS BruteForce to identify record and subdomains. &#x20;
 
@@ -187,33 +187,33 @@ This is for active recon. This can enumerate publically available records, as we
 
 DIG is a DNS Lookup Utility
 
-<figure><img src="../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### fierce
 
 A DNS reconnaissance tool for locating non-contiguous IP space. Can be used to BruteForce DNS records and/or subdomains.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Host Discovery with NMap
 
 Finding your IP address and subnet of the network youre on `ip a`&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 With Nmap we use the `-sn` argument, for no port scan. This is just to discover hosts that are online and is known as a ping scan or ping sweep. &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Netdiscover
 
 `sudo apt install -y netdiscover` &#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (100) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (100) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Port scanning with NMap
 
@@ -225,7 +225,7 @@ Default scan of `nmap 172.16.8.131` does a default TCP SYN scan on the 1000 freq
 nmap 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Widows typically blocks ICMP pings/probes, so we use the `-Pn` argument.
 
@@ -233,7 +233,7 @@ Widows typically blocks ICMP pings/probes, so we use the `-Pn` argument.
 nmap -Pn 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
 Running a TCP Scan on all 65535 ports. So after the `-Pn` option for WIndows machine, we can add the `-p-` argument. As this scan hits ALL the ports, it can take a few minutes to scan.
 
@@ -253,7 +253,7 @@ If we scan a port that is not open, 8080, for example, we may see a status of 'f
 nmap -Pn -p 8080 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 We can also specify a port range with `-p1-1000`
 
@@ -285,7 +285,7 @@ To see more information we need to increase the verbosity with the `-v` argument
 nmap -Pn -F 172.16.8.131 -v
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
 We can also add an extra v to the end, `-vv`, to see more information as it scans,
 
@@ -297,7 +297,7 @@ Now that we know the open ports, we need to find the services and service versio
 nmap -Pn -F -sV 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 With the versions, we may be able to find a vulnerability for this specific version.
 
@@ -309,7 +309,7 @@ Now we can determine the Operating System(OS) of the target system(s) with the `
 sudo nmap -Pn -F -sV -O 172.16.8.131
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Script Scans
 
@@ -319,7 +319,7 @@ Using default Nmap script scans we can use the `-sC` argument. This runs Nmap de
 sudo nmap -Pn -F -sV -O -sC 172.16.8.131 -v
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 #### Agressive Scanning
 
