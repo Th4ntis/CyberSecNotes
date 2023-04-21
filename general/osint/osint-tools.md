@@ -10,36 +10,6 @@ Here's a list of helpful tools that can be used for [OSINT](./) and Sand-boxing 
 No one tool is the end all-be-all, please make sure to use multiple resources to gather and collect information.
 {% endhint %}
 
-## Go To's
-
-* [URLScan](https://urlscan.io/) - "_A sandbox for the web"_ Scans submitted URL website for malicious intent details in [their about page](https://urlscan.io/about/).
-* [CyberChef](https://gchq.github.io/CyberChef/) - [Decode Base64](https://icyberchef.com/#recipe=From\_Base64\('A-Za-z0-9%2B/%3D',true\)\&input=U0dGamF5QjBhR1VnVUd4aGJtVjBJUT09), [Convert data from a hexdump, then decompress](https://icyberchef.com/#recipe=From\_Hexdump\(\)Gunzip\(\)\&input=MDAwMDAwMDAgIDFmIDhiIDA4IDAwIDEyIGJjIGYzIDU3IDAwIGZmIDBkIGM3IGMxIDA5IDAwIDIwICB8Li4uLi6881cu/y7HwS4uIHwKMDAwMDAwMTAgIDA4IDA1IGQwIDU1IGZlIDA0IDJkIGQzIDA0IDFmIGNhIDhjIDQ0IDIxIDViIGZmICB8Li7QVf4uLdMuLsouRCFb/3wKMDAwMDAwMjAgIDYwIGM3IGQ3IDAzIDE2IGJlIDQwIDFmIDc4IDRhIDNmIDA5IDg5IDBiIDlhIDdkICB8YMfXLi6%2BQC54Sj8uLi4ufXwKMDAwMDAwMzAgIDRlIGM4IDRlIDZkIDA1IDFlIDAxIDhiIDRjIDI0IDAwIDAwIDAwICAgICAgICAgICB8TshObS4uLi5MJC4uLnw), [Decrypt and disassemble shellcode](https://icyberchef.com/#recipe=RC4\(%7B'option':'UTF8','string':'secret'%7D,'Hex','Hex'\)Disassemble\_x86\('64','Full%20x86%20architecture',16,0,true,true\)\&input=MjFkZGQyNTQwMTYwZWU2NWZlMDc3NzEwM2YyYTM5ZmJlNWJjYjZhYTBhYWJkNDE0ZjkwYzZjYWY1MzEyNzU0YWY3NzRiNzZiM2JiY2QxOTNjYjNkZGZkYmM1YTI2NTMzYTY4NmI1OWI4ZmVkNGQzODBkNDc0NDIwMWFlYzIwNDA1MDcxMzhlMmZlMmIzOTUwNDQ2ZGIzMWQyYmM2MjliZTRkM2YyZWIwMDQzYzI5M2Q3YTVkMjk2MmMwMGZlNmRhMzAwNzJkOGM1YTZiNGZlN2Q4NTlhMDQwZWVhZjI5OTczMzYzMDJmNWEwZWMxOQ), and more.
-* [Shodan](https://www.shodan.io/) - IP/Domain Information but can be _**MUCH**_ more powerful. More information found [here](shodan.md).
-* [Cisco Talos Intelligence](https://talosintelligence.com/) - "Search by IP, domain, or network owner for real-time threat data."
-* [TorWhoIs](https://torwhois.com/) - Look up an .onion address and see basic information such as date last seen, open ports, running software and banners
-* [URLHaus](https://urlhaus.abuse.ch/) - Search IP/Domain, URL, MD5, SHA256, and more to see if they have been flagged as malicious/suspicious.
-* [URLVoid](https://www.urlvoid.com/) - Website reputation checker. Shows information of location, IP, WHOIS, DNS Records, and if various services have blacklisted the URL or not.
-* [IPVoid](https://www.ipvoid.com/) - Various tools for IP information. WHOIS, DNS, DNSDIG, MX Record, Blaklisted by any services, etc.
-* [GreyNoise](https://viz.greynoise.io/) - Search for devices connected to the internet
-* [IBM X-Force](https://exchange.xforce.ibmcloud.com/) - Scan for a multitude of things such as IP/Domain, File Hash, Vulnerabilities, upload files for analysis, etc.
-* [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/) - View Windows Event codes, CVE's, and multiple other tools relating to WIndows Security.
-* [AlienVaultOTX](https://otx.alienvault.com/) - Extensive threat intelligence feed
-* [Censys](https://search.censys.io/) - Assessing attack surface for internet connected devices
-* [URL2PNG](https://www.url2png.com/) - Get a screenshot of a website rather than browsing to it.
-* [IP.Teoh.io](https://ip.teoh.io/vpn-detection) - VPN & Proxy IP Detection Tool. Check if an IP is currently blacklisted or is using a VPN/proxy
-* [DNSChecker](https://dnschecker.org/all-tools.php) - A wide variety of DNS, IP, and other tools.
-* [Bash.ws](https://bash.ws/) - Whois, host, dig, nslookup, ping, traceroute, and geoiplookup tool on IPs and Domains
-* [NSLookup.io](https://www.nslookup.io/ns-lookup/) - Find all name servers for a domain name with this online DNS NS checker
-* [Malware Bazaar](https://bazaar.abuse.ch/) - Search file hashes to see if they have been flagged as malicious.
-* [DNSDumpster](https://dnsdumpster.com/) - "Domain research tool that can discover hosts related to a domain"
-* [RDAP](https://client.rdap.org/) - WHOIS sucessor - Provides access to information about Internet resources
-* [Whois](https://www.whois.com/whois) - Domain/IP Information lookup
-* [HaveIBeenPwned](https://haveibeenpwned.com/?ref=websitehunt) - Check if your email or phone is in a data breach
-* [Dehashed](https://dehashed.com/) - View leaked credentials and compromised assets
-* [DorkSearch](https://dorksearch.com/) - Faster Google dorking.
-* [ExploitDB](https://www.exploit-db.com/) - Archive of various exploits
-* [WayBackMachine](https://web.archive.org/) - View content from edited, deleted and older websites
-
 ## IP/Domain OSINT
 
 When researching IP addresses, it is important we know the context of the search we are performing. There are a multitude of sources to research IP addresses and they can vary depending on what information we want to learn about them.&#x20;
@@ -62,7 +32,9 @@ There are tons of highly effective tools for subdomain enumeration and brute for
 * [Shodan.io](https://www.shodan.io/) - Shodan is a search engine that lets users search for various types of servers connected to the internet using a variety of filters.
 * [VirusTotal](https://www.virustotal.com/gui/home/upload) - Analyze suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community
 * [AbuseIPDB](https://www.abuseipdb.com/) - AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet.
+* [Cisco Talos Intelligence](https://talosintelligence.com/) - "Search by IP, domain, or network owner for real-time threat data."
 * [IBM X-Force](https://exchange.xforce.ibmcloud.com/) - Scan for a multitude of things such as IP/Domain, File Hash, Vulnerabilities, upload files for analysis, etc. A Threat intelligence sharing platform enabling research on security threats, aggregation of intelligence, and collaboration with peers
+* [IP.Teoh.io](https://ip.teoh.io/vpn-detection) - VPN & Proxy IP Detection Tool. Check if an IP is currently blacklisted or is using a VPN/proxy
 * [IPVoid](https://www.ipvoid.com/) - Various tools for IP information. WHOIS, DNS, DNSDIG, MX Record, Blaklisted by any services, etc.
 * [ViewDNS](https://viewdns.info/) - Huge toolbox with various utilities for enumerating information about a domain.
 * [DNSDumpster](https://dnsdumpster.com/) - Free domain research tool that can discover hosts related to a domain.&#x20;
@@ -73,8 +45,11 @@ There are tons of highly effective tools for subdomain enumeration and brute for
 * [Sublist3r](https://github.com/aboul3la/Sublist3r) - Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines.
   * [https://tryhackme.com/room/rpsublist3r](https://tryhackme.com/room/rpsublist3r)
 
-## Sandboxing
+## URL OSINT and Sandboxing
 
+* [URLScan](https://urlscan.io/) - "_A sandbox for the web"_ Scans submitted URL website for malicious intent details in [their about page](https://urlscan.io/about/).
+* [URLHaus](https://urlhaus.abuse.ch/) - Search IP/Domain, URL, MD5, SHA256, and more to see if they have been flagged as malicious/suspicious.
+* [URLVoid](https://www.urlvoid.com/) - Website reputation checker. Shows information of location, IP, WHOIS, DNS Records, and if various services have blacklisted the URL or not.
 * [Browserling](https://www.browserling.com/) - Sandbox URLs on various browsers and interact with them in a live secure environment.
 * [Wannabroswer](https://www.wannabrowser.net/) - Simulate any Browser
 * [Hybrid-Analysis](https://hybrid-analysis.com/) - Malware Analysis Service
@@ -114,8 +89,25 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
 * [AnalyzeID](https://analyzeid.com/username/) - Social media username checker. Gather information on the taken username and get a summary of who the person is
 * [IDCrawl](https://www.idcrawl.com/) - A free people search engine that organizes social network information, deep web information, phone numbers, email addresses and more
 
-## Additional/Misc
+## Additional Tools
 
+* [CyberChef](https://gchq.github.io/CyberChef/) - [Decode Base64](https://icyberchef.com/#recipe=From\_Base64\('A-Za-z0-9%2B/%3D',true\)\&input=U0dGamF5QjBhR1VnVUd4aGJtVjBJUT09), [Convert data from a hexdump, then decompress](https://icyberchef.com/#recipe=From\_Hexdump\(\)Gunzip\(\)\&input=MDAwMDAwMDAgIDFmIDhiIDA4IDAwIDEyIGJjIGYzIDU3IDAwIGZmIDBkIGM3IGMxIDA5IDAwIDIwICB8Li4uLi6881cu/y7HwS4uIHwKMDAwMDAwMTAgIDA4IDA1IGQwIDU1IGZlIDA0IDJkIGQzIDA0IDFmIGNhIDhjIDQ0IDIxIDViIGZmICB8Li7QVf4uLdMuLsouRCFb/3wKMDAwMDAwMjAgIDYwIGM3IGQ3IDAzIDE2IGJlIDQwIDFmIDc4IDRhIDNmIDA5IDg5IDBiIDlhIDdkICB8YMfXLi6%2BQC54Sj8uLi4ufXwKMDAwMDAwMzAgIDRlIGM4IDRlIDZkIDA1IDFlIDAxIDhiIDRjIDI0IDAwIDAwIDAwICAgICAgICAgICB8TshObS4uLi5MJC4uLnw), [Decrypt and disassemble shellcode](https://icyberchef.com/#recipe=RC4\(%7B'option':'UTF8','string':'secret'%7D,'Hex','Hex'\)Disassemble\_x86\('64','Full%20x86%20architecture',16,0,true,true\)\&input=MjFkZGQyNTQwMTYwZWU2NWZlMDc3NzEwM2YyYTM5ZmJlNWJjYjZhYTBhYWJkNDE0ZjkwYzZjYWY1MzEyNzU0YWY3NzRiNzZiM2JiY2QxOTNjYjNkZGZkYmM1YTI2NTMzYTY4NmI1OWI4ZmVkNGQzODBkNDc0NDIwMWFlYzIwNDA1MDcxMzhlMmZlMmIzOTUwNDQ2ZGIzMWQyYmM2MjliZTRkM2YyZWIwMDQzYzI5M2Q3YTVkMjk2MmMwMGZlNmRhMzAwNzJkOGM1YTZiNGZlN2Q4NTlhMDQwZWVhZjI5OTczMzYzMDJmNWEwZWMxOQ), and more.
+* [TorWhoIs](https://torwhois.com/) - Look up an .onion address and see basic information such as date last seen, open ports, running software and banners
+* [GreyNoise](https://viz.greynoise.io/) - Search for devices connected to the internet
+* [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/) - View Windows Event codes, CVE's, and multiple other tools relating to WIndows Security.
+* [AlienVaultOTX](https://otx.alienvault.com/) - Extensive threat intelligence feed
+* [Censys](https://search.censys.io/) - Assessing attack surface for internet connected devices
+* [URL2PNG](https://www.url2png.com/) - Get a screenshot of a website rather than browsing to it.
+* [DNSChecker](https://dnschecker.org/all-tools.php) - A wide variety of DNS, IP, and other tools.
+* [Bash.ws](https://bash.ws/) - Whois, host, dig, nslookup, ping, traceroute, and geoiplookup tool on IPs and Domains
+* [NSLookup.io](https://www.nslookup.io/ns-lookup/) - Find all name servers for a domain name with this online DNS NS checker
+* [Malware Bazaar](https://bazaar.abuse.ch/) - Search file hashes to see if they have been flagged as malicious.
+* [HaveIBeenPwned](https://haveibeenpwned.com/?ref=websitehunt) - Check if your email or phone is in a data breach
+* [Dehashed](https://dehashed.com/) - View leaked credentials and compromised assets
+* [DorkSearch](https://dorksearch.com/) - Faster Google dorking.
+* [ExploitDB](https://www.exploit-db.com/) - Archive of various exploits
+* [WayBackMachine](https://web.archive.org/) - View content from edited, deleted and older websites
+*
 * [Maltiverse](https://maltiverse.com/collection) - Search for indicators of compromise or something related
 * [HoneyDB](https://honeydb.io/) - Provides real time data of honeypot activity.
 * [SecurityTrails](https://securitytrails.com/dns-trails) - Extensive and historical DNS data

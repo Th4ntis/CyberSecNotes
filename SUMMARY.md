@@ -29,7 +29,6 @@
   * [Active Directory](general/windows/active-directory.md)
 * [🔎 OSINT](general/osint/README.md)
   * [OSINT Tools](general/osint/osint-tools.md)
-  * [Email/Username](general/osint/email-username.md)
   * [Social Media OSINT](general/osint/social-media-osint.md)
   * [Shodan](general/osint/shodan.md)
   * [Google Dorking](general/osint/google-dorking.md)
