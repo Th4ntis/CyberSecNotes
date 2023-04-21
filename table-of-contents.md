@@ -1,6 +1,6 @@
 # Table of Contents
 
-* N[General Info](general/general-info/)
+* [General Info](general/general-info/)
   * [Learning Resources](general/general-info/learning-resources.md)
   * [MITRE ATT\&CK](general/general-info/mitre-att-and-ck.md)
   * [Cyber Skill Chain](general/general-info/cyber-kill-chain.md)
