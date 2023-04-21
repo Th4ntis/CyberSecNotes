@@ -1,6 +1,6 @@
 # Table of Contents
 
-* [General Info](general/general-info/)
+* N[General Info](general/general-info/)
   * [Learning Resources](general/general-info/learning-resources.md)
   * [MITRE ATT\&CK](general/general-info/mitre-att-and-ck.md)
   * [Cyber Skill Chain](general/general-info/cyber-kill-chain.md)
@@ -60,24 +60,24 @@
     * [Kismet](general/attack-and-defense/wireless/kismet.md)
     * [Bettercap](general/attack-and-defense/wireless/bettercap.md)
     * [HCXDumptool](general/attack-and-defense/wireless/hcxdumptool.md)
-* Lab Setup
-  * Ubuntu VM
-  * Windows User VM
-  * Windows Server VM
-* Wardriving
-* Wireless Pentesting
-* Over The Wire
-  * Bandit
-  * Natas
-  * Leviathan
-  * Krypton
-  * Narnia
-  * Behemoth
-  * Utumno
-  * Maze
-  * Vortex
-  * Manpage
-* Staying Private and Going Dark Online
-* eJPT
-* TryHackMe
-* HackTheBox
+* [Lab Setup](personal/guides-and-how-tos/lab-setup/)
+  * [Ubuntu VM](personal/guides-and-how-tos/lab-setup/ubuntu-vm.md)
+  * [Windows User VM](personal/guides-and-how-tos/lab-setup/windows-user-vm.md)
+  * [Windows Server VM](personal/guides-and-how-tos/lab-setup/windows-server-vm.md)
+* [Wardriving](personal/guides-and-how-tos/wardriving.md)
+* [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting.md)
+* [Over The Wire](personal/guides-and-how-tos/over-the-wire/)
+  * [Bandit](personal/guides-and-how-tos/over-the-wire/bandit.md)
+  * [Natas](personal/guides-and-how-tos/over-the-wire/natas.md)
+  * [Leviathan](personal/guides-and-how-tos/over-the-wire/leviathan.md)
+  * [Krypton](personal/guides-and-how-tos/over-the-wire/krypton.md)
+  * [Narnia](personal/guides-and-how-tos/over-the-wire/narnia.md)
+  * [Behemoth](personal/guides-and-how-tos/over-the-wire/behemoth.md)
+  * [Utumno](personal/guides-and-how-tos/over-the-wire/utumno.md)
+  * [Maze](personal/guides-and-how-tos/over-the-wire/maze.md)
+  * [Vortex](personal/guides-and-how-tos/over-the-wire/vortex.md)
+  * [Manpage](personal/guides-and-how-tos/over-the-wire/manpage.md)
+* [Staying Private and Going Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
+* [eJPT](personal/courses/ejpt/)
+* [TryHackMe](personal/tryhackme/)
+* [HackTheBox](personal/hackthebox/)
