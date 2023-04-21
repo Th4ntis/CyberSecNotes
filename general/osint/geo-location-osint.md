@@ -1,2 +1,0 @@
-# Geo Location OSINT
-

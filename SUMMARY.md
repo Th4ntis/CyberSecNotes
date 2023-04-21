@@ -33,8 +33,6 @@
   * [Domain OSINT](general/osint/domain-osint.md)
   * [Email/Username](general/osint/email-username.md)
   * [Social Media OSINT](general/osint/social-media-osint.md)
-  * [Geo Location OSINT](general/osint/geo-location-osint.md)
-  * [Sandbox](general/osint/sandbox.md)
   * [Shodan](general/osint/shodan.md)
   * [Google Dorking](general/osint/google-dorking.md)
 * [🛡 Attack and Defense](general/attack-and-defense/README.md)

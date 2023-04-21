@@ -27,7 +27,6 @@
   * [IP OSINT](general/osint/ip-osint.md)
   * [Domain OSINT](general/osint/domain-osint.md)
   * [Email/Username OSINT](general/osint/email-username.md)
-  * [Sandbox](general/osint/sandbox.md)
   * [Shodan](general/osint/shodan.md)
   * [Google Dorking](general/osint/google-dorking.md)
 * [Attack & Defense](general/attack-and-defense/)

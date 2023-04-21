@@ -10,7 +10,7 @@ Open Source Intelligence (OSINT) is multi-methods methodology for collecting, an
 
 There is a helpful resource called the [OSINT Framework](https://osintframework.com/) that is focused on gathering information from free tools or resources.
 
-| [IP OSINT](ip-osint.md)                   | [Social Media OSINT](social-media-osint.md)  | [Google Dorking](google-dorking.md) |
-| ----------------------------------------- | -------------------------------------------- | ----------------------------------- |
-| [Domain OSINT](domain-osint.md)           | [Geo location OSINT](geo-location-osint.md)  | [Sandbox](sandbox.md)               |
-| [Email/Username OSINT](email-username.md) | [Shodan](shodan.md)                          |                                     |
+| [IP OSINT](ip-osint.md)                   | [Social Media OSINT](social-media-osint.md) |
+| ----------------------------------------- | ------------------------------------------- |
+| [Domain OSINT](domain-osint.md)           | [Google Dorking](google-dorking.md)         |
+| [Email/Username OSINT](email-username.md) | [Shodan](shodan.md)                         |
