@@ -24,8 +24,6 @@
   * [Active Directory](general/windows/active-directory.md)
 * [OSINT](general/osint/)
   * [OSINT Tools](general/osint/osint-tools.md)
-  * [Domain OSINT](general/osint/domain-osint.md)
-  * [Email/Username OSINT](general/osint/email-username.md)
   * [Shodan](general/osint/shodan.md)
   * [Google Dorking](general/osint/google-dorking.md)
 * [Attack & Defense](general/attack-and-defense/)

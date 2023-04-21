@@ -48,6 +48,10 @@ For offensive security, threat hunting, and attack surface mapping, we want curr
 
 For defensive operations, such as those of the security blue team, we are looking for historical data and activity data of the IP address.
 
+Domains, more than almost any other target, have one of the largest assortments of associated data points. The most important that we will look for out of this section is the Registration data, the hosting data, site information, archived data, and analytics
+
+There are tons of highly effective tools for subdomain enumeration and brute forcing, but they can be quite noisy. During the Passive Recon phase of a penetration test, we can start with any subdomains recorded by other sources to plan out our attack/test.
+
 * [RDAP](https://client.rdap.org/) - **Registration Data Access Protocol** is the successor to WHOIS. Like WHOIS, RDAP provides access to information about Internet resources (domain names, autonomous systems, and IP addresses). Unlike WHOIS, RDAP provides:
   * A machine-readable representation of registration data;
   * Differentiated access;
