@@ -24,7 +24,6 @@
   * [Active Directory](general/windows/active-directory.md)
 * [OSINT](general/osint/)
   * [OSINT Tools](general/osint/osint-tools.md)
-  * [IP OSINT](general/osint/ip-osint.md)
   * [Domain OSINT](general/osint/domain-osint.md)
   * [Email/Username OSINT](general/osint/email-username.md)
   * [Shodan](general/osint/shodan.md)
