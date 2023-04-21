@@ -1,6 +1,7 @@
 # Table of contents
 
 * [About](README.md)
+* [Table of Contents](table-of-contents.md)
 
 ## 🖱 General
 
