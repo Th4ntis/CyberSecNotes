@@ -40,7 +40,7 @@ No one tool is the end all-be-all, please make sure to use multiple resources to
 * [ExploitDB](https://www.exploit-db.com/) - Archive of various exploits
 * [WayBackMachine](https://web.archive.org/) - View content from edited, deleted and older websites
 
-## IP /Domain OSINT
+## IP/Domain OSINT
 
 When researching IP addresses, it is important we know the context of the search we are performing. There are a multitude of sources to research IP addresses and they can vary depending on what information we want to learn about them.&#x20;
 
@@ -60,6 +60,14 @@ For defensive operations, such as those of the security blue team, we are lookin
 * [AbuseIPDB](https://www.abuseipdb.com/) - AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet.
 * [IBM X-Force](https://exchange.xforce.ibmcloud.com/) - Scan for a multitude of things such as IP/Domain, File Hash, Vulnerabilities, upload files for analysis, etc. A Threat intelligence sharing platform enabling research on security threats, aggregation of intelligence, and collaboration with peers
 * [IPVoid](https://www.ipvoid.com/) - Various tools for IP information. WHOIS, DNS, DNSDIG, MX Record, Blaklisted by any services, etc.
+* [ViewDNS](https://viewdns.info/) - Huge toolbox with various utilities for enumerating information about a domain.
+* [DNSDumpster](https://dnsdumpster.com/) - Free domain research tool that can discover hosts related to a domain.&#x20;
+* [MXToolbox ](https://mxtoolbox.com/)-  Checks MX information for the given domain
+* [DNSLytics](https://dnslytics.com/) - Find out everything about a domain name, IP address or provider. Discover relations between them and see historical data. Use it for your digital investigation, fraud prevention or brand protection.
+* [HostSpider](https://github.com/h3x0crypt/HostSpider) - Command line tool that gathers tons of information about a domain including DNS records, subdomains, WHOIS, Cloudflare IP, and more!
+* [OmnisintLabs](https://omnisint.io/) - Project Crobat: Rapid7's DNS Database easily searchable via a lightening fast API, with domains available in milliseconds.
+* [Sublist3r](https://github.com/aboul3la/Sublist3r) - Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines.
+  * [https://tryhackme.com/room/rpsublist3r](https://tryhackme.com/room/rpsublist3r)
 
 ## Sandboxing
 
