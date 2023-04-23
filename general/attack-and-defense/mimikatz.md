@@ -12,14 +12,14 @@ Mimikatz can only dump credentials and password hashes if it is executed from th
 
 Simply run the .exe as admin from where you can get the executable onto the victim machine.
 
-![](../../../.gitbook/assets/2022-04-11\_01-24.png)
+![](../../.gitbook/assets/2022-04-11\_01-24.png)
 
 From here there is a multitude of things we can run. Examples:
 
 * `privilege::debug` - get debug rights (this or Local System rights is required for many Mimikatz commands).
 * `sekurlsa::logonpasswords`[ ](https://adsecurity.org/?page\_id=1821#SEKURLSALogonPasswords)- lists all available provider credentials. This usually shows recently logged on user and computer credentials.
 
-![](../../../.gitbook/assets/2022-04-11\_01-29.png)
+![](../../.gitbook/assets/2022-04-11\_01-29.png)
 
 * `sekurlsa::kerberos` - List Kerberos credentials for all authenticated users (including services and computer account)
 * `sekurlsa::tickets` - Lists all available Kerberos tickets for all recently authenticated users, including services running under the context of a user account and the local computer’s AD computer account. Unlike kerberos::list, sekurlsa uses memory reading and is not subject to key export restrictions. sekurlsa can access tickets of others sessions (users).

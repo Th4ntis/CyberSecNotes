@@ -4,7 +4,7 @@ description: 'This is my notes for the TryHackMe Room: Attacking Kerberos.'
 
 # Attacking Kerberos
 
-This room can be found [here](https://tryhackme.com/room/attackingkerberos). This room is pretty straight forward in explaining what it wants us to do so there's not much of a walkthrough needed for this. This room is more to help us understand what Kerberos is and methods to attack it. I have some notes on Kerberos and Kerberoasting [here](../../general/attack-and-defense/methods/kerberos-and-kerberoasting.md).
+This room can be found [here](https://tryhackme.com/room/attackingkerberos). This room is pretty straight forward in explaining what it wants us to do so there's not much of a walkthrough needed for this. This room is more to help us understand what Kerberos is and methods to attack it. I have some notes on Kerberos and Kerberoasting [here](../../general/attack-and-defense/kerberos-and-kerberoasting.md).
 
 ## Task 1
 

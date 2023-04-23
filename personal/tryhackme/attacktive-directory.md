@@ -1,6 +1,6 @@
 # Attacktive Directory
 
-My walkthrough on the [Attacktive Directory room](https://tryhackme.com/room/attacktivedirectory). For this room we need to install [Impacket](../../general/attack-and-defense/tools/impacket.md) and [Bloodhound](../../general/attack-and-defense/tools/bloodhound.md).
+My walkthrough on the [Attacktive Directory room](https://tryhackme.com/room/attacktivedirectory). For this room we need to install [Impacket](../../general/attack-and-defense/impacket.md) and [Bloodhound](../../general/attack-and-defense/bloodhound.md).
 
 ## Task 3
 
@@ -18,7 +18,7 @@ _This answer came from previous knowledge of enumeration tools... and guessing._
 
 Answer: **THM-AD**
 
-![](<../../.gitbook/assets/image (2) (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (2) (1) (1).png>)
 
 ### Question 3: What invalid TLD do people commonly use for their Active Directory Domain?
 

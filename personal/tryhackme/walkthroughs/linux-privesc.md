@@ -224,7 +224,7 @@ From here we can run `./test` and obtain our flag.
 
 `3` - Running `showmount -e (IP`) will give us our answer
 
-![](<../../../.gitbook/assets/image (19) (1).png>)
+![](<../../../.gitbook/assets/image (19).png>)
 
 ### Question 2: How many shares have the "no\_root\_squash" option enabled?
 

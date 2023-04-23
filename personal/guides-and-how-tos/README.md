@@ -2,6 +2,10 @@
 
 This will be a section for my guides, walkthroughs, and how-to's on various subjects.
 
+## How To's
+
+[Staying Private and going Dark Online](staying-private-and-goin-dark-online.md)
+
 ## Lab Setup
 
 [Setting up a Ubuntu VM](lab-setup/ubuntu-vm.md)

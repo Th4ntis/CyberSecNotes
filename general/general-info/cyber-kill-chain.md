@@ -12,7 +12,7 @@ There are other Kill Chains out there, which some can found [here](https://www.s
 
 The standard kill chain is broken into these phases:
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 * **Phase 1: Reconnaissance**
 * **Phase 2: Weaponization**
