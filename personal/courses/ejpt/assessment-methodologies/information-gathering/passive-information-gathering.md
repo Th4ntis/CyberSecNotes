@@ -18,7 +18,7 @@ With Website Recon and footprinting, we are looking for:
 
 Using command `host` to find IP address of a website/domain
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2 IPs usually means they a behind a proxy
 

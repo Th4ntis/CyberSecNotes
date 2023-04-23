@@ -66,6 +66,7 @@
 ## 👾 Personal
 
 * [😈 Guides and How-To's](personal/guides-and-how-tos/README.md)
+  * [Page 1](personal/guides-and-how-tos/page-1.md)
   * [Lab Setup](personal/guides-and-how-tos/lab-setup/README.md)
     * [Ubuntu VM](personal/guides-and-how-tos/lab-setup/ubuntu-vm.md)
     * [Windows User VM](personal/guides-and-how-tos/lab-setup/windows-user-vm.md)

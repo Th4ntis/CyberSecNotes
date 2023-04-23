@@ -74,7 +74,7 @@ We can now `cat` the file to receive our flag.
 
 So let's run `sudo find . -exec /bin/sh ; -quit` and see if we get root.
 
-![](<../../../.gitbook/assets/image (100) (1) (1).png>)
+![](<../../../.gitbook/assets/image (100) (1).png>)
 
 We do! So now we can find our flag.
 
@@ -112,7 +112,7 @@ This basically says if we assign the variable of LFILE to to a file, then use ba
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (8) (1) (1).png>)
+![](<../../../.gitbook/assets/image (8) (1) (1) (1).png>)
 
 Now we can use unshadow from the JohnTheRipper package to combine the files
 
@@ -124,7 +124,7 @@ Time to crack the passwords!
 
 `john --wordlist=(WORDLIST.TXT) (FILE.TXT)`
 
-![](<../../../.gitbook/assets/image (107) (1) (1).png>)
+![](<../../../.gitbook/assets/image (107) (1).png>)
 
 ![](<../../../.gitbook/assets/image (32).png>)
 
@@ -224,7 +224,7 @@ From here we can run `./test` and obtain our flag.
 
 `3` - Running `showmount -e (IP`) will give us our answer
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19) (1).png>)
 
 ### Question 2: How many shares have the "no\_root\_squash" option enabled?
 
@@ -294,7 +294,7 @@ We can put these files in a .txt file and attempt to crack them.
 
 We got the password for Missy! So lets switch users to missy. `su missy`
 
-![](<../../../.gitbook/assets/image (14) (1) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (2).png>)
 
 `sudo find / -name flag*.txt` We now have the location of our flags as well
 
