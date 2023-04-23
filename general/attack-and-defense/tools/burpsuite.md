@@ -37,7 +37,7 @@ Click Save and ta-da!
 
 From here, when we want to use BurpSuite, we can click on the extension icon and select our Burp proxy
 
-![](<../../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1) (2).png>)
 
 ## Usage
 

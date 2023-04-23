@@ -2,7 +2,7 @@
 
 ## Initial Scan:
 
-![](<../../../../.gitbook/assets/image (5) (1) (2) (1).png>)
+![](<../../../../.gitbook/assets/image (5) (1) (2).png>)
 
 ## Task 1:
 

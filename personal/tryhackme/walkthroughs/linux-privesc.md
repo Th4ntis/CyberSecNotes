@@ -224,7 +224,7 @@ From here we can run `./test` and obtain our flag.
 
 `3` - Running `showmount -e (IP`) will give us our answer
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (19) (1).png>)
 
 ### Question 2: How many shares have the "no\_root\_squash" option enabled?
 
@@ -294,7 +294,7 @@ We can put these files in a .txt file and attempt to crack them.
 
 We got the password for Missy! So lets switch users to missy. `su missy`
 
-![](<../../../.gitbook/assets/image (14) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1).png>)
 
 `sudo find / -name flag*.txt` We now have the location of our flags as well
 

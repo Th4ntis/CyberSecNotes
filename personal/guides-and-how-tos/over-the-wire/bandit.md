@@ -6,7 +6,7 @@
 
 Level 0 has us SSH into to log in. We can use `ssh bandit.labs.overthewire.org -p 2220 -l bandit0` with the password of `bandit0`, as they provide the uername and password.
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Level 0
 
@@ -30,7 +30,7 @@ Now with this, we can't just cat the file as it starts with(is) special characte
 
 We can log into Level 2 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit2` using the password we obtained from level 1, `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`.
 
-<figure><img src="../../../.gitbook/assets/image (112) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (112) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 For this game, the password for the next level is located in a file called **spaces in this filename** located in the home directory.
 

@@ -1,5 +1,7 @@
 # Footprinting & Scanning
 
+## Module 1 - Mapping a Network
+
 ## Mapping a Network
 
 The **Purpose** is Scope and Discovery. Find out what device(s) on the network are we allowed to target, or find what is in scope.&#x20;
@@ -36,11 +38,11 @@ ICMP can be used for network connectivity issues using Ping or Traceroute.
 
 We will be looking at the `vmnet8` adapter to start a packet capture.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can go to Statistics > Endpoints to see a list of MAC addresses.
 
-<figure><img src="../../../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 Looking in the logs, we can also see a reply telling us the MAC address of the IP
 
@@ -64,7 +66,7 @@ Will send out pings to multiple hosts at one time. Using `fping -i (internaface)
 
 `fping -I vmnet8 -g 172.16.8.0/24 -a 2>/dev/null`
 
-<figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Notice the .131 address is missing, this is due to the machine not responding to ping requests.
 
@@ -74,10 +76,15 @@ We have seen in the previous section
 
 `sudo nmap -sn 172.16.8.0/24`
 
-<figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 ###
 
 ### Zenmap
 
 Simple, a GUI version of NMap
+
+
+
+## Module 2 - Port Scanning
+
