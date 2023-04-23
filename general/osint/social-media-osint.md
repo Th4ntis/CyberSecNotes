@@ -1,6 +1,6 @@
 # Social Media OSINT
 
-Social Media is huge a huge pert of the internet now, from personal accounts, businesses, news outlets, to bots, it's very helpful to find information on them. This doesn't include just Facebook or Twitter, this can include things like Discord, Telegram, Snapchat, and others.
+Social Media is huge a huge part of the internet now, from personal accounts, businesses, news outlets, to bots, it's very helpful to find information on them. This doesn't include just Facebook or Twitter, this can include things like Discord, Telegram, Snapchat, and others.
 
 ## Facebook
 
