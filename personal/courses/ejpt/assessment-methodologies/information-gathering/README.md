@@ -173,13 +173,13 @@ DNS interrogation is the process of enumerating DNS Records for a specific domai
 
 #### DNSRecon:
 
-<figure><img src="../../../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 #### DNSEnum:
 
-<figure><img src="../../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
 
 This is for active recon. This can enumerate publically available records, as well as it can perform Zone Transfer automatically, DNS BruteForce to identify record and subdomains. &#x20;
 
@@ -193,7 +193,7 @@ DIG is a DNS Lookup Utility
 
 A DNS reconnaissance tool for locating non-contiguous IP space. Can be used to BruteForce DNS records and/or subdomains.&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Host Discovery with NMap
 
@@ -205,13 +205,13 @@ With Nmap we use the `-sn` argument, for no port scan. This is just to discover 
 
 <figure><img src="../../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Netdiscover
 
 `sudo apt install -y netdiscover` &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (100) (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -225,7 +225,7 @@ Default scan of `nmap 172.16.8.131` does a default TCP SYN scan on the 1000 freq
 nmap 172.16.8.131
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
 
 Widows typically blocks ICMP pings/probes, so we use the `-Pn` argument.
 
@@ -319,7 +319,7 @@ Using default Nmap script scans we can use the `-sC` argument. This runs Nmap de
 sudo nmap -Pn -F -sV -O -sC 172.16.8.131 -v
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 #### Agressive Scanning
 

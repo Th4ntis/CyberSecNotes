@@ -80,7 +80,7 @@ Answer: mongo
 
 Another google search.
 
-<figure><img src="../../../../.gitbook/assets/image (18) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 

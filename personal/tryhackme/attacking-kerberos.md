@@ -138,7 +138,7 @@ Copy the hashes to a .txt file and begin the cracking with hashcat.
 
 `Summer2020`
 
-![](<../../.gitbook/assets/image (99) (1).png>)
+![](<../../.gitbook/assets/image (99) (1) (1).png>)
 
 ### Question 2: What is the SQLService Password?
 
@@ -158,7 +158,7 @@ During pre-authentication, the users hash will be used to encrypt a timestamp th
 
 After running `Rubeus.exe asreproast` we can get what is seen below
 
-![](<../../.gitbook/assets/image (18) (1).png>)
+![](<../../.gitbook/assets/image (18) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (25).png>)
 

@@ -194,6 +194,6 @@ With this information, we can try logging in with `admin'#`
 
 ![](<../../../../.gitbook/assets/image (1) (3) (1).png>)
 
-![](<../../../../.gitbook/assets/image (12) (2).png>)
+![](<../../../../.gitbook/assets/image (12).png>)
 
 Answer: **e3d0796d002a446c0e622226f42e9672**

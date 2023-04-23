@@ -63,7 +63,7 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13) (3).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 ![](<../../.gitbook/assets/image (16) (2) (1).png>)
 
@@ -83,7 +83,7 @@ To verify if it is working properly we can run `gpsmon` OR `cgps`
 
 ![](<../../.gitbook/assets/image (7) (2).png>)
 
-![](<../../.gitbook/assets/image (8) (2) (1).png>)
+![](<../../.gitbook/assets/image (8) (2).png>)
 
 ## Running - Normal Mode
 
@@ -119,7 +119,7 @@ kismet -t some_wardrive --override wardrive
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 

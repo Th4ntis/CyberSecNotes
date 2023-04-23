@@ -30,7 +30,7 @@ Now with this, we can't just cat the file as it starts with(is) special characte
 
 We can log into Level 2 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit2` using the password we obtained from level 1, `rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi`.
 
-<figure><img src="../../../.gitbook/assets/image (112) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (112) (2).png" alt=""><figcaption></figcaption></figure>
 
 For this game, the password for the next level is located in a file called **spaces in this filename** located in the home directory.
 
@@ -58,7 +58,7 @@ This level, the password is in the only 'human-readable' file in the `inhere` di
 
 We can see the what they mean by human-readable. So, we can cat each file individually but, theres another way using the `file` command. We can run `file ./*` to identify each file type.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (18) (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18) (5).png" alt=""><figcaption></figcaption></figure>
 
 We see -file07 is ASCII text. So now we can cat the file to see it's contents.
 
