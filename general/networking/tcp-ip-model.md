@@ -7,7 +7,7 @@ The [OSI Model](osi-model.md) is a reference/logical model. It was designed to d
 3. Internet Layer
 4. Network Access/Link Layer
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ### Comparing the 2 models
 

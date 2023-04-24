@@ -6,13 +6,13 @@
 
 Level 0 has us SSH into to log in. We can use `ssh bandit.labs.overthewire.org -p 2220 -l bandit0` with the password of `bandit0`, as they provide the uername and password.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## Level 0
 
 Now that we're in, we need to log in using user `bandit1` now, the password is located in a file called `readme` in the home directory. So lets use ls to verify the file is there with `ls`, and `cat` the file to see it's contents.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 Now we can log into level 2 with `ssh bandit.labs.overthewire.org -p 2220 -l bandit1` with the new password `NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL`
 

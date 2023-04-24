@@ -105,7 +105,7 @@ Full list of operators can be found [here](https://docs.microsoft.com/en-us/powe
 
 An example of checking the stopped processes:
 
-![](<../../.gitbook/assets/image (112) (1).png>)
+![](<../../.gitbook/assets/image (112) (1) (1).png>)
 
 #### Sort Object
 
@@ -272,7 +272,7 @@ Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Intern
 
 `NT SERVICE\TrustedInstaller` - Running `Get-Acl c:/` will show us the owner.
 
-![](<../../.gitbook/assets/image (105) (1).png>)
+![](<../../.gitbook/assets/image (105) (1) (1).png>)
 
 ## Task 5
 
