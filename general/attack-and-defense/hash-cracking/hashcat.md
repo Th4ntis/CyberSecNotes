@@ -64,7 +64,7 @@ Example: `hashcat -a # -m # -w # CrackMe.txt`
 
 The types of attackmodes are:
 
-<table><thead><tr><th align="center">#</th><th align="center">Mode</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">0</td><td align="center">Straight</td><td></td></tr><tr><td align="center">1</td><td align="center">Combination</td><td></td></tr><tr><td align="center">3</td><td align="center">Brute-Force</td><td></td></tr><tr><td align="center">6</td><td align="center">Hybrid Wordlist+Mask</td><td></td></tr><tr><td align="center">7</td><td align="center">Hyrbid Mask+Wordlist</td><td></td></tr><tr><td align="center">9</td><td align="center">Association</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="150" align="center">#</th><th align="center">Mode</th><th data-hidden></th></tr></thead><tbody><tr><td align="center">0</td><td align="center">Straight</td><td></td></tr><tr><td align="center">1</td><td align="center">Combination</td><td></td></tr><tr><td align="center">3</td><td align="center">Brute-Force</td><td></td></tr><tr><td align="center">6</td><td align="center">Hybrid Wordlist+Mask</td><td></td></tr><tr><td align="center">7</td><td align="center">Hyrbid Mask+Wordlist</td><td></td></tr><tr><td align="center">9</td><td align="center">Association</td><td></td></tr></tbody></table>
 
 * Straight - Tries the exact words that are in your chosen wordlist(s), with no modifications other than rules.
 * Combination(Combinator) - Combines the current word with the rest of the words in the wordlist.
@@ -92,12 +92,7 @@ There are a lot of hashtypes so I won't try to list them here but these can be f
 
 The workload profile is something we use to speed up the process but can make it so the rest of the computer is slow as it uses much more processing power. Workload Profile types are:
 
-|  #  | Performance | Runtime | Power Consumption |    Impact    |
-| :-: | :---------: | :-----: | :---------------: | :----------: |
-|  1  |     Low     |   2ms   |        Low        |    Minimal   |
-|  2  |   Default   |   12ms  |      Economic     |  Noticeable  |
-|  3  |     High    |   96ms  |        High       | Unresponsive |
-|  4  |  Nightmare  |  480ms  |       Insane      |   Headless   |
+<table><thead><tr><th width="150" align="center">#</th><th width="150" align="center">Performance</th><th width="150" align="center">Runtime</th><th width="150" align="center">Power Consumption</th><th align="center">Impact</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">Low</td><td align="center">2ms</td><td align="center">Low</td><td align="center">Minimal</td></tr><tr><td align="center">2</td><td align="center">Default</td><td align="center">12ms</td><td align="center">Economic</td><td align="center">Noticeable</td></tr><tr><td align="center">3</td><td align="center">High</td><td align="center">96ms</td><td align="center">High</td><td align="center">Unresponsive</td></tr><tr><td align="center">4</td><td align="center">Nightmare</td><td align="center">480ms</td><td align="center">Insane</td><td align="center">Headless</td></tr></tbody></table>
 
 ### Dictionary
 
