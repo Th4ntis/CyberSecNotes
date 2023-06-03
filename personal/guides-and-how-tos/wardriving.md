@@ -27,7 +27,7 @@ I have and recommend these WiFi radios:
 
 * [Kismet](https://www.kismetwireless.net/) - A powerful and popular tool made by [Dragorn](https://twitter.com/KismetWireless). "Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.It works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware."
   * To install kismet, follow [the guide on their docs](https://www.kismetwireless.net/docs/readme/packages/).
-    * Kismet Config files readme can be found [here](https://www.kismetwireless.net/docs/readme/configuring/configfiles/).
+  * Kismet Config files readme can be found [here](https://www.kismetwireless.net/docs/readme/configuring/configfiles/).
   * Kismet wardriving overlay docs can be found [here](https://www.kismetwireless.net/docs/readme/configuring/wardrive/).&#x20;
 * [GPSD](https://en.wikipedia.org/wiki/Gpsd) - **gpsd** is a computer software program that collects data from a GPS receiver and provides the data via an IP network to potentially multiple client applications in a server-client application architecture.
   * This can be installed on most Ubuntu/Raspbian `sudo apt install gpsd gpsd-clients`
@@ -38,6 +38,7 @@ Raspbian Install (I usually go with Nightly builds):
 wget -O - https://www.kismetwireless.net/repos/kismet-release.gpg.key | sudo apt-key add -
 echo 'deb https://www.kismetwireless.net/repos/apt/git/buster buster main' | sudo tee /etc/apt/sources.list.d/kismet.list
 sudo apt update
+sudo usermod -aG kismet your-user-here
 sudo apt install kismet
 ```
 
@@ -47,6 +48,7 @@ Ubuntu Install (I usually go with Nightly builds):
 wget -O - https://www.kismetwireless.net/repos/kismet-release.gpg.key | sudo apt-key add -
 echo 'deb https://www.kismetwireless.net/repos/apt/git/jammy jammy main' | sudo tee /etc/apt/sources.list.d/kismet.list
 sudo apt update
+sudo usermod -aG kismet your-user-here
 sudo apt install kismet
 ```
 
@@ -137,6 +139,29 @@ From here we can verify the GPS is working with the green cross hair icon in the
 ## Autostarting Kismet
 
 The README for starting Kismet at launch can be found [here on their github](https://github.com/kismetwireless/kismet/blob/master/packaging/systemd/README).
+
+As I installed Kismet from the package, the service for systemd is already there.
+
+```
+By default, the Kismet systemd service runs Kismet as root; this is NOT best practices
+    but it is the only user consistently available.
+
+    It is STONGLY recommended that you install Kismet as suid-root via `make suidinstall`,
+    and that you run Kismet as a non-privileged user.  Kismet will then limit root 
+    access to the capture binaries which control individual interfaces.
+```
+
+So lets set this up to run as our user. `sudo systemctl edit kismet` so edit the service. Changing the user to the 'kismet' user **OR** as the user you have setup.
+
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+
+So with this setup, let's start the service with `sudo service kismet start`.
+
+Set the service to start on boot with: `sudo systemctl enable kismet`.
+
+Verify the Kismet service is running with: `sudo service kismet status`.
+
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 ## Post Capture
 

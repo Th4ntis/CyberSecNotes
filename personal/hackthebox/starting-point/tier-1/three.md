@@ -107,7 +107,7 @@ Answer: aws configure
 
 After configuring aws
 
-<figure><img src="../../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (108) (2).png" alt=""><figcaption></figcaption></figure>
 
 we can look at the S3 documentation.
 
