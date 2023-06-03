@@ -2,22 +2,20 @@
 
 ## About
 
-Basic info of War driving can be found [here](../../general/networking/wireless/wardriving-wifi-sniffing.md). War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially sniffing their traffic. I am running this on a RaspberryPi 4 but you can run this on any linux host.&#x20;
-
-The [RaspberryPi](https://www.amazon.com/raspberry-pi-4/s?k=raspberry+pi+4) is just smaller and more portable. I run this on [Ubuntu](https://ubuntu.com/) and/or [Raspbian](https://www.raspbian.org/).
+Basic info of War driving can be found [here](../../general/networking/wireless/wardriving-wifi-sniffing.md). War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially sniffing their traffic. I am running this on a RaspberryPi 4(Zimaboard coming soon!) but you can run this on any linux host.&#x20;
 
 ## Hardware
 
-* RaspberryPi (I use a 3B+ and a 4) running Ubuntu Server
-* Zimaboard running Ubuntu Server
+* [RaspberryPi](https://www.raspberrypi.com/) (I use a 3B+ and a 4) **OR** [Zimaboard](https://www.zimaboard.com/) running [Ubuntu Server](https://ubuntu.com/server)
 
-I myself have and recommend these adapters:
+I have and recommend these WiFi radios:
 
 ### WiFi Adapters
 
 * [Alfa AWUS036ACM](https://www.amazon.com/Alfa-AWUS036ACM-Long-Range-Dual-Band-Wireless/dp/B073X6RL9D) <-- Capable of 2.4GHz and 5GHz
 * [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox\_sc\_act\_title\_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
 * [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref\_=cm\_sw\_r\_cp\_ud\_dp\_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
+* [WiFi Coconut](https://shop.hak5.org/collections/wifi-pentesting/products/wifi-coconut) <-- Capable of only 2.4GHz BUT has 14 integrated WiFi radios so you can be on all channels, all the time.
 
 ### GPS Adapters
 
@@ -29,6 +27,8 @@ I myself have and recommend these adapters:
 
 * [Kismet](https://www.kismetwireless.net/) - A powerful and popular tool made by [Dragorn](https://twitter.com/KismetWireless). "Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.It works with Wi-Fi interfaces, Bluetooth interfaces, some SDR (software defined radio) hardware like the RTLSDR, and other specialized capture hardware."
   * To install kismet, follow [the guide on their docs](https://www.kismetwireless.net/docs/readme/packages/).
+    * Kismet Config files readme can be found [here](https://www.kismetwireless.net/docs/readme/configuring/configfiles/).
+  * Kismet wardriving overlay docs can be found [here](https://www.kismetwireless.net/docs/readme/configuring/wardrive/).&#x20;
 * [GPSD](https://en.wikipedia.org/wiki/Gpsd) - **gpsd** is a computer software program that collects data from a GPS receiver and provides the data via an IP network to potentially multiple client applications in a server-client application architecture.
   * This can be installed on most Ubuntu/Raspbian `sudo apt install gpsd gpsd-clients`
 
@@ -49,22 +49,6 @@ echo 'deb https://www.kismetwireless.net/repos/apt/git/jammy jammy main' | sudo 
 sudo apt update
 sudo apt install kismet
 ```
-
-## Equipment
-
-I myself have and recommend these adapters:
-
-### WiFi Adapters
-
-* [Alfa AWUS036ACM](https://www.amazon.com/Alfa-AWUS036ACM-Long-Range-Dual-Band-Wireless/dp/B073X6RL9D) <-- Capable of 2.4GHz and 5GHz
-* [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox\_sc\_act\_title\_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
-* [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref\_=cm\_sw\_r\_cp\_ud\_dp\_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
-
-### GPS Adapters
-
-* [GlobalSat BU-353-S4](https://www.amazon.com/GlobalSat-BU-353-S4-Receiver-Black-Improved-New/dp/B098L799NH/ref=sr\_1\_1?crid=2WAQ665IR5UV1\&keywords=GlobalSat+BU-353-S4\&qid=1660969339\&s=electronics\&sprefix=globalsat+bu-353-s4+%2Celectronics%2C148\&sr=1-1)
-* [VK-162](https://www.amazon.com/dp/B01EROIUEW?ref=ppx\_pop\_mob\_ap\_share)
-* [HiLetgo VK172](https://www.amazon.com/dp/B01MTU9KTF?ref=ppx\_pop\_mob\_ap\_share)
 
 ## Process
 
@@ -100,7 +84,7 @@ OR
 gpsd -b /dev/ttyUSB0
 ```
 
-To verify if it is working properly we can run `gpsmon` OR `cgps`
+To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
 ![](<../../.gitbook/assets/image (7) (2).png>)
 
@@ -149,6 +133,10 @@ and just as above, If you don't specify an interface in the original command, wh
 <figure><img src="../../.gitbook/assets/image (7) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
+
+## Autostarting Kismet
+
+The README for starting Kismet at launch can be found [here on their github](https://github.com/kismetwireless/kismet/blob/master/packaging/systemd/README).
 
 ## Post Capture
 
