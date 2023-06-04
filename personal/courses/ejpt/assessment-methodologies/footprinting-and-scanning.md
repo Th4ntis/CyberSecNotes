@@ -76,7 +76,7 @@ We have seen in the previous section
 
 `sudo nmap -sn 172.16.8.0/24`
 
-<figure><img src="../../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ###
 

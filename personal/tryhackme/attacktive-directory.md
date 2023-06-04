@@ -6,7 +6,7 @@ My walkthrough on the [Attacktive Directory room](https://tryhackme.com/room/att
 
 Basic enumeration starts out with an **nmap scan**. [Nmap](../../general/networking/nmap.md) is a utility that can be used to detect what ports are open on a device, what services are running, and even detect what operating system is running.
 
-![](<../../.gitbook/assets/image (1) (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (1) (2) (1).png>)
 
 ### Question 1: What tool will allow us to enumerate port 139/445?
 
@@ -18,7 +18,7 @@ _This answer came from previous knowledge of enumeration tools... and guessing._
 
 Answer: **THM-AD**
 
-![](<../../.gitbook/assets/image (2) (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (2) (1) (1) (1).png>)
 
 ### Question 3: What invalid TLD do people commonly use for their Active Directory Domain?
 

@@ -90,7 +90,7 @@ Verify this was successfully mounted with: `df -h -x tmpfs`
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
-Since this was done as the root user, only the root user and create/modify files and directories in that drive so let's change the owner to us with: `sudo chown th4ntis:th4ntis /mnt/data/`
+Since this was done as the root user, only the root user and create/modify files and directories in that drive so let's change the owner to us with: `sudo chown th4ntis:th4ntis /mnt/data/`(changing th4ntis with your username)
 
 ### kismet\_site.conf file
 
@@ -109,15 +109,27 @@ log_prefix=/mnt/data/kismet
 log_types+=wiglecsv
 ```
 
-## Setup(RPi) - WIP
+## Setup(RPi)
 
 ### kismet\_site.conf file
 
-As long as you have a large enough MicroSD the Pi is running on, you _**should**_ be fine BUT if you would like to use an external HDD or USB Drive for storage, we need to set that to automount.&#x20;
+As long as you have a large enough MicroSD the Pi is running on, you _**should**_ be fine BUT if you would like to use an external HDD or USB Drive for storage, we need to set that to automount.
+
+Verify the drive you want mounted with: `df -h` andverify where it's mount location.
+
+We need to find the UUID of the Drive we mounted, most likely will be `/dev/sda1` but not always the case, so be sure to verify. Find the UUID with: `sudo blkid /dev/sda1`
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+We need to create a directory for this to me auto mounted on boot: `sudo mkdir -p /mnt/usb1`
+
+Now change the ower of the newly made directory: `sudo chown -R th4ntis:th4ntis /mnt/usb1`(changing th4ntis with your username)
 
 To set this to auto mount on startup I edited my `/etc/fstab` with: `sudo nano /etc/fstab`
 
-Then added this to the bottom of the file: (COMING SOON)
+Then added this to the bottom of the file: `UUID=[UUID] /mnt/usb1 [TYPE] defaults,auto,users,rw,nofail,noatime 0 0` changing the \[UUID] and \[TYPE] to the UUID and type of your drive when we used `sudo blkid /dev/sda1`.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 We have a couple options, we can edit the kismet.conf file OR use the kismet\_site.conf file. I chose the kismet\_site.conf file.
 
@@ -128,7 +140,7 @@ I changed the log location to the external HDD or USb Drive location: \
 
 ```
 # Changes log location
-log_prefix=(COMING SOON)
+log_prefix=/dev/usb1
 
 # Turn on wiglecsv format
 log_types+=wiglecsv

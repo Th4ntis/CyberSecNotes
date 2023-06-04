@@ -98,7 +98,7 @@ Answer: 200
 
 When browsing to (IP)/admin.php
 
-![](<../../../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Took a stab in the dark with **admin:admin**
 
