@@ -8,20 +8,24 @@ Basic info of War driving can be found [here](../../general/networking/wireless/
 
 * [RaspberryPi](https://www.raspberrypi.com/) (I use a 3B+ and a 4) **OR** [Zimaboard](https://www.zimaboard.com/) running [Ubuntu Server](https://ubuntu.com/server)
 
-I have and recommend these WiFi radios:
+I have and recommend the following:
 
-### WiFi Adapters
+#### WiFi Adapters
 
 * [Alfa AWUS036ACM](https://www.amazon.com/Alfa-AWUS036ACM-Long-Range-Dual-Band-Wireless/dp/B073X6RL9D) <-- Capable of 2.4GHz and 5GHz
 * [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox\_sc\_act\_title\_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
 * [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref\_=cm\_sw\_r\_cp\_ud\_dp\_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
 * [WiFi Coconut](https://shop.hak5.org/collections/wifi-pentesting/products/wifi-coconut) <-- Capable of only 2.4GHz BUT has 14 integrated WiFi radios so you can be on all channels, all the time.
 
-### GPS Adapters
+#### GPS Adapters
 
 * [GlobalSat BU-353-S4](https://www.amazon.com/GlobalSat-BU-353-S4-Receiver-Black-Improved-New/dp/B098L799NH/ref=sr\_1\_1?crid=2WAQ665IR5UV1\&keywords=GlobalSat+BU-353-S4\&qid=1660969339\&s=electronics\&sprefix=globalsat+bu-353-s4+%2Celectronics%2C148\&sr=1-1)
 * [VK-162](https://www.amazon.com/dp/B01EROIUEW?ref=ppx\_pop\_mob\_ap\_share)
 * [HiLetgo VK172](https://www.amazon.com/dp/B01MTU9KTF?ref=ppx\_pop\_mob\_ap\_share)
+
+#### Storage
+
+* [Samsung 870 2.5 SSD](https://www.amazon.com/dp/B08QBJ2YMG) - This is for the Zimaboard as it doesn't have much storage starting out.
 
 ## Software
 
@@ -52,9 +56,154 @@ sudo usermod -aG kismet your-user-here
 sudo apt install kismet
 ```
 
-## Process
+## Setup(Zimaboard)
 
-After plugging in your adapter, depending which one you have, you'll wanna set the GPSD to the proper adapter. We can run `dmesg` to find the location of the USB device. The usual locations are:
+### Settin up the SSD for the Zimaboard
+
+**\*\*Skip this if you're running with a RaspberryPi\*\***
+
+Run `lsblk` and find the storage partition, most likely it will be `sda`.
+
+<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+
+Lets give the partition a label with `sudo parted /dev/sda mklabel gpt`
+
+Now we can create the partition: `sudo parted -a opt /dev/sda mkpart primary ext4 0% 100%`
+
+After running `lsblk` again we will see `/dev/sda1`&#x20;
+
+Create a filesystem on on the new partition with: `sudo mkfs.ext4 -L datapartition /dev/sda1`
+
+Give the new parition an ame with: `sudo e2label /dev/sda1 newlabel`
+
+I went ahead and mounted the partition under the `/mnt` directory but made it a folder called 'data': `sudo mkdir -p /mnt/data`
+
+To set this to auto mount on startup I edited my `/etc/fstab` with: `sudo nano /etc/fstab`
+
+Then added this to the bottom of the file: `/dev/sda1 /mnt/data ext4 defaults 0 2`
+
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+Now mount the new drive with: `sudo mount -a`
+
+Verify this was successfully mounted with: `df -h -x tmpfs`
+
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+
+Since this was done as the root user, only the root user and create/modify files and directories in that drive so let's change the owner to us with: `sudo chown th4ntis:th4ntis /mnt/data/`
+
+### kismet\_site.conf file
+
+As the Zimaboard doesn't have a lot of storage and we want to change the log storage to the SSD, we have a couple options, we can edit the kismet.conf file OR use the kismet\_site.conf file. I chose the kismet\_site.conf file.
+
+Edit the file: `sudo nano /etc/kismet/kismet_site.conf`
+
+I changed the log location to: `/mnt/data/kismet`\
+&#x20;as well as added the wiglecsv format for logging to upload
+
+```
+# Changes log location
+log_prefix=/mnt/data/kismet
+
+# Turn on wiglecsv format
+log_types+=wiglecsv
+```
+
+## Setup(RPi) - WIP
+
+### kismet\_site.conf file
+
+As long as you have a large enough MicroSD the Pi is running on, you _**should**_ be fine BUT if you would like to use an external HDD or USB Drive for storage, we need to set that to automount.&#x20;
+
+To set this to auto mount on startup I edited my `/etc/fstab` with: `sudo nano /etc/fstab`
+
+Then added this to the bottom of the file: (COMING SOON)
+
+We have a couple options, we can edit the kismet.conf file OR use the kismet\_site.conf file. I chose the kismet\_site.conf file.
+
+Edit the file: `sudo nano /etc/kismet/kismet_site.conf`
+
+I changed the log location to the external HDD or USb Drive location: \
+&#x20;as well as added the wiglecsv format for logging to upload
+
+```
+# Changes log location
+log_prefix=(COMING SOON)
+
+# Turn on wiglecsv format
+log_types+=wiglecsv
+```
+
+## Setup Cont. (Both RPi and Zimaboard)
+
+I took the setup from the kismet\_wardrive.conf and added it to the end my kismet\_site.conf
+
+```
+# Kismet wardrive mode
+
+# This is an example of an override config file.  Override configs can be
+# selected with the '--override' option when launching Kismet, for example:
+#
+# kismet --override wardrive
+
+# Override configurations can be combined with normal configuration files,
+# as well as kismet_site.conf.  For more information, check the Kismet docs:
+# https://www.kismetwireless.net/docs/readme/config_files/#configuration-override-flavors
+
+# This configuration sets several options to optimize Kismet for wardriving.
+# It will only track and log Wi-Fi access points (other phy types like rtl433 and 
+# bluetooth are logged normally).  In general it configures Kismet to use less RAM
+# and disk space whenever possible.
+
+
+# Notify that we're in wardriving mode and will not be capturing full data
+load_alert=WARDRIVING:Kismet is in survey/wardriving mode.  This turns off tracking non-AP devices and most packet logging.
+
+
+# Turn on wiglecsv format
+log_types+=wiglecsv
+
+
+# Turn off HT20, HT40, and VHT options on wifi datasources (unless they explicitly set them)
+dot11_datasource_opt=ht_channels,false
+dot11_datasource_opt=vht_channels,false
+dot11_datasource_opt=default_ht20,false
+dot11_datasource_opt=expand_ht20,false
+# Set to only 802.11 management and eapol frames on all datasources
+dot11_datasource_opt=filter_mgmt,true
+
+# Only track access points; this prevents Kismet from tracking non-AP Wi-Fi devices,
+# such as clients, probing devices, wired devices visible from the Wi-Fi network, etc.
+dot11_ap_only_survey=true
+
+# No need to fingerprint devices
+dot11_fingerprint_devices=false
+
+# Don't keep IE tags in RAM
+dot11_keep_ietags=false
+
+# Don't keep eapol in RAM
+dot11_keep_eapol=false
+
+
+# Turn off logging we don't use in wardriving scenarios
+
+# Don't log channel use
+kis_log_channel_history=false
+
+# Don't log datasource counts
+kis_log_datasources=false
+```
+
+Now we need to add the WiFi Radios, GPS, and Bluetooth sources to the kismet\_site.conf
+
+After plugging in your WiFi Radios, GPS, and Bluetooth adapters, depending which one you have, you'll wanna set the GPSD to the proper adapter. We can run `dmesg` to find the location of the USB device. The usual locations are:
+
+#### WiFi Radios:
+
+Let's get the radio 'names' with: `ip a`
+
+#### GPS:
 
 GlobatSat BU-353-S4:
 
@@ -153,7 +302,7 @@ By default, the Kismet systemd service runs Kismet as root; this is NOT best pra
 
 So lets set this up to run as our user. `sudo systemctl edit kismet` so edit the service. Changing the user to the 'kismet' user **OR** as the user you have setup.
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93) (2).png" alt=""><figcaption></figcaption></figure>
 
 So with this setup, let's start the service with `sudo service kismet start`.
 
@@ -161,7 +310,7 @@ Set the service to start on boot with: `sudo systemctl enable kismet`.
 
 Verify the Kismet service is running with: `sudo service kismet status`.
 
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
 
 ## Post Capture
 

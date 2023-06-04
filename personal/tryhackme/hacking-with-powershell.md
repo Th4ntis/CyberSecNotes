@@ -129,7 +129,7 @@ An example of sort the list of directories:
 
 `notsointerestingcontent` - Running `Get-Content 'C:\Program Files\interesting-File.txt.txt'` will give us our answer
 
-![](<../../.gitbook/assets/image (83).png>)
+![](<../../.gitbook/assets/image (83) (1).png>)
 
 ### Question 3: How many cmdlets are installed on the system(only cmdlets, not functions and aliases)?
 
