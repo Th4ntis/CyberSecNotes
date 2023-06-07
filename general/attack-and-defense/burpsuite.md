@@ -61,9 +61,9 @@ The scope will be sure to only intercept traffic to the specific IPs or websites
 
 If we want to intercept HTTPS traffic, we need to do a couple extra steps. When we attempt to, we're met with
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-Telling us that the PortSwigger certificate isn't authorised to secure the connection. To fix this: with the proxy activated head to [http://burp/cert](http://burp/cert), this will download a file called `cacert.der`.
+Telling us that the PortSwigger certificate isn't authorized to secure the connection. To fix this: with the proxy activated head to [http://burp/cert](http://burp/cert), this will download a file called `cacert.der`.
 
 With that file saved to your machine, open your Firefox setting, then search the page for "certificates" to find the option to "View Certificates" OR under "Privacy & Security" we can view the certificates.
 
@@ -73,13 +73,17 @@ Select "View Certificates" and under the "Authorities" tab, we can import a new 
 
 <figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
-Select "Trust this CA to identify websites" and click ok.
+Select "Trust this CA to identify websites" and click OK.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+and we're set.
 
 ### Burp Browser
 
-There IS an option to start and use the Burp Brower that opens a Chromium window that makes all traffic go through burp without any extra setup, this is not super commonly used to my knowledge as most people prefer to use their browser of choice.
+There IS an option to start and use the Burp Browser that opens a Chromium window that makes all traffic go through burp without any extra setup, this is not super commonly used to my knowledge as most people prefer to use their browser of choice.
 
 To get to this: `Proxy > Intercept > Open Browser`
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
