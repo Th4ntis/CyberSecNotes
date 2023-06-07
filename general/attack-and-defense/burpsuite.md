@@ -59,7 +59,21 @@ The scope will be sure to only intercept traffic to the specific IPs or websites
 
 ### HTTPS Traffic
 
+If we want to intercept HTTPS traffic, we need to do a couple extra steps. When we attempt to, we're met with
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Telling us that the PortSwigger certificate isn't authorised to secure the connection. To fix this: with the proxy activated head to [http://burp/cert](http://burp/cert), this will download a file called `cacert.der`.
+
+With that file saved to your machine, open your Firefox setting, then search the page for "certificates" to find the option to "View Certificates" OR under "Privacy & Security" we can view the certificates.
+
+<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+Select "View Certificates" and under the "Authorities" tab, we can import a new cert.
+
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+
+Select "Trust this CA to identify websites" and click ok.
 
 ### Burp Browser
 

@@ -129,7 +129,7 @@ To set this to auto mount on startup I edited my `/etc/fstab` with: `sudo nano /
 
 Then added this to the bottom of the file: `UUID=[UUID] /mnt/usb1 [TYPE] defaults,auto,users,rw,nofail,noatime 0 0` changing the \[UUID] and \[TYPE] to the UUID and type of your drive when we used `sudo blkid /dev/sda1`.
 
-<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 We have a couple options, we can edit the kismet.conf file OR use the kismet\_site.conf file. I chose the kismet\_site.conf file.
 
@@ -219,7 +219,7 @@ Let's get the radio 'names' with: `ip a`
 
 As I am using a WiFi Coconut, I will be having a lot of WiFi Radios. So take the WiFi interface name, eg. wlx0cefafd1408b, and copy as many of them as you have/will be using. Then we will edit the `kismet_site.conf` file and add the sources to that.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (5).png" alt=""><figcaption></figcaption></figure>
 
 #### GPS:
 
@@ -261,7 +261,7 @@ To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
 Now, in our kismet\_site.conf, we will add GPSD as a GPS source.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Running - Normal Mode
 
