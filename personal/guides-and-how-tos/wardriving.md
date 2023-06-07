@@ -88,7 +88,7 @@ Now mount the new drive with: `sudo mount -a`
 
 Verify this was successfully mounted with: `df -h -x tmpfs`
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72) (2).png" alt=""><figcaption></figcaption></figure>
 
 Since this was done as the root user, only the root user and create/modify files and directories in that drive so let's change the owner to us with: `sudo chown th4ntis:th4ntis /mnt/data/`(changing th4ntis with your username)
 
@@ -119,7 +119,7 @@ Verify the drive you want mounted with: `df -h` andverify where it's mount locat
 
 We need to find the UUID of the Drive we mounted, most likely will be `/dev/sda1` but not always the case, so be sure to verify. Find the UUID with: `sudo blkid /dev/sda1`
 
-<figure><img src="../../.gitbook/assets/image (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (3) (3).png" alt=""><figcaption></figcaption></figure>
 
 We need to create a directory for this to me auto mounted on boot: `sudo mkdir -p /mnt/usb1`
 
@@ -261,7 +261,7 @@ To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
 Now, in our kismet\_site.conf, we will add GPSD as a GPS source.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## Running - Normal Mode
 
