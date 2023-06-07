@@ -51,11 +51,11 @@ When we're ready to start intercepting our traffic, we can go to the proxy tab, 
 
 Setting a scope for the project allows us to define what gets proxied and logged. We can restrict Burp Suite to _only_ target the web application(s) that we want to test. We can set our scope by Selecting: `Target > Scope`
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To do this switch over to the "Target" tab, right-click our target from the list on the left, then choose "Add To Scope". Burp will then ask us whether we want to stop logging anything which isn't in scope, we want to choose yes.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
 
@@ -87,7 +87,7 @@ Select "View Certificates" and under the "Authorities" tab, we can import a new 
 
 Select "Trust this CA to identify websites" and click OK.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 and we're set.
 
@@ -97,5 +97,67 @@ There IS an option to start and use the Burp Browser that opens a Chromium windo
 
 To get to this: `Proxy > Intercept > Open Browser`
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+### Repeater
+
+Burp Suite Repeater lets us craft and/or relay intercepted requests to a target. It essentially means we can take a request captured in the Proxy, edit it, and send the same request repeatedly as many times as we want.
+
+With a request captured in the proxy, we can send to repeater either by right-clicking on the request and choosing "Send to Repeater" or by pressing `CTRL+R`
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Back in the 'Repeater' tab, we can see the request.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+We have no response yet, until we press the "send" button at the top left.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+To change anything about the request, we can simply type in the Request window and press "Send" again, this will update the Response on the right.
+
+Under reponse, the different tabs:
+
+* **Pretty**: This is the default option. It takes the raw response and makes it easier to read.
+* **Raw**: The pure response from the server.
+* **Hex**: This view takes the raw response and gives us a byte view of it, useful if the response is a binary file.
+* **Render**: The render view renders the page as it would appear in your browser.
+
+## Intruder
+
+Intruder is Burp Suite's in-built fuzzing tool. It lets us to take a request and use it as a template to send many more requests with some altered values automatically. Eg. Capturing a request containing a login attempt, we could configure Intruder to change the username and password fields for values from a wordlist, allowing us to attempt to bruteforce the login.
+
+To access the full speed of Intruder, we need Burp Professional. We can still use Intruder with Burp Community, but it is heavily rate-limited.
+
+Intruder Subtabs:
+
+* Positions allows us to select an Attack Type and configure where in the request template we wish to use in our payloads.
+* Payloads allows us to select values to insert into each of the positions we defined in the previous sub-tab.&#x20;
+* Resource Pool allows us to divide our resources between tasks. Burp Pro would allow us to run various types of automated tasks in the background, which is where we may wish to manually allocate our available memory and processing power between these automated tasks and Intruder.&#x20;
+* Options/Settings sub-tab apply primarily to how Burp handles results and how Burp handles the attack itself. Eg. we can choose to flag requests that contain specified pieces of text or define how Burp responds to redirect (3xx) responses.
+
+### Attack Types
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+* Sniper
+  * Sniper is the first and most common attack type. We give _one_ set of payloads. Eg. This could be a single file containing a wordlist.
+* Battering Ram
+  * Like Sniper, Battering ram takes a set of payloads. Unlike Sniper, the Battering ram puts the same payload in _every_ position rather than in each position in turn.
+* Pitchfork
+  * After Sniper, Pitchfork is the attack type you are most likely to use. Its like having numerous Snipers running simultaneously. Where Sniper uses _one_ payload set, Pitchfork uses one payload set per position (up to a maximum of 20) and iterates through them all at once.
+* Cluster Bomb
+  * Like Pitchfork, Cluster bomb allows us to choose multiple payload sets: one per position, up to a maximum of 20 but Pitchfork iterates through each payload set simultaneously, Cluster bomb iterates through each payload set individually, making sure that every possible combination of payloads is tested.
+
+### Payloads
+
+This tab allows us to choose which position we want to configure a set for as well as what type of payload we would like to use.
+
+When we use an attack type that only allows for a single payload set (Sniper or Battering Ram), the dropdown menu for "Payload Set" will only have one option, regardless of how many positions we have defined.
+
+If we are using one of the attack types that use multiple payload sets (Pitchfork or Cluster Bomb), then there will be one item in the dropdown for each position.
+
+The "payload type" is a "Simple list" lets us load in a wordlist to use. Payload Options differ depending on the payload type we select for the current payload set. Eg. A "Simple List" payload type will give us a box to add and remove payloads to and from the set. We can do this manually using the "Add" text box, paste lines in with "Paste", or "Load..." from a file. Payload Processing allows us to define rules to be applied to each payload in the set before being sent to the target.
+
+Payload Encoding section allows us to override the default URL encoding options that are applied automatically to allow for the safe transmission of our payload.
