@@ -4,10 +4,6 @@
 
 Plenty of good info and hands on from the [TryHackMe modules](https://tryhackme.com/module/learn-burp-suite).
 
-
-
-\*Note: This section is currently still being updated.
-
 ## Setup
 
 ### Browser Setup
