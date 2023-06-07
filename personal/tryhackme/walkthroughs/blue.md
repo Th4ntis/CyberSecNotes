@@ -25,7 +25,7 @@ We can find our answer pretty easily.
 
 Our argument of --script vuln scanned the target for any known vulnerabilities, which returned:
 
-![](<../../../.gitbook/assets/image (103) (1) (1).png>)
+![](<../../../.gitbook/assets/image (103) (1).png>)
 
 showing the target is vulnerable to: ms17-010
 
@@ -75,7 +75,7 @@ This may or may not work for you so try different processes to migrate to.
 
 From our meterpreter session, we can run hashdump to show us all the users and hashed passwords of the users on the system.
 
-![](<../../../.gitbook/assets/image (5) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1) (1).png>)
 
 ### Question #2: Copy this password hash to a file and research how to crack it. What is the cracked password?
 

@@ -37,7 +37,7 @@ DNS interrogation is the process of enumerating DNS Records for a specific domai
 
 #### DNSRecon:
 
-<figure><img src="../../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### DNSEnum:
 
@@ -63,7 +63,7 @@ A DNS reconnaissance tool for locating non-contiguous IP space. Can be used to B
 
 Finding your IP address and subnet of the network youre on `ip a`&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 With Nmap we use the `-sn` argument, for no port scan. This is just to discover hosts that are online and is known as a ping scan or ping sweep. &#x20;
 
@@ -117,7 +117,7 @@ If we scan a port that is not open, 8080, for example, we may see a status of 'f
 nmap -Pn -p 8080 172.16.8.131
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 We can also specify a port range with `-p1-1000`
 

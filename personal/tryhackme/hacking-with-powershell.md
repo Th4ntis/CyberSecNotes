@@ -47,7 +47,7 @@ Get-Command gets all the _cmdlets_ installed on the current Computer. This _cmdl
 
 Running `Get-Command New-*` to view all the _cmdlets_ for the verb new displays:
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1).png>)
 
 #### Object Manipulation
 
@@ -64,7 +64,7 @@ An example of running this to view the members for Get-Command is:
 
 `Get-Command | Get-Member -MemberType Method`
 
-![](<../../.gitbook/assets/image (17) (1) (1).png>)
+![](<../../.gitbook/assets/image (17) (1).png>)
 
 #### Creating Objects From Previous _cmdlets_
 
@@ -72,7 +72,7 @@ One way of manipulating objects is pulling out the properties from the output of
 
 An example of listing the directories and just selecting the mode and the name:
 
-![](<../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1).png>)
 
 We can also use the following flags to select particular information:
 
@@ -105,7 +105,7 @@ Full list of operators can be found [here](https://docs.microsoft.com/en-us/powe
 
 An example of checking the stopped processes:
 
-![](<../../.gitbook/assets/image (112) (1) (1).png>)
+![](<../../.gitbook/assets/image (112) (2).png>)
 
 #### Sort Object
 
@@ -129,7 +129,7 @@ An example of sort the list of directories:
 
 `notsointerestingcontent` - Running `Get-Content 'C:\Program Files\interesting-File.txt.txt'` will give us our answer
 
-![](<../../.gitbook/assets/image (83) (1).png>)
+![](<../../.gitbook/assets/image (83).png>)
 
 ### Question 3: How many cmdlets are installed on the system(only cmdlets, not functions and aliases)?
 
@@ -159,7 +159,7 @@ An example of sort the list of directories:
 
 `Invoke-WebRequest`
 
-![](<../../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (1).png>)
 
 ### Question 8: Base64 decode the file b64.txt on Windows
 
@@ -272,7 +272,7 @@ Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Intern
 
 `NT SERVICE\TrustedInstaller` - Running `Get-Acl c:/` will show us the owner.
 
-![](<../../.gitbook/assets/image (105) (1) (1).png>)
+![](<../../.gitbook/assets/image (105) (1).png>)
 
 ## Task 5
 

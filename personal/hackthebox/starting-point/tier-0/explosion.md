@@ -104,6 +104,6 @@ Answer: /v:
 
 #### Submit root flag
 
-![](<../../../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1) (1) (3).png>)
 
 Answer: 951fa96d7830c451b536be5a6be008a0

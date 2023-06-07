@@ -33,7 +33,7 @@ Click Save and ta-da!
 
 From here, when we want to use BurpSuite, we can click on the extension icon and select our Burp proxy
 
-![](<../../.gitbook/assets/image (6) (1) (2).png>)
+![](<../../.gitbook/assets/image (6) (1) (1).png>)
 
 ## Usage
 
@@ -51,7 +51,7 @@ When we're ready to start intercepting our traffic, we can go to the proxy tab, 
 
 Setting a scope for the project allows us to define what gets proxied and logged. We can restrict Burp Suite to _only_ target the web application(s) that we want to test. We can set our scope by Selecting: `Target > Scope`
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 To do this switch over to the "Target" tab, right-click our target from the list on the left, then choose "Add To Scope". Burp will then ask us whether we want to stop logging anything which isn't in scope, we want to choose yes.
 
@@ -63,11 +63,11 @@ The scope will be sure to only intercept traffic to the specific IPs or websites
 
 or we can manually add them: `Target > Scope Settings > Include in Scope > Add`
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 We chose to disable _logging_ for out of scope traffic, but the proxy will still be intercepting everything. So lets turn that off. Proxy > Options/Proxy Settings > Select "AND | URL | Is in target scope". The proxy will completely ignore anything that isn't in the scope, cleaning up the traffic coming through Burp.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### HTTPS Traffic
 
@@ -87,7 +87,7 @@ Select "View Certificates" and under the "Authorities" tab, we can import a new 
 
 Select "Trust this CA to identify websites" and click OK.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (5).png" alt=""><figcaption></figcaption></figure>
 
 and we're set.
 
@@ -113,7 +113,7 @@ Back in the 'Repeater' tab, we can see the request.
 
 We have no response yet, until we press the "send" button at the top left.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 To change anything about the request, we can simply type in the Request window and press "Send" again, this will update the Response on the right.
 

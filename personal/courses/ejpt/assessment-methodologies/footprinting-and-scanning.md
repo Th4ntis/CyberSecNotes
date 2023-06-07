@@ -46,7 +46,7 @@ We can go to Statistics > Endpoints to see a list of MAC addresses.
 
 Looking in the logs, we can also see a reply telling us the MAC address of the IP
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### ARP-Scan
 
