@@ -85,6 +85,7 @@
     * [Manpage](personal/guides-and-how-tos/over-the-wire/manpage.md)
   * [Staying Private and goin Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [📓 Courses](personal/courses/README.md)
+  * [Pentest+](personal/courses/pentest+.md)
   * [eJPT](personal/courses/ejpt/README.md)
     * [Assessment Methodologies](personal/courses/ejpt/assessment-methodologies/README.md)
       * [Information Gathering](personal/courses/ejpt/assessment-methodologies/information-gathering/README.md)
