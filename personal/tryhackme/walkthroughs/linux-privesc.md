@@ -126,7 +126,7 @@ Time to crack the passwords!
 
 ![](<../../../.gitbook/assets/image (107) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (32).png>)
+![](<../../../.gitbook/assets/image (32) (1).png>)
 
 ### Question 3: What is the content of the flag3.txt file?
 
