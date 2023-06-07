@@ -161,3 +161,18 @@ If we are using one of the attack types that use multiple payload sets (Pitchfor
 The "payload type" is a "Simple list" lets us load in a wordlist to use. Payload Options differ depending on the payload type we select for the current payload set. Eg. A "Simple List" payload type will give us a box to add and remove payloads to and from the set. We can do this manually using the "Add" text box, paste lines in with "Paste", or "Load..." from a file. Payload Processing allows us to define rules to be applied to each payload in the set before being sent to the target.
 
 Payload Encoding section allows us to override the default URL encoding options that are applied automatically to allow for the safe transmission of our payload.
+
+### Decoder
+
+The Decoder module allows us to manipulate data. We can decode information that we capture during an attack, but we can also _encode_ data of our own.
+
+### Comparer
+
+Comparer allows us to compare two pieces of data, either by ASCII words or by bytes.
+
+### Sequencer
+
+Sequencer is one of those tools that rarely ever gets used in CTFs and other lab environments but is an essential part of a real-world web app penetration test. Sequencer allows us to measure the randomness of "tokens", strings that are used to identify something and should be generated in a "cryptographically" secure manner.
+
+* Live capture is the more common of the two methods, it allows us to pass a request to Sequencer, which we know will create a token for us to analyse. Eg. If we pass a POST request to a login endpoint into Sequencer, the server will respond by giving us a cookie. With the request passed off, we can tell Sequencer to start a live capture. It then makes the same request thousands of times automatically, storing the generated token samples for analysis. Once we have enough samples, we stop Sequencer and allow it to analyse the captured tokens.
+* Manual load allows us to load a list of pre-generated token samples straight into Sequencer for analysis. Using this means we don't have to make thousands of requests to our target, which is loud and resource intensive, but it does mean that we need to obtain a large list of pre-generated tokens.
