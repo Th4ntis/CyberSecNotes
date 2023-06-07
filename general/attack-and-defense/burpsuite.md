@@ -56,3 +56,16 @@ When we're ready to start intercepting our traffic, we can go to the proxy tab, 
 The scope will be sure to only intercept traffic to the specific IPs or websites. We can set our scope by Selecting Target > Scope
 
 ![](<../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
+
+### HTTPS Traffic
+
+
+
+### Burp Browser
+
+There IS an option to start and use the Burp Brower that opens a Chromium window that makes all traffic go through burp without any extra setup, this is not super commonly used to my knowledge as most people prefer to use their browser of choice.
+
+To get to this: `Proxy > Intercept > Open Browser`
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
