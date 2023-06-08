@@ -7,7 +7,7 @@
 
 * [🖥 General Info](general/general-info/README.md)
   * [Security+](general/general-info/security+.md)
-  * [Pentest+](general/general-info/pentest+.md)
+  * [Pentest+](personal/courses/pentest+/README.md)
   * [Learning Resources](general/general-info/learning-resources.md)
   * [MITRE ATT\&CK](general/general-info/mitre-att-and-ck.md)
   * [Cyber Kill Chain](general/general-info/cyber-kill-chain.md)

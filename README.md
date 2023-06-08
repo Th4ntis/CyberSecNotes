@@ -11,22 +11,14 @@ There will be pages with little to no content as this is and will be a work in p
 
 Any and all suggestions welcome.
 
-**Note:** I do not claim any copyrighted content. Any of the tools or methods here are for reference, research, and educational purposes only and not to be used for unethical, questionable or illegal activities.
+[Table of Contents can be found here](table-of-contents.md)
 
-Table of Contents:
-
-|                                                     |                                                   |
-| --------------------------------------------------- | ------------------------------------------------- |
-| [General](general/general-info/)                    | [Networking](general/networking/)                 |
-| [Linux](general/linux/)                             | [Windows](general/windows/)                       |
-| [OSINT](general/osint/)                             | [Attack and Defense](general/attack-and-defense/) |
-| [TryHackMe](personal/tryhackme/)                    | [HackTheBox](personal/hackthebox/)                |
-| [Guides and How-To's](personal/guides-and-how-tos/) | [Courses](personal/courses/)                      |
-
-Social:
+Social stuff:
 
 |                                                         |                                                         |
 | ------------------------------------------------------- | ------------------------------------------------------- |
 | [Twitter](https://twitter.com/Th4ntis)                  | [Mastodon](https://infosec.exchange/web/@th4ntis)       |
 | [LinkedIn](https://www.linkedin.com/in/damian-roneker/) | [Github](https://github.com/Th4ntis)                    |
 | [TryHackMe](https://tryhackme.com/p/th4ntis)            | [HackTheBox](https://app.hackthebox.com/profile/274909) |
+
+**Note:** I do not claim any copyrighted content. Any of the tools or methods here are for reference, research, and educational purposes only and not to be used for unethical, questionable or illegal activities.
