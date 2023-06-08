@@ -30,5 +30,9 @@ There are a lot of learning resources out there and some are free, some paid, so
 * [David Bombal](https://www.youtube.com/c/DavidBombal)
 * [InfoSecEDU](https://www.youtube.com/@InfosecEdu)
 
+### Videos
+
+* [Udemy](https://udemy.com)
+
 Additional resources thanks to: [7h3h4ckv157](https://twitter.com/7h3h4ckv157) and [danielmakelley](https://twitter.com/danielmakelley). [Twitter list here](https://twitter.com/7h3h4ckv157/status/1575875803744591872?s=20\&t=AsH0RR8UAiC5pZXyHu70hw)
 
