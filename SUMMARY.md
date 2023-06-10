@@ -70,6 +70,7 @@
 * [😈 Guides and How-To's](personal/guides-and-how-tos/README.md)
   * [Lab Setup](personal/guides-and-how-tos/lab-setup/README.md)
     * [Ubuntu VM](personal/guides-and-how-tos/lab-setup/ubuntu-vm.md)
+    * [Kali VM](personal/guides-and-how-tos/lab-setup/kali-vm.md)
     * [Windows User VM](personal/guides-and-how-tos/lab-setup/windows-user-vm.md)
     * [Windows Server VM](personal/guides-and-how-tos/lab-setup/windows-server-vm.md)
   * [Wardriving](personal/guides-and-how-tos/wardriving.md)
