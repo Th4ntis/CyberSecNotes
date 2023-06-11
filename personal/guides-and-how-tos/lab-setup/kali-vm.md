@@ -110,6 +110,8 @@ Once install is finished, you'll beboot the system and done!
 
 <figure><img src="../../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
 
+### Post Install
+
 Once we're in, it's a good idea to open the terminal, and we update everything with `sudo apt update && sudo apt upgrade -y`.
 
 Now is when you will want to shut down the VM and adjust RAM and Processors if needed. Drop it for 2GB or 4GB of RAM and 1 or 2 processors.
@@ -120,7 +122,17 @@ I recommend using some additional software such as [PimpMyKali from DeWalt](http
 
 ## Kali VM
 
-COMING SOON!
+Of the VM Software you can use for the VM of this, I will be using VMWare.
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you..
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+
+
+### Post Install
 
 Once we're in, it's a good idea to open the terminal, and we update everything with `sudo apt update && sudo apt upgrade -y`.
 
