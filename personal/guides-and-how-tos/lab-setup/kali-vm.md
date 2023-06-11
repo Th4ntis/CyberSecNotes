@@ -124,13 +124,21 @@ I recommend using some additional software such as [PimpMyKali from DeWalt](http
 
 Of the VM Software you can use for the VM of this, I will be using VMWare.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you..
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
+With the VM extracted, within VMWare, File > Open, then navigate to the directory with the .vmx file.
 
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+From here, you can see the default settings on the site, but can edit them better suited to your machine.
+
+<figure><img src="../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
+
+Upon launching, the default credentials are be the word `kali` for the username AND password.
 
 ### Post Install
 
