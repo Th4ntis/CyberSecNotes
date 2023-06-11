@@ -12,6 +12,11 @@ For Linux VMs I use [Kubuntu](https://kubuntu.org/) usually just as I prefer KDE
 
 I typically test on/against [Windows 10 Enterprise](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise) and [Windows Server 2019](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019). There are other evaluation ISOs found [here](https://www.microsoft.com/en-us/evalcenter/) on Microsoft website, such as Windows 11 and Windows Server 2022.
 
+| Attack                 | Defense                                |
+| ---------------------- | -------------------------------------- |
+| [Ubuntu](ubuntu-vm.md) | [Windows](windows-user-vm.md)          |
+| [Kali](kali-vm.md)     | [Windows Server](windows-server-vm.md) |
+
 ## Creating Snapshots
 
 ### VMWare
