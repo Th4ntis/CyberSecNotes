@@ -212,7 +212,7 @@ Use the "--show --format=netntlmv2" options to display all of the cracked passwo
 Session completed.
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (5) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (5) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: badminton
 

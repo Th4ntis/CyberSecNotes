@@ -62,7 +62,7 @@ If you have a domain name you would like this to utilize, input it here. I will 
 
 Choose a username for your account
 
-<figure><img src="../../../.gitbook/assets/image (433).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (433) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
@@ -72,7 +72,7 @@ Input a password for the user
 
 Choose the timezone for the VM
 
-<figure><img src="../../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (431) (1).png" alt=""><figcaption></figcaption></figure>
 
 For a Vm, we will use the entire disk.
 
@@ -84,7 +84,7 @@ Pick the disk you would like to use
 
 Pick how you may want to partition the drive. Usually for a VM instance, you can put everything into one partition.
 
-<figure><img src="../../../.gitbook/assets/image (430).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (430) (1).png" alt=""><figcaption></figcaption></figure>
 
 Verify the partition changes
 
@@ -122,21 +122,41 @@ I recommend using some additional software such as [PimpMyKali from DeWalt](http
 
 ## Kali VM
 
-Of the VM Software you can use for the VM of this, I will be using VMWare.
+### VMWare
 
-<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
-Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you..
+Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
 
 <figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 With the VM extracted, within VMWare, File > Open, then navigate to the directory with the .vmx file.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 From here, you can see the default settings on the site, but can edit them better suited to your machine.
 
 <figure><img src="../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
+
+Upon launching, the default credentials are be the word `kali` for the username AND password.
+
+### Virtualbox
+
+<figure><img src="../../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
+
+Download the .7z file in the and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+With the VM extracted, select the add button, then navigate to the directory with the .vbox file.
+
+<figure><img src="../../../.gitbook/assets/image (430).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+From here, you can see the default settings on the site, but can edit them better suited to your machine.
+
+<figure><img src="../../../.gitbook/assets/image (433).png" alt=""><figcaption></figcaption></figure>
 
 Upon launching, the default credentials are be the word `kali` for the username AND password.
 
