@@ -237,7 +237,7 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (3).png>)
 
 ![](<../../.gitbook/assets/image (16) (2) (1).png>)
 

@@ -20,7 +20,7 @@ python setup.py
 
 As it states, we can run `setoolkit` from anywhere to start it.
 
-![](<../../.gitbook/assets/image (312).png>)
+![](<../../.gitbook/assets/image (312) (2).png>)
 
 ## Usage
 

@@ -52,7 +52,7 @@ Once started, go to: [http://localhost:7474/](https://localhost:7474/) log in wi
 
 After logging in we should see:
 
-![](<../../.gitbook/assets/image (103).png>)
+![](<../../.gitbook/assets/image (103) (3).png>)
 
 Once we have that started, download a Pre-Compiled binary from [here](https://github.com/BloodHoundAD/BloodHound/releases). From inside the unzipped folder we can start Bloodhound.
 

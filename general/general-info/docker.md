@@ -67,7 +67,7 @@ Verify it's running. `sudo docker ps`
 
 We can interact with it now by running `sudo docker exec -it Kali bash`
 
-![](<../../.gitbook/assets/image (319).png>)
+![](<../../.gitbook/assets/image (319) (1).png>)
 
 To leave the instance, type exit. Then to stop the instance, run `sudo docker stop Kali` then verify it's not running with `sudo docker ps`.
 
@@ -83,7 +83,7 @@ Since Ubuntu has various versions(from 14.04 to 22.04) we can select which versi
 
 `sudo docker pull ubuntu:22.04`
 
-![](<../../.gitbook/assets/image (308).png>)
+![](<../../.gitbook/assets/image (308) (1).png>)
 
 ![](<../../.gitbook/assets/image (304).png>)
 

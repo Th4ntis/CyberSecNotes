@@ -244,7 +244,7 @@ Let it install
 
 After install and it reboots
 
-![](<../../../.gitbook/assets/image (296).png>)
+![](<../../../.gitbook/assets/image (296) (1).png>)
 
 We choose our region, keyboard layout, etc. and we can setup our account. Select 'sign-in options'
 
@@ -256,7 +256,7 @@ Then 'Domain Join Instead'
 
 Input our username and password, password confirmation, and security questions
 
-![](<../../../.gitbook/assets/image (313).png>)
+![](<../../../.gitbook/assets/image (313) (1).png>)
 
 Disable all the privacy settings and click accept.
 
@@ -264,7 +264,7 @@ Disable all the privacy settings and click accept.
 
 It will now do Windows setup and such
 
-![](<../../../.gitbook/assets/image (316).png>)
+![](<../../../.gitbook/assets/image (316) (1).png>)
 
 We're now logged in and can install VMWare Tools
 
