@@ -1,7 +1,3 @@
----
-description: MORE COMING SOON
----
-
 # Kali VM
 
 I typically prefer to install it myself([using the ISO](https://www.kali.org/get-kali/#kali-installer-images)), BUT you can grab a [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) from them. I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
@@ -50,7 +46,7 @@ Choose your language and Region
 
 <figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (429).png" alt=""><figcaption></figcaption></figure>
 
 Choose your Keyboard layout
 
@@ -68,7 +64,7 @@ Choose a username for your account
 
 <figure><img src="../../../.gitbook/assets/image (433).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (429).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
 
 Input a password for the user
 
@@ -92,7 +88,7 @@ Pick how you may want to partition the drive. Usually for a VM instance, you can
 
 Verify the partition changes
 
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
 
@@ -106,7 +102,7 @@ Choose if you want another Desktop Environment(DE) or if you do/don't any extra 
 
 After that finishes installing, choose to install the GRUB bootloader
 
-<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (319).png" alt=""><figcaption></figcaption></figure>
 
@@ -120,8 +116,16 @@ Now is when you will want to shut down the VM and adjust RAM and Processors if n
 
 From here you can explore and find things, change settings, and learn. I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
 
-I recommend using some additional software such as PimpMyKali from DeWalt.
+I recommend using some additional software such as [PimpMyKali from DeWalt](https://github.com/Dewalt-arch/pimpmykali/blob/master/README.md).
 
 ## Kali VM
 
-X
+COMING SOON!
+
+Once we're in, it's a good idea to open the terminal, and we update everything with `sudo apt update && sudo apt upgrade -y`.
+
+Now is when you will want to shut down the VM and adjust RAM and Processors if needed. Drop it for 2GB or 4GB of RAM and 1 or 2 processors.
+
+From here you can explore and find things, change settings, and learn. I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
+
+I recommend using some additional software such as [PimpMyKali from DeWalt](https://github.com/Dewalt-arch/pimpmykali/blob/master/README.md).
