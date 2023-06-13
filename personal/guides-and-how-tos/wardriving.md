@@ -348,7 +348,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
@@ -382,7 +382,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
