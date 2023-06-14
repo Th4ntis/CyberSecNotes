@@ -31,7 +31,3 @@ Examples:
 `hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 -t 4 ssh`
 
 ![](<../../.gitbook/assets/image (247).png>)
-
-## Defense
-
-COMING SOON
