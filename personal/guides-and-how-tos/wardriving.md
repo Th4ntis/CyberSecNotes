@@ -64,7 +64,7 @@ sudo apt install kismet
 
 Run `lsblk` and find the storage partition, most likely it will be `sda`.
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (93) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lets give the partition a label with `sudo parted /dev/sda mklabel gpt`
 
@@ -237,9 +237,9 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (3).png>)
 
-![](<../../.gitbook/assets/image (16) (2) (1).png>)
+![](<../../.gitbook/assets/image (16) (2).png>)
 
 With the device plugged in, set GPSD to the device, it shouldn't return an error, if it does you may need to troubleshoot the error.
 
@@ -255,7 +255,7 @@ gpsd -b /dev/ttyUSB0
 
 To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
-![](<../../.gitbook/assets/image (7) (2) (2).png>)
+![](<../../.gitbook/assets/image (7) (2).png>)
 
 ![](<../../.gitbook/assets/image (8) (2).png>)
 
@@ -271,17 +271,17 @@ Now we can start and run kismet! We need to specify the WiFi Adapter and gps.
 kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 ```
 
-![](<../../.gitbook/assets/image (4) (2) (1).png>)
+![](<../../.gitbook/assets/image (4) (2).png>)
 
-![](<../../.gitbook/assets/image (14) (2).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
-![](<../../.gitbook/assets/image (3) (2).png>)
+![](<../../.gitbook/assets/image (3) (2) (2).png>)
 
 If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -295,13 +295,13 @@ If you're on the newest kismet version (2022-01-git and subsequent releases) we 
 kismet -t some_wardrive --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-<figure><img src="../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -340,7 +340,7 @@ Verify the Kismet service is running with: `sudo service kismet status`.
 
 This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
 
-![](<../../.gitbook/assets/image (1) (2).png>)
+![](<../../.gitbook/assets/image (1) (2) (2).png>)
 
 If we have GPS enabled and the info, we can convert the file into a KML File to be used with [Google Earth](https://earth.google.com/web/). [More info here](https://www.kismetwireless.net/docs/readme/kml/).
 
@@ -372,7 +372,7 @@ This mode will automatically create 2 files: a kismet file and a wiglecsv file t
 kismet --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

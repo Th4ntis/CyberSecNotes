@@ -38,7 +38,7 @@ ICMP can be used for network connectivity issues using Ping or Traceroute.
 
 We will be looking at the `vmnet8` adapter to start a packet capture.
 
-<figure><img src="../../../../.gitbook/assets/image (4) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 We can go to Statistics > Endpoints to see a list of MAC addresses.
 

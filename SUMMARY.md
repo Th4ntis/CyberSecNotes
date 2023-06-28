@@ -20,7 +20,7 @@
   * [Subnetting](general/networking/subnetting.md)
   * [Wireshark](general/attack-and-defense/wireshark.md)
   * [NMap](general/networking/nmap.md)
-  * [Wireless](general/networking/wireless/README.md)
+  * [Wireless](general/networking/wireless.md)
     * [Wardriving/WiFi Sniffing](general/networking/wireless/wardriving-wifi-sniffing.md)
   * [3-Way Handshake](general/networking/3-way-handshake.md)
 * [🐧 Linux](general/linux/README.md)

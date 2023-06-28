@@ -1,6 +1,6 @@
 # Dancing
 
-![](<../../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../../.gitbook/assets/image (13).png>)
 
 ## Task 1
 

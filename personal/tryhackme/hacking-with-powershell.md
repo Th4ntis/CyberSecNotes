@@ -47,7 +47,7 @@ Get-Command gets all the _cmdlets_ installed on the current Computer. This _cmdl
 
 Running `Get-Command New-*` to view all the _cmdlets_ for the verb new displays:
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 #### Object Manipulation
 
@@ -234,7 +234,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `20` - Run `Get-Hotfix` and count OR `Get-Hotfix | Measure`
 
-![](<../../.gitbook/assets/image (10) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 ### Question 9: When was the patch with ID KB4023834 installed?
 
@@ -272,7 +272,7 @@ Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Intern
 
 `NT SERVICE\TrustedInstaller` - Running `Get-Acl c:/` will show us the owner.
 
-![](<../../.gitbook/assets/image (105) (1).png>)
+![](<../../.gitbook/assets/image (105).png>)
 
 ## Task 5
 

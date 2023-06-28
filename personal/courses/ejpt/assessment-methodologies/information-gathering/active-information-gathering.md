@@ -41,9 +41,9 @@ DNS interrogation is the process of enumerating DNS Records for a specific domai
 
 #### DNSEnum:
 
-<figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (10) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 This is for active recon. This can enumerate publically available records, as well as it can perform Zone Transfer automatically, DNS BruteForce to identify record and subdomains. &#x20;
 
@@ -51,7 +51,7 @@ This is for active recon. This can enumerate publically available records, as we
 
 DIG is a DNS Lookup Utility
 
-<figure><img src="../../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### fierce
 
@@ -63,11 +63,11 @@ A DNS reconnaissance tool for locating non-contiguous IP space. Can be used to B
 
 Finding your IP address and subnet of the network youre on `ip a`&#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (11) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 With Nmap we use the `-sn` argument, for no port scan. This is just to discover hosts that are online and is known as a ping scan or ping sweep. &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -97,7 +97,7 @@ Widows typically blocks ICMP pings/probes, so we use the `-Pn` argument.
 nmap -Pn 172.16.8.131
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (106) (2).png" alt=""><figcaption></figcaption></figure>
 
 Running a TCP Scan on all 65535 ports. So after the `-Pn` option for WIndows machine, we can add the `-p-` argument. As this scan hits ALL the ports, it can take a few minutes to scan.
 
@@ -149,7 +149,7 @@ To see more information we need to increase the verbosity with the `-v` argument
 nmap -Pn -F 172.16.8.131 -v
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (98) (3).png" alt=""><figcaption></figcaption></figure>
 
 We can also add an extra v to the end, `-vv`, to see more information as it scans,
 
@@ -173,7 +173,7 @@ Now we can determine the Operating System(OS) of the target system(s) with the `
 sudo nmap -Pn -F -sV -O 172.16.8.131
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (5) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Script Scans
 
@@ -183,7 +183,7 @@ Using default Nmap script scans we can use the `-sC` argument. This runs Nmap de
 sudo nmap -Pn -F -sV -O -sC 172.16.8.131 -v
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
 
 #### Agressive Scanning
 

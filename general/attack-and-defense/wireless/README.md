@@ -2,7 +2,7 @@
 
 Wireless is everywhere, home, work, school, you name it, which is convenient for a lot of people as they have tablets, phones, laptops, etc that don't always have an ethernet to be hardwired in but if not properly secured it can leave the network open to attacks for an attacker to get into the network and perform various attacks, such as gaining access to a machine and harvest credentials, or man-in-the-middle attacks where they intercept network traffic for a multitude of reasons.&#x20;
 
-For information regarding wireless networking refer to [this](../../networking/wireless/). Popular, and helpful wireless auditing tools:
+For information regarding wireless networking refer to [this](../../networking/wireless.md). Popular, and helpful wireless auditing tools:
 
 * [Aircrack](aircrack-ng.md)
 * [Kismet](kismet.md)
