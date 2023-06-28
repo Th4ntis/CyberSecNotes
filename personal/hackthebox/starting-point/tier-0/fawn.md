@@ -1,6 +1,6 @@
 # Fawn
 
-![](<../../../../.gitbook/assets/image (35).png>)
+![](<../../../../.gitbook/assets/image (346).png>)
 
 ## ​Task 1
 

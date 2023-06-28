@@ -55,23 +55,23 @@ Docker commands can be found [here](https://docs.docker.com/engine/reference/com
 
 `sudo docker pull kalilinux/kali-rolling`
 
-![](<../../.gitbook/assets/image (306).png>)
+![](<../../.gitbook/assets/image (225).png>)
 
 `sudo docker run -d -t --name kali kalilinux/kali-rolling`
 
-![](<../../.gitbook/assets/image (310).png>)
+![](<../../.gitbook/assets/image (58).png>)
 
 Verify it's running. `sudo docker ps`
 
-![](<../../.gitbook/assets/image (303).png>)
+![](<../../.gitbook/assets/image (136).png>)
 
 We can interact with it now by running `sudo docker exec -it Kali bash`
 
-![](<../../.gitbook/assets/image (319) (1).png>)
+![](<../../.gitbook/assets/image (208).png>)
 
 To leave the instance, type exit. Then to stop the instance, run `sudo docker stop Kali` then verify it's not running with `sudo docker ps`.
 
-![](<../../.gitbook/assets/image (305).png>)
+![](<../../.gitbook/assets/image (214).png>)
 
 We can re start the instance bu running `sudo docker start Kali`.
 
@@ -83,22 +83,22 @@ Since Ubuntu has various versions(from 14.04 to 22.04) we can select which versi
 
 `sudo docker pull ubuntu:22.04`
 
-![](<../../.gitbook/assets/image (308) (1).png>)
+![](<../../.gitbook/assets/image (203).png>)
 
-![](<../../.gitbook/assets/image (304).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
 `sudo docker run -d -t --name buntu ubuntu:20.04`
 
-![](<../../.gitbook/assets/image (323).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 Verify it's running with `sudo docker ps`
 
-![](<../../.gitbook/assets/image (322).png>)
+![](<../../.gitbook/assets/image (59).png>)
 
 We can interact with it now by running `sudo docker exec -it buntu bash`
 
-![](<../../.gitbook/assets/image (314).png>)
+![](<../../.gitbook/assets/image (211).png>)
 
 To leave the instance, type exit. Then to stop the instance, run `sudo docker stop buntu` then verify it's not running with `sudo docker ps`.
 
-![](<../../.gitbook/assets/image (312) (1).png>)
+![](<../../.gitbook/assets/image (201).png>)

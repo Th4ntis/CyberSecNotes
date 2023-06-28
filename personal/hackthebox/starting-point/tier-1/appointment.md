@@ -192,8 +192,8 @@ Close the query with that single quote, allowing the script to search for the ad
 
 With this information, we can try logging in with `admin'#`
 
-![](<../../../../.gitbook/assets/image (1).png>)
+![](<../../../../.gitbook/assets/image (1) (1).png>)
 
-![](<../../../../.gitbook/assets/image (12).png>)
+![](<../../../../.gitbook/assets/image (12) (1).png>)
 
 Answer: **e3d0796d002a446c0e622226f42e9672**

@@ -1,5 +1,7 @@
 # Lab Setup
 
+
+
 ## About
 
 We have [VMWare](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW\&productId=1039\&rPId=85399) or [Virtualbox](https://www.virtualbox.org/) for Virual Machine Applications. I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
@@ -39,4 +41,4 @@ If you have Workstation Pro, with the VM selected, from the menu bar: `VM > Snap
 
 ### Virtualbox
 
-`Right click on the VM oOr click the settings menu icon for the VM) > Snapshots` from here we can creature the snapshot, name it, and give it a description
+`Right click on the VM (or click the settings menu icon for the VM) > Snapshots` from here we can creature the snapshot, name it, and give it a description

@@ -14,7 +14,7 @@ We will start with the Typical configuration
 
 Then install choose "I will install the Operating System Later"
 
-<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select Linux, then select the Debian 64-bit version.
 
@@ -44,7 +44,7 @@ Now we close that and can start our VM and install it. Once we start the VM, it'
 
 Choose your language and Region
 
-<figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (103) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (429).png" alt=""><figcaption></figcaption></figure>
 
@@ -152,7 +152,7 @@ With the VM extracted, select the add button, then navigate to the directory wit
 
 <figure><img src="../../../.gitbook/assets/image (430).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 From here, you can see the default settings on the site, but can edit them better suited to your machine.
 

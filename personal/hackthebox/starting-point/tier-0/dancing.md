@@ -1,6 +1,6 @@
 # Dancing
 
-![](<../../../../.gitbook/assets/image (13).png>)
+![](<../../../../.gitbook/assets/image (389).png>)
 
 ## Task 1
 
@@ -28,7 +28,7 @@ What is the `flag` or `switch` we can use with the SMB tool to `list` the conten
 
 Using smbclient -h we can find the flag/switch
 
-![](<../../../../.gitbook/assets/image (140).png>)
+![](<../../../../.gitbook/assets/image (179).png>)
 
 ## Task 7
 
@@ -36,7 +36,7 @@ What is the name of the share we are able to access in the end? - `WorkShares`
 
 Running `smbclient -L (IP)` will list the shares, using a empty password
 
-![](<../../../../.gitbook/assets/image (132).png>)
+![](<../../../../.gitbook/assets/image (292).png>)
 
 ## Task 8
 
@@ -48,8 +48,8 @@ Submit root flag - `5f61c10dffbc77a704d76016a22f1664`
 
 First connect to the machine via SMB, `smbclient '\\(IP)\WorkShares'`
 
-![](<../../../../.gitbook/assets/image (135).png>)
+![](<../../../../.gitbook/assets/image (22).png>)
 
 We can see two directories, `Amy.J` and `James.P`, we can ls both directories and see James has our flag. We can `get` our flag.txt and cat it on our machine to see our flag.
 
-![](<../../../../.gitbook/assets/image (57).png>)
+![](<../../../../.gitbook/assets/image (246).png>)

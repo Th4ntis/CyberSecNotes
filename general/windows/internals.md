@@ -54,6 +54,8 @@ The task manager can report on many components and information about a process. 
 
 Some utilities available that make observing processes easier; including [Process Hacker 2](https://github.com/processhacker/processhacker), [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer), and [Procmon](https://docs.microsoft.com/en-us/sysinternals/downloads/procmon).
 
+
+
 ## Threads
 
 ﻿A thread is an executable unit employed by a process and scheduled based on device factors. Device factors can vary based on CPU and memory specifications, priority and logical factors, and more. The simplified definition of a thread is "controlling the execution of a process.".

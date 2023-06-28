@@ -295,9 +295,9 @@ If you're on the newest kismet version (2022-01-git and subsequent releases) we 
 kismet -t some_wardrive --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
@@ -348,7 +348,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
@@ -372,7 +372,7 @@ This mode will automatically create 2 files: a kismet file and a wiglecsv file t
 kismet --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -382,7 +382,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng

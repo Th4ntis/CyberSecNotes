@@ -20,5 +20,5 @@ MAC = Media Access Control
 * [IPv4/IPv6](ipv4-and-ipv6.md)
 * [Subnetting](subnetting.md)
 * [NMap](nmap.md)
-* [Wireless](wireless.md)
+* [Wireless](wireless/)
 * [3-Way Handshake](3-way-handshake.md)

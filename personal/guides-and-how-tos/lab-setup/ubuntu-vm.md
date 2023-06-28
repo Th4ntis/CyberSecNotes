@@ -12,19 +12,19 @@ We can go with a [Kali Linux VM](https://www.kali.org/get-kali/) but with this w
 
 We will start with the Typical configuration
 
-![](<../../../.gitbook/assets/image (358).png>)
+![](<../../../.gitbook/assets/image (254).png>)
 
 Then install choose "I will install the Operating System Later"
 
-![](<../../../.gitbook/assets/image (404).png>)
+![](<../../../.gitbook/assets/image (2).png>)
 
 Select Linux, then select the Ubuntu 64-bit version.
 
-![](<../../../.gitbook/assets/image (413).png>)
+![](<../../../.gitbook/assets/image (11).png>)
 
 Name it and choose a location to store the VM files
 
-![](<../../../.gitbook/assets/image (372).png>)
+![](<../../../.gitbook/assets/image (398).png>)
 
 Select the size of the VM. This will **NOT** the overall size, this is just the max size of the VMs HDD space and will fill up as we add more to the VM that takes up space.
 
@@ -32,57 +32,57 @@ If this VM will be on a PC and not be used from an external HDD or moved around 
 
 Depending on your space, you can edit how much you want. I usually go 60GB or 80GB depending.
 
-![](<../../../.gitbook/assets/image (360).png>)
+![](<../../../.gitbook/assets/image (400).png>)
 
 Finally we can now customize our hardware. This is where we can customize the RAM, Processors, ISO files, Network Settings, etc. This is where we select our Ubuntu ISO.
 
-![](<../../../.gitbook/assets/image (401).png>)
+![](<../../../.gitbook/assets/image (273).png>)
 
-![](<../../../.gitbook/assets/image (327).png>)
+![](<../../../.gitbook/assets/image (262).png>)
 
 Now we close that and can start our VM and install it. This process will be VERY similar for each desktop environment just may look different. Once we start the VM, itll take us to a list, we can select the first option or just let it auto select it after 10 seconds.
 
 So from here we select "Install \*buntu"
 
-![](<../../../.gitbook/assets/image (397).png>)
+![](<../../../.gitbook/assets/image (401).png>)
 
 Select language and keyboard layout
 
-![](<../../../.gitbook/assets/image (394).png>)
+![](<../../../.gitbook/assets/image (270).png>)
 
 Make sure you tick 'install third-party software for graphics..." and such.&#x20;
 
-![](<../../../.gitbook/assets/image (407).png>)
+![](<../../../.gitbook/assets/image (453).png>)
 
 As this is on a VM, this default option is ok for this.
 
-![](<../../../.gitbook/assets/image (366).png>)
+![](<../../../.gitbook/assets/image (9).png>)
 
-![](<../../../.gitbook/assets/image (369).png>)
+![](<../../../.gitbook/assets/image (275).png>)
 
 Select Timezone
 
-![](<../../../.gitbook/assets/image (403).png>)
+![](<../../../.gitbook/assets/image (19).png>)
 
 Setup the username, hostname, and password
 
-![](<../../../.gitbook/assets/image (391).png>)
+![](<../../../.gitbook/assets/image (408).png>)
 
 Let the install finish
 
-![](<../../../.gitbook/assets/image (380).png>)
+![](<../../../.gitbook/assets/image (267).png>)
 
-![](<../../../.gitbook/assets/image (375).png>)
+![](<../../../.gitbook/assets/image (26).png>)
 
 If it asks you to "Remove the installation media and press ENTER" just press `ENTER`.
 
-![](<../../../.gitbook/assets/image (344).png>)
+![](<../../../.gitbook/assets/image (260).png>)
 
 From here it will restart and you will be taken to a login screen. So login and ta-da!
 
-![](<../../../.gitbook/assets/image (376).png>)
+![](<../../../.gitbook/assets/image (257).png>)
 
-![](<../../../.gitbook/assets/image (356).png>)
+![](<../../../.gitbook/assets/image (12).png>)
 
 Depending which Desktop Environment (DE) you chose, you're may look different but that is ok, it's still the same system under the hood.
 
@@ -90,6 +90,6 @@ Once we're in, it's a good idea to open the terminal, in Kubuntu it's called `Ko
 
 Now is when you will want to shut down the VM and adjust RAM and Processors if needed. Drop it for 2GB or 4GB of RAM and 1 or 2 processors.
 
-![](<../../../.gitbook/assets/image (216).png>)
+![](<../../../.gitbook/assets/image (329).png>)
 
 From here you can explore and find things, change settings, and learn. I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.

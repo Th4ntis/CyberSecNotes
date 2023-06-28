@@ -40,6 +40,6 @@ As well as using a text file for the username/password.
 
 You can run the .sh or .jar file in the dirbuster directory.
 
-![](<../../../.gitbook/assets/image (280).png>)
+![](<../../../.gitbook/assets/image (27).png>)
 
 This can run the same things as Dirb but has a GUI and is multi-threaded, therefore tends to be faster, and more effective.&#x20;

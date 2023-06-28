@@ -16,9 +16,9 @@ If you input the same value to the hashing algorithm it will produce the same ha
 
 For example:
 
-![](<../../../.gitbook/assets/image (101) (1).png>)
+![](<../../../.gitbook/assets/image (50).png>)
 
-![](<../../../.gitbook/assets/image (396).png>)
+![](<../../../.gitbook/assets/image (403).png>)
 
 Notice how the `file.txt` has the word `hash` in it, and has one hash, but if he change the word to a capital H, the hash changes completely.
 
