@@ -17,7 +17,7 @@ With FoxyProxy installed we can right click on the extension > Options
 
 &#x20;
 
-![](<../../.gitbook/assets/image (10) (2).png>)
+![](<../../.gitbook/assets/image (10) (1).png>)
 
 Add new Proxy
 
@@ -83,7 +83,7 @@ With that file saved to your machine, open your Firefox setting, then search the
 
 Select "View Certificates" and under the "Authorities" tab, we can import a new cert.
 
-<figure><img src="../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select "Trust this CA to identify websites" and click OK.
 

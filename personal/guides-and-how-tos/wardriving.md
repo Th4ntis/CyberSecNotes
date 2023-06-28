@@ -82,7 +82,7 @@ To set this to auto mount on startup I edited my `/etc/fstab` with: `sudo nano /
 
 Then added this to the bottom of the file: `/dev/sda1 /mnt/data ext4 defaults 0 2`
 
-<figure><img src="../../.gitbook/assets/image (30) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now mount the new drive with: `sudo mount -a`
 
@@ -237,7 +237,7 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13) (3) (1).png>)
+![](<../../.gitbook/assets/image (13) (3).png>)
 
 ![](<../../.gitbook/assets/image (16) (2).png>)
 
@@ -273,7 +273,7 @@ kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 
 ![](<../../.gitbook/assets/image (4) (2).png>)
 
-![](<../../.gitbook/assets/image (14) (1) (2).png>)
+![](<../../.gitbook/assets/image (14) (1).png>)
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
@@ -281,7 +281,7 @@ Now as the banner at the top says, we can go to the web interface at [http://loc
 
 If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-<figure><img src="../../.gitbook/assets/image (5) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -297,11 +297,11 @@ kismet -t some_wardrive --override wardrive
 
 <figure><img src="../../.gitbook/assets/image (1) (4) (2).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (17) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (17) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-<figure><img src="../../.gitbook/assets/image (5) (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -372,7 +372,7 @@ This mode will automatically create 2 files: a kismet file and a wiglecsv file t
 kismet --override wardrive
 ```
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

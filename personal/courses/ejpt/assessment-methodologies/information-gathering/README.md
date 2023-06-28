@@ -187,7 +187,7 @@ This is for active recon. This can enumerate publically available records, as we
 
 DIG is a DNS Lookup Utility
 
-<figure><img src="../../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (14) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### fierce
 
@@ -203,7 +203,7 @@ Finding your IP address and subnet of the network youre on `ip a`&#x20;
 
 With Nmap we use the `-sn` argument, for no port scan. This is just to discover hosts that are online and is known as a ping scan or ping sweep. &#x20;
 
-<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -225,7 +225,7 @@ Default scan of `nmap 172.16.8.131` does a default TCP SYN scan on the 1000 freq
 nmap 172.16.8.131
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (15) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Widows typically blocks ICMP pings/probes, so we use the `-Pn` argument.
 
@@ -297,7 +297,7 @@ Now that we know the open ports, we need to find the services and service versio
 nmap -Pn -F -sV 172.16.8.131
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (2) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (2) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 With the versions, we may be able to find a vulnerability for this specific version.
 
@@ -319,7 +319,7 @@ Using default Nmap script scans we can use the `-sC` argument. This runs Nmap de
 sudo nmap -Pn -F -sV -O -sC 172.16.8.131 -v
 ```
 
-<figure><img src="../../../../../.gitbook/assets/image (9) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (9) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Agressive Scanning
 

@@ -102,7 +102,7 @@ If we want to use a dictionary attack, like using `rockyou.txt` for example
 
 ![](<../../../.gitbook/assets/image (358).png>)
 
-![](<../../../.gitbook/assets/image (21) (3).png>)
+![](<../../../.gitbook/assets/image (21) (1).png>)
 
 Depending on your hardware, the dictionary you chose, and the password, this may take some time. You can press S for a status to see the time time estimated on finishing, as well as the updated "Recovered.Total" to see the recovered keys"
 

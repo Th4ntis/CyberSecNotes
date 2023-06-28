@@ -184,7 +184,7 @@ Now we wait for the crontab to run. After a minute or two, we should receive our
 
 ![](<../../../.gitbook/assets/image (253).png>)
 
-![](<../../../.gitbook/assets/image (1) (3).png>)
+![](<../../../.gitbook/assets/image (1) (1).png>)
 
 ### Question 3: What is Matt's password?
 
@@ -204,7 +204,7 @@ Now we wait for the crontab to run. After a minute or two, we should receive our
 
 First we need to locate the file.
 
-![](<../../../.gitbook/assets/image (30).png>)
+![](<../../../.gitbook/assets/image (30) (1).png>)
 
 Now we `echo $PATH`
 
@@ -280,7 +280,7 @@ So let's try to cat the /etc/shadow file.
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (3) (5).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 We can get the hashes for root, and missy.
 

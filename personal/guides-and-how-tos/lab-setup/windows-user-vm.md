@@ -22,7 +22,7 @@ Select the Windows OS.
 
 Select a path and name the VM. For this I will be naming the VM after the User that I plan on using on this VM.
 
-![](<../../../.gitbook/assets/image (24) (1).png>)
+![](<../../../.gitbook/assets/image (24).png>)
 
 Select the size of the VM. This will **NOT** the overall size, this is just the max size of the VMs HDD space and will fill up as we add more to the VM that takes up space.
 
@@ -92,7 +92,7 @@ Let the install finish with post setup stuff
 
 Now we have our desktop. Time to do some basic setup.
 
-![](<../../../.gitbook/assets/image (23) (1).png>)
+![](<../../../.gitbook/assets/image (23).png>)
 
 Install VMWare Tools, and Rename the PC, then Add it to the Domain if you are going that route.
 

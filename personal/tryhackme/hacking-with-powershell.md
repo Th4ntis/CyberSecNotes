@@ -244,7 +244,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `backpassflag` - First we find the backup file `Get-ChildItem -Path C:\ -include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
 
-![](<../../.gitbook/assets/image (13) (3).png>)
+![](<../../.gitbook/assets/image (13) (1).png>)
 
 Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Internet Explorer\passwords.bak.txt'`
 

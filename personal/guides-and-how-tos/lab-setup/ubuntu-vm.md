@@ -16,11 +16,11 @@ We will start with the Typical configuration
 
 Then install choose "I will install the Operating System Later"
 
-![](<../../../.gitbook/assets/image (2) (4).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 Select Linux, then select the Ubuntu 64-bit version.
 
-![](<../../../.gitbook/assets/image (11) (3).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 Name it and choose a location to store the VM files
 
@@ -56,7 +56,7 @@ Make sure you tick 'install third-party software for graphics..." and such.&#x20
 
 As this is on a VM, this default option is ok for this.
 
-![](<../../../.gitbook/assets/image (9) (1).png>)
+![](<../../../.gitbook/assets/image (9) (3).png>)
 
 ![](<../../../.gitbook/assets/image (275).png>)
 
@@ -72,7 +72,7 @@ Let the install finish
 
 ![](<../../../.gitbook/assets/image (267).png>)
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26) (1).png>)
 
 If it asks you to "Remove the installation media and press ENTER" just press `ENTER`.
 
@@ -82,7 +82,7 @@ From here it will restart and you will be taken to a login screen. So login and 
 
 ![](<../../../.gitbook/assets/image (257).png>)
 
-![](<../../../.gitbook/assets/image (12) (3).png>)
+![](<../../../.gitbook/assets/image (12) (1).png>)
 
 Depending which Desktop Environment (DE) you chose, you're may look different but that is ok, it's still the same system under the hood.
 

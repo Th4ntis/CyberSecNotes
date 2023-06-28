@@ -59,7 +59,7 @@ Docker commands can be found [here](https://docs.docker.com/engine/reference/com
 
 `sudo docker run -d -t --name kali kalilinux/kali-rolling`
 
-![](<../../.gitbook/assets/image (58) (1).png>)
+![](<../../.gitbook/assets/image (58).png>)
 
 Verify it's running. `sudo docker ps`
 
