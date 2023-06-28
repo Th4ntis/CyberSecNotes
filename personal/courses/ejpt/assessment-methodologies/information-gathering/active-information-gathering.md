@@ -37,7 +37,7 @@ DNS interrogation is the process of enumerating DNS Records for a specific domai
 
 #### DNSRecon:
 
-<figure><img src="../../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### DNSEnum:
 

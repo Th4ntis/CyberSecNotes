@@ -384,7 +384,7 @@ Import-Module ADDSDeployment
 install-ADDSForest
 ```
 
-![](<../../../.gitbook/assets/image (321) (1).png>)
+![](<../../../.gitbook/assets/image (321).png>)
 
 Now once it has been restarted we can add computers to the domain. We can do this via GUI, or command line with
 

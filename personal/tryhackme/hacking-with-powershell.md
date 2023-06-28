@@ -105,7 +105,7 @@ Full list of operators can be found [here](https://docs.microsoft.com/en-us/powe
 
 An example of checking the stopped processes:
 
-![](<../../.gitbook/assets/image (112) (2).png>)
+![](<../../.gitbook/assets/image (112).png>)
 
 #### Sort Object
 

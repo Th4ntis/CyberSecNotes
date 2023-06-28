@@ -215,7 +215,7 @@ After plugging in your WiFi Radios, GPS, and Bluetooth adapters, depending which
 
 Let's get the radio 'names' with: `ip a`
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (37) (1).png" alt=""><figcaption></figcaption></figure>
 
 As I am using a WiFi Coconut, I will be having a lot of WiFi Radios. So take the WiFi interface name, eg. wlx0cefafd1408b, and copy as many of them as you have/will be using. Then we will edit the `kismet_site.conf` file and add the sources to that.
 
@@ -237,7 +237,7 @@ VK-162/VK172:
 /dev/ttyASM0
 ```
 
-![](<../../.gitbook/assets/image (13) (3).png>)
+![](<../../.gitbook/assets/image (13).png>)
 
 ![](<../../.gitbook/assets/image (16) (2) (1).png>)
 
@@ -255,7 +255,7 @@ gpsd -b /dev/ttyUSB0
 
 To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
-![](<../../.gitbook/assets/image (7) (2).png>)
+![](<../../.gitbook/assets/image (7) (2) (2).png>)
 
 ![](<../../.gitbook/assets/image (8) (2).png>)
 
@@ -348,7 +348,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
@@ -382,7 +382,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](../../general/attack-and-defense/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng

@@ -228,7 +228,7 @@ Now that we have our ticket ready we can now perform a pass the ticket attack to
 
 * We now have impersonated the ticket giving us the same rights as the TGT we are impersonating. To verify this we can look at the admin share.
 
-![](<../../.gitbook/assets/image (40) (1).png>)
+![](<../../.gitbook/assets/image (40).png>)
 
 \*Note that this is only a POC to understand how to pass the ticket and gain domain admin the way that we approach passing the ticket may be different based on what kind of engagement we are in so do not take this as a definitive guide of how to run this attack.
 

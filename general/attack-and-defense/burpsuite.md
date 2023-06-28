@@ -57,7 +57,7 @@ To do this switch over to the "Target" tab, right-click our target from the list
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 The scope will be sure to only intercept traffic to the specific IPs or websites.
 
@@ -97,7 +97,7 @@ There IS an option to start and use the Burp Browser that opens a Chromium windo
 
 To get to this: `Proxy > Intercept > Open Browser`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Repeater
 
@@ -109,7 +109,7 @@ With a request captured in the proxy, we can send to repeater either by right-cl
 
 Back in the 'Repeater' tab, we can see the request.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (4).png" alt=""><figcaption></figcaption></figure>
 
 We have no response yet, until we press the "send" button at the top left.
 

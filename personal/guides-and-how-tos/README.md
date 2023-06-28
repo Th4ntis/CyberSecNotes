@@ -10,7 +10,7 @@ This will be a section for my guides, walkthroughs, and how-to's on various subj
 
 [Setting up a Ubuntu VM](lab-setup/ubuntu-vm.md)
 
-Setting up a Kali VM
+[Setting up a Kali VM](lab-setup/kali-vm.md)
 
 [Setting up a Windows VM](lab-setup/windows-user-vm.md)
 

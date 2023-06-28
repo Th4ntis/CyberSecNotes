@@ -10,11 +10,11 @@ If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core p
 
 We will start with the Typical configuration
 
-<figure><img src="../../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (300) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then install choose "I will install the Operating System Later"
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
 
 Select Linux, then select the Debian 64-bit version.
 
@@ -40,11 +40,11 @@ Finally we can now customize our hardware. This is where we can customize the RA
 
 Now we close that and can start our VM and install it. Once we start the VM, it'll take us to a list, I'm going to choose Graphical Install
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (3).png" alt=""><figcaption></figcaption></figure>
 
 Choose your language and Region
 
-<figure><img src="../../../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (103) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (429).png" alt=""><figcaption></figcaption></figure>
 
@@ -64,7 +64,7 @@ Choose a username for your account
 
 <figure><img src="../../../.gitbook/assets/image (433) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (321).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (321) (1).png" alt=""><figcaption></figcaption></figure>
 
 Input a password for the user
 
@@ -90,7 +90,7 @@ Verify the partition changes
 
 <figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (296) (1).png" alt=""><figcaption></figcaption></figure>
 
 Let the VM Install
 
@@ -108,7 +108,7 @@ After that finishes installing, choose to install the GRUB bootloader
 
 Once install is finished, you'll beboot the system and done!
 
-<figure><img src="../../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (316) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Post Install
 
@@ -124,7 +124,7 @@ I recommend using some additional software such as [PimpMyKali from DeWalt](http
 
 ### VMWare
 
-<figure><img src="../../../.gitbook/assets/image (5) (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
 
@@ -132,7 +132,7 @@ Download the .7z file and extract it with [7Zip](https://www.7-zip.org/) in what
 
 With the VM extracted, within VMWare, File > Open, then navigate to the directory with the .vmx file.
 
-<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 From here, you can see the default settings on the site, but can edit them better suited to your machine.
 
@@ -146,7 +146,7 @@ Upon launching, the default credentials are be the word `kali` for the username 
 
 Download the .7z file in the and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 With the VM extracted, select the add button, then navigate to the directory with the .vbox file.
 

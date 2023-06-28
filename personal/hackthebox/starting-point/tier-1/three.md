@@ -71,7 +71,7 @@ Answer: /etc/hosts
 
 After editing the host file to map the IP to the domain, we can use Gobuster to help enumerate the site.
 
-<figure><img src="../../../../.gitbook/assets/image (102) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (102) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
@@ -107,7 +107,7 @@ Answer: aws configure
 
 After configuring aws
 
-<figure><img src="../../../../.gitbook/assets/image (108) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 we can look at the S3 documentation.
 
@@ -162,7 +162,7 @@ Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
 Now open a temp webserver to pull our script from: `python3 -m http.server 8081`&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 Now we can use curl to get our script onto the server and executing it:
 

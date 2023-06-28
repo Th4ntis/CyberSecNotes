@@ -2,7 +2,7 @@
 
 ## Initial Scan:
 
-![](<../../../../.gitbook/assets/image (5) (1) (2).png>)
+![](<../../../../.gitbook/assets/image (5) (1) (1).png>)
 
 ## Task 1:
 
@@ -24,7 +24,7 @@ Answer: Redis
 
 #### What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
 
-![](<../../../../.gitbook/assets/image (3) (1) (1) (3).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (1) (1).png>)
 
 Answer: in-memory Database
 

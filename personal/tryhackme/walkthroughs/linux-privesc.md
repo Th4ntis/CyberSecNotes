@@ -74,7 +74,7 @@ We can now `cat` the file to receive our flag.
 
 So let's run `sudo find . -exec /bin/sh ; -quit` and see if we get root.
 
-![](<../../../.gitbook/assets/image (100) (1).png>)
+![](<../../../.gitbook/assets/image (100) (1) (1).png>)
 
 We do! So now we can find our flag.
 
@@ -126,7 +126,7 @@ Time to crack the passwords!
 
 ![](<../../../.gitbook/assets/image (107) (1).png>)
 
-![](<../../../.gitbook/assets/image (32) (1).png>)
+![](<../../../.gitbook/assets/image (32).png>)
 
 ### Question 3: What is the content of the flag3.txt file?
 

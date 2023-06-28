@@ -48,7 +48,7 @@ description: Quick Links to pages
     * [Pass-The-Hash](general/attack-and-defense/pass-the-hash.md)
     * [Kerberos and Kerberoasting](general/attack-and-defense/kerberos-and-kerberoasting.md)
   * [Tools](general/attack-and-defense/tools/)
-    * [Wireshark](general/networking/wireshark.md)
+    * [Wireshark](general/attack-and-defense/wireshark.md)
     * [Mimikatz](general/attack-and-defense/mimikatz.md)
     * [Impacket](general/attack-and-defense/impacket.md)
     * [Cobalt Strike](general/attack-and-defense/cobalt-strike.md)
