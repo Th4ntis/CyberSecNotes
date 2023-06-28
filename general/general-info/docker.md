@@ -59,7 +59,7 @@ Docker commands can be found [here](https://docs.docker.com/engine/reference/com
 
 `sudo docker run -d -t --name kali kalilinux/kali-rolling`
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (58) (1).png>)
 
 Verify it's running. `sudo docker ps`
 
@@ -85,7 +85,7 @@ Since Ubuntu has various versions(from 14.04 to 22.04) we can select which versi
 
 ![](<../../.gitbook/assets/image (203).png>)
 
-![](<../../.gitbook/assets/image (62).png>)
+![](<../../.gitbook/assets/image (62) (1).png>)
 
 `sudo docker run -d -t --name buntu ubuntu:20.04`
 
@@ -93,7 +93,7 @@ Since Ubuntu has various versions(from 14.04 to 22.04) we can select which versi
 
 Verify it's running with `sudo docker ps`
 
-![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59) (1).png>)
 
 We can interact with it now by running `sudo docker exec -it buntu bash`
 

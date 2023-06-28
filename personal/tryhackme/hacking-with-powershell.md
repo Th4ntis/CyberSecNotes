@@ -244,7 +244,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `backpassflag` - First we find the backup file `Get-ChildItem -Path C:\ -include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (4).png>)
 
 Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Internet Explorer\passwords.bak.txt'`
 
@@ -254,7 +254,7 @@ Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Intern
 
 `fakekey123` - We can run `Get-ChildItem C:* -Recurse | Select-String -pattern API_KEY` to find the answer. After a while we see an error code.
 
-![](<../../.gitbook/assets/image (64).png>)
+![](<../../.gitbook/assets/image (64) (1).png>)
 
 ### Question 12: What command do you do to list all the running processes?
 

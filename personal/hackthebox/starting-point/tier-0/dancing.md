@@ -48,7 +48,7 @@ Submit root flag - `5f61c10dffbc77a704d76016a22f1664`
 
 First connect to the machine via SMB, `smbclient '\\(IP)\WorkShares'`
 
-![](<../../../../.gitbook/assets/image (22).png>)
+![](<../../../../.gitbook/assets/image (22) (1).png>)
 
 We can see two directories, `Amy.J` and `James.P`, we can ls both directories and see James has our flag. We can `get` our flag.txt and cat it on our machine to see our flag.
 

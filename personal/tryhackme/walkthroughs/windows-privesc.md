@@ -70,7 +70,7 @@ We add the above code into a .c file then we can compile it.
 
 `x86_64-w64-mingw32-gcc windows_dll.c -shared -o output.dll`
 
-![](<../../../.gitbook/assets/image (68).png>)
+![](<../../../.gitbook/assets/image (68) (1).png>)
 
 Now we get the file onto the machine via whatever means we can. I'll be adding it by using a simple python web server. `python3 -m http.server` onmy attacker machine.
 
@@ -126,7 +126,7 @@ We can follow the rooms example just be sure to change the IP and PORT of YOUR m
 
 We get the file onto the target in whatever way we can, I'll again be using python3 webserver
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (20) (1).png>)
 
 With our file now on the target, we can start the service `sc start unquotedsvc`
 

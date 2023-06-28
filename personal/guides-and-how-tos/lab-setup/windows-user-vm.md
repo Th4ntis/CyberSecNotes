@@ -22,7 +22,7 @@ Select the Windows OS.
 
 Select a path and name the VM. For this I will be naming the VM after the User that I plan on using on this VM.
 
-![](<../../../.gitbook/assets/image (24).png>)
+![](<../../../.gitbook/assets/image (24) (1).png>)
 
 Select the size of the VM. This will **NOT** the overall size, this is just the max size of the VMs HDD space and will fill up as we add more to the VM that takes up space.
 
@@ -92,7 +92,7 @@ Let the install finish with post setup stuff
 
 Now we have our desktop. Time to do some basic setup.
 
-![](<../../../.gitbook/assets/image (23).png>)
+![](<../../../.gitbook/assets/image (23) (1).png>)
 
 Install VMWare Tools, and Rename the PC, then Add it to the Domain if you are going that route.
 
@@ -252,7 +252,7 @@ We choose our region, keyboard layout, etc. and we can setup our account. Select
 
 Then 'Domain Join Instead'
 
-![](<../../../.gitbook/assets/image (65).png>)
+![](<../../../.gitbook/assets/image (65) (1).png>)
 
 Input our username and password, password confirmation, and security questions
 
@@ -260,7 +260,7 @@ Input our username and password, password confirmation, and security questions
 
 Disable all the privacy settings and click accept.
 
-![](<../../../.gitbook/assets/image (60).png>)
+![](<../../../.gitbook/assets/image (60) (1).png>)
 
 It will now do Windows setup and such
 
@@ -284,6 +284,6 @@ Click the blue 'Connect' button
 
 Select 'Join this device to a local Active Directory domain'.
 
-![](<../../../.gitbook/assets/image (66).png>)
+![](<../../../.gitbook/assets/image (66) (1).png>)
 
 &#x20;and follow the steps. Add in your domain name, sign in with Admin credentials, reboot, and ta-da!

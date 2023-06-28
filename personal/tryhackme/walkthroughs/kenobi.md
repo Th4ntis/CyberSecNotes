@@ -16,7 +16,7 @@ I will be going through room using the attackbox
 
 Our results show us the answer:
 
-![](<../../../.gitbook/assets/image (173).png>)
+![](<../../../.gitbook/assets/image (57).png>)
 
 ## Task 2
 
@@ -86,7 +86,7 @@ Some of these might not jump out to new users right away, but the `/usr/bin/menu
 
 What happens when we run the command `menu`?
 
-![](<../../../.gitbook/assets/image (268).png>)
+![](<../../../.gitbook/assets/image (69).png>)
 
 Strings is a command on Linux that looks for human readable strings on a binary. This shows us the binary is running without a full path (e.g. not using /usr/bin/curl or /usr/bin/uname). As this file runs as the root users privileges, we can manipulate our path gain a root shell.
 

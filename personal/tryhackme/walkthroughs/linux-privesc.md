@@ -184,7 +184,7 @@ Now we wait for the crontab to run. After a minute or two, we should receive our
 
 ![](<../../../.gitbook/assets/image (253).png>)
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (2).png>)
 
 ### Question 3: What is Matt's password?
 
@@ -280,7 +280,7 @@ So let's try to cat the /etc/shadow file.
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 We can get the hashes for root, and missy.
 

@@ -72,7 +72,7 @@ Answer: nginx 1.14.2
 
 [Gobuster man page](https://manpages.ubuntu.com/manpages/impish/man1/gobuster.1.html)
 
-![](<../../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../../.gitbook/assets/image (5) (1) (1).png>)
 
 Answer: dir
 
@@ -80,7 +80,7 @@ Answer: dir
 
 #### What page is found during our dir busting activities?
 
-![](<../../../../.gitbook/assets/image (1) (2).png>)
+![](<../../../../.gitbook/assets/image (1) (2) (3).png>)
 
 Answer: admin.php
 
@@ -98,7 +98,7 @@ Answer: 200
 
 When browsing to (IP)/admin.php
 
-![](<../../../../.gitbook/assets/image (3) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (3) (1) (1) (3).png>)
 
 Took a stab in the dark with **admin:admin**
 
