@@ -15,7 +15,7 @@ There’s a couple of feature benefits too with using OWASP ZAP over Burp Suite:
 
 Some keyword translations from Burp to Zap(and vice versa)
 
-![](<../../../.gitbook/assets/image (54).png>)
+![](<../../../.gitbook/assets/image (54) (1).png>)
 
 ## Install
 
@@ -52,7 +52,7 @@ And then select HtmlUnity from the Ajax Spider Dropdown.&#x20;
 
 Both utilities can further be configured in the options menu (Ctrl+Alt+O)
 
-![](<../../../.gitbook/assets/image (59).png>)
+![](../../../.gitbook/assets/image.png)
 
 ![](<../../../.gitbook/assets/image (396).png>)
 
@@ -74,4 +74,4 @@ We click the play button to begin
 
 ![](<../../../.gitbook/assets/image (295).png>)
 
-![](<../../../.gitbook/assets/image (14) (3).png>)
+![](<../../../.gitbook/assets/image (14).png>)

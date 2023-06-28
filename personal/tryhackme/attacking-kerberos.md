@@ -76,7 +76,7 @@ Enumerating users allows us to know which user accounts are on the target domain
 
 \*For the sake of brevity I followed the rooms guide and added the machines IP to my /etc/hosts file temporarily.
 
-![](<../../.gitbook/assets/image (184).png>)
+![](<../../.gitbook/assets/image (184) (1).png>)
 
 ### Question 1: How many total users do we enumerate?
 
@@ -144,7 +144,7 @@ Copy the hashes to a .txt file and begin the cracking with hashcat.
 
 `MYpassword123#`
 
-![](<../../.gitbook/assets/image (141).png>)
+![](<../../.gitbook/assets/image (141) (1).png>)
 
 ## Task 5
 
@@ -260,7 +260,7 @@ This will provide us with the service/domain admin account's security identifier
 
 running `lsadump::lsa /inject /name:sqlservice` will give us our answer.
 
-![](<../../.gitbook/assets/image (129).png>)
+![](<../../.gitbook/assets/image (129) (1).png>)
 
 ### Question 2: What is the Administrator NTLM Hash?
 

@@ -63,7 +63,7 @@ Docker commands can be found [here](https://docs.docker.com/engine/reference/com
 
 Verify it's running. `sudo docker ps`
 
-![](<../../.gitbook/assets/image (136).png>)
+![](<../../.gitbook/assets/image (136) (1).png>)
 
 We can interact with it now by running `sudo docker exec -it Kali bash`
 
@@ -85,7 +85,7 @@ Since Ubuntu has various versions(from 14.04 to 22.04) we can select which versi
 
 ![](<../../.gitbook/assets/image (203).png>)
 
-![](<../../.gitbook/assets/image (62) (1).png>)
+![](<../../.gitbook/assets/image (62).png>)
 
 `sudo docker run -d -t --name buntu ubuntu:20.04`
 

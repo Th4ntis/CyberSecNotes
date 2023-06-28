@@ -17,7 +17,7 @@ With FoxyProxy installed we can right click on the extension > Options
 
 &#x20;
 
-![](<../../.gitbook/assets/image (10) (4).png>)
+![](<../../.gitbook/assets/image (10).png>)
 
 Add new Proxy
 
@@ -63,7 +63,7 @@ The scope will be sure to only intercept traffic to the specific IPs or websites
 
 or we can manually add them: `Target > Scope Settings > Include in Scope > Add`
 
-<figure><img src="../../.gitbook/assets/image (21) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (2).png" alt=""><figcaption></figcaption></figure>
 
 We chose to disable _logging_ for out of scope traffic, but the proxy will still be intercepting everything. So lets turn that off. Proxy > Options/Proxy Settings > Select "AND | URL | Is in target scope". The proxy will completely ignore anything that isn't in the scope, cleaning up the traffic coming through Burp.
 

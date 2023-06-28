@@ -10,7 +10,7 @@ If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core p
 
 Start with our Typical Configuration
 
-![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6).png>)
 
 Install the Operating System Later
 
@@ -18,7 +18,7 @@ Install the Operating System Later
 
 Choose Windows and i'll be doing Server 2019 but you can go with whatever edition you're installing
 
-![](<../../../.gitbook/assets/image (8) (1).png>)
+![](<../../../.gitbook/assets/image (8).png>)
 
 Choose the path for it and the Name of the VM
 
@@ -36,7 +36,7 @@ Finally we can now customize our hardware. This is where we can customize the RA
 
 I usually increase the RAM for the install so it goes quicker then drop it down after.
 
-![](<../../../.gitbook/assets/image (18) (6).png>)
+![](<../../../.gitbook/assets/image (18).png>)
 
 Start our VM and be ready to push a button to boot to the ISO as the screen will say. This is a pretty standard install, mostly just clicking next.
 
@@ -52,11 +52,11 @@ Choose the "Windows Server 20XX Standard Evaluation (Desktop Experience)"
 
 Go Custom Install
 
-![](<../../../.gitbook/assets/image (7) (1).png>)
+![](<../../../.gitbook/assets/image (7).png>)
 
 Click Next
 
-![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5).png>)
 
 Let it install
 
@@ -122,7 +122,7 @@ From here it'll be "Next" till the end
 
 Click Install and let it install
 
-![](<../../../.gitbook/assets/image (4) (1).png>)
+![](<../../../.gitbook/assets/image (4).png>)
 
 Installed!
 
@@ -152,7 +152,7 @@ Click Promote this server to a domain controller
 
 We're going to add a new Forest and give it a name
 
-![](<../../../.gitbook/assets/image (15) (3).png>)
+![](<../../../.gitbook/assets/image (15).png>)
 
 Give the DSRM a password. I set it the same as the Admin password. (Not the most secure, but this is for a lab environment)
 
@@ -302,7 +302,7 @@ Install the Operating System later
 
 Choose Windows Server 2019 as the the closest we can get at the current moment.
 
-![](<../../../.gitbook/assets/image (72) (3).png>)
+![](<../../../.gitbook/assets/image (72).png>)
 
 Choose the path for it and the Name of the VM
 
@@ -354,11 +354,11 @@ After you've powered back on the machine, from the VMWare menu > VM > Install VM
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-![](<../../../.gitbook/assets/image (69) (1).png>)
+![](<../../../.gitbook/assets/image (69).png>)
 
 We may need to move the window to see the VMWare Tools window.
 
-![](<../../../.gitbook/assets/image (70) (1).png>)
+![](<../../../.gitbook/assets/image (70).png>)
 
 After this install and reboots, we can shut it down.
 

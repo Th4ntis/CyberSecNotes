@@ -58,7 +58,7 @@ echo "10.129.95.234 unika.htb" | sudo tee -a /etc/hostsh
 
 Found by: browsing the site and changing the language on the site to French or German
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 We see the URL is `http://unika.htb/index.php?page=german.html`, showing this is written in PHP.
 
