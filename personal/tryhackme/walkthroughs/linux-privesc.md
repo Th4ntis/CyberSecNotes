@@ -78,7 +78,7 @@ So let's run `sudo find . -exec /bin/sh ; -quit` and see if we get root.
 
 We do! So now we can find our flag.
 
-![](<../../../.gitbook/assets/image (180) (1).png>)
+![](<../../../.gitbook/assets/image (180).png>)
 
 ### Question 3: How would you use Nmap to spawn a root shell if your user had sudo rights on nmap?
 
@@ -118,7 +118,7 @@ Now we can use unshadow from the JohnTheRipper package to combine the files
 
 ![](<../../../.gitbook/assets/image (150).png>)
 
-![](<../../../.gitbook/assets/image (46) (1).png>)
+![](<../../../.gitbook/assets/image (46).png>)
 
 Time to crack the passwords!
 
@@ -184,7 +184,7 @@ Now we wait for the crontab to run. After a minute or two, we should receive our
 
 ![](<../../../.gitbook/assets/image (253).png>)
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (3).png>)
 
 ### Question 3: What is Matt's password?
 
@@ -280,7 +280,7 @@ So let's try to cat the /etc/shadow file.
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (5).png>)
 
 We can get the hashes for root, and missy.
 
@@ -304,11 +304,11 @@ We got the password for Missy! So lets switch users to missy. `su missy`
 
 `THM-168824782390238` -&#x20;
 
-![](<../../../.gitbook/assets/image (132) (1).png>)
+![](<../../../.gitbook/assets/image (132).png>)
 
 Sadly we don't have permission to the 2nd flag but lets see what sudo permissions Missy has with `sudo -l`
 
-![](<../../../.gitbook/assets/image (45) (1).png>)
+![](<../../../.gitbook/assets/image (45).png>)
 
 We see Missy can run `find`. Similar to task 6, we can use the GTFO bin we used for that.
 

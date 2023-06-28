@@ -39,7 +39,7 @@ Get-Help displays information about a _cmdlet._ To get help about a particular c
 
 We can also understand how exactly to use the command by passing in the `-examples` flag.
 
-![](<../../.gitbook/assets/image (53) (1).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 #### Using Get-Command
 
@@ -105,7 +105,7 @@ Full list of operators can be found [here](https://docs.microsoft.com/en-us/powe
 
 An example of checking the stopped processes:
 
-![](<../../.gitbook/assets/image (134) (1).png>)
+![](<../../.gitbook/assets/image (134).png>)
 
 #### Sort Object
 
@@ -210,19 +210,19 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `24` - Run `Get-LocalGroup | Measure` to find the answer
 
-![](<../../.gitbook/assets/image (47) (1).png>)
+![](<../../.gitbook/assets/image (47).png>)
 
 ### Question 5: What command did you use to get the IP address info?
 
 `Get-NetIPAddress`
 
-![](<../../.gitbook/assets/image (128) (1).png>)
+![](<../../.gitbook/assets/image (128).png>)
 
 ### Question 6: How many ports are listed as listening?
 
 `20` - Run `Get-NetTCPConnection | Where-Object -Property State -Match Listen | Measure` to find our answer.
 
-![](<../../.gitbook/assets/image (56) (1).png>)
+![](<../../.gitbook/assets/image (56).png>)
 
 ### Question 7: What is the remote address of the local port listening on port 445?
 
@@ -244,7 +244,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `backpassflag` - First we find the backup file `Get-ChildItem -Path C:\ -include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (13) (3).png>)
 
 Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Internet Explorer\passwords.bak.txt'`
 
@@ -272,7 +272,7 @@ Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Intern
 
 `NT SERVICE\TrustedInstaller` - Running `Get-Acl c:/` will show us the owner.
 
-![](<../../.gitbook/assets/image (135) (1).png>)
+![](<../../.gitbook/assets/image (135).png>)
 
 ## Task 5
 

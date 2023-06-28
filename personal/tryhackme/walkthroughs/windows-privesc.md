@@ -18,7 +18,7 @@ This room can be found [here](https://tryhackme.com/room/winprivesc). This room 
 
 `10.0.17763 N/A Build 17763` - Running `systeminfo` will give us our answer
 
-![](<../../../.gitbook/assets/image (49) (1).png>)
+![](<../../../.gitbook/assets/image (49).png>)
 
 ### Question 4: When was security update KB4562562 installed?
 
@@ -126,7 +126,7 @@ We can follow the rooms example just be sure to change the IP and PORT of YOUR m
 
 We get the file onto the target in whatever way we can, I'll again be using python3 webserver
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (20) (1).png>)
 
 With our file now on the target, we can start the service `sc start unquotedsvc`
 
@@ -134,7 +134,7 @@ With our file now on the target, we can start the service `sc start unquotedsvc`
 
 We should now have our shell
 
-![](<../../../.gitbook/assets/image (131) (1).png>)
+![](<../../../.gitbook/assets/image (131).png>)
 
 From here there are multiple ways we can find our file and flag but for the sake of brevity we will just stick with windows and methods we have already used.
 

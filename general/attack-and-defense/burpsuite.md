@@ -17,7 +17,7 @@ With FoxyProxy installed we can right click on the extension > Options
 
 &#x20;
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (10) (2).png>)
 
 Add new Proxy
 

@@ -34,6 +34,6 @@ This install dependencies that are required by kismet, removes any other/old ins
 
 Running `kismet` will start a local webserver for you to access via a web browser via `localhost:2501`. You can then set your login information there.
 
-![](<../../../.gitbook/assets/image (43).png>)
+![](<../../../.gitbook/assets/image (4).png>)
 
 From here we can specify and interface, bluetooth device, and/or GPS adapter to use. These options can also be set when starting kismet via the command line or choosing the defaults by editing the `kismet.conf` file in `/etc/kismet/kismet.conf`.

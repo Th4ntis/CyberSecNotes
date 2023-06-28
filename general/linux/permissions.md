@@ -4,7 +4,7 @@
 
 `ls -la`: Lists all files/folders in a directory, including hidden files/folders.
 
-![](<../../.gitbook/assets/image (154).png>)
+![](<../../.gitbook/assets/image (139).png>)
 
 Example1: `.bashrc` is a file(Indicated by -), and the owner can read and write to it, but not execute. The group it belongs to can read it, but not write or execute, and any other user can't do anything with the file.
 
@@ -14,7 +14,7 @@ Example2: `.config` is a directory(Indicated by the d), and the owner is able to
 
 A new file named hello.txt  By default we can only read and write, the group can do the same, other users can only read it.
 
-![](<../../.gitbook/assets/image (130).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 To change the permission, you run **chmod** which stand for change mode. Eg. **chmod 777** will give full read, write, execute permissions to everything and everyone.  Eg. **chmod +x** will make the file executable to everyone.
 

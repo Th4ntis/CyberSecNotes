@@ -102,6 +102,6 @@ When browsing to (IP)/admin.php
 
 Took a stab in the dark with **admin:admin**
 
-![](<../../../../.gitbook/assets/image (8) (3).png>)
+![](<../../../../.gitbook/assets/image (8) (3) (2).png>)
 
 Answer: **6483bee07c1c1d57f14e5b0717503c73**

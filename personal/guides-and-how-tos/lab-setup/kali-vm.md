@@ -22,7 +22,7 @@ Select Linux, then select the Debian 64-bit version.
 
 Give the machine a name and choose where to save it
 
-<figure><img src="../../../.gitbook/assets/image (7) (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select the size of the VM. This will **NOT** the overall size, this is just the max size of the VMs HDD space and will fill up as we add more to the VM that takes up space.
 
@@ -146,7 +146,7 @@ Upon launching, the default credentials are be the word `kali` for the username 
 
 Download the .7z file in the and extract it with [7Zip](https://www.7-zip.org/) in whatever manor that works for you.
 
-<figure><img src="../../../.gitbook/assets/image (5) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 With the VM extracted, select the add button, then navigate to the directory with the .vbox file.
 

@@ -16,7 +16,7 @@ If you input the same value to the hashing algorithm it will produce the same ha
 
 For example:
 
-![](<../../../.gitbook/assets/image (50) (1).png>)
+![](<../../../.gitbook/assets/image (50).png>)
 
 ![](<../../../.gitbook/assets/image (403).png>)
 
