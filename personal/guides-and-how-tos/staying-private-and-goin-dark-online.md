@@ -13,7 +13,7 @@
 
 1. I personally recommend a Google Pixel Phone - Unlocked, and installing [CalyxOS](https://calyxos.org/) or [GrapheneOS](https://grapheneos.org/). iPhones are good as well though some of their privacy policies lately kinda of sketchy(Eg. Scanning iCloud pictures and such). Using [MintMobile](https://www.mintmobile.com/) instead of a normal carrier. So you'll be getting a new phone number.\
    When giving out your new phone number to family/friends, make sure you trust them to not give it out to others.
-2. Most machines work but will depend on your usecase, but rather than using Windows or MacOS, go with [QuebesOS](https://www.qubes-os.org/) or base [Debian](https://www.debian.org/).
+2. Most machines work but will depend on your use case, but rather than using Windows or Mac OS, go with [QuebesOS](https://www.qubes-os.org/)(for more advanced) or base [Debian](https://www.debian.org/). I typically use a flavor of [Ubuntu](https://ubuntu.com/) for ease as most things just work with it but to make it more privacy based you will want to look into what changes should be made.
 
 ## Software <a href="#software" id="software"></a>
 
@@ -22,5 +22,5 @@
 3. [NextCloud](https://nextcloud.com/) for File hosting.
 4. [LibreWolf](https://librewolf.net/) or [Brave](https://brave.com/) Browser.
 5. [Signal](https://signal.org/en/), [Element](https://element.io/), or [Session](https://getsession.org/) for chat messaging, though you will need other people on the platform as well or your message will not encrypted.
-6. [MySudo](https://mysudo.com/) for creating phone numbers, emails, etc. to use instead of your real personal information.
-7. **Self host as much as possible**, such as storing your bitwarden manager and files on your own machines.
+6. [MySudo](https://mysudo.com/) for creating phone numbers, emails, etc. to use instead of your real personal information. **Note:** You _may_ need a stock android/iPhone device to sign up for a plan. I was unable to while using CalyxOS.
+7. **Self host as much as possible**, such as storing your Bitwarden manager and files on your own machines.
