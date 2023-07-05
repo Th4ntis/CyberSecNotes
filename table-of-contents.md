@@ -26,6 +26,7 @@ description: Quick Links to pages
 * [Linux](general/linux/)
   * [Common Commands](general/linux/common-commands.md)
   * [Permissions](general/linux/permissions.md)
+  * [Dotfiles](general/linux/dot-files.md)
 * [Windows](general/windows/)
   * [Internals](general/windows/internals.md)
   * [Powershell](general/windows/powershell.md)
