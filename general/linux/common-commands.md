@@ -1,5 +1,7 @@
 # Common commands
 
+## Built in
+
 Some of the most common and used linux commands are listed below. all of these commands and be followed by --help for more information and additional arguments.
 
 * `ls` - Lists files and folders in current or specified directory.
@@ -19,3 +21,16 @@ Some of the most common and used linux commands are listed below. all of these c
 * `ip` - used to show or manipulate routing, devices, and tunnels. Similar to ifconfig but is much more powerful with more functions and facilities.
 * `ssh` - secure shell - remotely connect to another machine
   * `ssh user@ip`
+
+## Alias
+
+Setting alias can be simple but can get more complicated. Aliases are basically shortcuts to other commands, but can also replace commands. These can go into 2 places, your shell(ZSH or bash usually but there are plenty others out there) or into an alias file(like .bash\_alias)
+
+Some examples are:
+
+* `alias upd='sudo apt update && sudo apt upgrade'` This will make it so when you type 'upd' it will run the command to update the repositories and upgrade the currently installed applications,
+* `alias ffs='sudo $(fc -l -n -1)'` this one is for if you ype a command that needs sudo permissions, will run the last command as sudo.
+* `alias ..='cd ..'` will go up one directory.
+* `alias ...='cd ../..'` will go up two directories.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

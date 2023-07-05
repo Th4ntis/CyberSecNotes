@@ -80,7 +80,7 @@ Answer: dir
 
 #### What page is found during our dir busting activities?
 
-![](<../../../../.gitbook/assets/image (1) (2).png>)
+![](<../../../../.gitbook/assets/image (1) (2) (3).png>)
 
 Answer: admin.php
 
