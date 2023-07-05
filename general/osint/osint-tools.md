@@ -109,7 +109,6 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
 * [DorkSearch](https://dorksearch.com/) - Faster Google dorking.
 * [ExploitDB](https://www.exploit-db.com/) - Archive of various exploits
 * [WayBackMachine](https://web.archive.org/) - View content from edited, deleted and older websites
-*
 * [Maltiverse](https://maltiverse.com/collection) - Search for indicators of compromise or something related
 * [HoneyDB](https://honeydb.io/) - Provides real time data of honeypot activity.
 * [SecurityTrails](https://securitytrails.com/dns-trails) - Extensive and historical DNS data
