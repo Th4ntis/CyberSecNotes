@@ -27,6 +27,7 @@
   * [Common commands](general/linux/common-commands.md)
   * [Permissions](general/linux/permissions.md)
   * [Dot files](general/linux/dot-files.md)
+  * [Ricing](general/linux/ricing.md)
 * [🪟 Windows](general/windows/README.md)
   * [Powershell Basics](general/windows/powershell-basics.md)
   * [Internals](general/windows/internals.md)
