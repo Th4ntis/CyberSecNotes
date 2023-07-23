@@ -9,11 +9,19 @@
 5. I also HIGHLY recommend signing up for the other services Proton offers, such as their [VPN](https://protonvpn.com/) and [Drive](https://drive.proton.me/). There is usually a bundle package for email and VPN and all in one.
 6. From here, when signing up for anything, use SimpleLogin to make an email for it to have it forwarded to your Proton account, saving the logins in Bitwarden, and making payments with Privacy.
 
+## &#x20;<a href="#hardware" id="hardware"></a>
+
+***
+
 ## Hardware <a href="#hardware" id="hardware"></a>
 
 1. I personally recommend a Google Pixel Phone - Unlocked, and installing [CalyxOS](https://calyxos.org/) or [GrapheneOS](https://grapheneos.org/). iPhones are good as well though some of their privacy policies lately kinda of sketchy(Eg. Scanning iCloud pictures and such). Using [MintMobile](https://www.mintmobile.com/) instead of a normal carrier. So you'll be getting a new phone number.\
    When giving out your new phone number to family/friends, make sure you trust them to not give it out to others.
 2. Most machines work but will depend on your use case, but rather than using Windows or Mac OS, go with [QuebesOS](https://www.qubes-os.org/)(for more advanced) or base [Debian](https://www.debian.org/). I typically use a flavor of [Ubuntu](https://ubuntu.com/) for ease as most things just work with it but to make it more privacy based you will want to look into what changes should be made.
+
+## &#x20;<a href="#software" id="software"></a>
+
+***
 
 ## Software <a href="#software" id="software"></a>
 

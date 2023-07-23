@@ -120,6 +120,10 @@ Now is when you will want to shut down the VM and adjust RAM and Processors if n
 
 ![](<../../../.gitbook/assets/image (329).png>)
 
+###
+
+***
+
 ### Joining a Domain
 
 You _may_ want a second user machine as well but only if you're machine is capable of it. It's not required but it will help.
@@ -200,6 +204,10 @@ All set! We now have a lab Environment with Ubuntu for an attack machine if need
 
 I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
 
+##
+
+***
+
 ## Windows 11
 
 Same way as Windows 10 but once met with this screen
@@ -271,6 +279,10 @@ We're now logged in and can install VMWare Tools
 ![](<../../../.gitbook/assets/image (212).png>)
 
 ![](<../../../.gitbook/assets/image (37).png>)
+
+###
+
+***
 
 ### Joining a domain
 

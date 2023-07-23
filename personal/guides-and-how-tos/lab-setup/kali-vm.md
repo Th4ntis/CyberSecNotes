@@ -110,6 +110,10 @@ Once install is finished, you'll beboot the system and done!
 
 <figure><img src="../../../.gitbook/assets/image (316).png" alt=""><figcaption></figcaption></figure>
 
+###
+
+***
+
 ### Post Install
 
 Once we're in, it's a good idea to open the terminal, and we update everything with `sudo apt update && sudo apt upgrade -y`.
@@ -119,6 +123,10 @@ Now is when you will want to shut down the VM and adjust RAM and Processors if n
 From here you can explore and find things, change settings, and learn. I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
 
 I recommend using some additional software such as [PimpMyKali from DeWalt](https://github.com/Dewalt-arch/pimpmykali/blob/master/README.md).
+
+
+
+***
 
 ## Kali VM
 
@@ -140,6 +148,10 @@ From here, you can see the default settings on the site, but can edit them bette
 
 Upon launching, the default credentials are be the word `kali` for the username AND password.
 
+
+
+***
+
 ### Virtualbox
 
 <figure><img src="../../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
@@ -159,6 +171,10 @@ From here, you can see the default settings on the site, but can edit them bette
 <figure><img src="../../../.gitbook/assets/image (433).png" alt=""><figcaption></figcaption></figure>
 
 Upon launching, the default credentials are be the word `kali` for the username AND password.
+
+
+
+***
 
 ### Post Install
 

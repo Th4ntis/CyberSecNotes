@@ -56,6 +56,10 @@ sudo usermod -aG kismet your-user-here
 sudo apt install kismet
 ```
 
+##
+
+***
+
 ## Setup(Zimaboard)
 
 ### Settin up the SSD for the Zimaboard
@@ -109,6 +113,10 @@ log_prefix=/mnt/data/kismet
 log_types+=wiglecsv
 ```
 
+##
+
+***
+
 ## Setup(RPi)
 
 ### kismet\_site.conf file
@@ -145,6 +153,10 @@ log_prefix=/dev/usb1
 # Turn on wiglecsv format
 log_types+=wiglecsv
 ```
+
+##
+
+***
 
 ## Setup Cont. (Both RPi and Zimaboard)
 
@@ -263,6 +275,10 @@ Now, in our kismet\_site.conf, we will add GPSD as a GPS source.&#x20;
 
 <figure><img src="../../.gitbook/assets/image (21) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
+##
+
+***
+
 ## Running - Normal Mode
 
 Now we can start and run kismet! We need to specify the WiFi Adapter and gps.
@@ -287,6 +303,10 @@ If you don't specify an interface in the original command, when on the dashboard
 
 From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
 
+##
+
+***
+
 ## Running - Wardrive Mode
 
 If you're on the newest kismet version (2022-01-git and subsequent releases) we can run kismet in a specified [wardriving mode](https://www.kismetwireless.net/docs/readme/wardriving/).
@@ -306,6 +326,10 @@ and just as above, If you don't specify an interface in the original command, wh
 <figure><img src="../../.gitbook/assets/image (7) (3).png" alt=""><figcaption></figcaption></figure>
 
 From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
+
+##
+
+***
 
 ## Autostarting Kismet
 
@@ -333,6 +357,10 @@ Set the service to start on boot with: `sudo systemctl enable kismet`.
 Verify the Kismet service is running with: `sudo service kismet status`.
 
 <figure><img src="../../.gitbook/assets/image (83) (1).png" alt=""><figcaption></figcaption></figure>
+
+##
+
+***
 
 ## Post Capture
 

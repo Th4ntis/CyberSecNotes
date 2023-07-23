@@ -290,6 +290,10 @@ Now we are done!
 
 Again, I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
 
+##
+
+***
+
 ## Windows Server 2022
 
 Starting with typical setup
