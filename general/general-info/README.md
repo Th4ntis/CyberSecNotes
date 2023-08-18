@@ -20,7 +20,3 @@ There are many titles that are associated with blue team members.
 
 Purple team is a mix of Red Team and Blue Team, and each persons opinion kind of varies on what they do. I believe an effective purple team is that they are a bridge between red and blue, to work closely together to maximize cyber capabilities through continuous feedback, and share knowledge and information.
 
-There are multiple titles for blue team members.
-
-## Purple Team
-
