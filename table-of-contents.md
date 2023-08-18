@@ -7,9 +7,9 @@ description: Quick Links to pages
 ## General Information
 
 * [General Info](general/general-info/)
-  * [Learning Resources](general/general-info/learning-resources.md)
-  * [Security+](general/general-info/security+.md)
-  * [Pentest+](personal/courses/pentest+/)
+  * [Learning Resources](general/general-info/learning-resources/)
+  * [Security+](general/general-info/learning-resources/security+.md)
+  * [Pentest+](general/general-info/learning-resources/pentest+.md)
   * [MITRE ATT\&CK](general/general-info/mitre-att-and-ck.md)
   * [Cyber Skill Chain](general/general-info/cyber-kill-chain.md)
   * [Docker](general/general-info/docker.md)
