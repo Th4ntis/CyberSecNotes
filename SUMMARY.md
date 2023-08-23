@@ -92,6 +92,7 @@
   * [Staying Private and goin Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [📕 Quick References](personal/quick-references.md)
 * [📓 Courses](personal/courses/README.md)
+  * [PNPT](personal/courses/pnpt.md)
   * [eJPT](personal/courses/ejpt/README.md)
     * [Assessment Methodologies](personal/courses/ejpt/assessment-methodologies/README.md)
       * [Information Gathering](personal/courses/ejpt/assessment-methodologies/information-gathering/README.md)
