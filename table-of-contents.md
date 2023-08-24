@@ -79,7 +79,7 @@ description: Quick Links to pages
 * [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting.md)
 * [Over The Wire](personal/guides-and-how-tos/over-the-wire/)
 * [Staying Private and Going Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
-* [Quick References](personal/quick-references.md)
+* [Quick References](personal/quick-references/)
 * [PNPT](personal/courses/pnpt.md)
 * [eJPT](personal/courses/ejpt/)
 * [TryHackMe](personal/tryhackme/)
