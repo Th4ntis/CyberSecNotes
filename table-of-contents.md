@@ -80,9 +80,9 @@ description: Quick Links to pages
 * [Over The Wire](personal/guides-and-how-tos/over-the-wire/)
 * [Staying Private and Going Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [Quick References](personal/quick-references/)
-  * X
-  * X
-* Courses
+  * [One-Liners](personal/quick-references/one-liners.md)
+  * [Wireless](personal/quick-references/wireless.md)
+* [Courses](personal/courses/)
   * [PNPT](personal/courses/pnpt.md)
   * [eJPT](personal/courses/ejpt/)
 * [TryHackMe](personal/tryhackme/)
