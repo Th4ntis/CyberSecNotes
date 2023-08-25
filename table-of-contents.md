@@ -84,7 +84,7 @@ description: Quick Links to pages
   * [One-Liners](personal/quick-references/one-liners.md)
   * [Wireless](personal/quick-references/wireless.md)
 * [Courses](personal/courses/)
-  * [PNPT](personal/courses/pnpt.md)
+  * [PNPT](personal/courses/pnpt/)
   * [eJPT](personal/courses/ejpt/)
 * [TryHackMe](personal/tryhackme/)
 * [HackTheBox](personal/hackthebox/)
