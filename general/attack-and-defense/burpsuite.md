@@ -55,7 +55,7 @@ Setting a scope for the project allows us to define what gets proxied and logged
 
 To do this switch over to the "Target" tab, right-click our target from the list on the left, then choose "Add To Scope". Burp will then ask us whether we want to stop logging anything which isn't in scope, we want to choose yes.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -105,7 +105,7 @@ Burp Suite Repeater lets us craft and/or relay intercepted requests to a target.
 
 With a request captured in the proxy, we can send to repeater either by right-clicking on the request and choosing "Send to Repeater" or by pressing `CTRL+R`
 
-<figure><img src="../../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Back in the 'Repeater' tab, we can see the request.
 

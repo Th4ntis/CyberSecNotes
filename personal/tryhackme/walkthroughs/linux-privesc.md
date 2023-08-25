@@ -280,7 +280,7 @@ So let's try to cat the /etc/shadow file.
 
 `base64 "$LFILE" | base64 --decode`
 
-![](<../../../.gitbook/assets/image (3) (1).png>)
+![](<../../../.gitbook/assets/image (3) (1) (1).png>)
 
 We can get the hashes for root, and missy.
 
