@@ -91,6 +91,7 @@
     * [Manpage](personal/guides-and-how-tos/over-the-wire/manpage.md)
   * [Staying Private and goin Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [📕 Quick References](personal/quick-references/README.md)
+  * [Hashcracking](personal/quick-references/hashcracking.md)
   * [One-liners](personal/quick-references/one-liners.md)
   * [Wireless](personal/quick-references/wireless.md)
 * [📓 Courses](personal/courses/README.md)
