@@ -4,7 +4,7 @@ description: Quick Links to pages
 
 # Table of Contents
 
-## [hashcracking.md](personal/quick-references/hashcracking.md "mention")General Information
+## General Information
 
 * [General Info](general/general-info/)
   * [Learning Resources](general/general-info/learning-resources/)
@@ -25,6 +25,9 @@ description: Quick Links to pages
   * [3-Way Handshake](general/networking/3-way-handshake.md)
 * [Linux](general/linux/)
   * [Common Commands](general/linux/common-commands.md)
+  * [Sudo](general/linux/sudo.md)
+  * [Files and File Contents](general/linux/files-and-file-contents.md)
+  * [Sed Awk and Grep](general/linux/sed-awk-and-grep.md)
   * [Permissions](general/linux/permissions.md)
   * [Dotfiles](general/linux/dot-files.md)
   * [Ricing](general/linux/ricing.md)
@@ -80,7 +83,7 @@ description: Quick Links to pages
 * [Over The Wire](personal/guides-and-how-tos/over-the-wire/)
 * [Staying Private and Going Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [Quick References](personal/quick-references/)
-  * Hashcracking
+  * [Hashcracking](personal/quick-references/hashcracking.md)
   * [One-Liners](personal/quick-references/one-liners.md)
   * [Wireless](personal/quick-references/wireless.md)
 * [Courses](personal/courses/)
