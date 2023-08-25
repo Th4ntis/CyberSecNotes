@@ -4,7 +4,7 @@ description: Quick Links to pages
 
 # Table of Contents
 
-## General Information
+## [hashcracking.md](personal/quick-references/hashcracking.md "mention")General Information
 
 * [General Info](general/general-info/)
   * [Learning Resources](general/general-info/learning-resources/)
@@ -80,6 +80,7 @@ description: Quick Links to pages
 * [Over The Wire](personal/guides-and-how-tos/over-the-wire/)
 * [Staying Private and Going Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [Quick References](personal/quick-references/)
+  * Hashcracking
   * [One-Liners](personal/quick-references/one-liners.md)
   * [Wireless](personal/quick-references/wireless.md)
 * [Courses](personal/courses/)
