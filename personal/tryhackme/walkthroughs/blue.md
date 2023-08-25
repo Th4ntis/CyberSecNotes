@@ -83,7 +83,7 @@ Once we copy Jons NTLM hash `Jon:1000:aad3b435b51404eeaad3b435b51404ee:ffb43f0de
 
 I have copied Jons hash to a file called jonhash in my current directory. So poninting JohnTheTipper at the hash and specifying the hash format and selecting the wordlist we want to use, we can attempt to crack the hash. `sudo /opt/john/run/john jon --format=NT --wordlist=/opt/SecLists/Passwords/rockyou.txt`
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (6) (3).png>)
 
 ## Task 5
 

@@ -8,40 +8,8 @@ I used the [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (
 
 ## Into to Linux
 
-[I've worked with Linux prior to this](../../../general/linux/), so I have my own notes on these as well:
+[I've worked with Linux prior to this](../../../general/linux/), so I have my own notes on these sections as well:
 
-[Common Commands](../../../general/linux/common-commands.md) - [Permissions](../../../general/linux/permissions.md)
-
-### Exploring Kali
-
-
-
-### Sudo Overview
-
-
-
-### Navigating the File System
-
-
-
-### Users and Privileges
-
-
-
-### Common Network Commands
-
-
-
-### Viewing, Editing, and Creating Files
-
-
-
-### Starting and Stopping Services
-
-
-
-### Installing and Updating Tools
-
-
+[Common Commands](../../../general/linux/common-commands.md) - [Permissions](../../../general/linux/permissions.md) - [Sudo](../../../general/linux/sudo.md) - [Files and File contents](../../../general/linux/files-and-file-contents.md)
 
 ### Scripting with Bash

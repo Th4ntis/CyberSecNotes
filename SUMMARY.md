@@ -27,6 +27,7 @@
 * [🐧 Linux](general/linux/README.md)
   * [Common commands](general/linux/common-commands.md)
   * [Sudo](general/linux/sudo.md)
+  * [Files and File contents](general/linux/files-and-file-contents.md)
   * [Permissions](general/linux/permissions.md)
   * [Dot files](general/linux/dot-files.md)
   * [Ricing](general/linux/ricing.md)

@@ -10,13 +10,25 @@ Example1: `.bashrc` is a file(Indicated by -), and the owner can read and write 
 
 Example2: `.config` is a directory(Indicated by the d), and the owner is able to read, write, AND execute, the group can read and execute, but not write, the sme goes for any other user as well.
 
+For the `.bashrc` file:
+
+| Column       | Meaning                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------- |
+| -rw-r--r--   | Indicates a file or folder, read/write/execute permissions for the user/group/other users |
+| 1            | Shows number of hard links to the file                                                    |
+| th4ntis      | The file owner                                                                            |
+| th4ntis      | The group assigned to the file                                                            |
+| 3856         | The file size in bytes                                                                    |
+| Feb 21 02:04 | Date/Time of last modification                                                            |
+| .bashrc      | File name                                                                                 |
+
 ## Modifying Permissions
 
 A new file named hello.txt  By default we can only read and write, the group can do the same, other users can only read it.
 
 ![](<../../.gitbook/assets/image (17).png>)
 
-To change the permission, you run **chmod** which stand for change mode. Eg. **chmod 777** will give full read, write, execute permissions to everything and everyone.  Eg. **chmod +x** will make the file executable to everyone.
+To change the permission, you run `chmod` which stand for change mode. Eg. `chmod 777` will give full read, write, execute permissions to everything and everyone.  Eg. `chmod +x` will make the file executable to everyone.
 
 To use `chmod` to set permissions, we need to tell it:
 
@@ -45,4 +57,6 @@ The “which ” values we can use are:
 * _w_: The write permission.
 * _x_: The execute permission.
 
-Examples: Changing the permission to remove read permissions to a file we would run `chmod o-r filename`.&#x20;
+Eg. Changing the permission to remove read permissions to a file: `chmod o-r filename`.&#x20;
+
+Eg. Changing the file to be able to be executed: `chmod +x script.sh`

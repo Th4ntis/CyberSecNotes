@@ -52,7 +52,7 @@ Choose the "Windows Server 20XX Standard Evaluation (Desktop Experience)"
 
 Go Custom Install
 
-![](<../../../.gitbook/assets/image (7) (1).png>)
+![](<../../../.gitbook/assets/image (7) (1) (2).png>)
 
 Click Next
 

@@ -66,7 +66,7 @@ Will send out pings to multiple hosts at one time. Using `fping -i (internaface)
 
 `fping -I vmnet8 -g 172.16.8.0/24 -a 2>/dev/null`
 
-<figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Notice the .131 address is missing, this is due to the machine not responding to ping requests.
 

@@ -119,7 +119,7 @@ Answer: aws s3 ls
 
 Looking at the buckets with: `aws --endpoint=http://s3.thetoppers.htb s3 ls`
 
-<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 we can go into this further: `aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb`
 

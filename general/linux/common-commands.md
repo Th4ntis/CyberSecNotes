@@ -34,11 +34,58 @@ Some of the most common and used linux commands are listed below. all of these c
   * `cat hell-world.txt | grep dog`
 * `cat` - Concatenate file(s) to standard output.
   * `cat hello-world.txt`
-* `ifconfig` - Interface config, shows interface options, such as IP address, name, MAC address, and more.
+
+### Networking
+
+* `ifconfig` - Interface config, shows interface options, such as IP address, name, MAC address, and more. This command is slowly being phased out for `IP`.
 * `iwconfig` - Similar to ifconfig but focuses on wireless interfaces.
 * `ip` - used to show or manipulate routing, devices, and tunnels. Similar to ifconfig but is much more powerful with more functions and facilities.
 * `ssh` - secure shell - remotely connect to another machine
   * `ssh user@ip`
+* `route` - Displays or manipulates the IP routing table.
+* `arp` - Displays the ARP cache.
+
+### Services
+
+* `sudo service (service) start` - Start the specified service
+  * `sudo service pcscd start`
+* `sudo service (service) stop` - Stops the specified service
+  * `sudo service pcscd stop`
+* `sudo systemctl enable (service)` - Enables the service to started on system boot.
+  * `sudo systemctl enable pcscd`
+* `sudo systemctl disable (service)` - Disables the service to started on system boot.
+  * `sudo systemctl disable pcscd`
+
+## Installing/Updating/Upgrading
+
+There's various ways to install/update/upgrade system tools/applications depending which flavor of linux you're using.
+
+### Debian/Ubuntu/Kali
+
+* `sudo apt update` - Updates all current repositories
+* `sudo apt upgrade` - Upgrades(updates) installed software
+* `sudo apt install (package)` - Installs specified package
+  * `sudo apt install git`
+* `sudo apt remove (package)` - Removes/Uninstalls specified package
+  * `sudo apt remove git`
+
+### Arch
+
+* `sudo pacman -S (package)` - Installs specified package
+  * `sudo pacman -S git`
+* `sudo pacman -Syu` - Then will be prompted to install updates
+* `sudo pacman -R (package)` - Uninstalls/removes specified package
+  * `sudo pacman -R git`
+
+### Fedora
+
+dnf can also be used instead of yum.
+
+* `sudo yum upgrade` - Upgrades installed packages
+* `sudo yum install (package)` - Installs specified package.
+  * `sudo yum install git`
+* `sudo yum remove (package)` - Removes/Uninstalls specified package.
+  * `sudo yum remove git`
 
 ## Alias
 
@@ -46,8 +93,8 @@ Setting alias can be simple but can get more complicated. Aliases are basically 
 
 Some examples are:
 
-* `alias upd='sudo apt update && sudo apt upgrade'` This will make it so when you type 'upd' it will run the command to update the repositories and upgrade the currently installed applications,
-* `alias ffs='sudo $(fc -l -n -1)'` this one is for if you ype a command that needs sudo permissions, will run the last command as sudo.
+* `alias upd='sudo apt update && sudo apt upgrade -y'` This will make it so when you type 'upd' it will run the command to update the repositories and upgrade the currently installed applications,\ automatically without asking if you want to continue.
+* `alias ffs='sudo $(fc -l -n -1)'` this one is for if you type a command that needs sudo permissions, will run the last command as sudo.
 * `alias ..='cd ..'` will go up one directory.
 * `alias ...='cd ../..'` will go up two directories.
 
