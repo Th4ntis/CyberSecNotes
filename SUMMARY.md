@@ -98,7 +98,7 @@
 * [📓 Courses](personal/courses/README.md)
   * [PNPT](personal/courses/pnpt.md)
     * [Networking Refresher](personal/courses/pnpt/networking-refresher.md)
-    * [Lab Environment](personal/courses/pnpt/lab-environment.md)
+    * [Intro to Linux](personal/courses/pnpt/intro-to-linux.md)
   * [eJPT](personal/courses/ejpt/README.md)
     * [Assessment Methodologies](personal/courses/ejpt/assessment-methodologies/README.md)
       * [Information Gathering](personal/courses/ejpt/assessment-methodologies/information-gathering/README.md)
