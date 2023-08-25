@@ -96,7 +96,7 @@
   * [One-liners](personal/quick-references/one-liners.md)
   * [Wireless](personal/quick-references/wireless.md)
 * [📓 Courses](personal/courses/README.md)
-  * [PNPT](personal/courses/pnpt/README.md)
+  * [PNPT](personal/courses/pnpt.md)
     * [Networking Refresher](personal/courses/pnpt/networking-refresher.md)
     * [Lab Environment](personal/courses/pnpt/lab-environment.md)
   * [eJPT](personal/courses/ejpt/README.md)
