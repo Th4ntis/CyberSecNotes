@@ -25,6 +25,7 @@
     * [Wardriving/WiFi Sniffing](general/networking/wireless/wardriving-wifi-sniffing.md)
   * [3-Way Handshake](general/networking/3-way-handshake.md)
 * [🐧 Linux](general/linux/README.md)
+  * [Sudo](general/linux/sudo.md)
   * [Common commands](general/linux/common-commands.md)
   * [Permissions](general/linux/permissions.md)
   * [Dot files](general/linux/dot-files.md)
