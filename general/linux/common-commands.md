@@ -12,6 +12,24 @@ Some of the most common and used linux commands are listed below. all of these c
   * `touch hello-world.txt`
 * `mkdir` - Makes a folder.
   * `mkdir HelloFolder`
+* `mv` - Moves a file/folder, also used to rename a file/folder.
+  * `mv Hello.txt Documents/Hello.txt # moves the file Hello.txt into the Documents folde`r
+  * `mv Hello.txt Goodbye.txt # renames the Hello.txt file to Goodbye.txt`
+* `cp` - Copies a file to a specified file/folder.
+  * `cp Hello.txt Documents/ # copies the Hello.txt file into the Documents folder`
+  * `cp Hello.txt Hello.txt.bak # copies the Hello.txt file to a Hello.txt.bak file`
+* `cp -r` - Copies a folder
+  * `cp -r MyFolder Documents/ # copies the MyFolder folder into Documents`
+* `locate` - Searches for files/folders
+  * `locate Hello.txt`
+* `rm` - Removes a file.
+  * `rm Hello.txt`
+* `rmdir` - Removes a directory.
+  * `rmdir MyFolder`
+* `>`- Redirects the output of a command to a file and overwrites the file if it already exists.
+  * `echo "Hello" > Hello.txt`
+* `>>` - Appends output of a commend to the specified file
+  * `echo "Hello" >> Hello.txt`
 * `grep` - Search file(s) for specified keyword(s). usually piped into another command.
   * `cat hell-world.txt | grep dog`
 * `cat` - Concatenate file(s) to standard output.
