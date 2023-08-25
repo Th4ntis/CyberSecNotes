@@ -6,6 +6,10 @@ One of the main benefits of the OSI model is that devices can have different fun
 
 The OSI model consists of seven layers which are illustrated in the diagram below. Each layer has a different set of responsibilities and is arranged from Layer 7 to Layer 1.
 
+
+
+<table><thead><tr><th width="162.33333333333331">Layer Number</th><th width="133">Layer Name</th><th>Uses</th></tr></thead><tbody><tr><td>1</td><td>Physical</td><td>Data Cables, Ethernet Cables, etc.</td></tr><tr><td>2</td><td>Data</td><td>Switching, MAC Addresses</td></tr><tr><td>3</td><td>Network</td><td>IP addresses, Routing</td></tr><tr><td>4</td><td>Transport</td><td>TCP/UDP</td></tr><tr><td>5</td><td>Session</td><td>Session Management</td></tr><tr><td>6</td><td>Presentation</td><td>Media files(WMV, JPG, MOV, etc.)</td></tr><tr><td>7</td><td>Application</td><td>HTTP, HTTPS, FTP, SMTP, etc</td></tr></tbody></table>
+
 **From Application to Physical (Layer 7 to Layer 1):** \
 **- A**ll **P**eople **S**eem **T**o **N**eed **D**ata **P**rocessing\
 \- **A**ll **P**ros **S**earch **T**op **N**otch **D**onut **P**laces\
