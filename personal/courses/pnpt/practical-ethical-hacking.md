@@ -25,3 +25,13 @@ I used the [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (
 {% file src="../../../.gitbook/assets/Scripting with Bash.pdf" %}
 
 ## Intro to Python
+
+COMING SOON!
+
+## The Ethical Hacker Methodology
+
+{% file src="../../../.gitbook/assets/Ethical Hacker Methodology.pdf" %}
+
+## Information Gathering (Reconnaissance)
+
+COMING SOON!
