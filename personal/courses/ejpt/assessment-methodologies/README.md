@@ -2,7 +2,8 @@
 
 ## Information Gathering
 
+{% file src="../../../../.gitbook/assets/Information Gathering.pdf" %}
 
+## Footprinting and Scanning
 
-## Foorprinting and Scanning
-
+{% file src="../../../../.gitbook/assets/Footprinting & Scanning.pdf" %}
