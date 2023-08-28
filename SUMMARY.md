@@ -33,6 +33,7 @@
   * [Dot files](general/linux/dot-files.md)
   * [Ricing](general/linux/ricing.md)
 * [🪟 Windows](general/windows/README.md)
+  * [Event Codes](general/windows/event-codes.md)
   * [Powershell Basics](general/windows/powershell-basics.md)
   * [Internals](general/windows/internals.md)
   * [Powershell](general/windows/powershell.md)
