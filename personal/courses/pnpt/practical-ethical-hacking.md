@@ -26,7 +26,7 @@ I used the [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (
 
 ## Intro to Python
 
-COMING SOON!
+{% file src="../../../.gitbook/assets/Intro to Python.pdf" %}
 
 ## The Ethical Hacker Methodology
 
