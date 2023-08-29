@@ -1,6 +1,16 @@
 ---
 description: Helpful links and resources for Cyber Security Analysts and Researchers
-coverY: 0
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # OSINT Tools
