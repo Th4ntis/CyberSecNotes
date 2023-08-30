@@ -34,4 +34,10 @@ I used the [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (
 
 ## Information Gathering (Reconnaissance)
 
+I have a section on [OSINT](../../../general/osint/) and [OSINT tools/methods](../../../general/osint/osint-tools.md) here.
+
+{% file src="../../../.gitbook/assets/Information Gathering (Reconnaissance).pdf" %}
+
+## Scanning and Enumeration
+
 COMING SOON!
