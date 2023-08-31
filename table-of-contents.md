@@ -17,8 +17,6 @@ description: Quick Links to pages
   * [Common Ports and Protocols](general/networking/common-ports-and-protocols.md)
   * [TCP/IP Model](general/networking/tcp-ip-model.md)
   * [OSi Model](general/networking/osi-model.md)
-  * [IPv4 and IPv6](general/networking/ipv4-and-ipv6.md)
-  * [MAC Addresses](general/networking/mac-addresses.md)
   * [Subnetting](general/networking/subnetting.md)
   * [Wireshark](general/networking/wireshark.md)
   * [NMap](general/networking/nmap.md)
