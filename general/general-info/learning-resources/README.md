@@ -1,7 +1,5 @@
 # Learning Resources
 
-## Learning Resources
-
 There are a lot of learning resources out there and some are free, some paid, some subscription based. Here are some I know of, use some I use, and others that that are helpful overall.
 
 ### Hands-On
