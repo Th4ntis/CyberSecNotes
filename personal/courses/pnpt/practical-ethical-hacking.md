@@ -40,4 +40,6 @@ I have a section on [OSINT](../../../general/osint/) and [OSINT tools/methods](.
 
 ## Scanning and Enumeration
 
-COMING SOON!
+[Nmap](../../../general/networking/nmap.md)
+
+PDF COMING SOON!
