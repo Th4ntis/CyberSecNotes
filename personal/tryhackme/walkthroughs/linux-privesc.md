@@ -184,7 +184,7 @@ Now we wait for the crontab to run. After a minute or two, we should receive our
 
 ![](<../../../.gitbook/assets/image (253).png>)
 
-![](<../../../.gitbook/assets/image (1) (1) (1) (2).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (2) (1).png>)
 
 ### Question 3: What is Matt's password?
 
