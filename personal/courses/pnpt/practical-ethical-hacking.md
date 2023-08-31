@@ -42,6 +42,6 @@ I have a section on [OSINT](../../../general/osint/) and [OSINT tools/methods](.
 
 As I have worked with these tools prior, I have other notes here as well.
 
-[Nmap](../../../general/networking/nmap.md) - [Dirb/Dirbuster](../../../general/attack-and-defense/enumeration/dirb-dirbuster.md) - [GoBuster](../../../general/attack-and-defense/enumeration/gobuster.md) - [Metasploit](../../../general/attack-and-defense/tools/metasploit.md) - [Enum4Linux](../../../general/attack-and-defense/enumeration/enum4linux.md)
+[Nmap](../../../general/networking/nmap.md) - [Dirb/Dirbuster](../../../general/attack-and-defense/enumeration/dirb-dirbuster.md) - [GoBuster](../../../general/attack-and-defense/enumeration/gobuster.md) - [Metasploit](../../../general/attack-and-defense/tools/metasploit.md)
 
 PDF COMING SOON!
