@@ -14,7 +14,7 @@ The previous section was setting up Kali, [I've done this prior](../../guides-an
 
 I used the [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (using [7-Zip](https://www.7-zip.org/download.html) to extract it) using the VMWare Pro software.
 
-### Into to Linux
+### Intro to Linux
 
 [I've worked with Linux prior to this](../../../general/linux/), so I have my own notes on these sections as well:
 
