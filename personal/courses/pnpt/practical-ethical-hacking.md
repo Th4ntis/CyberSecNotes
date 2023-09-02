@@ -44,4 +44,10 @@ As I have worked with these tools prior, I have other notes here as well.
 
 [Nmap](../../../general/networking/nmap.md) - [Dirb/Dirbuster](../../../general/tools/enumeration/dirb-dirbuster.md) - [GoBuster](../../../general/tools/enumeration/gobuster.md) - [Metasploit](../../../general/tools/metasploit.md)
 
+{% file src="../../../.gitbook/assets/Scanning and Enumeration.pdf" %}
+
+## Vuln Scanning with Nessus
+
+As I have worked with Nessus prior, my notes in general can be found [here](../../../general/tools/vulnerability-scanners/nessus.md).
+
 PDF COMING SOON!
