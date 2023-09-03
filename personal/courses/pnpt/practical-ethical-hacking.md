@@ -50,4 +50,8 @@ As I have worked with these tools prior, I have other notes here as well.
 
 As I have worked with Nessus prior, my notes in general can be found [here](../../../general/tools/vulnerability-scanners/nessus.md).
 
+{% file src="../../../.gitbook/assets/Vulnerability Scanning with Nessus.pdf" %}
+
+## Exploitation Basics
+
 PDF COMING SOON!
