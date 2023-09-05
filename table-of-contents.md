@@ -70,7 +70,7 @@ description: Quick Links to pages
 * [Windows User VM](personal/guides-and-how-tos/lab-setup/windows-user-vm.md)
 * [Windows Server VM](personal/guides-and-how-tos/lab-setup/windows-server-vm.md)
 * [Wardriving](personal/guides-and-how-tos/wardriving.md)
-* [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting.md)
+* [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting/)
 * [Over The Wire](personal/guides-and-how-tos/over-the-wire/)
 * [Staying Private and Going Dark Online](personal/guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [Quick References](personal/quick-references/)

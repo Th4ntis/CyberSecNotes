@@ -18,7 +18,7 @@ This will be a section for my guides, walkthroughs, and how-to's on various subj
 
 ## Wireless
 
-[Wireless Pentesting](wireless-pentesting.md)
+[Wireless Pentesting](wireless-pentesting/)
 
 [Wardriving](wardriving.md)
 
