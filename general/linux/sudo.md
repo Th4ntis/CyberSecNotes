@@ -2,11 +2,11 @@
 
 The command `sudo` means "super user do", essentially telling the command to be run as an administrator. Some commands or scripts can only be run with 'sudo' permissions, meaning they need administrator rights. Eg. You want to install software on a Debian based linux distrobution, you use `apt`: `apt install git`, if ran by itself, it will tell you don't have the right permissions and to try as 'root' or with 'root' (administrator) permissions.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 So we need to add "sudo" before the command, telling it to be run as "root" (administrator): `sudo apt install git`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After running as sudo, you will be asked for the sudo password for the user. This can only happen if your user is part of the 'sudo' group. If you are not in the sudo group, you will not be able to run anything with sudo permissions.
 
@@ -16,4 +16,4 @@ This can be edited by using `sudo visudo` and adding a line under: `Defaults env
 
 `Defaults timestamp_timeout=<time-in-minutes>`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

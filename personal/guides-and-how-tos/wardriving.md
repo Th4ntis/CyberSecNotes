@@ -269,7 +269,7 @@ To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
 ![](<../../.gitbook/assets/image (7) (2).png>)
 
-![](<../../.gitbook/assets/image (8) (2).png>)
+![](<../../.gitbook/assets/image (8) (2) (2).png>)
 
 Now, in our kismet\_site.conf, we will add GPSD as a GPS source.&#x20;
 

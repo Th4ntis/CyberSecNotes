@@ -80,6 +80,7 @@
     * [Windows Server VM](personal/guides-and-how-tos/lab-setup/windows-server-vm.md)
   * [Wardriving](personal/guides-and-how-tos/wardriving.md)
   * [Wireless Pentesting](personal/guides-and-how-tos/wireless-pentesting/README.md)
+    * [WiFi Pineapple](personal/guides-and-how-tos/wireless-pentesting/wifi-pineapple.md)
     * [Evil-Twin Attack](personal/guides-and-how-tos/wireless-pentesting/evil-twin-attack.md)
   * [Over The Wire](personal/guides-and-how-tos/over-the-wire/README.md)
     * [Bandit](personal/guides-and-how-tos/over-the-wire/bandit.md)

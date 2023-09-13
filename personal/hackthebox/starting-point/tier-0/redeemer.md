@@ -74,7 +74,7 @@ Answer: SELECT
 
 Run INFO
 
-![](<../../../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../../../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 Answer: 4
 
