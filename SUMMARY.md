@@ -60,6 +60,7 @@
     * [Kismet](general/tools/wireless/kismet.md)
     * [Bettercap](general/tools/wireless/bettercap.md)
     * [HCXDumptool](general/tools/wireless/hcxdumptool.md)
+    * [Wifite](general/tools/wireless/wifite.md)
   * [Web App](general/tools/web-app/README.md)
     * [BurpSuite](general/tools/web-app/burpsuite.md)
     * [OWASP Zap](general/tools/web-app/owasp-zap.md)
