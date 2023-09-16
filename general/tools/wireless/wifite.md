@@ -2,7 +2,7 @@
 
 ## About
 
-[Wifite](https://github.com/kimocoder/wifite2) is a tool written in python used for pentesting wireless networks.
+[Wifite](https://github.com/kimocoder/wifite2) is a tool written in python used for pentesting wireless networks. It's an automated tool that utilizes [aircrack-ng](aircrack-ng.md), and other tools such as [hcxdumptool](hcxdumptool.md), tshark, bully, reaver, and more to obtain WiFi handshakes, PMKID attacks. That also can perform WPS and WEP attacks.&#x20;
 
 ### Installing
 
