@@ -17,7 +17,7 @@ Social stuff:
 
 |                                                         |                                                         |
 | ------------------------------------------------------- | ------------------------------------------------------- |
-| [Twitter](https://twitter.com/Th4ntis)                  | [Mastodon](https://infosec.exchange/web/@th4ntis)       |
+| [Bluesky](https://bsky.app/profile/th4ntis.bsky.social) | [Mastodon](https://infosec.exchange/web/@th4ntis)       |
 | [LinkedIn](https://www.linkedin.com/in/damian-roneker/) | [Github](https://github.com/Th4ntis)                    |
 | [TryHackMe](https://tryhackme.com/p/th4ntis)            | [HackTheBox](https://app.hackthebox.com/profile/274909) |
 
