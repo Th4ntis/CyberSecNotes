@@ -6,6 +6,7 @@
 ## 🖱 General
 
 * [🖥 General Info](general/general-info/README.md)
+  * [CyberSec News](general/general-info/cybersec-news.md)
   * [Learning Resources](general/general-info/learning-resources/README.md)
     * [Security+](general/general-info/learning-resources/security+.md)
     * [Pentest+](general/general-info/learning-resources/pentest+.md)
