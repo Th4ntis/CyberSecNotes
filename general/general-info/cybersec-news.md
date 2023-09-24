@@ -4,7 +4,7 @@ Keeping up with various Cyber/Information Security can be done through various S
 
 ## Reddit
 
-[Reddit](https://reddit.com) works, it just depends on which Subreddit you follow, since anyone can make a post at any time so it can be flooded with people asking questions or nonsense. So it dependso n the moderators or bots to kind of keep things cleaned up. Some of the various subreddits I follow are:
+[Reddit](https://reddit.com) works, it just depends on which Subreddit you follow, since anyone can make a post at any time so it can be flooded with people asking questions or nonsense. So it depends  n the moderators or bots to kind of keep things cleaned up. Some of the various subreddits I follow are:
 
 * [r/CyberSecurity](https://www.reddit.com/r/cybersecurity/)
 * [r/Privacy](https://www.reddit.com/r/privacy/)
@@ -24,7 +24,7 @@ Though there are plenty of others, there's a subreddit for just about anything/e
 * [@hackingarticles](https://twitter.com/hackinarticles)
 * [@TrustedSec](https://twitter.com/TrustedSec)
 
-and plnety of others.
+and plenty of others.
 
 ## RSS Readers
 
@@ -58,3 +58,5 @@ I currently use:
 * Zero Day Initiative [Feed Link](https://www.zerodayinitiative.com/blog/?format=rss) / [Website](https://www.thezdi.com/blog/)
 * Microsoft Security Advisories - MSRC [Feed Link](https://advisories.feedly.com/microsoft/feed.json) / [Website](https://msrc.microsoft.com/update-guide/)
 * Siemens Security Advisories [Feed Link](https://advisories.feedly.com/siemens/all/feed.json) / [Website](https://new.siemens.com/global/en/products/services/cert.html#Subscriptions)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
