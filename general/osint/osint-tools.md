@@ -15,7 +15,7 @@ layout:
 
 # OSINT Tools
 
-Here's a list of helpful tools that can be used for [OSINT](./) and Sand-boxing for Cyber Security Analysts and Researchers. These tools can be used to looking up information on Domains, IPs, URLs, File Hashes, etc.
+Here's a list of helpful tools that can be used for [OSINT](./) and Sand-boxing for Cyber Security Analysts and Researchers. These tools can be used to looking up information on Domains, IPs, URLs, File Hashes, etc. A good resource to find various OSINT platforms is [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all).
 
 {% hint style="warning" %}
 No one tool is the end all-be-all, please make sure to use multiple resources to gather and collect information.
