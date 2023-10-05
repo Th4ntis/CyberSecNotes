@@ -5,9 +5,12 @@ There are a lot of learning resources out there and some are free, some paid, so
 ### Hands-On
 
 * [TryHackMe](https://tryhackme.com/)
+  * I can't recommend THM enough to get started with various courses on various paths in CyberSec. They offer great material, community paths and CTFs, hands on labs that can be done on your machine OR through the web browser.
 * [HackTheBox Academy](https://academy.hackthebox.com/)
 * [HackTheBox](https://www.hackthebox.com/)
+  * This is a great place after you're comfortable with CTFs and such from TryHackMe
 * [OverTheWire](https://overthewire.org/wargames/)
+  * Great place to get started as well and slowly progress through the the levels.
 * [TCM Academy](https://academy.tcm-sec.com/courses)
 * [Cybrary](https://www.cybrary.it/)
 * [VulnHub](https://www.vulnhub.com/)
@@ -28,9 +31,10 @@ There are a lot of learning resources out there and some are free, some paid, so
 * [David Bombal](https://www.youtube.com/c/DavidBombal)
 * [InfoSecEDU](https://www.youtube.com/@InfosecEdu)
 
-### Videos
+### Videos/Courses
 
 * [Udemy](https://udemy.com)
+* [Coursera](https://www.coursera.org/)
 
 Additional resources thanks to: [7h3h4ckv157](https://twitter.com/7h3h4ckv157) and [danielmakelley](https://twitter.com/danielmakelley). [Twitter list here](https://twitter.com/7h3h4ckv157/status/1575875803744591872?s=20\&t=AsH0RR8UAiC5pZXyHu70hw)
 
