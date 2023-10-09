@@ -32,7 +32,7 @@ Depending on your space, you can edit how much you want. I usually go 60GB or 80
 
 <figure><img src="../../../.gitbook/assets/image (438).png" alt=""><figcaption></figcaption></figure>
 
-Finally we can now customize our hardware. This is where we can customize the RAM, Processors, ISO files, Network Settings, etc. This is where we select our Ubuntu ISO.
+Finally we can now customize our hardware. This is where we can customize the RAM, Processors, ISO files, Network Settings, etc. This is where we select our Kali ISO.
 
 <figure><img src="../../../.gitbook/assets/image (437).png" alt=""><figcaption></figcaption></figure>
 
