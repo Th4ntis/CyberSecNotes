@@ -15,10 +15,11 @@ Any and all suggestions welcome.
 
 Social stuff:
 
-|                                                         |                                                         |
-| ------------------------------------------------------- | ------------------------------------------------------- |
-| [Bluesky](https://bsky.app/profile/th4ntis.bsky.social) | [Mastodon](https://infosec.exchange/web/@th4ntis)       |
-| [LinkedIn](https://www.linkedin.com/in/damian-roneker/) | [Github](https://github.com/Th4ntis)                    |
-| [TryHackMe](https://tryhackme.com/p/th4ntis)            | [HackTheBox](https://app.hackthebox.com/profile/274909) |
+|                                                         |                                                   |
+| ------------------------------------------------------- | ------------------------------------------------- |
+| [Twitter](https://twitter.com/Th4ntis)                  | [Mastodon](https://infosec.exchange/web/@th4ntis) |
+| [Bluesky](https://bsky.app/profile/th4ntis.bsky.social) | [Github](https://github.com/Th4ntis)              |
+| [LinkedIn](https://www.linkedin.com/in/damian-roneker/) | [TryHackMe](https://tryhackme.com/p/th4ntis)      |
+| [HackTheBox](https://app.hackthebox.com/profile/274909) | COMING SOON                                       |
 
 **Note:** I do not claim any copyrighted content. Any of the tools or methods here are for reference, research, and educational purposes only and not to be used for unethical, questionable or illegal activities.
