@@ -54,4 +54,8 @@ As I have worked with Nessus prior, my notes in general can be found [here](../.
 
 ## Exploitation Basics
 
-PDF COMING SOON!
+{% file src="../../../.gitbook/assets/Exploitation Basics.pdf" %}
+
+## New Capstone
+
+COMING SOON!
