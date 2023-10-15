@@ -30,6 +30,8 @@ and plenty of others.
 
 [Feedly](https://feedly.com) - A go to one as it's via the web and has a mobile app, can follow Reddit on there as well, and others. Though some features of behind a paywall but the free version works great.
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 [Newsboat](https://newsboat.org/) - Linux based terminal RSS Reader.
 
 ## Feeds
@@ -58,5 +60,4 @@ I currently use:
 * Zero Day Initiative [Feed Link](https://www.zerodayinitiative.com/blog/?format=rss) / [Website](https://www.thezdi.com/blog/)
 * Microsoft Security Advisories - MSRC [Feed Link](https://advisories.feedly.com/microsoft/feed.json) / [Website](https://msrc.microsoft.com/update-guide/)
 * Siemens Security Advisories [Feed Link](https://advisories.feedly.com/siemens/all/feed.json) / [Website](https://new.siemens.com/global/en/products/services/cert.html#Subscriptions)
-
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+* Of course - Here's the [Feed Link](https://th4ntis.github.io/feed.xml) to [my blog](https://th4ntis.github.io)
