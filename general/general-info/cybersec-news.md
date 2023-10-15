@@ -1,6 +1,6 @@
 # CyberSec News
 
-Keeping up with various Cyber/Information Security can be done through various Social media, such as [Twitter](https://twitter.com) or [Reddit](https://reddit.com), or RSS Feeds. With some of the platforms dying or just going down hill, I wanted to show places of ways to get updates in the Cyber/Information Security world.
+Keeping up with various Cyber/Information Security can be done through various Social media, such as [Twitter](https://twitter.com), [LinkedIn](https://www.linkedin.com/feed/), [Reddit](https://reddit.com), or RSS Feeds. With some of the platforms dying or just going down hill, I wanted to show places of ways to get updates in the Cyber/Information Security world.
 
 ## Reddit
 
@@ -15,7 +15,7 @@ Though there are plenty of others, there's a subreddit for just about anything/e
 
 ## Twitter
 
-[Twitter](https://twitter.com) is where a large things are posted often and first, but as of recently it's been on a downslope and more so after various rumors of it being you need to pay to use it. People and groups I follow include:
+[Twitter](https://twitter.com) is where a large things are posted often and first, but as of recently it's been on a down slope and more so after various rumors of it being you need to pay to use it. People and groups I follow include:
 
 * [@vxunderground](https://twitter.com/vxunderground)
 * [@packet\_storm](https://twitter.com/packet\_storm)
@@ -25,6 +25,19 @@ Though there are plenty of others, there's a subreddit for just about anything/e
 * [@TrustedSec](https://twitter.com/TrustedSec)
 
 and plenty of others.
+
+## LinkedIn
+
+Linked in is also a great place to follow people who have one and post a lot, like [John Hammond](https://www.linkedin.com/in/johnhammond010/) or [TCM Sec](https://www.linkedin.com/company/tcm-security-inc/?miniCompanyUrn=urn%3Ali%3Afs\_miniCompany%3A35708983\&lipi=urn%3Ali%3Apage%3Ad\_flagship3\_feed%3ByMRWVfx2SOKxiV6TT49zBA%3D%3D). Some of the other people/group/companies I follow are:
+
+* [CyberSecurityHub](https://www.linkedin.com/company/the-cyber-security-hub/?miniCompanyUrn=urn%3Ali%3Afs\_miniCompany%3A15222868\&lipi=urn%3Ali%3Apage%3Ad\_flagship3\_feed%3ByMRWVfx2SOKxiV6TT49zBA%3D%3D)
+* [National Institute of Standards and Technology (NIST)](https://www.linkedin.com/company/nist/?miniCompanyUrn=urn%3Ali%3Afs\_miniCompany%3A6357)
+* [John Strand](https://www.linkedin.com/in/john-strand-a1b4b62?miniProfileUrn=urn%3Ali%3Afs\_miniProfile%3AACoAAABt-TcBzh4WFmoKbTPfAjY5ad73Y0xx3Ts\&lipi=urn%3Ali%3Apage%3Ad\_flagship3\_feed%3BZddS1o46RxmmssSo7dGmPA%3D%3D)
+* [HackTheBox](https://www.linkedin.com/company/hackthebox/?miniCompanyUrn=urn%3Ali%3Afs\_miniCompany%3A13305381\&lipi=urn%3Ali%3Apage%3Ad\_flagship3\_feed%3BZddS1o46RxmmssSo7dGmPA%3D%3D)
+* [SANS Digital Forensics and Incident Response](https://www.linkedin.com/showcase/sans-digital-forensics-and-incident-response/)
+* [TrustedSec](https://www.linkedin.com/company/trustedsec-llc/)
+
+and plenty more.
 
 ## RSS Readers
 
@@ -60,4 +73,3 @@ I currently use:
 * Zero Day Initiative [Feed Link](https://www.zerodayinitiative.com/blog/?format=rss) / [Website](https://www.thezdi.com/blog/)
 * Microsoft Security Advisories - MSRC [Feed Link](https://advisories.feedly.com/microsoft/feed.json) / [Website](https://msrc.microsoft.com/update-guide/)
 * Siemens Security Advisories [Feed Link](https://advisories.feedly.com/siemens/all/feed.json) / [Website](https://new.siemens.com/global/en/products/services/cert.html#Subscriptions)
-* Of course - Here's the [Feed Link](https://th4ntis.github.io/feed.xml) to [my blog](https://th4ntis.github.io)
