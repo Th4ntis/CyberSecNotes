@@ -35,9 +35,13 @@ WiFi Protected Setup (WPS) is an optional certification program based on technol
 
 There are two primary approaches to network setup within WiFi Protected Setup: push-button and PIN entry. PIN entry is mandatory in all WiFi Protected Setup devices, while push-button is optional and may also be found in some devices.
 
-_Push-button configuration (PBC)_: in some WiFi Protected Setup networks, the user may connect multiple devices to the network and enable data encryption by pushing a button. The access point/wireless router will have a physical button, and other devices may have a physical or software-based button. Users should be aware that during the two-minute setup period which follows the push of the button, unintended devices could join the network if they are in range.
+### _Push-button configuration (PBC)_:
 
-_PIN entry:_ in all WiFi Protected Setup networks, a unique PIN (Personal Identification Number) will be required for each device to join the network. A fixed PIN label or sticker may be placed on a device, or a dynamic PIN can be generated and shown on the device's display (e.g., a TV screen or monitor). The PIN is used to make sure the intended device is added to the network being set up and will help to avoid accidental or malicious attempts to add unintended devices to the network.
+In some WiFi Protected Setup networks, the user may connect multiple devices to the network and enable data encryption by pushing a button. The access point/wireless router will have a physical button, and other devices may have a physical or software-based button. Users should be aware that during the two-minute setup period which follows the push of the button, unintended devices could join the network if they are in range.
+
+### _PIN entry:_
+
+In all WiFi Protected Setup networks, a unique PIN (Personal Identification Number) will be required for each device to join the network. A fixed PIN label or sticker may be placed on a device, or a dynamic PIN can be generated and shown on the device's display (e.g., a TV screen or monitor). The PIN is used to make sure the intended device is added to the network being set up and will help to avoid accidental or malicious attempts to add unintended devices to the network.
 
 \
 
