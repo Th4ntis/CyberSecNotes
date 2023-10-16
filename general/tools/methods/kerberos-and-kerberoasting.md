@@ -84,4 +84,24 @@ With Mimikatz, the attacker can bypass the step of compromising the DC to steal 
 
 ## Defense
 
-COMING SOON
+Ensure that the service accounts that use Kerberos with SPN values hold complex password. Updating the password regularly can help to reduce the threat. Group managed service accounts can be used to enforce random, complex passwords that can be automatically rotated and managed centrally within the Active Directory. Monitoring abnormal account usage can help in identifying on-going attacks. Watch out for abnormal spikes in the service ticket requests.
+
+### Indicators
+
+We don't want to see RC4 encryption type successful because it can then can be copied and cracked offline
+
+* Event ID 4769
+* Service Name not equal to 'krbtgt'
+* Service Name does not end with '$'
+* Account Name does not match $@
+* Failure Code is '0x0'
+  * 0x0 = success
+* Ticket Encryption Type is '0x17'
+  * 0x17 = We don't usually want to see this or any RC4 encryption
+* Multiple Accounts requesting a ticket at the same time is a red flag
+* Multiples servers forced re-authentication
+* Attempting to use one hash until it matches the current hash
+
+[Ultimate Windows Security Event ID 4769](https://www.ultimatewindowssecurity.com/securitylog/encyclopedia/event.aspx?eventID=4769)
+
+[LDAP Wiki](https://ldapwiki.com/wiki/Kerberos%20Encryption%20Types)
