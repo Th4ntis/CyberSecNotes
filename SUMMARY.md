@@ -134,4 +134,5 @@
       * [Crocodile](personal/hackthebox/starting-point/tier-1/crocodile.md)
       * [Responder](personal/hackthebox/starting-point/tier-1/responder.md)
       * [Three](personal/hackthebox/starting-point/tier-1/three.md)
-  * [Walkthroughs](personal/hackthebox/walkthroughs.md)
+  * [Walkthroughs](personal/hackthebox/walkthroughs/README.md)
+    * [Analytics Walkthrough](personal/hackthebox/walkthroughs/analytics-walkthrough.md)
