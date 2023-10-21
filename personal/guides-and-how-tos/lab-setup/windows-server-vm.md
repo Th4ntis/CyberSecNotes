@@ -122,7 +122,7 @@ From here it'll be "Next" till the end
 
 Click Install and let it install
 
-![](<../../../.gitbook/assets/image (4) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (1) (1) (1).png>)
 
 Installed!
 

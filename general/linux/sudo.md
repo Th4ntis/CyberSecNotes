@@ -6,7 +6,7 @@ The command `sudo` means "super user do", essentially telling the command to be 
 
 So we need to add "sudo" before the command, telling it to be run as "root" (administrator): `sudo apt install git`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 After running as sudo, you will be asked for the sudo password for the user. This can only happen if your user is part of the 'sudo' group. If you are not in the sudo group, you will not be able to run anything with sudo permissions.
 
@@ -16,4 +16,4 @@ This can be edited by using `sudo visudo` and adding a line under: `Defaults env
 
 `Defaults timestamp_timeout=<time-in-minutes>`
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

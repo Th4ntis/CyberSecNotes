@@ -4,11 +4,11 @@
 
 To create a file, we can use the `touch` command.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 or we can output commands to a file with `echo` and/or `>`.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Edit
 
@@ -20,7 +20,7 @@ Nano has some key commands for editing like cut, copy, paste, search, replace, e
 
 `nano Hello`
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then to save the file we can to `ctrl+o`, but when exiting nano, we use `ctrl+x`. If we exit without saving, it will ask us if we want to save the file, then ask if we want to change the file name or leave it as is. `ctrl+x > y > enter` is the quick way to save and exit the editor.
 
@@ -30,17 +30,17 @@ Then to save the file we can to `ctrl+o`, but when exiting nano, we use `ctrl+x`
 
 Vi and vim are similar but **vim** is almost a proper superset of **vi**. Meaning everything that is in vi is available in vim. [Here is a VIM cheat sheet](https://vim.rtorr.com/).
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To being editing  file in Vi/Vim, you need to press the i key to go into "insert" mode.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The "mode" you are in will be displayed at the bottom left. To exit a mode, press `ESC`.
 
 to save a file, type `:w` and press enter, to quit a file type `:q` and press enter, to both save and quit a file, type `:wq` and press enter.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## View
 
