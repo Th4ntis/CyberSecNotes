@@ -4,7 +4,7 @@ description: You need to walk before you can run
 
 # Tier 1
 
-Hack The Box Starting Point Tier 1 Machines:
+Hack The Box Starting Point Tier 1 Machines(as of 10/23/23):
 
 [Appointment](appointment.md)
 
@@ -16,10 +16,10 @@ Hack The Box Starting Point Tier 1 Machines:
 
 [Three](three.md)
 
-[Ignition](broken-reference)
+[Ignition](ignition.md)
 
-[Bike](broken-reference)
+[Bike](bike.md)
 
-[Pennyworth](broken-reference)
+[Pennyworth](pennyworth.md)
 
-[Tactics](broken-reference)
+[Tactics](tactics.md)

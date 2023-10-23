@@ -4,7 +4,7 @@ description: The key is a strong foundation
 
 # Tier 0
 
-Hack The Box Starting Point Tier 0 Machines:
+Hack The Box Starting Point Tier 0 Machines (as of 10/23/23):
 
 [Meow](meow.md)
 
@@ -17,3 +17,7 @@ Hack The Box Starting Point Tier 0 Machines:
 [Explosion](explosion.md)
 
 [Preignition](preignition.md)
+
+[Mongod](mongod.md)
+
+[Synced](synced.md)
