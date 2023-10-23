@@ -64,7 +64,7 @@ An example of running this to view the members for Get-Command is:
 
 `Get-Command | Get-Member -MemberType Method`
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (41) (1).png>)
 
 #### Creating Objects From Previous _cmdlets_
 
@@ -210,7 +210,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `24` - Run `Get-LocalGroup | Measure` to find the answer
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (47) (1).png>)
 
 ### Question 5: What command did you use to get the IP address info?
 
@@ -244,7 +244,7 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `backpassflag` - First we find the backup file `Get-ChildItem -Path C:\ -include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
 
-![](<../.gitbook/assets/image (13) (1) (1).png>)
+![](<../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Internet Explorer\passwords.bak.txt'`
 

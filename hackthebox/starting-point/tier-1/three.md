@@ -73,7 +73,7 @@ After editing the host file to map the IP to the domain, we can use Gobuster to 
 
 <figure><img src="../../../.gitbook/assets/image (102) (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 Answer: s3.thetoppers.htb
 

@@ -16,11 +16,11 @@ We will start with the Typical configuration
 
 Then install choose "I will install the Operating System Later"
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Select Linux, then select the Ubuntu 64-bit version.
 
-![](<../../.gitbook/assets/image (11) (1).png>)
+![](<../../.gitbook/assets/image (11) (1) (2).png>)
 
 Name it and choose a location to store the VM files
 
@@ -72,7 +72,7 @@ Let the install finish
 
 ![](<../../.gitbook/assets/image (267).png>)
 
-![](<../../.gitbook/assets/image (26) (1).png>)
+![](<../../.gitbook/assets/image (26) (1) (1).png>)
 
 If it asks you to "Remove the installation media and press ENTER" just press `ENTER`.
 
@@ -82,7 +82,7 @@ From here it will restart and you will be taken to a login screen. So login and 
 
 ![](<../../.gitbook/assets/image (257).png>)
 
-![](<../../.gitbook/assets/image (12) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1).png>)
 
 Depending which Desktop Environment (DE) you chose, you're may look different but that is ok, it's still the same system under the hood.
 

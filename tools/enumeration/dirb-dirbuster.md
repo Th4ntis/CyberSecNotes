@@ -46,4 +46,4 @@ This can run the same things as Dirb but has a GUI and is multi-threaded, theref
 
 When running it be sure to specify a list of directories and/or file extentions depending on what software the server is running, like .asp or .aspcx. A good practice is to include .txt, .zip, etc but this can add more time.
 
-<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>

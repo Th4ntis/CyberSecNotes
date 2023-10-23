@@ -10,7 +10,7 @@ If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core p
 
 Start with our Typical Configuration
 
-![](<../../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1) (1) (1) (1).png>)
 
 Install the Operating System Later
 
@@ -122,7 +122,7 @@ From here it'll be "Next" till the end
 
 Click Install and let it install
 
-![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
 
 Installed!
 
@@ -356,7 +356,7 @@ Once updated are complete and a reboot is done, I recommend installing VMWare to
 
 After you've powered back on the machine, from the VMWare menu > VM > Install VMWareTools. Then from the SConfig, type 15 to go to the powershell menu, go to the D: Drive and running setup64.exe
 
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (39) (1).png>)
 
 ![](<../../.gitbook/assets/image (69).png>)
 

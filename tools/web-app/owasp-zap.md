@@ -15,7 +15,7 @@ There’s a couple of feature benefits too with using OWASP ZAP over Burp Suite:
 
 Some keyword translations from Burp to Zap(and vice versa)
 
-![](<../../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (54).png>)
 
 ## Install
 
@@ -28,7 +28,7 @@ ZAP can be downloaded from [here](https://www.zaproxy.org/download/).
 We can click on Automated Scan\
 
 
-![](<../../../.gitbook/assets/image (411).png>)
+![](<../../.gitbook/assets/image (411).png>)
 
 The automated scan performs both passive and automated scans to build a sitemap and detect vulnerabilities.
 
@@ -52,11 +52,11 @@ And then select HtmlUnity from the Ajax Spider Dropdown.&#x20;
 
 Both utilities can further be configured in the options menu (Ctrl+Alt+O)
 
-![](<../../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (21) (1).png>)
 
-![](<../../../.gitbook/assets/image (396).png>)
+![](<../../.gitbook/assets/image (396).png>)
 
-![](<../../../.gitbook/assets/image (409).png>)
+![](<../../.gitbook/assets/image (409).png>)
 
 ### Brute Force Directories
 
@@ -64,14 +64,14 @@ If the passive scans are not enough, you can use a wordlist attack and directory
 
 We navigate to Tools > Options > Forced Browse > Add Custom Forced Browse file
 
-![](<../../../.gitbook/assets/image (417).png>)
+![](<../../.gitbook/assets/image (417).png>)
 
 From here, right click on site > Attack > Forced Browse Site
 
-![](<../../../.gitbook/assets/image (448).png>)
+![](<../../.gitbook/assets/image (448).png>)
 
 We click the play button to begin
 
-![](<../../../.gitbook/assets/image (295).png>)
+![](<../../.gitbook/assets/image (295).png>)
 
-![](<../../../.gitbook/assets/image (14) (2).png>)
+![](<../../.gitbook/assets/image (14) (2).png>)

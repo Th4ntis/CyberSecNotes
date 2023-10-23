@@ -6,7 +6,7 @@
 sudo nmap -T4 -Pn -sV -sC -v 10.129.243.254 -oA Synced
 ```
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 1
 
@@ -32,16 +32,16 @@ What credentials do you have to pass to rsync in order to use anonymous authenti
 
 What is the option to only list shares and files on rsync? - Look at `rsync -h`  Answer: list-only
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 7
 
 Get the flag
 
-<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Sync the file, cat it. Flag obtained `rsync 10.129.243.254::public/flag.txt flag.txt`
 
-<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: 72eaf5344ebb84908ae543a719830519

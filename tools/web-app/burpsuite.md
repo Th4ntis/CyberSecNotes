@@ -17,7 +17,7 @@ With FoxyProxy installed we can right click on the extension > Options
 
 &#x20;
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 Add new Proxy
 
@@ -33,7 +33,7 @@ Click Save and ta-da!
 
 From here, when we want to use BurpSuite, we can click on the extension icon and select our Burp proxy
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (36) (1).png>)
 
 ## Usage
 
@@ -43,7 +43,7 @@ With our browser proxy setup, when we open Burpsuite we can choose a temporary p
 
 When we're ready to start intercepting our traffic, we can go to the proxy tab, and turn on intercept.
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (33) (1).png>)
 
 **\*NOTE** - This will intercept ALL browser traffic. If we want to intercept only specific IPs or websites, we need to setup our scope.
 
@@ -55,7 +55,7 @@ Setting a scope for the project allows us to define what gets proxied and logged
 
 To do this switch over to the "Target" tab, right-click our target from the list on the left, then choose "Add To Scope". Burp will then ask us whether we want to stop logging anything which isn't in scope, we want to choose yes.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -79,7 +79,7 @@ Telling us that the PortSwigger certificate isn't authorized to secure the conne
 
 With that file saved to your machine, open your Firefox setting, then search the page for "certificates" to find the option to "View Certificates" OR under "Privacy & Security" we can view the certificates.
 
-<figure><img src="../../.gitbook/assets/image (40) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (40) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select "View Certificates" and under the "Authorities" tab, we can import a new cert.
 
@@ -97,7 +97,7 @@ There IS an option to start and use the Burp Browser that opens a Chromium windo
 
 To get to this: `Proxy > Intercept > Open Browser`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Repeater
 
