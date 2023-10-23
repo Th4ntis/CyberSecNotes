@@ -52,7 +52,9 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [Enum4Linux](https://www.kali.org/tools/enum4linux/) - Enumerating information from Windows and Samba systems
 * [OneDrive UserEnum](https://github.com/nyxgeek/onedrive\_user\_enum) - Enumerates valid OneDrive accounts
 * [Bloodhound](https://github.com/BloodHoundAD/BloodHound) - Active Directory Attacks
+  * [Cypheroth](https://github.com/seajaysec/cypheroth) - Runs cypher queries against Bloodhound's Neo4j backend and saves output to spreadsheets.
 * [Ldeep](https://github.com/franc-pentest/ldeep) - ldap enumeration utility
+* [SUCC](https://github.com/puzzlepeaches/succ) - Queries Microsoft for a list of domains associated with an Office 365 tenant
 
 ### Hash Cracking
 
@@ -88,23 +90,28 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [MiTM6](https://github.com/dirkjanm/mitm6) - Replys to DHCPv6
 * [NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket) - SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket
 
+### Payload Generation
+
+* [Freeze.rs](https://github.com/Tylous/Freeze.rs) - Payload toolkit for bypassing EDRs using suspended processes, direct syscalls written in RUST
+* [Scarecrow](https://github.com/Tylous/ScareCrow) - Payload creation framework designed around EDR bypass
+* [URU](https://github.com/guervild/uru) - Payload generation
+* [MSFVenom](https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom/29d7dfecc8a10b4390d1d796125da4a2cd0cb8e8) - Combination of payload generation and encoding
+* [Mangle](https://github.com/Tylous/Mangle) - manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
+
+### Process Injection/Shellcode Loaders
+
+* [Bankai](https://github.com/bigb0sss/Bankai) - Go Shellcode loader using Windows API
+* [ShhhLoader](https://github.com/icyguider/Shhhloader) - Syscall Shellcode Loader
+* [Unicorn](https://github.com/trustedsec/unicorn) - PowerShell downgrade attack and inject shellcode straight into memory
+* [TikiTorch](https://github.com/rasta-mouse/TikiTorch) - Process Injection
+* [Archeron](https://github.com/f1zm0/acheron) - Indirect syscalls for AV/EDR evasion in Go assembly
+
 ### Other
 
 * [Impacket](https://github.com/SecureAuthCorp/impacket) - A collection of Python classes for working with network protocols
 * [Social-Engineer Toolkit(SET)](https://github.com/trustedsec/social-engineer-toolkit) - Open-source penetration testing framework designed for social engineering
-* [Bankai](https://github.com/bigb0sss/Bankai) - Go Shellcode loader using Windows API
-* [Freeze.rs](https://github.com/Tylous/Freeze.rs) - Payload toolkit for bypassing EDRs using suspended processes, direct syscalls written in RUST
-* [Scarecrow](https://github.com/Tylous/ScareCrow) - Payload creation framework designed around EDR bypass
-* [Mangle](https://github.com/Tylous/Mangle) - manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
 * [WolfPack](https://github.com/RoseSecurity-Research/WolfPack) -&#x20;
-* [URU](https://github.com/guervild/uru) - Payload generation
-* [ShhhLoader](https://github.com/icyguider/Shhhloader) - Syscall Shellcode Loader
-* [TikiTorch](https://github.com/rasta-mouse/TikiTorch) - Process Injection
 * [HellsGate](https://github.com/am0nsec/HellsGate) - Original C Implementation of the Hell's Gate VX Technique
-* [Archeron](https://github.com/f1zm0/acheron) - Indirect syscalls for AV/EDR evasion in Go assembly
-* [QuickCert](https://github.com/c3l3si4n/quickcert) - querying certificate transparency logs
+* [QuickCert](https://github.com/c3l3si4n/quickcert) - Querying certificate transparency logs
 * [TLOSINT](https://github.com/tracelabs/tlosint-vm) - Trace Labs OSINT VM
-* [Cypheroth](https://github.com/seajaysec/cypheroth) - Runs cypher queries against Bloodhound's Neo4j backend and saves output to spreadsheets.
-* [SUCC](https://github.com/puzzlepeaches/succ) - Queries Microsoft for a list of domains associated with an Office 365 tenant
 * [DeHashed API Tool](https://github.com/hmaverickadams/DeHashed-API-Tool) - CLI tool to query the DeHashed API
-* [impacket](https://github.com/fortra/impacket) - Python classes for working with network protocols.
