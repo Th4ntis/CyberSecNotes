@@ -2,7 +2,7 @@
 
 ## Initial Scan:
 
-![](<../../../../.gitbook/assets/image (5) (1) (3).png>)
+![](<../../../.gitbook/assets/image (5) (1) (3).png>)
 
 ## Task 1:
 
@@ -24,7 +24,7 @@ Answer: Redis
 
 #### What type of database is Redis? Choose from the following options: (i) In-memory Database, (ii) Traditional Database
 
-![](<../../../../.gitbook/assets/image (3) (1) (3).png>)
+![](<../../../.gitbook/assets/image (3) (1) (3).png>)
 
 Answer: in-memory Database
 
@@ -74,7 +74,7 @@ Answer: SELECT
 
 Run INFO
 
-![](<../../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (4) (1) (1) (1) (1) (1) (1).png>)
 
 Answer: 4
 
@@ -90,6 +90,6 @@ Answer: keys \*
 
 #### Submit root flag
 
-![](<../../../../.gitbook/assets/image (9) (1).png>)
+![](<../../../.gitbook/assets/image (9) (1) (1).png>)
 
 Answer: 03e1d2b376c37ab3f5319922053953eb

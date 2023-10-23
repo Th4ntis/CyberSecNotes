@@ -48,6 +48,7 @@
     * [GoBuster](tools/enumeration/gobuster.md)
   * [Exploitation Framework](tools/exploitation-framework/README.md)
     * [Metasploit](tools/exploitation-framework/metasploit.md)
+    * [Sliver](tools/exploitation-framework/sliver.md)
     * [Cobalt Strike](tools/exploitation-framework/cobalt-strike.md)
   * [Hash Cracking](tools/hash-cracking/README.md)
     * [Hashcat](tools/hash-cracking/hashcat.md)

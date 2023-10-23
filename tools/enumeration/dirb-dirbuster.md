@@ -40,10 +40,10 @@ As well as using a text file for the username/password.
 
 You can run the .sh or .jar file in the dirbuster directory.
 
-![](<../../../.gitbook/assets/image (27) (1).png>)
+![](<../../.gitbook/assets/image (27) (1).png>)
 
 This can run the same things as Dirb but has a GUI and is multi-threaded, therefore tends to be faster, and more effective.&#x20;
 
 When running it be sure to specify a list of directories and/or file extentions depending on what software the server is running, like .asp or .aspcx. A good practice is to include .txt, .zip, etc but this can add more time.
 
-<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>

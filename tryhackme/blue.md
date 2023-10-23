@@ -17,7 +17,7 @@ We'll scan the machine with Nmap first: sudo nmap -sS -sV -vv --script vuln -oA 
 Looking through our scan results we can see:\
 
 
-![Nmap Scan](<../../../.gitbook/assets/image (130).png>)
+![Nmap Scan](<../.gitbook/assets/image (130).png>)
 
 We can find our answer pretty easily.
 
@@ -25,7 +25,7 @@ We can find our answer pretty easily.
 
 Our argument of --script vuln scanned the target for any known vulnerabilities, which returned:
 
-![](<../../../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 showing the target is vulnerable to: ms17-010
 
@@ -35,7 +35,7 @@ showing the target is vulnerable to: ms17-010
 
 With Metasploit up and loaded we search for ms17-010. `search ms17-010`
 
-![](<../../../.gitbook/assets/image (61).png>)
+![](<../.gitbook/assets/image (61).png>)
 
 We can see a couple different modules but as this room is called "Blue" we can guess we're after the Eternal Blue module "exploit/windows/smb/ms17\_010\_eternalblue". Knowing that is the module we want we can type out "use exploit/windows/smb/ms17\_010\_eternalblue" OR use # as in the number next to the module. For me it's 0.
 
@@ -45,7 +45,7 @@ The room does specify one more thing before we exploit the target, it would like
 
 With this payload option set, we can type `run` or `exploit` to get our shell on our target.
 
-![](<../../../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (10) (2).png>)
 
 ## Task 3
 
@@ -63,7 +63,7 @@ As mentioned before, when selecting a module to use, it's usually good to run `s
 
 Once that completes, reconnect back to the backgrounded session with `sessions -i 2` and verify we are the SYSTEM by running `getsystem`, we can also type `shell` and run `whoami`.
 
-![](<../../../.gitbook/assets/image (154).png>)
+![](<../.gitbook/assets/image (154).png>)
 
 Now we want migrate to a different process that is running as SYSTEM, so lets background that shell again with `CTRL+Z(Only do this IF we are in the shell and not in the meterpreter session.)`, and let's see whats other processes are running on this system by typing `ps`. Once we find a process that is already being run from the `NT AUTHORITY\SYSTEM` user, we want to take note of the PID, for example, conhost.exe, for me that PID is 2480. We can run `migrate 2480` to then migrate over to that process.
 
@@ -75,7 +75,7 @@ This may or may not work for you so try different processes to migrate to.
 
 From our meterpreter session, we can run hashdump to show us all the users and hashed passwords of the users on the system.
 
-![](<../../../.gitbook/assets/image (67).png>)
+![](<../.gitbook/assets/image (67).png>)
 
 ### Question #2: Copy this password hash to a file and research how to crack it. What is the cracked password?
 
@@ -83,7 +83,7 @@ Once we copy Jons NTLM hash `Jon:1000:aad3b435b51404eeaad3b435b51404ee:ffb43f0de
 
 I have copied Jons hash to a file called jonhash in my current directory. So poninting JohnTheTipper at the hash and specifying the hash format and selecting the wordlist we want to use, we can attempt to crack the hash. `sudo /opt/john/run/john jon --format=NT --wordlist=/opt/SecLists/Passwords/rockyou.txt`
 
-![](<../../../.gitbook/assets/image (6) (3).png>)
+![](<../.gitbook/assets/image (6) (3).png>)
 
 ## Task 5
 
