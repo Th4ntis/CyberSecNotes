@@ -1,4 +1,4 @@
-# 🛡 Attack and Defense
+# 🛠 Tools
 
 This section will cover various attack tools, vectors, methods, and how we can use them, as well as what to look for to defend against them.
 
@@ -18,3 +18,93 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * The Tactic is the adversary's goal or objective.
 * The Technique is how the adversary achieves the goal or objective.
 * The Procedure is how the technique is executed.
+
+## Master list of Tools
+
+[A list of OSINT Tools can be found here](../osint/osint-tools.md)
+
+### Exploitation Framework
+
+* [Metasploit](https://www.metasploit.com/) - C2/Exploitation Framework
+* [Sliver](https://github.com/BishopFox/sliver) - C2/Exploitation Framework
+* [Mythic](https://docs.mythic-c2.net/) - C2/Exploitation Framework
+* [Cobalt Strike](https://www.cobaltstrike.com/)
+
+### Post Exploitation
+
+* [GraphRunner](https://github.com/dafthack/GraphRunner/) - Post-exploitation toolset for interacting with the Microsoft Graph API
+  * [Intro to GraphRunner by BHIS](https://www.blackhillsinfosec.com/introducing-graphrunner/)
+* [Crackmapexec](https://github.com/byt3bl33d3r/CrackMapExec) - post-exploitation tool
+* [NetExec](https://github.com/Pennyw0rth/NetExec) - Another CrackMapExec
+
+### WiFi
+
+* [Aircrack](https://github.com/aircrack-ng/aircrack-ng) - WiFi penetration testing
+* [Kismet](https://github.com/kismetwireless/kismet) - wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework
+* [Bettercap](https://github.com/bettercap/bettercap) -  [WiFi](https://www.bettercap.org/modules/wifi/), [Bluetooth Low Energy](https://www.bettercap.org/modules/ble/), wireless [HID hijacking](https://www.bettercap.org/modules/hid/) and [IPv4 and IPv6](https://www.bettercap.org/modules/ethernet) networks reconnaissance and MITM attacks.
+* [HCXDumptool](https://github.com/ZerBea/hcxdumptool) -  capture packets from wlan devices and to discover potential weak points within WiFi networks
+* [WiFite](https://github.com/kimocoder/wifite2) - WiFi penetration testing
+
+### Enumeration
+
+* [GoBuster](https://github.com/OJ/gobuster) - Brute Force Tool
+* Dirb/Dirbuster - Brute Force Tool for Web Directories
+* [Enum4Linux](https://www.kali.org/tools/enum4linux/) - Enumerating information from Windows and Samba systems
+* [OneDrive UserEnum](https://github.com/nyxgeek/onedrive\_user\_enum) - Enumerates valid OneDrive accounts
+* [Bloodhound](https://github.com/BloodHoundAD/BloodHound) - Active Directory Attacks
+* [Ldeep](https://github.com/franc-pentest/ldeep) - ldap enumeration utility
+
+### Hash Cracking
+
+* [Hashcat](https://github.com/hashcat/hashcat) - Open-source hash cracking tool
+* [JohnTheRipper](https://github.com/openwall/john) - Open-source hash cracking tool
+
+### Vulnerability Scanners
+
+* [Nessus](https://www.tenable.com/products/nessus) - Vulnerability Scanner
+* [OpenVAS](https://openvas.org/) - Vulnerability Scanner
+
+### Web App
+
+* [BurpSuite](https://portswigger.net/burp) - WebApp Pentesting Framework
+* [OWASP Zap](https://www.zaproxy.org/) - WebApp Pentesting Framework
+
+### Brute Force
+
+* [Hydra](https://github.com/vanhauser-thc/thc-hydra) - Parallelized login cracker
+* [BruteMap](https://github.com/brutemap-dev/brutemap) - BruteForce site login pages
+
+### Credential Dumping
+
+* [Mimikatz](https://github.com/gentilkiwi/mimikatz) - Post Exploitation Credential Dump
+* [Pcredz](https://github.com/lgandx/PCredz) - Extracts hashes from a pcap or live interface
+* [DonPapi](https://github.com/login-securite/DonPAPI) - Dumps DPAPI Creds
+* [ldapdomaindump](https://github.com/dirkjanm/ldapdomaindump) - Active Directory information dumper via LDAP
+* [Responder](https://github.com/lgandx/Responder) - LLMNR, NBT-NS and MDNS poisoner
+
+### MitM
+
+* [SETH](https://github.com/SySS-Research/Seth) - RDP MiTM Tool
+* [MiTM6](https://github.com/dirkjanm/mitm6) - Replys to DHCPv6
+* [NetNTLMtoSilverTicket](https://github.com/NotMedic/NetNTLMtoSilverTicket) - SpoolSample -> NetNTLMv1 -> NTLM -> Silver Ticket
+
+### Other
+
+* [Impacket](https://github.com/SecureAuthCorp/impacket) - A collection of Python classes for working with network protocols
+* [Social-Engineer Toolkit(SET)](https://github.com/trustedsec/social-engineer-toolkit) - Open-source penetration testing framework designed for social engineering
+* [Bankai](https://github.com/bigb0sss/Bankai) - Go Shellcode loader using Windows API
+* [Freeze.rs](https://github.com/Tylous/Freeze.rs) - Payload toolkit for bypassing EDRs using suspended processes, direct syscalls written in RUST
+* [Scarecrow](https://github.com/Tylous/ScareCrow) - Payload creation framework designed around EDR bypass
+* [Mangle](https://github.com/Tylous/Mangle) - manipulates aspects of compiled executables (.exe or DLL) to avoid detection from EDRs
+* [WolfPack](https://github.com/RoseSecurity-Research/WolfPack) -&#x20;
+* [URU](https://github.com/guervild/uru) - Payload generation
+* [ShhhLoader](https://github.com/icyguider/Shhhloader) - Syscall Shellcode Loader
+* [TikiTorch](https://github.com/rasta-mouse/TikiTorch) - Process Injection
+* [HellsGate](https://github.com/am0nsec/HellsGate) - Original C Implementation of the Hell's Gate VX Technique
+* [Archeron](https://github.com/f1zm0/acheron) - Indirect syscalls for AV/EDR evasion in Go assembly
+* [QuickCert](https://github.com/c3l3si4n/quickcert) - querying certificate transparency logs
+* [TLOSINT](https://github.com/tracelabs/tlosint-vm) - Trace Labs OSINT VM
+* [Cypheroth](https://github.com/seajaysec/cypheroth) - Runs cypher queries against Bloodhound's Neo4j backend and saves output to spreadsheets.
+* [SUCC](https://github.com/puzzlepeaches/succ) - Queries Microsoft for a list of domains associated with an Office 365 tenant
+* [DeHashed API Tool](https://github.com/hmaverickadams/DeHashed-API-Tool) - CLI tool to query the DeHashed API
+* [impacket](https://github.com/fortra/impacket) - Python classes for working with network protocols.

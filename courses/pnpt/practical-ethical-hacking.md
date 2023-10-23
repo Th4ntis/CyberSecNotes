@@ -42,7 +42,7 @@ I have a section on [OSINT](../../osint/) and [OSINT tools/methods](../../osint/
 
 As I have worked with these tools prior, I have other notes here as well.
 
-[Nmap](../../networking/nmap.md) - [Dirb/Dirbuster](../../tools/enumeration/dirb-dirbuster.md) - [GoBuster](../../tools/enumeration/gobuster.md) - [Metasploit](../../tools/metasploit.md)
+[Nmap](../../networking/nmap.md) - [Dirb/Dirbuster](../../tools/enumeration/dirb-dirbuster.md) - [GoBuster](../../tools/enumeration/gobuster.md) - [Metasploit](../../tools/exploitation-framework/metasploit.md)
 
 {% file src="../../.gitbook/assets/Scanning and Enumeration.pdf" %}
 
