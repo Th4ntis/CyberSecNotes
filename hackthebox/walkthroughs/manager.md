@@ -200,6 +200,8 @@ Nothing of super note was found with WinPeas unfortunately
 
 ### certipy
 
+We checked with Certipy due it being Active Directory and on a DC. So we want to enumerate certificates.
+
 <figure><img src="../../.gitbook/assets/image (529).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
