@@ -140,4 +140,5 @@
     * [Tier 2](hackthebox/starting-point/tier-2/README.md)
       * [Archetype](hackthebox/starting-point/tier-2/archetype.md)
   * [Walkthroughs](hackthebox/walkthroughs/README.md)
-    * [Analytics Walkthrough](hackthebox/walkthroughs/analytics-walkthrough.md)
+    * [Analytics](hackthebox/walkthroughs/analytics.md)
+    * [Manager](hackthebox/walkthroughs/manager.md)
