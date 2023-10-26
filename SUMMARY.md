@@ -143,5 +143,6 @@
       * [Vaccine](hackthebox/starting-point/tier-2/vaccine.md)
       * [Unified](hackthebox/starting-point/tier-2/unified.md)
   * [Walkthroughs](hackthebox/walkthroughs/README.md)
+    * [Lame](hackthebox/walkthroughs/lame.md)
     * [Analytics](hackthebox/walkthroughs/analytics.md)
     * [Manager](hackthebox/walkthroughs/manager.md)

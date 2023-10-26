@@ -6,7 +6,7 @@
 sudo nmap -T4 -Pn -sV -sC -v 10.129.246.65 -oA Funnel
 ```
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 1
 

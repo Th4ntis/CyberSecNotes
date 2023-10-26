@@ -16,7 +16,7 @@ We will start with the Typical configuration
 
 Then install choose "I will install the Operating System Later"
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Select Linux, then select the Ubuntu 64-bit version.
 

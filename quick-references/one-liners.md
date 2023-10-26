@@ -4,6 +4,19 @@ description: Collection of PowerShell one-liners to use at various stages of tes
 
 # One-liners
 
+### Upgrade to usable shell
+
+```bash
+which python
+```
+
+```bash
+# Depending which python version
+python -c 'import pty; pty.spawn("/bin/bash")' upgrade shell
+
+python3 -c 'import pty; pty.spawn("/bin/bash")' upgrade shell
+```
+
 ### Invoke-BypassUAC and start PowerShell prompt as Administrator \[Or replace to run any other command] <a href="#invoke-bypassuac-and-start-powershell-prompt-as-administrator-or-replace-to-run-any-other-command" id="invoke-bypassuac-and-start-powershell-prompt-as-administrator-or-replace-to-run-any-other-command"></a>
 
 ```powershell
