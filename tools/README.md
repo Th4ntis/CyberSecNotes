@@ -55,6 +55,7 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
   * [Cypheroth](https://github.com/seajaysec/cypheroth) - Runs cypher queries against Bloodhound's Neo4j backend and saves output to spreadsheets.
 * [Ldeep](https://github.com/franc-pentest/ldeep) - ldap enumeration utility
 * [SUCC](https://github.com/puzzlepeaches/succ) - Queries Microsoft for a list of domains associated with an Office 365 tenant
+* [Certipy](https://github.com/ly4k/Certipy) - Tool for Active Directory Certificate Services enumeration and abuse
 
 ### Hash Cracking
 
