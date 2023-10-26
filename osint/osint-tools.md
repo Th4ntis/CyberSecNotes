@@ -106,6 +106,8 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
 * [TorWhoIs](https://torwhois.com/) - Look up an .onion address and see basic information such as date last seen, open ports, running software and banners
 * [IntelligenceX](https://intelx.io/) - Search Tor, I2P, data leaks, domains, and emails
 * [GreyNoise](https://viz.greynoise.io/) - Search for devices connected to the internet
+* [Dehashed](https://dehashed.com/) - View leaked credentials and compromised assets
+  * [DeHashed-API-Too](https://github.com/hmaverickadams/DeHashed-API-Tool)l by Heath Adams(TCM)
 * [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/) - View Windows Event codes, CVE's, and multiple other tools relating to WIndows Security.
 * [AlienVaultOTX](https://otx.alienvault.com/) - Extensive threat intelligence feed
 * [Censys](https://search.censys.io/) - Assessing attack surface for internet connected devices
@@ -115,7 +117,6 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
 * [NSLookup.io](https://www.nslookup.io/ns-lookup/) - Find all name servers for a domain name with this online DNS NS checker
 * [Malware Bazaar](https://bazaar.abuse.ch/) - Search file hashes to see if they have been flagged as malicious.
 * [HaveIBeenPwned](https://haveibeenpwned.com/?ref=websitehunt) - Check if your email or phone is in a data breach
-* [Dehashed](https://dehashed.com/) - View leaked credentials and compromised assets
 * [DorkSearch](https://dorksearch.com/) - Faster Google dorking.
 * [ExploitDB](https://www.exploit-db.com/) - Archive of various exploits
 * [WayBackMachine](https://web.archive.org/) - View content from edited, deleted and older websites

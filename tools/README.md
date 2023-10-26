@@ -56,6 +56,7 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [Ldeep](https://github.com/franc-pentest/ldeep) - ldap enumeration utility
 * [SUCC](https://github.com/puzzlepeaches/succ) - Queries Microsoft for a list of domains associated with an Office 365 tenant
 * [Certipy](https://github.com/ly4k/Certipy) - Tool for Active Directory Certificate Services enumeration and abuse
+* [Legba](https://github.com/evilsocket/legba) - A multiprotocol credentials bruteforcer / password sprayer and enumerator.
 
 ### Hash Cracking
 
@@ -76,6 +77,7 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 
 * [Hydra](https://github.com/vanhauser-thc/thc-hydra) - Parallelized login cracker
 * [BruteMap](https://github.com/brutemap-dev/brutemap) - BruteForce site login pages
+* [Legba](https://github.com/evilsocket/legba) - A multiprotocol credentials bruteforcer / password sprayer and enumerator.
 
 ### Credential Dumping
 
