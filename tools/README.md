@@ -47,8 +47,8 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 
 ### Enumeration
 
-* [GoBuster](https://github.com/OJ/gobuster) - Brute Force Tool
-* Dirb/Dirbuster - Brute Force Tool for Web Directories
+* [GoBuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
+* Dirb/Dirbuster - Busting Tool for Web Directories
 * [Enum4Linux](https://www.kali.org/tools/enum4linux/) - Enumerating information from Windows and Samba systems
 * [OneDrive UserEnum](https://github.com/nyxgeek/onedrive\_user\_enum) - Enumerates valid OneDrive accounts
 * [Bloodhound](https://github.com/BloodHoundAD/BloodHound) - Active Directory Attacks

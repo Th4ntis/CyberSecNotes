@@ -43,6 +43,7 @@
     * [Mimikatz](tools/credential-dumping/mimikatz.md)
   * [Enumeration](tools/enumeration/README.md)
     * [Bloodhound](tools/enumeration/bloodhound.md)
+    * [Certipy](tools/enumeration/certipy.md)
     * [Dirb/Dirbuster](tools/enumeration/dirb-dirbuster.md)
     * [Enum4Linux](tools/enumeration/enum4linux.md)
     * [GoBuster](tools/enumeration/gobuster.md)
