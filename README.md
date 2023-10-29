@@ -20,7 +20,13 @@ Social stuff:
 | [LinkedIn](https://www.linkedin.com/in/damian-roneker/) | [TryHackMe](https://tryhackme.com/p/th4ntis)      |
 | [HackTheBox](https://app.hackthebox.com/profile/274909) | [Webpage](https://th4ntis.github.io)              |
 
-### Last updated: Added [Certipy](tools/enumeration/certipy.md) page
+***
+
+### Last updated:
+
+Added [Certipy](tools/enumeration/certipy.md) page
+
+***
 
 ### **Disclaimer**
 
