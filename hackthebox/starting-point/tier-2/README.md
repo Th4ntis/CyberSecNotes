@@ -10,8 +10,8 @@ Hack The Box Starting Point Tier 1 Machines(as of 10/23/23):
 
 [Unified](unified.md)
 
-Included
+[Included](included.md)
 
-Markup
+[Markup](markup.md)
 
-Base
+[Base](base.md)

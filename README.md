@@ -24,7 +24,9 @@ Social stuff:
 
 ### Last updated:
 
-Added [Certipy](tools/enumeration/certipy.md) page
+Added the rest of the [Tier 2 HTB Starting point walkthroughs](hackthebox/starting-point/tier-2/)
+
+Updated [Tools](tools/) page
 
 ***
 

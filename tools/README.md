@@ -118,3 +118,4 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [QuickCert](https://github.com/c3l3si4n/quickcert) - Querying certificate transparency logs
 * [TLOSINT](https://github.com/tracelabs/tlosint-vm) - Trace Labs OSINT VM
 * [DeHashed API Tool](https://github.com/hmaverickadams/DeHashed-API-Tool) - CLI tool to query the DeHashed API
+* [autoNTDS](https://github.com/hmaverickadams/autoNTDS) - automation script designed to simplify the process of dumping and cracking NTDS hashes using secretsdump.py and hashcat
