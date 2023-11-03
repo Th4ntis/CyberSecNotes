@@ -9,3 +9,9 @@ Hack The Box Starting Point Tier 1 Machines(as of 10/23/23):
 [Vaccine](vaccine.md)
 
 [Unified](unified.md)
+
+Included
+
+Markup
+
+Base
