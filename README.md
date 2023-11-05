@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Added my notes for the [PNPT](courses/pnpt/) - [Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) - Introduction to Exploit Development (Buffer Overflows)&#x20;
+Added my notes for the [PNPT](courses/pnpt/) - [Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) - [Introduction to Exploit Development (Buffer Overflows)](https://cybersec.th4ntis.com/courses/pnpt/practical-ethical-hacking#introduction-to-exploit-development-buffer-overflows)
 
 ***
 
