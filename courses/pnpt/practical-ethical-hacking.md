@@ -59,3 +59,11 @@ As I have worked with Nessus prior, my notes in general can be found [here](../.
 ## New Capstone
 
 COMING SOON!
+
+## Introduction to Exploit Development (Buffer Overflows)
+
+{% file src="../../.gitbook/assets/Introduction to Exploit Development (Buffer Overflows).pdf" %}
+
+## Active Directory Overview
+
+COMING SOON!

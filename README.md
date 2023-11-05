@@ -24,9 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Added the rest of the [Tier 2 HTB Starting point walkthroughs](hackthebox/starting-point/tier-2/)
-
-Updated [Tools](tools/) page
+Added my notes for the [PNPT](courses/pnpt/) - [Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) - Introduction to Exploit Development (Buffer Overflows)&#x20;
 
 ***
 
