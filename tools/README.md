@@ -29,6 +29,7 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [Sliver](https://github.com/BishopFox/sliver) - C2/Exploitation Framework
 * [Mythic](https://docs.mythic-c2.net/) - C2/Exploitation Framework
 * [Cobalt Strike](https://www.cobaltstrike.com/)
+* [Havoc](https://github.com/HavocFramework/Havoc) - malleable post-exploitation command and control framework
 
 ### Post Exploitation
 
@@ -119,3 +120,4 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [TLOSINT](https://github.com/tracelabs/tlosint-vm) - Trace Labs OSINT VM
 * [DeHashed API Tool](https://github.com/hmaverickadams/DeHashed-API-Tool) - CLI tool to query the DeHashed API
 * [autoNTDS](https://github.com/hmaverickadams/autoNTDS) - automation script designed to simplify the process of dumping and cracking NTDS hashes using secretsdump.py and hashcat
+* [PSPY](https://github.com/DominicBreuker/pspy) - Monitor linux processes without root permissions
