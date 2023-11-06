@@ -58,6 +58,7 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [SUCC](https://github.com/puzzlepeaches/succ) - Queries Microsoft for a list of domains associated with an Office 365 tenant
 * [Certipy](https://github.com/ly4k/Certipy) - Tool for Active Directory Certificate Services enumeration and abuse
 * [Legba](https://github.com/evilsocket/legba) - A multiprotocol credentials bruteforcer / password sprayer and enumerator.
+* [FFUF](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go
 
 ### Hash Cracking
 
