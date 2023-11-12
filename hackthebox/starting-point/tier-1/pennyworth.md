@@ -6,7 +6,7 @@
 sudo nmap -T4 -Pn -sV -sC -v 10.129.64.37 -oA Penntyworth
 ```
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 1
 
@@ -24,7 +24,7 @@ Answer: Confidentiality, Integrity, Availability
 
 What is the version of the service running on port 8080?
 
-<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: Jetty 9.4.39.v20210325
 

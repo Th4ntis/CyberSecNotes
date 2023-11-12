@@ -14,7 +14,7 @@ We will start with the Typical configuration
 
 Then install choose "I will install the Operating System Later"
 
-<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select Linux, then select the Debian 64-bit version.
 

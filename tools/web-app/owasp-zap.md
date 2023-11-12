@@ -52,7 +52,7 @@ And then select HtmlUnity from the Ajax Spider Dropdown.&#x20;
 
 Both utilities can further be configured in the options menu (Ctrl+Alt+O)
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (396).png>)
 

@@ -17,7 +17,7 @@ With FoxyProxy installed we can right click on the extension > Options
 
 &#x20;
 
-![](<../../.gitbook/assets/image (10) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1) (1) (1).png>)
 
 Add new Proxy
 
@@ -55,7 +55,7 @@ Setting a scope for the project allows us to define what gets proxied and logged
 
 To do this switch over to the "Target" tab, right-click our target from the list on the left, then choose "Add To Scope". Burp will then ask us whether we want to stop logging anything which isn't in scope, we want to choose yes.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -83,7 +83,7 @@ With that file saved to your machine, open your Firefox setting, then search the
 
 Select "View Certificates" and under the "Authorities" tab, we can import a new cert.
 
-<figure><img src="../../.gitbook/assets/image (21) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select "Trust this CA to identify websites" and click OK.
 
@@ -97,7 +97,7 @@ There IS an option to start and use the Burp Browser that opens a Chromium windo
 
 To get to this: `Proxy > Intercept > Open Browser`
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Repeater
 

@@ -289,7 +289,7 @@ kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 
 ![](<../.gitbook/assets/image (4) (2) (2).png>)
 
-![](<../.gitbook/assets/image (14) (1) (1).png>)
+![](<../.gitbook/assets/image (14) (1) (1) (1).png>)
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 

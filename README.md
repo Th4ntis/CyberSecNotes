@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Added my notes for the [PNPT](courses/pnpt/) - [Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) - Lab Overview and Requirements
+Added my [Codify](hackthebox/walkthroughs/codify.md) Hack The Box walkthrough.
 
 ***
 

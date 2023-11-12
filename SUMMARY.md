@@ -152,3 +152,4 @@
     * [Lame](hackthebox/walkthroughs/lame.md)
     * [Analytics](hackthebox/walkthroughs/analytics.md)
     * [Manager](hackthebox/walkthroughs/manager.md)
+    * [Codify](hackthebox/walkthroughs/codify.md)

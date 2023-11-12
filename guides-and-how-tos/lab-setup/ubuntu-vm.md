@@ -16,7 +16,7 @@ We will start with the Typical configuration
 
 Then install choose "I will install the Operating System Later"
 
-![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Select Linux, then select the Ubuntu 64-bit version.
 
@@ -62,7 +62,7 @@ As this is on a VM, this default option is ok for this.
 
 Select Timezone
 
-![](<../../.gitbook/assets/image (19) (1).png>)
+![](<../../.gitbook/assets/image (19) (1) (1).png>)
 
 Setup the username, hostname, and password
 
@@ -82,7 +82,7 @@ From here it will restart and you will be taken to a login screen. So login and 
 
 ![](<../../.gitbook/assets/image (257).png>)
 
-![](<../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 Depending which Desktop Environment (DE) you chose, you're may look different but that is ok, it's still the same system under the hood.
 
