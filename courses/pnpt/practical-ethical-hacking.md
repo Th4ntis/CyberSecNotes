@@ -66,4 +66,21 @@ COMING SOON!
 
 ## Active Directory Overview
 
+{% file src="../../.gitbook/assets/Active Directory(AD) Overview.pdf" %}
+
+For their lab you will need roughly:
+
+* 1x Win Server
+* 2x Windows Workstations
+* 60GB Disk Space
+* 16GB RAM
+
+There is a Cloud Alternative by Kamran Bilgrami that can be found here: [Building Free Active Directory Lab in Azure](https://kamran-bilgrami.medium.com/ethical-hacking-lessons-building-free-active-directory-lab-in-azure-6c67a7eddd7f)
+
+I have done this in the past so my notes and setup can be found: [Lab Setup](../../guides-and-how-tos/lab-setup/)
+
+[Windows Server VM](../../guides-and-how-tos/lab-setup/windows-server-vm.md) - [Windows User VM](../../guides-and-how-tos/lab-setup/windows-user-vm.md)
+
+## Attacking AD: Initial Attack Vectors
+
 COMING SOON!
