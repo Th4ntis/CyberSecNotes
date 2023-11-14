@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Added my [Codify](hackthebox/walkthroughs/codify.md) Hack The Box walkthrough.
+Updated [Getting Started and other Resources](general-info/getting-started-and-other-resources/)
 
 ***
 
