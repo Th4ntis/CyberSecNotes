@@ -31,6 +31,18 @@ Similar to TryHackMe you can run it in your own VirtualMachine(VM) or they offer
 
 [Lets Defend](https://letsdefend.io/) is more for the hands-on learning Defensive side of things. They offer free plan as well as paid ones to get more access. A list of their trainings can be found [here](https://app.letsdefend.io/training) as well as their own CTFs [here](https://app.letsdefend.io/challenge). I haven't used much of this myself BUT I have heard great things and it's been recommended a lot.
 
+## CTFs
+
+There are plenty of CTFs out there but some range from beginner to advanced. These are very nice and helpful for hands on as well as learning. When it comes to a CTF the objective is to of course, Capture The Flag, but it's more important to make sure you learn. Understand the tactics and techniques you're using and learning. Other than just TryHackMe or HackTheBox here's some additional CTFs to get started with as well:
+
+* [Over The Wire](https://overthewire.org/wargames/)
+* [PicoCTF](https://picoctf.org/)
+* [RootMe](https://www.root-me.org/?lang=en)
+
+## Keeping Up with Cyber/Info Sec
+
+There's multiple ways to do this, I have my recommendations over in the [CyberSec News](../cybersec-news.md) section of this.
+
 ## Learning Resources
 
 There are a lot of learning resources out there and some are free, some paid, some subscription based. Here are some I know of, use some I use, and others that that are helpful overall.
