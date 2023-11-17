@@ -49,8 +49,6 @@ There are a lot of learning resources out there and some are free, some paid, so
 
 ### Hands-On
 
-* [OverTheWire](https://overthewire.org/wargames/)
-  * Great place to get started as well and slowly progress through the the levels.
 * [Cybrary](https://www.cybrary.it/) - Online learning courses
 * [VulnHub](https://www.vulnhub.com/) - Download Vulnerable VMs to run and attack
 * [PentesterLab](https://www.pentesterlab.com/)
