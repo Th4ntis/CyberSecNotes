@@ -58,7 +58,15 @@ As I have worked with Nessus prior, my notes in general can be found [here](../.
 
 ## New Capstone
 
-COMING SOON!
+{% file src="../../.gitbook/assets/Capstone - Blue.pdf" %}
+
+{% file src="../../.gitbook/assets/Capstone - Academy.pdf" %}
+
+**DEV COMING SOON**
+
+{% file src="../../.gitbook/assets/Capstone - Butler.pdf" %}
+
+**BLACK PEARL COMING SOON**
 
 ## Introduction to Exploit Development (Buffer Overflows)
 

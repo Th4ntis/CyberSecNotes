@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [Tools](tools/) - Added some new ones
+Updated PNPT - Practical Ethical Hacking Capstone
 
 ***
 
