@@ -59,6 +59,7 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [Certipy](https://github.com/ly4k/Certipy) - Tool for Active Directory Certificate Services enumeration and abuse
 * [Legba](https://github.com/evilsocket/legba) - A multiprotocol credentials bruteforcer / password sprayer and enumerator.
 * [FFUF](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go
+* [Dome](https://github.com/v4d1/Dome) - Subdomain Enumeration
 
 ### Hash Cracking
 
@@ -110,6 +111,14 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [Unicorn](https://github.com/trustedsec/unicorn) - PowerShell downgrade attack and inject shellcode straight into memory
 * [TikiTorch](https://github.com/rasta-mouse/TikiTorch) - Process Injection
 * [Archeron](https://github.com/f1zm0/acheron) - Indirect syscalls for AV/EDR evasion in Go assembly
+* [Win11-OneDrive-DLL-Injection](https://github.com/ras-it/Win11-OneDrive-DLL-injection-vulnerability/)
+* [LdrLibraryEx](https://github.com/Cracked5pider/LdrLibraryEx) - A small x64 library to load dll's into memory.
+
+### Wordlists
+
+* [VX-Underground](https://github.com/0xsyr0/vx-underground-wordlist)
+* [Hashmob](https://hashmob.net/resources/hashmob)
+* [Seclists](https://github.com/danielmiessler/SecLists)
 
 ### Other
 
@@ -122,3 +131,5 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [DeHashed API Tool](https://github.com/hmaverickadams/DeHashed-API-Tool) - CLI tool to query the DeHashed API
 * [autoNTDS](https://github.com/hmaverickadams/autoNTDS) - automation script designed to simplify the process of dumping and cracking NTDS hashes using secretsdump.py and hashcat
 * [PSPY](https://github.com/DominicBreuker/pspy) - Monitor linux processes without root permissions
+* [ROADtools](https://github.com/dirkjanm/ROADtools) - A collection of Azure AD tools for offensive and defensive security purposes
+* [Dumpert](https://github.com/outflanknl/Dumpert) - LSASS memory dumper using direct system calls and API unhooking.

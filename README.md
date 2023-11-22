@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [Getting Started and other Resources](general-info/getting-started-and-other-resources/)
+Updated [Tools](tools/) - Added some new ones
 
 ***
 
