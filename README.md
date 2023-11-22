@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated PNPT - Practical Ethical Hacking Capstone
+Updated [PNPT - Practical Ethical Hacking Capstone](https://cybersec.th4ntis.com/courses/pnpt/practical-ethical-hacking#new-capstone)
 
 ***
 
