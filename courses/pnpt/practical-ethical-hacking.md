@@ -62,11 +62,15 @@ As I have worked with Nessus prior, my notes in general can be found [here](../.
 
 {% file src="../../.gitbook/assets/Capstone - Academy.pdf" %}
 
-**DEV COMING SOON**
+For Dev I did need to change the VM settings to NAT and run `dhclient` to get an IP.
+
+{% file src="../../.gitbook/assets/Capstone - Dev.pdf" %}
 
 {% file src="../../.gitbook/assets/Capstone - Butler.pdf" %}
 
-**BLACK PEARL COMING SOON**
+For Black Pearl I did need to change the VM settings to NAT and run `dhclient` to get an IP.
+
+{% file src="../../.gitbook/assets/Capstone - BlackPearl.pdf" %}
 
 ## Introduction to Exploit Development (Buffer Overflows)
 
