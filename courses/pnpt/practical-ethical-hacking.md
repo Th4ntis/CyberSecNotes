@@ -99,4 +99,8 @@ I have done this in the past so my notes and setup can be found: [Lab Setup](../
 
 ## Attacking Active Directory: Post-Compromise Enumeration
 
+{% file src="../../.gitbook/assets/Attacking Active Directory_ Post-Compromise Enumeration.pdf" %}
+
+## Attacking Active Directory: Post-Compromise Attacks
+
 COMING SOON

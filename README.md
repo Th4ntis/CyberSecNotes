@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [PNPT Course notes](courses/pnpt/) with Attacking AD: Initial Attack Vectors
+Updated [PNPT Course notes](courses/pnpt/) with Attacking Active Directory: Post-Compromise Enumeration
 
 ***
 
