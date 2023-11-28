@@ -95,4 +95,8 @@ I have done this in the past so my notes and setup can be found: [Lab Setup](../
 
 ## Attacking AD: Initial Attack Vectors
 
-COMING SOON!
+{% file src="../../.gitbook/assets/Attacking AD_ Initial Attack Vectors.pdf" %}
+
+## Attacking Active Directory: Post-Compromise Enumeration
+
+COMING SOON
