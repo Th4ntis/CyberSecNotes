@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [PNPT Course notes](courses/pnpt/) with Attacking Active Directory: Post-Compromise Enumeration
+Updated [PNPT Ethical Hacking Course notes](courses/pnpt/practical-ethical-hacking.md) with Attacking Active Directory: Post-Compromise Enumeration
 
 ***
 
