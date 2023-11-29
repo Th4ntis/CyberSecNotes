@@ -12,23 +12,18 @@ There is a helpful resource called the [OSINT Framework](https://osintframework.
 
 ### What is a Sock Puppet?
 
-An online identity as an alternate identity or fake account. The point is to make ia person/account that is not you.
+An online identity as an alternate identity or fake account. The point is to make is person/account that is not you.
 
 ### Creating a Sock Puppet
 
-[Creating an Effective Sock Puppet for OSINT Investigations – Introduction](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/)
+* [Creating an Effective Sock Puppet for OSINT Investigations – Introduction](https://web.archive.org/web/20210125191016/https://jakecreps.com/2018/11/02/sock-puppets/)
+* [The Art Of The Sock](https://www.secjuice.com/the-art-of-the-sock-osint-humint/)
+* [Reddit - My process for setting up anonymous sockpuppet accounts](https://www.reddit.com/r/OSINT/comments/dp70jr/my\_process\_for\_setting\_up\_anonymous\_sockpuppet/)
+* [Fake Name Generator](https://www.fakenamegenerator.com/)
+* [This Person Does not Exist](https://www.thispersondoesnotexist.com/)
+* [Privacy.com](https://privacy.com/) - Make burner Credit Cards
 
-[The Art Of The Sock](https://www.secjuice.com/the-art-of-the-sock-osint-humint/)
-
-[Reddit - My process for setting up anonymous sockpuppet accounts](https://www.reddit.com/r/OSINT/comments/dp70jr/my\_process\_for\_setting\_up\_anonymous\_sockpuppet/)
-
-[Fake Name Generator](https://www.fakenamegenerator.com/)
-
-[This Person Does not Exist](https://www.thispersondoesnotexist.com/)
-
-[Privacy.com](https://privacy.com/join/LADFC) \*Referral link. TCM gets $5 credit on sign up.
-
-## Seach Engines
+## Search Engines
 
 * [Google](https://www.google.com/)
 * [Google Advanced Search](https://www.google.com/advanced\_search)
