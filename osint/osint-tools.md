@@ -58,18 +58,6 @@ There are tons of highly effective tools for subdomain enumeration and brute for
 * [Sublist3r](https://github.com/aboul3la/Sublist3r) - Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines.
   * [https://tryhackme.com/room/rpsublist3r](https://tryhackme.com/room/rpsublist3r)
 
-## URL OSINT and Sandboxing
-
-* [URLScan](https://urlscan.io/) - "_A sandbox for the web"_ Scans submitted URL website for malicious intent details in [their about page](https://urlscan.io/about/).
-* [URLHaus](https://urlhaus.abuse.ch/) - Search IP/Domain, URL, MD5, SHA256, and more to see if they have been flagged as malicious/suspicious.
-* [URLVoid](https://www.urlvoid.com/) - Website reputation checker. Shows information of location, IP, WHOIS, DNS Records, and if various services have blacklisted the URL or not.
-* [Browserling](https://www.browserling.com/) - Sandbox URLs on various browsers and interact with them in a live secure environment.
-* [Wannabroswer](https://www.wannabrowser.net/) - Simulate any Browser
-* [Hybrid-Analysis](https://hybrid-analysis.com/) - Malware Analysis Service
-* [Joes Sandbox](https://www.joesandbox.com/) - "Detects and analyzes potential malicious files and URLs" on various OS
-* [Triage](https://tria.ge/) - Malware Analysis Sandbox
-* [Any.run](https://any.run/) - An "Interactive online malware analysis service for dynamic and static research of most types of threats using any environments. Replaces a set of tools for research". Free to use and sign up for. Can be used for "a convenient in-depth analysis of new (unidentified) malicious objects, as well as for the investigation of cyber incidentals."
-
 ## Email/Username OSINT
 
 Corporate usernames can be obnoxiously easy to guess and build. The standard of FIRSTNAME.LASTNAME@CORP.com is so common, it's ridiculous. Even more so when account management tools will simply take the first half of the email and reuse it as a username. We can use schemes like this to our advantage to search for a multitude of treasures like accounts on other services with the same username, credentials found in breaches, and associated sites or tools. When searching for usernames, you can uncover linked social media accounts and tons of relevant intelligence.
@@ -101,6 +89,118 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
 * [SocialCcan](https://github.com/iojw/socialscan) - Python library and CLI for accurately querying username and email usage on online platforms
 * [AnalyzeID](https://analyzeid.com/username/) - Social media username checker. Gather information on the taken username and get a summary of who the person is
 * [IDCrawl](https://www.idcrawl.com/) - A free people search engine that organizes social network information, deep web information, phone numbers, email addresses and more
+
+## Social Media OSINT
+
+Social Media is huge a huge part of the internet now, from personal accounts, businesses, news outlets, to bots, it's very helpful to find information on them. This doesn't include just Facebook or Twitter, this can include things like Discord, Telegram, Snapchat, and others.
+
+### Facebook
+
+* [Codeofaninja](https://www.codeofaninja.com/tools/find-facebook-id/) - This tool called "Get Facebook ID" provides an easy and fast way to find a Facebook page's or Facebook profile's numeric ID.
+* [CSE Facebook Image Search](https://cse.google.com/cse?cx=013991603413798772546:jyvyp2ppxma#gsc.tab=0) - Use Keywords to search Facebook for images.
+* [CSE Facebook Search](https://cse.google.com/cse?cx=016621447308871563343:vylfmzjmlti#gsc.tab=0) - Obtain overall Results, Pages, Groups & Photos.
+* [Intelligence X](https://intelx.io/tools?tab=facebook) - Facebook Graph Searcher.
+* [Intelltechniques](https://inteltechniques.com/tools/Facebook.html) - Facebook Search Tool.
+* [Lookup-ID](https://lookup-id.com/) - Facebook profile ID / Group ID / Page ID lookup resource.
+* [Osint Combine](https://www.osintcombine.com/social-geo-lens) - Social Geo Lens, this tool is designed to provide a map based interface for geo searching on social media platforms.
+* [Osint Combine](https://www.osintcombine.com/facebook-search-tools) - This tool is a simple way to quickly search for multiple keywords from a list or open mutual friends for multiple profiles at the same time.
+* [Plessas Facebook Matrix](https://plessas.net/facebookmatrix) - This page contains Kirby Plessas Formulas for Searching Facebook.
+* [Socmint Tool](http://socmint.tools/) - Graph Search Tool.
+* [Sowdust Graph Tips](https://www.sowsearch.info/) - Replacement Graph Search developed by Sowdust.
+* [Who Posted What](https://www.whopostedwhat.com/) - Whopostedwhat.com is a non public Facebook keyword search for people who work in the public interest. It allows you to search keywords on specific dates.
+
+### Twitter
+
+* [Nixintel How to find timestamps](https://nixintel.info/osint/how-to-find-timestamps-for-verification/) - Nixintel blog on how to find timestamps for verification (2022).
+* [Analyze Words](https://liwc.net/analyzewords/index.php)
+* [Aware-Online](http://aware-online.com/en/osint-tools/twitter-search-tool/)
+* [Birdhunt](https://birdhunt.co/)
+* [Botometre](https://botometer.osome.iu.edu/)
+* [Codeofaninja](https://www.codeofaninja.com/tools/find-twitter-id/) - Easy way for you to get a Twitter profile's numeric ID.
+* [Foller](https://foller.me/)
+* [Followerwonk](https://followerwonk.com/)
+* [Geo Social Footprint](http://geosocialfootprint.com/)
+* [Hash At It](https://hashatit.com/)
+* [Inteltechniques](https://inteltechniques.com/tools/Twitter.html)
+* [Intelx](https://intelx.io/tools?tab=twitter)
+* [Make Adverbs Great Again](https://makeadverbsgreatagain.org/allegedly/)
+* [One Million Tweet Map](https://onemilliontweetmap.com/)
+* [Osint Conbine](https://osintcombine.com/social-geo-lens)
+* [Real Top Tweeps](https://realtoptweeps.com/rankings/)
+* [Social Bearing](https://socialbearing.com/)
+* [Spoonbill](http://spoonbill.io/)
+* [Tinfoleak](https://tinfoleak.com/)
+* [Tweet Beaver](https://tweetbeaver.com/)
+* [Tweep Diff](https://tweepdiff.com/)
+* [Tweet Map](https://www.heavy.ai/demos/tweetmap)
+* [Tweet Tunnel](https://tweettunnel.com/reverse.php)
+* [Twint](https://github.com/twintproject/twint)
+* [Twitter's Advanced Search](https://twitter.com/search-advanced)
+* [Twopcharts](https://twopcharts.com/)
+
+Tools
+
+* [Treeverse](https://treeverse.app/%3E)
+* [Twitter Video Downloader](https://www.downloadtwittervideo.com/)
+* [Twitter Video Downloader](https://twittervideodownloader.com/)
+* [Twitter Video Downloader](https://savetweetvid.com/)
+
+### Linked In
+
+* [Are You Linked in?](https://www.cqcore.uk/are-you-linked-in/) - Blog by Ginger T & Ritu Gill on how to search linked without being logged in (2021).
+* [Free Person Search Tool](https://freepeoplesearchtool.com/) - Find people easily on Linkedin.
+* [Custom Search Engine](https://cse.google.com/cse?cx=006639709984028990467:nl9wxsfepb0#gsc.tab=0) - UK Linkedin Search (1).
+* [Custom Search Engine](https://cse.google.co.nz/cse?cx=014394093098352383268:w7sqo\_x4rb0) - UK Linkedin Search (2).
+* [Inteltechniques](https://inteltechniques.com/tools/Linkedin.html) - LinkedIn Search Tool.
+* [Recruitment Geek](https://recruitmentgeek.com/tools/linkedin/?sthash.Ls1u5yzO.mjjo#gsc.tab=0) - LinkedIn Xray Search.
+
+### Instagram
+
+* [Nixintel How to find timestamps](https://nixintel.info/osint/how-to-find-timestamps-for-verification/) - Nixintel's blog on how to find timestamps for verification (2022).
+* [Nixintel Instagram Osint](https://nixintel.info/osint-tools/instagram-osint-a-promising-new-python-tool/) - Nixintel's tutorial on how to install InstaScraper.
+* [TOCP How to search Instagram part 1](https://osintcurio.us/2019/07/16/searching-instagram/) - Technisette talks through how to search Instagram, for people, stories, keywords, hashtags, locations (2019).
+* [TOCP How to search Instagram part 2](https://osintcurio.us/2019/10/01/searching-instagram-part-2/) - Technisette continues her tutorial searching Instagram, for businessess, deleted content and tracking followers (2019).
+* [Codeofaninja](https://www.codeofaninja.com/tools/find-instagram-user-id/) - Easy way for developers and designers to get Instagram account numeric ID by username.
+* [Download Gram](https://downloadgram.app/) - Instagram downloader tool, it helps you to download Instagram photos and videos.
+* [Imginn](https://imginn.com/) - Download instagram photos, videos and stories highlights.
+* [Instaloader](https://github.com/instaloader/instaloader) - Download pictures (or videos) along with their captions.
+* [Inteltechniques](https://inteltechniques.com/tools/Instagram.html) - Inteltechniques Instagram search tool.
+* [Instalooter](https://github.com/althonos/InstaLooter) - API-less Instagram pictures and videos downloader.
+* [iZuum](https://izuum.net/) - Instagram profile downloader.
+* [Osint Combinne](https://www.osintcombine.com/instagram-explorer) - Find images by date on Instagram at particular locations easier and more efficient.
+* [Picnob](https://www.picnob.com/) - Enables you to browse Instagram profiles without the need of an account.
+* [Picuki](https://www.picuki.com/) - Instgram Editor & Viewer.
+* [Toutatis](https://github.com/megadose/toutatis) - Extract information from instagrams accounts such as e-mails & phone numbers.
+* [Who Posted What](https://www.whopostedwhat.com/) - Finds Posts on Date Tagged With Location, for people who work in the public interest
+
+### Discord
+
+A helpful resource on how to perform OSINT on Discord can be found [here](https://osintcurio.us/2021/05/06/investigating-discord-a-primer/). Credit to [BOstintBlanc](https://twitter.com/bosintblanc).
+
+* [Disboard, Discord Servers](https://disboard.org/)
+* [Discord Bee](https://discordbee.com/)
+* [Discord Bot List](https://discordbotlist.com/)
+* [Discord Centre](https://discord.center/)
+* [Discord.com, Discord Bots](https://discord.com/invite/0cDvIgU2voWn4BaD)
+* [Discord History Tracker](https://dht.chylex.com/)
+* [Discord Hub](https://discordhub.com/user/search)
+* [Discord ID Creation Date Checker](https://hugo.moe/discord/discord-id-creation-date.html)
+* [Discord ID Lookup](https://discord.id/)
+* [Discord Servers](https://discordservers.com/)
+* [Public Discord Bots & Servers](https://discord.me/servers)
+* [Top.gg, Discord Bots & Servers](https://top.gg/)
+
+## URL OSINT and Sandboxing
+
+* [URLScan](https://urlscan.io/) - "_A sandbox for the web"_ Scans submitted URL website for malicious intent details in [their about page](https://urlscan.io/about/).
+* [URLHaus](https://urlhaus.abuse.ch/) - Search IP/Domain, URL, MD5, SHA256, and more to see if they have been flagged as malicious/suspicious.
+* [URLVoid](https://www.urlvoid.com/) - Website reputation checker. Shows information of location, IP, WHOIS, DNS Records, and if various services have blacklisted the URL or not.
+* [Browserling](https://www.browserling.com/) - Sandbox URLs on various browsers and interact with them in a live secure environment.
+* [Wannabroswer](https://www.wannabrowser.net/) - Simulate any Browser
+* [Hybrid-Analysis](https://hybrid-analysis.com/) - Malware Analysis Service
+* [Joes Sandbox](https://www.joesandbox.com/) - "Detects and analyzes potential malicious files and URLs" on various OS
+* [Triage](https://tria.ge/) - Malware Analysis Sandbox
+* [Any.run](https://any.run/) - An "Interactive online malware analysis service for dynamic and static research of most types of threats using any environments. Replaces a set of tools for research". Free to use and sign up for. Can be used for "a convenient in-depth analysis of new (unidentified) malicious objects, as well as for the investigation of cyber incidentals."
 
 ## Additional Tools
 
