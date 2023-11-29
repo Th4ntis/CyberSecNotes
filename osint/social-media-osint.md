@@ -14,6 +14,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [Osint Combine](https://www.osintcombine.com/facebook-search-tools) - This tool is a simple way to quickly search for multiple keywords from a list or open mutual friends for multiple profiles at the same time.
 * [Plessas Facebook Matrix](https://plessas.net/facebookmatrix) - This page contains Kirby Plessas Formulas for Searching Facebook.
 * [Socmint Tool](http://socmint.tools/) - Graph Search Tool.
+* [Sowdust Github](https://sowdust.github.io/fb-search/)
 * [Sowdust Graph Tips](https://www.sowsearch.info/) - Replacement Graph Search developed by Sowdust.
 * [Who Posted What](https://www.whopostedwhat.com/) - Whopostedwhat.com is a non public Facebook keyword search for people who work in the public interest. It allows you to search keywords on specific dates.
 
@@ -32,9 +33,11 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [Inteltechniques](https://inteltechniques.com/tools/Twitter.html)
 * [Intelx](https://intelx.io/tools?tab=twitter)
 * [Make Adverbs Great Again](https://makeadverbsgreatagain.org/allegedly/)
+* [Mentionmapp](https://mentionmapp.com/)
 * [One Million Tweet Map](https://onemilliontweetmap.com/)
 * [Osint Conbine](https://osintcombine.com/social-geo-lens)
 * [Real Top Tweeps](https://realtoptweeps.com/rankings/)
+* [Sleeping Time](http://sleepingtime.org/)
 * [Social Bearing](https://socialbearing.com/)
 * [Spoonbill](http://spoonbill.io/)
 * [Tinfoleak](https://tinfoleak.com/)
@@ -45,6 +48,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [Twint](https://github.com/twintproject/twint)
 * [Twitter's Advanced Search](https://twitter.com/search-advanced)
 * [Twopcharts](https://twopcharts.com/)
+* [Twitonomy](https://www.twitonomy.com/)
 
 ### Tools
 
@@ -70,6 +74,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [TOCP How to search Instagram part 2](https://osintcurio.us/2019/10/01/searching-instagram-part-2/) - Technisette continues her tutorial searching Instagram, for businessess, deleted content and tracking followers (2019).
 * [Codeofaninja](https://www.codeofaninja.com/tools/find-instagram-user-id/) - Easy way for developers and designers to get Instagram account numeric ID by username.
 * [Download Gram](https://downloadgram.app/) - Instagram downloader tool, it helps you to download Instagram photos and videos.
+* [InstaDP](https://www.instadp.com/)
 * [Imginn](https://imginn.com/) - Download instagram photos, videos and stories highlights.
 * [Instaloader](https://github.com/instaloader/instaloader) - Download pictures (or videos) along with their captions.
 * [Inteltechniques](https://inteltechniques.com/tools/Instagram.html) - Inteltechniques Instagram search tool.
@@ -80,6 +85,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [Picuki](https://www.picuki.com/) - Instgram Editor & Viewer.
 * [Toutatis](https://github.com/megadose/toutatis) - Extract information from instagrams accounts such as e-mails & phone numbers.
 * [Who Posted What](https://www.whopostedwhat.com/) - Finds Posts on Date Tagged With Location, for people who work in the public interest
+* [Wopita](https://wopita.com/)
 
 ## Discord
 
@@ -97,3 +103,7 @@ A helpful resource on how to perform OSINT on Discord can be found [here](https:
 * [Discord Servers](https://discordservers.com/)
 * [Public Discord Bots & Servers](https://discord.me/servers)
 * [Top.gg, Discord Bots & Servers](https://top.gg/)
+
+## Snapchat
+
+* [Snapchat Maps](https://map.snapchat.com)
