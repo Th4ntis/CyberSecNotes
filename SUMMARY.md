@@ -33,7 +33,6 @@
   * [Active Directory](windows/active-directory.md)
 * [🔎 OSINT](osint/README.md)
   * [OSINT Tools](osint/osint-tools.md)
-  * [Social Media OSINT](osint/social-media-osint.md)
   * [Shodan](osint/shodan.md)
   * [Google Dorking](osint/google-dorking.md)
 * [🛠 Tools](tools/README.md)
