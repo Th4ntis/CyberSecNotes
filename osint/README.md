@@ -35,3 +35,14 @@ An online identity as an alternate identity or fake account. The point is to mak
 * [DuckDuckGo Search Guide](https://help.duckduckgo.com/duckduckgo-help-pages/results/syntax/)
 * [Baidu](http://www.baidu.com/)
 
+## Operator Examples
+
+* site:reddit.com
+* filetype:pdf
+* "Exact results"
+* AND
+* OR
+* \-www
+* intext:password - Shows the term "password" in the text
+* inurl:password - Shows if the term"password" is in the URL
+
