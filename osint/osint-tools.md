@@ -17,7 +17,11 @@ layout:
 
 Here's a list of additional helpful tools that can be used for [OSINT](./) and Sand-boxing for Cyber Security Analysts and Researchers. These tools can be used to looking up information on Domains, IPs, URLs, File Hashes, etc.
 
-A good resource to find various OSINT platforms is [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all), as well as [OSHINT](https://ohshint.gitbook.io/oh-shint-its-a-blog/).
+Resources to find various OSINT platforms:
+
+* [OSINT4ALL](https://start.me/p/L1rEYQ/osint4all)
+* [OSHINT](https://ohshint.gitbook.io/oh-shint-its-a-blog/)
+* [AwesomeOSINT](https://github.com/jivoi/awesome-osint)
 
 {% hint style="warning" %}
 No one tool is the end all-be-all, please make sure to use multiple resources to gather and collect information.
@@ -27,7 +31,7 @@ No one tool is the end all-be-all, please make sure to use multiple resources to
 
 ## Business OSINT
 
-* [Open Corporates](https://opencorporates.com/)
+* [Open Corporate](https://opencorporates.com/)
 * [AI HIT](https://www.aihitdata.com/)
 
 ## Wireless OSINT
