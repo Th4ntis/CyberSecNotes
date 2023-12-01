@@ -103,4 +103,8 @@ I have done this in the past so my notes and setup can be found: [Lab Setup](../
 
 ## Attacking Active Directory: Post-Compromise Attacks
 
+{% file src="../../.gitbook/assets/Attacking Active Directory_ Post-Compromise Attacks.pdf" %}
+
+## We've Compromised the Domain - Now What?
+
 COMING SOON
