@@ -7,21 +7,21 @@ sudo nmap -T4 -v 10.129.82.199
 sudo nmap -T4 -Pn -p 22,80,3000 -sV -sC -v 10.129.82.199 -oA Codify
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## HTTP
 
 Had to edit the host file to get the Webpage
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Checking out their About Us page
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Looking around for VM2 CVE's, found [this article on snyk](https://security.snyk.io/vuln/SNYK-JS-VM2-5537100) about RCE with VM2 after seeing a couple others. Testing the other PoC's I didn't get anywhere until I found this one. We can run commands on the host bypassing the VM.
 
@@ -49,11 +49,11 @@ const code = `
 console.log(vm.run(code)); // -> hacked
 ```
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 whoami shows us the `svc` user. Also looking at `/etc/passwd` we see an additional user, `joshua`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### BruteForce
 
@@ -63,9 +63,9 @@ Trying to run Hydra against the user joshua for a password
 hydra -l joshua -P /usr/share/wordlists/rockyou.txt -V ssh://10.129.82.199
 ```
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 `joshua:spongebob1`
 
@@ -113,33 +113,33 @@ console.log(vm.run(code)); // -> hacked
 
 We have shell as svc
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Seeing what permissions we have
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## User Flag
 
 After getting into shell from the SVC user, I got Joshuas password with hydra.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 User flag: `c53cdd4688463871ba3f4020ab6f3ccb`
 
 ## Priv Esc
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 We have run the note of "User joshua may run the following commands on codify: (root) /opt/scripts/mysql-backup.sh" So looking at the shell file
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 Running that as root as get
 
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
 
 Get [PSPY](https://github.com/DominicBreuker/pspy) Initiate another SSH session. Get pspy64 onto the target machine, run it, then run the `/opt/scripts/mysql-backup.sh` script
 

@@ -6,7 +6,7 @@
 sudo nmap -T4 -Pn -sV -sC -v 10.129.246.65 -oA Funnel
 ```
 
-<figure><img src="../../../.gitbook/assets/image (11) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 1
 
@@ -18,7 +18,7 @@ Answer: 2
 
 What is the name of the directory that is available on the FTP server?
 
-<figure><img src="../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: mail\_backup
 
@@ -26,7 +26,7 @@ Answer: mail\_backup
 
 What is the default account password that every new member on the "Funnel" team should change as soon as possible? - Look in the .pdf file from the FTP server.
 
-<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: funnel123#!#
 
@@ -34,9 +34,9 @@ Answer: funnel123#!#
 
 Which user has not changed their default password yet?
 
-<figure><img src="../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (15) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Answer: christine
 

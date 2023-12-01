@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [PNPT Ethical Hacking Course notes](courses/pnpt/practical-ethical-hacking.md) with Attacking Active Directory: Post-Compromise Enumeration
+Updated [OSINT](osint/) with a better breakdown of tools and added additional tools
 
 ***
 

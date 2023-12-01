@@ -18,6 +18,34 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
 * [Email Format ](https://www.email-format.com/)- Find the email address format for a given company or domain.
 * [Snov.io](https://snov.io/email-finder) - Locate employee email addresses via domain name.
 * [TheHarvester](https://github.com/laramies/theharvester) - This tool is the defacto standard for email intelligence gathering. It checks a large array of sources to pull together information. It can leverage APIs of other services such as Spyse or Shodan to improve the search. Remember these will require an API key to use. I have found that between the above html tools and this, it will satisfy your email searching needs.
+* [Email Hippo](https://tools.verifyemailaddress.io/)
+* [Email Checker](https://email-checker.net/validate)
+
+### Tools
+
+* [breach-parse](https://github.com/hmaverickadams/breach-parse)
+
+```
+breach-parse 
+```
+
+[Breached password list from Magnet link](https://magnet/?xt=urn:btih:7ffbcd8cee06aba2ce6561688cf68ce2addca0a3\&dn=BreachCompilation\&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80\&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969\&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969\&tr=udp%3A%2F%2Fglotorrents.pw%3A6969\&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337)
+
+* [theHarvester](https://github.com/laramies/theHarvester)
+
+```
+theHarvester -d domain -b search
+```
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+[h8mail](https://github.com/khast3x/h8mail)
+
+```
+h8mail -t target@domain.com
+```
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Username Search Tools
 
@@ -25,7 +53,19 @@ Corporate usernames can be obnoxiously easy to guess and build. The standard of 
   * [WhatsMyName Github](https://github.com/WebBreacher/WhatsMyName)
 * [UserSearch](https://usersearch.org/index.php) - Search Engine for Usernames
 * [Name Check](https://namechk.com/) - See if a username is available across multiple platforms
+* [NameCheckup](https://namecheckup.com/)
 * [Sherlock](https://github.com/sherlock-project/sherlock) - Hunt down social media accounts by username across social networks
 * [SocialCcan](https://github.com/iojw/socialscan) - Python library and CLI for accurately querying username and email usage on online platforms
 * [AnalyzeID](https://analyzeid.com/username/) - Social media username checker. Gather information on the taken username and get a summary of who the person is
 * [IDCrawl](https://www.idcrawl.com/) - A free people search engine that organizes social network information, deep web information, phone numbers, email addresses and more
+
+### Tools
+
+* [whatsmyname](https://github.com/WebBreacher/WhatsMyName)
+* [sherlock](https://github.com/sherlock-project/sherlock)
+
+```
+sherlock user
+```
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
