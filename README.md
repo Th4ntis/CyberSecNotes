@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [PNPT - Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) with Attacking Active Directory: Post-Compromise Attacks
+Updated [Getting Started and Other Resources](general-info/getting-started-and-other-resources/) with Attacking/Defending Cloud
 
 ***
 
