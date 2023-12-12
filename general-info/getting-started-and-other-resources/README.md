@@ -39,39 +39,67 @@ There are plenty of CTFs out there but some range from beginner to advanced. The
 * [PicoCTF](https://picoctf.org/)
 * [RootMe](https://www.root-me.org/?lang=en)
 
-## Keeping Up with Cyber/Info Sec
-
-There's multiple ways to do this, I have my recommendations over in the [CyberSec News](../cybersec-news.md) section of this.
-
 ## Learning Resources
 
 There are a lot of learning resources out there and some are free, some paid, some subscription based. Here are some I know of, use some I use, and others that that are helpful overall.
 
+### Attacking/Defending Cloud
+
+* [CloudBreach](https://cloudbreach.io/) (AWS and Azure)
+* [AlteredSecurity](https://www.alteredsecurity.com) (Azure)
+* [Attacking and Defending Azure](https://training.xintra.org/attacking-and-defending-azure-m365)
+* [TryHackMe Attacking and Defending AWS](https://tryhackme.com/paths)
+* [Pwnedlabs](https://pwnedlabs.io/)
+* [Pluralsight](https://www.pluralsight.com/)
+  * [Pentesting Skills](https://www.pluralsight.com/browse/information-cyber-security/penetration-testing)
+  * [CyberSec Skill Paths](https://www.pluralsight.com/browse/information-cyber-security)
+* [Beau Bullock's Breaching the cloud](https://www.blackhillsinfosec.com/breaching-the-cloud-perimeter-w-beau-bullock/)
+  * [On Antisyphon](https://www.antisyphontraining.com/on-demand-courses/breaching-the-cloud-w-beau-bullock/)
+* [HackTricks Cloud](https://cloud.hacktricks.xyz/pentesting-cloud/pentesting-cloud-methodology)
+  * [AWS Pentesting](https://cloud.hacktricks.xyz/pentesting-cloud/aws-security)
+  * [Azure Pentesting](https://cloud.hacktricks.xyz/pentesting-cloud/azure-security)
+  * [Digital Ocean Pentesting](https://cloud.hacktricks.xyz/pentesting-cloud/digital-ocean-pentesting)
+
 ### Hands-On
 
+* [TryHackMe](https://tryhackme.com/) <-- CTF and Courses
+* [HackTheBox](https://app.hackthebox.com/) <-- CTF and Courses
 * [Cybrary](https://www.cybrary.it/) - Online learning courses
 * [VulnHub](https://www.vulnhub.com/) - Download Vulnerable VMs to run and attack
-* [PentesterLab](https://www.pentesterlab.com/)
-* [CyberSecLabs](https://www.cyberseclabs.co.uk/)
+* [PentesterLab](https://www.pentesterlab.com/) <-- Downloads VMs to attack
+* [VulnHub](https://www.vulnhub.com/) <-- Downloads VMs to attack
 * [EchoCTF](https://echoctf.com/)
+* [LetsDefend](https://letsdefend.io/)
+* [Over The Wire](https://overthewire.org/wargames/) <-- CTF
+* [PicoCTF](https://picoctf.org/) <-- CTF
+* [RootMe](https://www.root-me.org/?lang=en) <-- CTF
 
 ### People(Videos and channels)
 
 * [John Hammond](https://www.youtube.com/c/JohnHammond010)
 * [The Cyber Mentor](https://www.youtube.com/c/TheCyberMentor)
-* [Network Chuck](https://www.youtube.com/c/NetworkChuck)
+* [InfoSecEDU](https://www.youtube.com/@InfosecEdu)
 * [Hackersploit](https://www.youtube.com/c/HackerSploit)
+* [IppSec](https://www.youtube.com/@ippsec)
+* [Joe Helle](https://www.youtube.com/@JoeHellethemayor)
+* [NahamSec](https://www.youtube.com/@NahamSec)
 * [Hak5](https://www.youtube.com/c/hak5)
 * [DefCON](https://www.youtube.com/user/DEFCONConference)
 * [DC CyberSec](https://www.youtube.com/c/DCcybersec)
+* [Network Chuck](https://www.youtube.com/c/NetworkChuck)
 * [David Bombal](https://www.youtube.com/c/DavidBombal)
-* [InfoSecEDU](https://www.youtube.com/@InfosecEdu)
 
 ### Videos/Courses
 
+* [TCM Security Academy](https://academy.tcm-sec.com/courses)
 * [Udemy](https://udemy.com)
 * [Coursera](https://www.coursera.org/)
+* [HackingThe.Cloud](https://hackingthe.cloud) - It’s not quite a course, but has a ton of educational content on cloud pentesting. Leans more toward AWS.
 
-### Additional
+## Keeping Up with Cyber/Info Sec
+
+There's multiple ways to do this, I have my recommendations over in the [CyberSec News](../cybersec-news.md) section of this.
+
+## Additional
 
 Additional resources thanks to: [7h3h4ckv157](https://twitter.com/7h3h4ckv157) and [danielmakelley](https://twitter.com/danielmakelley). [Twitter list here](https://twitter.com/7h3h4ckv157/status/1575875803744591872?s=20\&t=AsH0RR8UAiC5pZXyHu70hw)
