@@ -1,7 +1,11 @@
 # Enumeration
 
+* Nmap
 * [GoBuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
-* Dirb/Dirbuster - Busting Tool for Web Directories
+* [Ffuf](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go
+* [Nikto](https://github.com/sullo/nikto) - Nikto web server scanner
+* [Amass](https://github.com/owasp-amass/amass) - In-depth attack surface mapping and asset discovery
+* [Dirb](https://dirb.sourceforge.net/)/[Dirbuster](https://www.kali.org/tools/dirbuster/) - Busting Tool for Web Directories
 * [Enum4Linux](https://www.kali.org/tools/enum4linux/) - Enumerating information from Windows and Samba systems
 * [OneDrive UserEnum](https://github.com/nyxgeek/onedrive\_user\_enum) - Enumerates valid OneDrive accounts
 * [Bloodhound](https://github.com/BloodHoundAD/BloodHound) - Active Directory Attacks
