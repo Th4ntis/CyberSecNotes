@@ -64,6 +64,7 @@ There are a lot of learning resources out there and some are free, some paid, so
 
 * [TryHackMe](https://tryhackme.com/) <-- CTF and Courses
 * [HackTheBox](https://app.hackthebox.com/) <-- CTF and Courses
+* [Offensive Security](https://offensive-security.com)
 * [Cybrary](https://www.cybrary.it/) - Online learning courses
 * [VulnHub](https://www.vulnhub.com/) - Download Vulnerable VMs to run and attack
 * [PentesterLab](https://www.pentesterlab.com/) <-- Downloads VMs to attack
@@ -84,6 +85,7 @@ There are a lot of learning resources out there and some are free, some paid, so
 * [Joe Helle](https://www.youtube.com/@JoeHellethemayor)
 * [NahamSec](https://www.youtube.com/@NahamSec)
 * [Hak5](https://www.youtube.com/c/hak5)
+* [Sans Institute](https://youtube.com/user/sansinstitute)
 * [DefCON](https://www.youtube.com/user/DEFCONConference)
 * [DC CyberSec](https://www.youtube.com/c/DCcybersec)
 * [Network Chuck](https://www.youtube.com/c/NetworkChuck)

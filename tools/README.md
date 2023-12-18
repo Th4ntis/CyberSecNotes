@@ -120,6 +120,23 @@ TTP is an acronym for Tactics, Techniques, and Procedures:
 * [Hashmob](https://hashmob.net/resources/hashmob)
 * [Seclists](https://github.com/danielmiessler/SecLists)
 
+## Exploits Databases
+
+* [ExploitDB](http://exploit-db.com)
+* [IntelligentExploit](http://intelligentexploit.com)
+* [Shodan](https://www.shodan.io)
+* [PacksetStormSec](http://packetstormsecurity.com)
+
+## Vulnerability Databases
+
+* [MITRE CVE](https://cve.mitre.org/cve/)
+* [CVE Details](http://cvedetails.com)
+* [NIST](https://nvd.nist.gov)
+* [CERT/CC Vulnerability Notes Database](https://kb.cert.org/vuls/)
+* [LWN security vulnerabilities database](http://lwn.net/Vulnerabilities/)
+* [VulnLab](http://vulnerability-lab.com)
+* [SecDocs](http://secdocs.org)
+
 ### Other
 
 * [Impacket](https://github.com/SecureAuthCorp/impacket) - A collection of Python classes for working with network protocols
