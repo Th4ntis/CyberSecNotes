@@ -3,6 +3,7 @@
 * Nmap
 * [GoBuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
 * [Ffuf](https://github.com/ffuf/ffuf) - Fast web fuzzer written in Go
+  * [Ffufw](https://github.com/puzzlepeaches/ffufw) - wrapper around ffuf to make directory brute forcing easier
 * [Nikto](https://github.com/sullo/nikto) - Nikto web server scanner
 * [Amass](https://github.com/owasp-amass/amass) - In-depth attack surface mapping and asset discovery
 * [Dirb](https://dirb.sourceforge.net/)/[Dirbuster](https://www.kali.org/tools/dirbuster/) - Busting Tool for Web Directories
