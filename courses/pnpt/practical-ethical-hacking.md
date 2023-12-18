@@ -107,4 +107,19 @@ I have done this in the past so my notes and setup can be found: [Lab Setup](../
 
 ## We've Compromised the Domain - Now What?
 
+{% file src="../../.gitbook/assets/We_ve Compromised the Domain - Now What_.pdf" %}
+
+## Additional Active Directory Attacks
+
+{% file src="../../.gitbook/assets/Additional AD Attacks.pdf" %}
+
+## Active Directory Case Studies
+
+He goes over Blog posts about case studies about pentests.
+
+* [You spent how much on security?](https://tcm-sec.com/pentest-tales-001-you-spent-how-much-on-security/)
+* [Digging Deep](https://tcm-sec.com/pentest-tales-002-digging-deep)
+
+## Post Exploitation
+
 COMING SOON

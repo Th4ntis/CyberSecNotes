@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [Getting Started and Other Resources](general-info/getting-started-and-other-resources/) with Attacking/Defending Cloud
+Updated [PNPT - Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) section with more notes.
 
 ***
 
