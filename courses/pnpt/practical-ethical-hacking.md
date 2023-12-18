@@ -122,4 +122,8 @@ He goes over Blog posts about case studies about pentests.
 
 ## Post Exploitation
 
+{% file src="../../.gitbook/assets/Post Exploitation.pdf" %}
+
+## Web Application Enumeration, Revisited
+
 COMING SOON
