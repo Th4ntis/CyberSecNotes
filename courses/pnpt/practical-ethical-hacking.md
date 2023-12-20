@@ -126,4 +126,8 @@ He goes over Blog posts about case studies about pentests.
 
 ## Web Application Enumeration, Revisited
 
+{% file src="../../.gitbook/assets/Web Application Enumeration, Revisited.pdf" %}
+
+## Find & Exploit Common Web Vulnerabilities
+
 COMING SOON

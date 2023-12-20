@@ -24,7 +24,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [PNPT - Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) section with more notes.
+Updated [PNPT - Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) section with Web Application Enumeration, Revisited.
 
 ***
 
