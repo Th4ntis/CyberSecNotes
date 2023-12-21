@@ -2,20 +2,18 @@
 
 [BurpSuite](https://portswigger.net/burp) is industry standard tool for web application hacking, and is essential in any web pentest. Free community edition can be downloaded from [here](https://portswigger.net/burp/communitydownload).&#x20;
 
-Plenty of good info and hands on from the [TryHackMe modules](https://tryhackme.com/module/learn-burp-suite).
+Plenty of good info and hands on from [PortSwigger Academy](https://portswigger.net/web-security) and the [TryHackMe modules](https://tryhackme.com/module/learn-burp-suite).
 
 ## Setup
 
 ### Browser Setup
 
-We can install [FoxyProxy](https://foxyproxy.com/) Standard to setup for easy proxy to pass traffic through Burpsuite.
+We can install [FoxyProxy](https://foxyproxy.com/) Standard to setup for easy proxy to pass traffic through Burpsuite. Though now Burp has [their own built in Chromium browser](https://portswigger.net/burp/documentation/desktop/tools/burps-browser) you can use.
 
 * [Chrome](https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp)
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/)
 
 With FoxyProxy installed we can right click on the extension > Options
-
-&#x20;
 
 ![](<../../.gitbook/assets/image (10) (1) (1) (1) (1) (1).png>)
 
@@ -117,7 +115,7 @@ We have no response yet, until we press the "send" button at the top left.
 
 To change anything about the request, we can simply type in the Request window and press "Send" again, this will update the Response on the right.
 
-Under reponse, the different tabs:
+Under response, the different tabs:
 
 * **Pretty**: This is the default option. It takes the raw response and makes it easier to read.
 * **Raw**: The pure response from the server.
@@ -174,5 +172,5 @@ Comparer allows us to compare two pieces of data, either by ASCII words or by by
 
 Sequencer is one of those tools that rarely ever gets used in CTFs and other lab environments but is an essential part of a real-world web app penetration test. Sequencer allows us to measure the randomness of "tokens", strings that are used to identify something and should be generated in a "cryptographically" secure manner.
 
-* Live capture is the more common of the two methods, it allows us to pass a request to Sequencer, which we know will create a token for us to analyse. Eg. If we pass a POST request to a login endpoint into Sequencer, the server will respond by giving us a cookie. With the request passed off, we can tell Sequencer to start a live capture. It then makes the same request thousands of times automatically, storing the generated token samples for analysis. Once we have enough samples, we stop Sequencer and allow it to analyse the captured tokens.
+* Live capture is the more common of the two methods, it allows us to pass a request to Sequencer, which we know will create a token for us to analyze. Eg. If we pass a POST request to a login endpoint into Sequencer, the server will respond by giving us a cookie. With the request passed off, we can tell Sequencer to start a live capture. It then makes the same request thousands of times automatically, storing the generated token samples for analysis. Once we have enough samples, we stop Sequencer and allow it to analyze the captured tokens.
 * Manual load allows us to load a list of pre-generated token samples straight into Sequencer for analysis. Using this means we don't have to make thousands of requests to our target, which is loud and resource intensive, but it does mean that we need to obtain a large list of pre-generated tokens.
