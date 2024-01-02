@@ -82,7 +82,7 @@
     * [Wifite](tools/wireless/wifite.md)
   * [Impacket](tools/impacket.md)
   * [Social-Engineer Toolkit (SET)](tools/social-engineer-toolkit-set.md)
-* [😈 Guides and How-To's](guides-and-how-tos/README.md)
+* [📔 Guides and How-To's](guides-and-how-tos/README.md)
   * [Lab Setup](guides-and-how-tos/lab-setup/README.md)
     * [Ubuntu VM](guides-and-how-tos/lab-setup/ubuntu-vm.md)
     * [Kali VM](guides-and-how-tos/lab-setup/kali-vm.md)

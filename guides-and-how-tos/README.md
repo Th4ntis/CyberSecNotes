@@ -1,4 +1,4 @@
-# 😈 Guides and How-To's
+# 📔 Guides and How-To's
 
 This will be a section for my guides, walkthroughs, and how-to's on various subjects.
 
