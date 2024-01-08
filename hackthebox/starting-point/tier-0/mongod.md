@@ -70,7 +70,7 @@ Google search and looking on their webpage reveal: "The `mongo` shell is include
 
 With this, lets connect to the mongo databse on the target machine
 
-<figure><img src="../../../.gitbook/assets/image (427).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
 
 Answer: mongo
 
@@ -80,9 +80,9 @@ Answer: mongo
 
 Another google search.
 
-<figure><img src="../../../.gitbook/assets/image (18) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (112) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
 Answer: show dbs
 
@@ -94,7 +94,7 @@ Similar to last answer just with collections rather than databases.
 
 We see the secsitive\_information database, so let use that.
 
-<figure><img src="../../../.gitbook/assets/image (426).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure>
 
 Answer: show collections
 
@@ -104,11 +104,11 @@ Answer: show collections
 
 Googling around says "Using the db.collection.find() command." So we know our collection is called flag, use the collection name flag instead of the word collection.
 
-<figure><img src="../../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure>
 
 But this doesn't give us the full answer. After more googling around I found [this blog post](https://roytuts.com/how-to-make-output-mongodb-find-readable-in-shell/) mentioning the pretty() function.
 
-<figure><img src="../../../.gitbook/assets/image (424).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure>
 
 Answer: db.flag.find().pretty()
 

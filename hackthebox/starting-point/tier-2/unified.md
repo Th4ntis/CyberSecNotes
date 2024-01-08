@@ -103,7 +103,7 @@ Answer: UniFi Network
 
 What is the version of the software that is running?
 
-<figure><img src="../../../.gitbook/assets/image (579).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (935).png" alt=""><figcaption></figcaption></figure>
 
 Answer: 6.4.54
 
@@ -111,7 +111,7 @@ Answer: 6.4.54
 
 What is the CVE for the identified vulnerability?
 
-<figure><img src="../../../.gitbook/assets/image (580).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (936).png" alt=""><figcaption></figcaption></figure>
 
 Answer: CVE-2021-44228
 
@@ -119,9 +119,9 @@ Answer: CVE-2021-44228
 
 What protocol does JNDI leverage in the injection?
 
-<figure><img src="../../../.gitbook/assets/image (581).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (937).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (582).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (938).png" alt=""><figcaption></figcaption></figure>
 
 Answer: ldap
 
@@ -141,7 +141,7 @@ Answer: 389
 
 What port is the MongoDB service running on?
 
-<figure><img src="../../../.gitbook/assets/image (583).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (939).png" alt=""><figcaption></figcaption></figure>
 
 Answer: 27117
 
@@ -149,7 +149,7 @@ Answer: 27117
 
 What is the default database name for UniFi applications?
 
-<figure><img src="../../../.gitbook/assets/image (584).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (940).png" alt=""><figcaption></figcaption></figure>
 
 Answer: ace
 
@@ -173,7 +173,7 @@ What is the password for the root user? Grab admin PW from MongoDB
 mongo --port 27117 ace --eval "db.admin.find().forEach(printjson);"
 ```
 
-<figure><img src="../../../.gitbook/assets/image (585).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (941).png" alt=""><figcaption></figcaption></figure>
 
 Update admin password
 
@@ -187,15 +187,15 @@ $6$sbnjIZBtmRds.L/E$fEKZhosqeHykiVWT1IBGju43WdVdDauv5RsvIPifi32CC2TTNU8kHOd2ToaW
 mongo --port 27117 ace --eval 'db.admin.update({"_id": ObjectId("61ce278f46e0fb0012d47ee4")},{$set:{"x_shadow":"$6$ttw6pQsuECHKIDhO$zNY4cTuEmzd8kpQZHShWAIms1LpeEyH7NfcYXVpK3FN6mzwgKyf21T2208HS0jt4Ve.wSpifTfKbN4pcpqiL8/"}})'
 ```
 
-<figure><img src="../../../.gitbook/assets/image (586).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (942).png" alt=""><figcaption></figcaption></figure>
 
 Login with `administrator:Password1234`
 
-<figure><img src="../../../.gitbook/assets/image (587).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (943).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (588).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (944).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (589).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (945).png" alt=""><figcaption></figcaption></figure>
 
 Answer: NotACrackablePassword4U2022
 
@@ -203,7 +203,7 @@ Answer: NotACrackablePassword4U2022
 
 Submit User Flag
 
-<figure><img src="../../../.gitbook/assets/image (590).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (946).png" alt=""><figcaption></figcaption></figure>
 
 Answer: 6ced1a6a89e666c0620cdb10262ba127
 
@@ -211,8 +211,8 @@ Answer: 6ced1a6a89e666c0620cdb10262ba127
 
 Submit Root Flag
 
-<figure><img src="../../../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (947).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (948).png" alt=""><figcaption></figcaption></figure>
 
 Answer: e50bc93c75b634e4b272d2f771c33681

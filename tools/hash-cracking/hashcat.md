@@ -88,7 +88,7 @@ It woud generate hashes for the keys: aabb, aacc, aadd, bbcc, bbdd, ccdd, with n
 
 There are a lot of hashtypes so I won't try to list them here but these can be found with `hashcat --help | less` and running down till we find the list. We can also grep for specific hash types as well. `hashcat --help | grep NTLM`.
 
-![](<../../.gitbook/assets/image (290).png>)
+![](<../../.gitbook/assets/image (168).png>)
 
 The workload profile is something we use to speed up the process but can make it so the rest of the computer is slow as it uses much more processing power. Workload Profile types are:
 
@@ -100,15 +100,15 @@ If we want to use a dictionary attack, like using `rockyou.txt` for example
 
 `hashcat -a 0 -w 3 -m 22000 -w 3(hash file) (wordlist)`
 
-![](<../../.gitbook/assets/image (358).png>)
+![](<../../.gitbook/assets/image (326).png>)
 
-![](<../../.gitbook/assets/image (21) (1) (3).png>)
+![](<../../.gitbook/assets/image (524).png>)
 
 Depending on your hardware, the dictionary you chose, and the password, this may take some time. You can press S for a status to see the time time estimated on finishing, as well as the updated "Recovered.Total" to see the recovered keys"
 
 We can run the same command again with --show appended to the end to see our cracked passwords.
 
-![](<../../.gitbook/assets/image (282).png>)
+![](<../../.gitbook/assets/image (255).png>)
 
 ### Brute Force
 

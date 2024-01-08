@@ -8,11 +8,11 @@ sudo nmap -T4 -sU -v 10.129.253.54 -oA Included-Basic-UDP
 sudo nmap -T4 -p 80 -sC -sV -v 10.129.253.54 -oA Included-80
 ```
 
-<figure><img src="../../../.gitbook/assets/image (602).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (958).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (603).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (959).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (604).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (960).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 1
 
@@ -24,7 +24,7 @@ Answer: tftp
 
 What class of vulnerability is the webpage that is hosted on port 80 vulnerable to? Looking on [OWASP](https://owasp.org/www-project-web-security-testing-guide/v42/4-Web\_Application\_Security\_Testing/07-Input\_Validation\_Testing/11.1-Testing\_for\_Local\_File\_Inclusion) we ca test for local file inclusion. So we can curl the website. `curl 'http://10.129.253.54/?file=/etc/passwd'`
 
-<figure><img src="../../../.gitbook/assets/image (605).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (961).png" alt=""><figcaption></figcaption></figure>
 
 Answer: Local File Inclusion
 
@@ -38,7 +38,7 @@ Answer: /var/lib/tftpboot/
 
 Which interesting file is located in the web server folder and can be used for Lateral Movement?
 
-<figure><img src="../../../.gitbook/assets/image (606).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (962).png" alt=""><figcaption></figcaption></figure>
 
 Answer: .htpasswd
 
@@ -50,7 +50,7 @@ What is the group that user Mike is a part of and can be exploited for Privilege
 
 When using an image to exploit a system via containers, we look for a very small distribution. Our favorite for this task is named after mountains. What is that distribution name?
 
-<figure><img src="../../../.gitbook/assets/image (607).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (963).png" alt=""><figcaption></figcaption></figure>
 
 Answer: alpine
 
@@ -240,7 +240,7 @@ python3 -c 'import pty;pty.spawn("/bin/bash")'
 
 Look at the passwd file and login as mike. `mike:Sheffield19`
 
-<figure><img src="../../../.gitbook/assets/image (608).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (964).png" alt=""><figcaption></figcaption></figure>
 
 Answer: `a56ef91d70cfbf2cdb8f454c006935a1`
 
@@ -248,6 +248,6 @@ Answer: `a56ef91d70cfbf2cdb8f454c006935a1`
 
 Submit root flag
 
-<figure><img src="../../../.gitbook/assets/image (609).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (965).png" alt=""><figcaption></figcaption></figure>
 
 Answer: `c693d9c7499d9f572ee375d4c14c7bcf`

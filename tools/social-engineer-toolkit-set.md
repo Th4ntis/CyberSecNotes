@@ -16,11 +16,11 @@ pip3 install -r requirements.txt
 python setup.py
 ```
 
-![](<../../.gitbook/assets/image (104) (1).png>)
+![](<../.gitbook/assets/image (148).png>)
 
 As it states, we can run `setoolkit` from anywhere to start it.
 
-![](<../../.gitbook/assets/image (312) (1).png>)
+![](<../.gitbook/assets/image (416).png>)
 
 ## Usage
 

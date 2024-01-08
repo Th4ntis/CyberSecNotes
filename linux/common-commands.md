@@ -98,4 +98,4 @@ Some examples are:
 * `alias ..='cd ..'` will go up one directory.
 * `alias ...='cd ../..'` will go up two directories.
 
-<figure><img src="../../.gitbook/assets/image (1) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (742).png" alt=""><figcaption></figcaption></figure>

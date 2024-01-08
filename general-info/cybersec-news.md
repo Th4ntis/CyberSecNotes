@@ -45,7 +45,7 @@ and plenty more.
 
 [Feedly](https://feedly.com) - A go to one as it's via the web and has a mobile app, can follow Reddit on there as well, and others. Though some features of behind a paywall but the free version works great.
 
-<figure><img src="../.gitbook/assets/image (5) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
 [Newsboat](https://newsboat.org/) - Linux based terminal RSS Reader.
 

@@ -131,4 +131,4 @@ gobuster -w (wordlist) -u (url)
 
 Example: `gobuster -w /opt/SecLists/Discovery/Web-Content/directory-list-lowercase-2.3-small.txt -u https://192.168.1.60`
 
-![](<../../../.gitbook/assets/image (278).png>)
+![](<../../.gitbook/assets/image (529).png>)

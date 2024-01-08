@@ -16,4 +16,4 @@ Options are
 * `-u` - specify a username
 * `-p` - specify a password
 
-<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (814).png" alt=""><figcaption></figcaption></figure>

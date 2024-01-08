@@ -25,7 +25,7 @@ Common Terminology
 * **Session Key** - Issued by the KDC when a TGT is issued. The user will provide the session key to the KDC along with the TGT when requesting a service ticket.
 * **Privilege Attribute Certificate (PAC)** - The PAC holds all of the user's relevant information, it is sent along with the TGT to the KDC to be signed by the Target LT Key and the KDC LT Key in order to validate the user.
 
-![Kerberos Authentication](<../.gitbook/assets/image (157).png>)
+![Kerberos Authentication](<../.gitbook/assets/image (438).png>)
 
 1. The client requests an Authentication Ticket or Ticket Granting Ticket (TGT).
 2. The Key Distribution Center verifies the client and sends back an encrypted TGT.
@@ -76,7 +76,7 @@ Enumerating users allows us to know which user accounts are on the target domain
 
 \*For the sake of brevity I followed the rooms guide and added the machines IP to my /etc/hosts file temporarily.
 
-![](<../.gitbook/assets/image (184).png>)
+![](<../.gitbook/assets/image (233).png>)
 
 ### Question 1: How many total users do we enumerate?
 
@@ -138,13 +138,13 @@ Copy the hashes to a .txt file and begin the cracking with hashcat.
 
 `Summer2020`
 
-![](<../.gitbook/assets/image (148).png>)
+![](<../.gitbook/assets/image (743).png>)
 
 ### Question 2: What is the SQLService Password?
 
 `MYpassword123#`
 
-![](<../.gitbook/assets/image (141).png>)
+![](<../.gitbook/assets/image (567).png>)
 
 ## Task 5
 
@@ -158,9 +158,9 @@ During pre-authentication, the users hash will be used to encrypt a timestamp th
 
 After running `Rubeus.exe asreproast` we can get what is seen below
 
-![](<../.gitbook/assets/image (241).png>)
+![](<../.gitbook/assets/image (284).png>)
 
-![](<../.gitbook/assets/image (119).png>)
+![](<../.gitbook/assets/image (354).png>)
 
 As it says in the room, be sure to Insert `23$` after `$krb5asrep$` so that the first line will be `$krb5asrep$23$User`...
 
@@ -168,7 +168,7 @@ As it says in the room, be sure to Insert `23$` after `$krb5asrep$` so that the 
 
 `Kerberos 5 AS-REP etype 23`
 
-![](<../.gitbook/assets/image (151).png>)
+![](<../.gitbook/assets/image (649).png>)
 
 ### Question 2: Which User is vulnerable to AS-REP Roasting?
 
@@ -204,13 +204,13 @@ We will need to run the command prompt as an administrator: use the same credent
 
 3.) `privilege::debug` - Ensure this outputs \[output '20' OK] if it does not that means we do not have the administrator privileges to properly run mimikatz
 
-![](<../.gitbook/assets/image (152).png>)
+![](<../.gitbook/assets/image (746).png>)
 
 `sekurlsa::tickets /export` - this will export all of the `.kirbi` tickets into the directory that we are currently in. Since we ran this from the Downloads folder, they will be in there.
 
 At this step we can also use the base 64 encoded tickets from Rubeus that we harvested earlier
 
-![](<../.gitbook/assets/image (242).png>)
+![](<../.gitbook/assets/image (502).png>)
 
 When looking for which ticket to impersonate the room recommends looking for an administrator ticket from the krbtgt, similar to the one above.
 
@@ -220,15 +220,15 @@ Now that we have our ticket ready we can now perform a pass the ticket attack to
 
 * `kerberos::ptt <ticket>` - run this command with the ticket that we harvested from earlier. It will cache and impersonate the given ticket
 
-![](<../.gitbook/assets/image (126).png>)
+![](<../.gitbook/assets/image (518).png>)
 
 * `klist` - Here we are just verifying that we successfully impersonated the ticket by listing our cached tickets. This is not run from inside mimikatz, so be sure to exit it.
 
-![](<../.gitbook/assets/image (446).png>)
+![](<../.gitbook/assets/image (655).png>)
 
 * We now have impersonated the ticket giving us the same rights as the TGT we are impersonating. To verify this we can look at the admin share.
 
-![](<../.gitbook/assets/image (382).png>)
+![](<../.gitbook/assets/image (345).png>)
 
 \*Note that this is only a POC to understand how to pass the ticket and gain domain admin the way that we approach passing the ticket may be different based on what kind of engagement we are in so do not take this as a definitive guide of how to run this attack.
 
@@ -260,7 +260,7 @@ This will provide us with the service/domain admin account's security identifier
 
 running `lsadump::lsa /inject /name:sqlservice` will give us our answer.
 
-![](<../.gitbook/assets/image (129).png>)
+![](<../.gitbook/assets/image (370).png>)
 
 ### Question 2: What is the Administrator NTLM Hash?
 
@@ -268,7 +268,7 @@ running `lsadump::lsa /inject /name:sqlservice` will give us our answer.
 
 Ruunning `lsadump::lsa /inject /name:Administrator` will give us our answer.
 
-![](<../.gitbook/assets/image (159).png>)
+![](<../.gitbook/assets/image (204).png>)
 
 ## Task 8
 
@@ -286,7 +286,7 @@ Installing the Skeleton Key w/ mimikatz - From mimikatz:
 
 `misc::skeleton`
 
-![](<../.gitbook/assets/image (110).png>)
+![](<../.gitbook/assets/image (632).png>)
 
 ### Accessing the forest
 

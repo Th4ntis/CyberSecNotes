@@ -39,7 +39,7 @@ Get-Help displays information about a _cmdlet._ To get help about a particular c
 
 We can also understand how exactly to use the command by passing in the `-examples` flag.
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (150).png>)
 
 #### Using Get-Command
 
@@ -47,7 +47,7 @@ Get-Command gets all the _cmdlets_ installed on the current Computer. This _cmdl
 
 Running `Get-Command New-*` to view all the _cmdlets_ for the verb new displays:
 
-![](<../.gitbook/assets/image (195).png>)
+![](<../.gitbook/assets/image (365).png>)
 
 #### Object Manipulation
 
@@ -64,7 +64,7 @@ An example of running this to view the members for Get-Command is:
 
 `Get-Command | Get-Member -MemberType Method`
 
-![](<../.gitbook/assets/image (41) (1).png>)
+![](<../.gitbook/assets/image (215).png>)
 
 #### Creating Objects From Previous _cmdlets_
 
@@ -72,7 +72,7 @@ One way of manipulating objects is pulling out the properties from the output of
 
 An example of listing the directories and just selecting the mode and the name:
 
-![](<../.gitbook/assets/image (345).png>)
+![](<../.gitbook/assets/image (464).png>)
 
 We can also use the following flags to select particular information:
 
@@ -105,7 +105,7 @@ Full list of operators can be found [here](https://docs.microsoft.com/en-us/powe
 
 An example of checking the stopped processes:
 
-![](<../.gitbook/assets/image (134).png>)
+![](<../.gitbook/assets/image (734).png>)
 
 #### Sort Object
 
@@ -117,55 +117,55 @@ The format of the command would be
 
 An example of sort the list of directories:
 
-![](<../.gitbook/assets/image (243).png>)
+![](<../.gitbook/assets/image (190).png>)
 
 ### Question 1: What is the location of the file "interesting-file.txt"
 
 `C:\Program Files` - Running `Get-ChildItem -Path C:\ -Recurse -File interesting*.txt -ErrorAction SilentlyContinue` will give us our answer.
 
-![](<../.gitbook/assets/image (170).png>)
+![](<../.gitbook/assets/image (585).png>)
 
 ### Question 2: Specify the contents of this file
 
 `notsointerestingcontent` - Running `Get-Content 'C:\Program Files\interesting-File.txt.txt'` will give us our answer
 
-![](<../.gitbook/assets/image (112).png>)
+![](<../.gitbook/assets/image (634).png>)
 
 ### Question 3: How many cmdlets are installed on the system(only cmdlets, not functions and aliases)?
 
 `6638` - Running `Get-Command -CommandType Cmdlet | measure` will give us our answer. Using Measure calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text. Helpful when parsing or searching for larger amount(s) of information.
 
-![](<../.gitbook/assets/image (153).png>)
+![](<../.gitbook/assets/image (392).png>)
 
 ### Question 4: Get the MD5 hash of interesting-file.txt
 
 `49A586A2A9456226F8A1B4CEC6FAB329` - Running `Get-FileHash 'C:\Program Files\interesting-file.txt.txt' -Algorithm MD5` will give us our answer.
 
-![](<../.gitbook/assets/image (193).png>)
+![](<../.gitbook/assets/image (170).png>)
 
 ### Question 5: What is the command to get the current working directory?
 
 `Get-Location`
 
-![](<../.gitbook/assets/image (384).png>)
+![](<../.gitbook/assets/image (151).png>)
 
 ### Question 6: Does the path "C:\Users\Administrator\Documents\Passwords" Exist(Y/N)?
 
 `N` - Running `Get-Location -Path 'C:\Users\Administrator\Documents\Passwords'` will give us our answer
 
-![](<../.gitbook/assets/image (163).png>)
+![](<../.gitbook/assets/image (656).png>)
 
 ### Question 7: What command would you use to make a request to a web server?
 
 `Invoke-WebRequest`
 
-![](<../.gitbook/assets/image (365).png>)
+![](<../.gitbook/assets/image (424).png>)
 
 ### Question 8: Base64 decode the file b64.txt on Windows
 
 ihopeyoudidthisonwindows- Find the file first, `Get-ChildItem -Path C:\ -Recurse -File b64.txt -ErrorAction SilentlyContinue`
 
-![](<../.gitbook/assets/image (185).png>)
+![](<../.gitbook/assets/image (497).png>)
 
 Now we can decode the base64 and output to a file, then get the contents of the new file.
 
@@ -173,7 +173,7 @@ Now we can decode the base64 and output to a file, then get the contents of the 
 
 `Get-Content 'C:\Users\Administrator\Desktop\decoded.txt'`
 
-![](<../.gitbook/assets/image (363).png>)
+![](<../.gitbook/assets/image (777).png>)
 
 ## Task 4
 
@@ -192,49 +192,49 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `5` - Running `Get-LocalUser` will give us our answer
 
-![](<../.gitbook/assets/image (230).png>)
+![](<../.gitbook/assets/image (368).png>)
 
 ### Question 2: Which local user does this SID(S-1-5-21-1394777289-3961777894-1791813945-501) belong to?
 
 `Guest` - Running `Get-LocalUser -SID "S-1-5-21-1394777289-3961777894-1791813945-501"` gives us our answer
 
-![](<../.gitbook/assets/image (160).png>)
+![](<../.gitbook/assets/image (443).png>)
 
 ### Question 3: How many users have their password required values set to False?
 
 `4` - Run `Get-LocalUser | Where-Object -Property PasswordRequired -Match false` to find the answer.
 
-![](<../.gitbook/assets/image (354).png>)
+![](<../.gitbook/assets/image (227).png>)
 
 ### Question 4: How many local groups exist?
 
 `24` - Run `Get-LocalGroup | Measure` to find the answer
 
-![](<../.gitbook/assets/image (47) (1).png>)
+![](<../.gitbook/assets/image (612).png>)
 
 ### Question 5: What command did you use to get the IP address info?
 
 `Get-NetIPAddress`
 
-![](<../.gitbook/assets/image (128).png>)
+![](<../.gitbook/assets/image (263).png>)
 
 ### Question 6: How many ports are listed as listening?
 
 `20` - Run `Get-NetTCPConnection | Where-Object -Property State -Match Listen | Measure` to find our answer.
 
-![](<../.gitbook/assets/image (56).png>)
+![](<../.gitbook/assets/image (152).png>)
 
 ### Question 7: What is the remote address of the local port listening on port 445?
 
 `::` - Running `Get-NetTCPConnection | Where-Object -Property State -Match Listen | findstr "445"` will show us our answer.
 
-![](<../.gitbook/assets/image (353).png>)
+![](<../.gitbook/assets/image (225).png>)
 
 ### Question 8: How many patches have been applied?
 
 `20` - Run `Get-Hotfix` and count OR `Get-Hotfix | Measure`
 
-![](<../.gitbook/assets/image (287).png>)
+![](<../.gitbook/assets/image (257).png>)
 
 ### Question 9: When was the patch with ID KB4023834 installed?
 
@@ -244,35 +244,35 @@ Your task will be to answer the following questions to enumerate the machine usi
 
 `backpassflag` - First we find the backup file `Get-ChildItem -Path C:\ -include *.bak* -File -Recurse -ErrorAction SilentlyContinue`
 
-![](<../.gitbook/assets/image (13) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (630).png>)
 
 Now we get the contents of that file `Get-Content 'C:\Program Files (x86)\Internet Explorer\passwords.bak.txt'`
 
-![](<../.gitbook/assets/image (420).png>)
+![](<../.gitbook/assets/image (304).png>)
 
 ### Question 11: Search for all files containing API\_KEY
 
 `fakekey123` - We can run `Get-ChildItem C:* -Recurse | Select-String -pattern API_KEY` to find the answer. After a while we see an error code.
 
-![](<../.gitbook/assets/image (64).png>)
+![](<../.gitbook/assets/image (296).png>)
 
 ### Question 12: What command do you do to list all the running processes?
 
 `Get-Process`
 
-![](<../.gitbook/assets/image (223).png>)
+![](<../.gitbook/assets/image (552).png>)
 
 ### Question 13: What is the path of the scheduled task called new-sched-task?
 
 `/` - We can run `Get-ScheduledTask -TaskName new-sched-task` and obtain our answer
 
-![](<../.gitbook/assets/image (172).png>)
+![](<../.gitbook/assets/image (410).png>)
 
 ### Question 14: Who is the owner of the C:\\?
 
 `NT SERVICE\TrustedInstaller` - Running `Get-Acl c:/` will show us the owner.
 
-![](<../.gitbook/assets/image (135).png>)
+![](<../.gitbook/assets/image (184).png>)
 
 ## Task 5
 
@@ -302,7 +302,7 @@ foreach($new_var in $existing_var){}
 
 This particular code block is used to loop through a set of object. Once we have each individual port, we want to check if this port occurs in the listening local ports. Instead of doing another for loop, we just use an if statement with the `-in` operator to check if the port exists the LocalPort property of any object. A full list of if statement comparison operators can be found [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about\_comparison\_operators?view=powershell-6). To run script, just call the script path using Powershell or click the green button on Powershell ISE:
 
-![](<../.gitbook/assets/image (147).png>)
+![](<../.gitbook/assets/image (570).png>)
 
 Now that we've seen what a basic script looks like - it's time to write one of your own. The emails folder on the Desktop contains copies of the emails John, Martha and Mary have been sending to each other(and themselves). Answer the following questions with regards to these emails(try not to open the files and use a script to answer the questions). \
 
@@ -320,7 +320,7 @@ $command = Get-ChildItem -Path $path -Recurse | Select-String -Pattern $String_p
 cho $command
 ```
 
-![](<../.gitbook/assets/image (183).png>)
+![](<../.gitbook/assets/image (330).png>)
 
 ### Question 2: What is the password?
 
@@ -337,4 +337,4 @@ $command = Get-ChildItem -Path $path -Recurse | Select-String -Pattern $String_p
 cho $command
 ```
 
-![](<../.gitbook/assets/image (224).png>)
+![](<../.gitbook/assets/image (173).png>)

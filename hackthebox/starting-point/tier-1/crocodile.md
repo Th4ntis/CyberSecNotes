@@ -239,6 +239,6 @@ rKXM59ESxesUFHAdbas
 
 After attempting: admin:rKXM59ESxesUFHAd we were able to log in and get our flag.
 
-<figure><img src="../../../../.gitbook/assets/image (7) (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (676).png" alt=""><figcaption></figcaption></figure>
 
 Answer:  c7110277ac44d78b6a9fff2232434d16

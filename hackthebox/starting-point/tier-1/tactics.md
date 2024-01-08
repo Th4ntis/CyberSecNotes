@@ -6,13 +6,13 @@
 sudo nmap -T4 -Pn -sV -sC -v 10.129.123.121 -oA Tactics
 ```
 
-<figure><img src="../../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 
 ## Task 1
 
 Which Nmap switch can we use to enumerate machines when our ping ICMP packets are blocked by the Windows firewall?
 
-<figure><img src="../../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 Answer: -Pn
 
@@ -32,7 +32,7 @@ Answer: 445
 
 What command line argument do you give to `smbclient` to list available shares?
 
-<figure><img src="../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
 Answer: -L
 
@@ -46,7 +46,7 @@ Answer: $
 
 Which Administrative share is accessible on the box that allows users to view the whole file system?
 
-<figure><img src="../../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
 
 Answer: C$
 
@@ -66,8 +66,8 @@ Answer: psexec.py
 
 Submit root flag
 
-<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 Answer: f751c19eda8f61ce81827e6930a1f40c

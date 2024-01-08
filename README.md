@@ -38,10 +38,12 @@ Social stuff:
 
 ### Last updated:
 
-Updated [PNPT - Practical Ethical Hacking](courses/pnpt/practical-ethical-hacking.md) section with Web Application Enumeration, Revisited.
+Updated [Quick References](quick-references/) with some additional one-liners, reverse shells, and usage.
 
 ***
 
 ### **Disclaimer**
 
-**Note:** I do not claim any copyrighted content. Any of the tools or methods here are for reference, research, and educational purposes only and not to be used for unethical, questionable or illegal activities.
+{% hint style="danger" %}
+I do not claim any copyrighted content. Any of the tools or methods here are for reference, research, and educational purposes only and not to be used for unethical, questionable or illegal activities.
+{% endhint %}

