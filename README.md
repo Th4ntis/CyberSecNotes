@@ -38,7 +38,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated [Quick References](quick-references/) with some additional one-liners, reverse shells, and usage.
+Updated [Quick References](quick-references/) with some extra tools and syntax
 
 ***
 
