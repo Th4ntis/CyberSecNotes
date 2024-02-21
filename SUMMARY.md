@@ -109,6 +109,7 @@
     * [Tmux](quick-references/tools/tmux.md)
     * [NMap](quick-references/tools/nmap.md)
     * [Ffuf](quick-references/tools/ffuf.md)
+    * [NetExec](quick-references/tools/netexec.md)
     * [CrackMapExec](quick-references/tools/crackmapexec.md)
     * [Proxychains](quick-references/tools/proxychains.md)
     * [OneDriveUser Enum](quick-references/tools/onedriveuser-enum.md)
