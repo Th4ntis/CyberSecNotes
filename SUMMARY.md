@@ -1,7 +1,7 @@
 # Table of contents
 
-* [🕷 About](README.md)
-* [🖥 General Info](general-info/README.md)
+* [🕷️ About](README.md)
+* [🖥️ General Info](general-info/README.md)
   * [CyberSec News](general-info/cybersec-news.md)
   * [Getting Started and other Resources](general-info/getting-started-and-other-resources/README.md)
     * [Security+](general-info/getting-started-and-other-resources/security+.md)
@@ -45,7 +45,7 @@
   * [Phone Number OSINT](osint/phone-number-osint.md)
   * [Shodan](osint/shodan.md)
   * [Google Dorking](osint/google-dorking.md)
-* [🛠 Tools](tools/README.md)
+* [🛠️ Tools](tools/README.md)
   * [Brute Force](tools/brute-force/README.md)
     * [Hydra](tools/brute-force/hydra.md)
   * [Credential Dumping](tools/credential-dumping/README.md)
@@ -133,7 +133,7 @@
     * [External Pentest Playbook](courses/pnpt/external-pentest-playbook.md)
   * [eJPT](courses/ejpt/README.md)
     * [Assessment Methodologies](courses/ejpt/assessment-methodologies.md)
-* [☁ TryHackMe](tryhackme/README.md)
+* [☁️ TryHackMe](tryhackme/README.md)
   * [Attacking Kerberos](tryhackme/attacking-kerberos.md)
   * [Hacking with Powershell](tryhackme/hacking-with-powershell.md)
   * [Powershell for Pentesters](tryhackme/powershell-for-pentesters.md)

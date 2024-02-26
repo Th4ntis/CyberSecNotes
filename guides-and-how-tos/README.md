@@ -20,7 +20,9 @@ This will be a section for my guides, walkthroughs, and how-to's on various subj
 
 [Wireless Pentesting](wireless-pentesting/)
 
-[Wardriving](wardriving.md)
+[WiFi Pineapple](wireless-pentesting/wifi-pineapple.md)
+
+[Evil-Twin Attack](wireless-pentesting/evil-twin-attack.md)
 
 ## Walkthrough
 
