@@ -1,4 +1,5 @@
 ---
+description: A quick whoami with links!
 cover: .gitbook/assets/TWITTER BANNER.jpg
 coverY: 0
 layout:
@@ -17,9 +18,9 @@ layout:
     visible: false
 ---
 
-# 🕷️ About
+# 🕷️ >whoami\_
 
-I'm Th4ntis, a cyber security and information security enthusiast. I do this as a career and as a hobby. I've put this together to document my notes, as well as my steps and walkthroughs for CTFs and hands-on labs.&#x20;
+I’m Th4ntis, a cyber security and information security enthusiast. I enjoy the world of Cyber Security and Information Security as a career and a hobby. I’m a professional penetration tester who specializes in wireless hacking, my background also includes network penetration testing. I have my PNPT, and I enjoy tinkering with electronics and sharing my knowledge to others via my blog(walkthroughs, guides, and how-to’s) and my gitbook(brain dump) of CyberSec notes. Feel free to reach out with questions, comments, requests, etc. from any of my socials at the bottom of the page.
 
 There will be pages with little to no content as this is and will be a work in progress for a while as some as placeholders as a reminder to update them, others will be updated as I move my personal notes over to here. This will updated as I learn more about various tools, trades, methods, you name it.
 
@@ -30,15 +31,15 @@ Social stuff:
 |                                                         |                                                   |
 | ------------------------------------------------------- | ------------------------------------------------- |
 | [Twitter](https://twitter.com/Th4ntis)                  | [Mastodon](https://infosec.exchange/web/@th4ntis) |
-| [Bluesky](https://bsky.app/profile/th4ntis.bsky.social) | [Github](https://github.com/Th4ntis)              |
-| [LinkedIn](https://www.linkedin.com/in/th4ntis/)        | [TryHackMe](https://tryhackme.com/p/th4ntis)      |
-| [HackTheBox](https://app.hackthebox.com/profile/274909) | [Webpage](https://th4ntis.github.io)              |
+| [Webpage](https://th4ntis.github.io)                    | [Blog](https://th4ntis.com/blog)                  |
+| [Github](https://github.com/Th4ntis)                    | [LinkedIn](https://www.linkedin.com/in/th4ntis/)  |
+| [HackTheBox](https://app.hackthebox.com/profile/274909) | [TryHackMe](https://tryhackme.com/p/th4ntis)      |
 
 ***
 
 ### Last updated:
 
-Updated [Quick References](quick-references/) with some extra tools and syntax
+Updated this page with updated links and other info.
 
 ***
 

@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🕷️ About](README.md)
+* [🕷️ >whoami\_](README.md)
 * [🖥️ General Info](general-info/README.md)
   * [CyberSec News](general-info/cybersec-news.md)
   * [Getting Started and other Resources](general-info/getting-started-and-other-resources/README.md)
