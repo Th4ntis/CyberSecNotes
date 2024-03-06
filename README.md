@@ -39,7 +39,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated this page with updated links and other info.
+Added a page on the [Pwnagotchi](guides-and-how-tos/wardriving/pwnagotchi.md)
 
 ***
 
