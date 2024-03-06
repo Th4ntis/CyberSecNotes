@@ -20,7 +20,7 @@ This will be a section for my guides, walkthroughs, and how-to's on various subj
 
 [Wireless Pentesting](wireless-pentesting/)
 
-[Wardriving](wardriving.md)
+[Wardriving](wardriving/)
 
 [WiFi Pineapple](wireless-pentesting/wifi-pineapple.md)
 
