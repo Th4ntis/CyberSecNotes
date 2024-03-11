@@ -105,6 +105,7 @@
     * [Maze](guides-and-how-tos/over-the-wire/maze.md)
     * [Vortex](guides-and-how-tos/over-the-wire/vortex.md)
     * [Manpage](guides-and-how-tos/over-the-wire/manpage.md)
+  * [Docker and Kali Linux](guides-and-how-tos/docker-and-kali-linux.md)
   * [Staying Private and goin Dark Online](guides-and-how-tos/staying-private-and-goin-dark-online.md)
 * [📕 Quick References](quick-references/README.md)
   * [Tools](quick-references/tools/README.md)
