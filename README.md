@@ -39,7 +39,7 @@ Social stuff:
 
 ### Last updated:
 
-Added a page on the [Pwnagotchi](guides-and-how-tos/wardriving/pwnagotchi.md)
+Updated my notes for [Docker](general-info/docker.md) and added a page for [Docker and Kali Linux](guides-and-how-tos/docker-and-kali-linux.md).
 
 ***
 
