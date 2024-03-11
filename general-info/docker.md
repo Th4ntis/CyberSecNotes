@@ -12,6 +12,16 @@ This can be used on other operating systems and services such as [Ubuntu](https:
 
 You can find Docker images [here](https://hub.docker.com/) on their Hub that you can pull and use.
 
+## Differences between Docker and a VM
+
+The main difference between Docker and VMs is their architecture.
+
+<figure><img src="../.gitbook/assets/Docker-vs..png" alt=""><figcaption></figcaption></figure>
+
+VMs have the host OS and guest OS inside each VM. A guest OS can be any OS, like Linux or Windows. They are stand-alone with their kernel and security features. Therefore, applications needing more privileges and security run on virtual machines. They are more resource-intensive than Docker containers as the virtual machines need to load the entire OS to start.
+
+Docker containers host on a single physical computer with a host OS, which shares among them. Sharing the host OS between containers makes them light and increases the boot time. Docker containers typically are run with root(admin) privileges. The container technology has access to the kernel subsystems; as a result, a single infected application is capable of hacking the entire host system. The lightweight architecture of Docker containers is less resource-intensive than virtual machines.
+
 ## Installing
 
 ### Debian based Linux
