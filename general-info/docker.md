@@ -10,11 +10,13 @@ You can find Docker images [here](https://hub.docker.com/) on their Hub that you
 
 ## Installing
 
-### Ubuntu
+### Debian based Linux
 
-`sudo apt install docker.io docker-compose`
+```
+sudo apt install docker.io docker-compose
+```
 
-More info can be found [here on their docs](https://docs.docker.com/desktop/linux/install/).
+More info for linux installation can be found [here on their docs](https://docs.docker.com/desktop/linux/install/).
 
 ### Windows
 
@@ -22,7 +24,7 @@ Download docker for Windows [here](https://desktop.docker.com/win/main/amd64/Doc
 
 If your system only supports one of the two options, you will not be able to select which backend to use.
 
-More info can be found [here on their docs](https://docs.docker.com/desktop/windows/install/).
+More info for Windows installation can be found [here on their docs](https://docs.docker.com/desktop/windows/install/).
 
 ### MacOS
 
@@ -32,7 +34,7 @@ Double-click Docker.dmg to open the installer, then drag the Docker icon to the 
 
 Double-click Docker.app in the Applications folder to start Docker.
 
-More info can be found [here on their docs](https://docs.docker.com/desktop/mac/install/).
+More info for MacOS installation can be found [here on their docs](https://docs.docker.com/desktop/mac/install/).
 
 ## Usage
 
@@ -40,9 +42,9 @@ Docker commands can be found [here](https://docs.docker.com/engine/reference/com
 
 ### Common Commands
 
-* `docker run -d -t --name (name the container) (image name)` - runs the docker as as a daemon(-d) and with a pseudo-TTY (-t) with the given name(--name) from the chosen image
-* `docker start (container name)` - Stars container
-* `docker drop (container name)` - Stops contontainer
+* `docker run --it --name (name the container) (image_name)` - runs the docker with the given name(--name) from the chosen image
+* `docker start (container_id)` - Stars container
+* `docker stop (container_id)` - Stops container
 * `docker ps` - Shows running containers
 * `docker stats` - Shows what containers are taking up what resources
 * `docker pull (image)` - Pull an image or a repository from a registry
@@ -53,23 +55,45 @@ Docker commands can be found [here](https://docs.docker.com/engine/reference/com
 
 ### Kali Linux
 
-`sudo docker pull kalilinux/kali-rolling`
+```
+sudo docker pull kalilinux/kali-rolling
+```
 
 ![](<../.gitbook/assets/image (639).png>)
 
-`sudo docker run -d -t --name kali kalilinux/kali-rolling`
+```
+sudo docker run --it kali kalilinux/kali-rolling
+```
 
 ![](<../.gitbook/assets/image (547).png>)
 
-Verify it's running. `sudo docker ps`
+Verify it's running with:
+
+```
+sudo docker ps
+```
 
 ![](<../.gitbook/assets/image (491).png>)
 
-We can interact with it now by running `sudo docker exec -it Kali bash`
+We can interact with it now by running
+
+```
+sudo docker attack [containder_id]
+```
 
 ![](<../.gitbook/assets/image (784).png>)
 
-To leave the instance, type exit. Then to stop the instance, run `sudo docker stop Kali` then verify it's not running with `sudo docker ps`.
+To leave the instance, type exit. Then to stop the instance, run
+
+```
+sudo docker stop Kali
+```
+
+then verify it's not running with
+
+```
+sudo docker ps
+```
 
 ![](<../.gitbook/assets/image (509).png>)
 
