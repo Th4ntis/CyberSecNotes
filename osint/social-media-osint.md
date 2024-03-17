@@ -94,6 +94,7 @@ A helpful resource on how to perform OSINT on Discord can be found [here](https:
 * [Disboard, Discord Servers](https://disboard.org/)
 * [Discord Bee](https://discordbee.com/)
 * [Discord Bot List](https://discordbotlist.com/)
+* [DiscoList](https://discolist.net/) - added by [Blackholered](https://github.com/blackholered)
 * [Discord Centre](https://discord.center/)
 * [Discord.com, Discord Bots](https://discord.com/invite/0cDvIgU2voWn4BaD)
 * [Discord History Tracker](https://dht.chylex.com/)
