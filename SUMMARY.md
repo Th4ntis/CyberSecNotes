@@ -92,7 +92,7 @@
   * [Wardriving](guides-and-how-tos/wardriving/README.md)
     * [Pwnagotchi](guides-and-how-tos/wardriving/pwnagotchi.md)
   * [Wireless Pentesting](guides-and-how-tos/wireless-pentesting/README.md)
-    * [WiFi Pineapple](guides-and-how-tos/wireless-pentesting/wifi-pineapple.md)
+    * [WiFi Pineapple Basics](guides-and-how-tos/wireless-pentesting/wifi-pineapple-basics.md)
     * [Evil-Twin Attack](guides-and-how-tos/wireless-pentesting/evil-twin-attack.md)
   * [Over The Wire](guides-and-how-tos/over-the-wire/README.md)
     * [Bandit](guides-and-how-tos/over-the-wire/bandit.md)
