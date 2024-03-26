@@ -39,7 +39,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated my notes for [Docker](general-info/docker.md) and added a page for [Docker and Kali Linux](guides-and-how-tos/docker-and-kali-linux.md).
+Updated notes for [WiFi Pineapple Basics](guides-and-how-tos/wireless-pentesting/wifi-pineapple-basics.md).
 
 ***
 
