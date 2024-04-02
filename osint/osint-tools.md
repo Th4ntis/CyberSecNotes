@@ -51,6 +51,7 @@ No one tool is the end all-be-all, please make sure to use multiple resources to
 * [GreyNoise](https://viz.greynoise.io/) - Search for devices connected to the internet
 * [Dehashed](https://dehashed.com/) - View leaked credentials and compromised assets
   * [DeHashed-API-Too](https://github.com/hmaverickadams/DeHashed-API-Tool)l by Heath Adams(TCM)
+* [Fast-Google-Dorks-Scan](https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan)
 * [Ultimate Windows Security](https://www.ultimatewindowssecurity.com/) - View Windows Event codes, CVE's, and multiple other tools relating to WIndows Security.
 * [AlienVaultOTX](https://otx.alienvault.com/) - Extensive threat intelligence feed
 * [Censys](https://search.censys.io/) - Assessing attack surface for internet connected devices

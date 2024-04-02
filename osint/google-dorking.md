@@ -59,3 +59,5 @@ We can also use BOOLEAN searches in Google by using AND / OR
 `google dorking filetype:pdf OR filetype:doc OR filetype:docx`
 
 Learning resource: [TryHackMe - Google Dorking Room](https://tryhackme.com/room/googledorking)
+
+Tools: [Fast-Google-Dorks-Scan](https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan)
