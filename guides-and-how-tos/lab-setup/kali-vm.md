@@ -6,7 +6,7 @@ Obviously your setup may differ depending on your system specs. I typically go w
 
 If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor for the victim machines.
 
-## Kali ISO
+## Kali ISO Starting
 
 We will start with the Typical configuration
 
@@ -37,6 +37,8 @@ Finally we can now customize our hardware. This is where we can customize the RA
 <figure><img src="../../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (563).png" alt=""><figcaption></figcaption></figure>
+
+## Kali ISO Installation
 
 Now we close that and can start our VM and install it. Once we start the VM, it'll take us to a list, I'm going to choose Graphical Install
 
