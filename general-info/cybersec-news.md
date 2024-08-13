@@ -4,6 +4,8 @@ Keeping up with various Cyber/Information Security can be done through various S
 
 There is also Mastodon, I myself am on [infosec.exchange](https://infosec.exchange), and [BlueSky](https://bsky.app/). Though Mastodon isn't always the easiest to Navigate and BlueSky has a relatively small user base at the moment.
 
+There is also [HackerNews from ycombinator](https://news.ycombinator.com/).
+
 ## Reddit
 
 [Reddit](https://reddit.com) works, it just depends on which Subreddit you follow, since anyone can make a post at any time so it can be flooded with people asking questions or nonsense. So it depends  n the moderators or bots to kind of keep things cleaned up. Some of the various subreddits I follow are:
@@ -26,7 +28,7 @@ Though there are plenty of others, there's a subreddit for just about anything/e
 * [@hackingarticles](https://twitter.com/hackinarticles)
 * [@TrustedSec](https://twitter.com/TrustedSec)
 
-and plenty of others.
+and plenty of others. [Who I follow on Twitter](https://x.com/Th4ntis/following).
 
 ## LinkedIn
 
