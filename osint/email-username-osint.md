@@ -37,7 +37,7 @@ breach-parse
 theHarvester -d domain -b search
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [h8mail](https://github.com/khast3x/h8mail)
 
