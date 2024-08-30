@@ -12,19 +12,17 @@ Aircrack is a popular and powerful WiFi penetration testing tool used to assess 
 
 On debian based linux distros you can run `sudo apt install aircrack-ng`. This will install version 1.6. If you want to install from source I typically:
 
+```bash
 sudo apt-get install build-essential autoconf automake libtool pkg-config libnl-3-dev libnl-genl-3-dev libssl-dev ethtool shtool rfkill zlib1g-dev libpcap-dev libsqlite3-dev libpcre3-dev libhwloc-dev libcmocka-dev hostapd wpasupplicant tcpdump screen iw usbutils
-
-`cd /opt/ && sudo git clone` [`https://github.com/aircrack-ng/aircrack-ng.git`](https://github.com/aircrack-ng/aircrack-ng.git) `&& cd aircrack-ng`
-
-`sudo autoreconf -i`
-
-`sudo ./configure --with-experimental`
-
-`sudo make`
-
-`sudo make install`
-
-`sudo ldconfig`
+cd /opt/ && sudo git clone 
+https://github.com/aircrack-ng/aircrack-ng.git
+ && cd aircrack-ng
+sudo autoreconf -i
+sudo ./configure --with-experimental
+sudo make
+sudo make install
+sudo ldconfig
+```
 
 ## Usage
 
@@ -37,3 +35,17 @@ sudo apt-get install build-essential autoconf automake libtool pkg-config libnl-
   * Eg. `aireplay-ng -0 5 -a 11:22:33:44:55:66 wlan1mon`
 * `aircrack-ng` - Cracks captured handshakes that are in .cap file form.&#x20;
   * Eg. `aircrack-ng -w /opt/SecLists/Passwords/rockyou.txt scan.cap`
+
+## Hotkey shortcuts for Airodump
+
+* `a` - Select active areas by cycling through these display options: AP+STA; AP+STA+ACK; AP only; STA only
+* `l` - Invert sorting algorithm
+* `M` - Mark the selected AP or cycle through different colors if the selected AP is already marked
+* `R` - (De-)Activate realtime sorting - applies sorting algorithm everytime the display will be redrawn
+* `S` - Change column to sort by, which currently includes: First seen; BSSID; PWR level; Beacons; Data packets; Packet rate; Channel; Max. data rate; Encryption; Strongest Ciphersuite; Strongest Authentication; ESSID
+* `Space` - Pause display redrawing/ Resume redrawing
+* `Tab` - Enable/Disable scrolling through AP list
+* `O` - Toggle color on
+* `P` - Toggle color off
+* `Up Arrow` - Select the AP prior to the currently marked AP in the displayed list if available
+* `Down Arrow` - Select the AP after the currently marked AP if available
