@@ -92,6 +92,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 A helpful resource on how to perform OSINT on Discord can be found [here](https://osintcurio.us/2021/05/06/investigating-discord-a-primer/). Credit to [BOstintBlanc](https://twitter.com/bosintblanc).
 
 * [Disboard, Discord Servers](https://disboard.org/)
+* [DiscoList, Discord Servers](https://discolist.net/)
 * [Discord Bee](https://discordbee.com/)
 * [Discord Bot List](https://discordbotlist.com/)
 * [DiscoList](https://discolist.net/) - added by [Blackholered](https://github.com/blackholered)
