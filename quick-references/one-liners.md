@@ -81,3 +81,5 @@ runas /user:DOMAIN\USER /noprofile powershell.exe
 ```powershell
 reg add HKLM\SYSTEM\CurrentControlSet\Contro\SecurityProviders\Wdigest /v UseLogonCredential /t Reg_DWORD /d 1
 ```
+
+Testing new request
