@@ -4,7 +4,7 @@ In short, "PowerShell is a cross-platform task automation solution made up of a 
 
 There is also a brief [Introduction to powershell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/) course.
 
-Microsoft has a free course on Introduction to Powershell [here](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/) on their website. Information on [about\_Powershell.exe](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about\_powershell\_exe?view=powershell-5.1\&viewFallbackFrom=powershell-7.2).
+Microsoft has a free course on Introduction to Powershell [here](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/) on their website. Information on [about\_Powershell.exe](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_exe?view=powershell-5.1\&viewFallbackFrom=powershell-7.2).
 
 We can run powershell from the Start Menu by searching for it, through the command prompt by running `powershell.exe`, or through the run dialogbox(`windows key+r`) and running `powershell.exe`
 
@@ -52,7 +52,7 @@ Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us
 
 ## Commands
 
-* `Get-Help` shows information about a cmdlet_._ `Get-Help Command-Name`
+* `Get-Help` shows information about a cmdle&#x74;_._ `Get-Help Command-Name`
 * `Get-Command` - Gets all the cmdlets installed on the current Computer. This cmdlet allows for pattern matching such as `Get-Command Verb-*` or `Get-Command *-Noun`
 * `The Pipe( | )` - Used to pass output from one cmdlet to another. Eg. `Verb-Noun | Get-Member`&#x20;
 * `Invoke-Webrequest` - Makes a request to a webserver. Sends HTTP and HTTPS requests to a web page or web service. It parses the response and returns collections of links, images, and other significant HTML elements. More info can be found [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.2).
