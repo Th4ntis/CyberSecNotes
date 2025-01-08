@@ -218,13 +218,31 @@ Now also, give the SQL-SVC user a description by right clicking on it, and selec
 
 <figure><img src="../../.gitbook/assets/image (1058).png" alt=""><figcaption></figcaption></figure>
 
+### Creating a Network Share
+
+From the Server Manager, on the left hand side, select 'File and Storage services', then select Shares
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+In the top section, select Tasks, New Share. In the new Window, select SMB Share - Quick.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Click next till you get to give it a share name, then next till you create it.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
 Now is when you will want to shut down the VM and adjust RAM and Processors if needed. Drop it for 2GB or 4GB of RAM and 1 or 2 processors.
 
 ![](<../../.gitbook/assets/image (355).png>)
 
+### Template Mode
+
 I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
 
-Now I am going to take this tip from John Hammond. After you create the Snap Shot, I recommend going into the VMS options, changing the name to Some form of Template and Options and enabling Template mode. So clone the VM choosing the Snapshot when we want to make a VM using this one so we don't have to re-create the VM from scratch every time.
+Now I am going to take this tip from John Hammond. After you create the Snap Shot, I recommend going into the VMs options, changing the name to Some form of Template and Options and enabling Template mode. So clone the VM choosing the Snapshot when we want to make a VM using this one so we don't have to re-create the VM from scratch every time.
 
 ![](<../../.gitbook/assets/image (706).png>)
 
@@ -267,5 +285,3 @@ Close out of the Group Policy Management Editor and on the Group Policy Manageme
 Now we are done!
 
 Again, I **HIGHLY** recommend creating a snapshot after you have this done and setup so that way you can always revert back to that snapshot if needed if something breaks or you just need to clean things up.
-
-##
