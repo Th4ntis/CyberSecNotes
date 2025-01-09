@@ -6,31 +6,23 @@ Obviously your setup may differ depending on your system specs. I typically go w
 
 If you need to, you can start with 4 or 8GB of RAM and 2 processors and 2 core per processor, for the install so it goes faster then drop it down to 2 or 4GB of RAM and 2 processors and 1 core per processor for the victim machines.
 
-## Starting
+## VMWare Setup
 
-We will do a Typical install
+Starting with typical setup
 
-![](<../../.gitbook/assets/image (520).png>)
+<figure><img src="https://cybersec.th4ntis.com/~gitbook/image?url=https%3A%2F%2F667808901-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTdW22AGCceN8oUXfdlKI%252Fuploads%252FsnQye1BjFW53yx8blAvF%252Fimage.png%3Falt%3Dmedia%26token%3D2b443419-09d7-4e80-b3fe-69c62291eb01&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=ebd1da4a&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-Install the System later
+I add the .iso after
 
-![](<../../.gitbook/assets/image (604).png>)
+<figure><img src="../../.gitbook/assets/image (1).avif" alt=""><figcaption></figcaption></figure>
 
-Select the Windows OS.
 
-![](<../../.gitbook/assets/image (287).png>)
-
-Select a path and name the VM. For this I will be naming the VM after the User that I plan on using on this VM.
-
-![](<../../.gitbook/assets/image (253).png>)
 
 Select the size of the VM. This will **NOT** the overall size, this is just the max size of the VMs HDD space and will fill up as we add more to the VM that takes up space.
 
 If this VM will be on a PC and not be used from an external HDD or moved around you can store it as a single file but if you plan on using this VM on other PC or from an external HDD it's a better idea to split it into multiple files.
 
-Depending on your space, you can edit how much you want. I usually go the default 60GB.
-
-![](<../../.gitbook/assets/image (447).png>)
+<figure><img src="../../.gitbook/assets/image (3).avif" alt=""><figcaption></figcaption></figure>
 
 Finally we can now customize our hardware. This is where we can customize the RAM, Processors, ISO files, Network Settings, etc. This is where we select our Windows Server ISO.
 
@@ -38,11 +30,23 @@ I recommend disabling the Printer, Sound Card, and under Display unchecking 'Acc
 
 I usually increase the RAM for the install so it goes quicker then drop it down after.
 
-![](<../../.gitbook/assets/image (397).png>)
+For install purposes, I up it to 8GB of ram and 4 Processors. Also add in the .iso file now.
 
-## Windows 11
+<figure><img src="https://cybersec.th4ntis.com/~gitbook/image?url=https%3A%2F%2F667808901-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTdW22AGCceN8oUXfdlKI%252Fuploads%252F5Uqo0wIHz0nrjvfdV9EZ%252Fimage.png%3Falt%3Dmedia%26token%3Dd79f9af0-7219-4f27-a44b-a2a79d8845ca&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=6b4fe7f6&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (4).avif" alt=""><figcaption></figcaption></figure>
 
 
+
+When finished, click close > finish > turn on the VM. Be sure to click into the VM to press a button when it starts.
+
+## Installing Windows 11
+
+<figure><img src="../../.gitbook/assets/image (5).avif" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (6).avif" alt=""><figcaption></figcaption></figure>
+
+You MAY need to bypass TPM. If so, continue on. If not, skip ahead a little bit to [INSTALL NOW](windows-user-vm.md#install-now).
 
 ![](<../../.gitbook/assets/image (548).png>)
 
@@ -66,21 +70,27 @@ _and change their value to 1_
 
 Close out that window to exit the installation and start from the beginning window.
 
+### Install Now
+
 Click INSTALL NOW, then accept the EULA and click next
 
-![](<../../.gitbook/assets/image (283).png>)
+<figure><img src="../../.gitbook/assets/image (7).avif" alt=""><figcaption></figcaption></figure>
 
-Custom Install
+<figure><img src="../../.gitbook/assets/image (8).avif" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/image (541).png>)
+I go with the custom installation option.
+
+<figure><img src="https://cybersec.th4ntis.com/~gitbook/image?url=https%3A%2F%2F667808901-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTdW22AGCceN8oUXfdlKI%252Fuploads%252FqbLVgMtuGMWVbf0sbv7J%252Fimage.png%3Falt%3Dmedia%26token%3D831bd2a6-fec9-4cb3-92b6-4ce38873096e&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=c15f4953&#x26;sv=2" alt=""><figcaption></figcaption></figure>
+
+Select the hard drive and click next
 
 Click Next
 
-![](<../../.gitbook/assets/image (315).png>)
+<figure><img src="../../.gitbook/assets/image (9).avif" alt=""><figcaption></figcaption></figure>
 
-Let it install
+Wait for the install process to finish and restart
 
-![](<../../.gitbook/assets/image (426).png>)
+<figure><img src="../../.gitbook/assets/image (10).avif" alt=""><figcaption></figcaption></figure>
 
 After install and it reboots&#x20;
 
@@ -112,13 +122,29 @@ We're now logged in and can install VMWare Tools
 
 ![](<../../.gitbook/assets/image (454).png>)
 
-###
-
-***
-
 ### Joining a domain
 
-Same way we would for Windows 10. Open the start menu and search for domain, and select 'Access work or school'
+We need to set out DNS Server to be the IP of our Domain Controller. So open the start menu, search for and open Control Panel.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+In the top right, change it from 'Category' to 'Small/Large Icons', then open network and sharing center.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+On the left hand side, select 'Change Adapter Settings', then right click on the adapter, and select properties.
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+Select Internet Protocol Version 4 (TCP/IPv4) and then properties.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Change the DNS settings and set it to be the Domain Controllers IP address.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+Open the start menu and search for domain, and select 'Access work or school'
 
 ![](<../../.gitbook/assets/image (359).png>)
 
@@ -130,4 +156,4 @@ Select 'Join this device to a local Active Directory domain'.
 
 ![](<../../.gitbook/assets/image (198).png>)
 
-&#x20;and follow the steps. Add in your domain name, sign in with Admin credentials, reboot, and ta-da!
+and follow the steps. Add in your domain name followed by .local, Eg. Gibson.local, sign in with Domain Admin credentials, reboot, and ta-da!

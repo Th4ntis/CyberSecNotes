@@ -26,7 +26,7 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 subfinder -d domain
 ```
 
-<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Put this into a file for httprobe&#x20;
 
