@@ -1,6 +1,6 @@
 # Windows Server VM
 
-I usually go with a [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) VM with [VMWare](https://customerconnect.vmware.com/en/downloads/details?downloadGroup=WKST-PLAYER-1623-NEW\&productId=1039\&rPId=85399) or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro but Player works just as well. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
+I usually go with a [Windows Server 2022](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) VM with [VMWare](https://support.broadcom.com/group/ecx/productdownloads?subfamily=VMware+Workstation+Pro) or [Virtualbox](https://www.virtualbox.org/). I have VMWare Workstation Pro as Broadcom bought out VMWare and made it free, you just need an account with them. You can go with either VMWare or Virtualbox, both work and it just comes down to personal preference on the application and what you're use to.
 
 Obviously your setup may differ depending on your system specs. I typically go with 4GB(4096 MB) of RAM per VM, 2 processors and 2 cores per processor but I am running with 32GB of RAM and an Intel i7-10750H.
 
