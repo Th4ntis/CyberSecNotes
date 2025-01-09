@@ -222,21 +222,47 @@ Now also, give the SQL-SVC user a description by right clicking on it, and selec
 
 From the Server Manager, on the left hand side, select 'File and Storage services', then select Shares
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 In the top section, select Tasks, New Share. In the new Window, select SMB Share - Quick.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click next till you get to give it a share name, then next till you create it.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now is when you will want to shut down the VM and adjust RAM and Processors if needed. Drop it for 2GB or 4GB of RAM and 1 or 2 processors.
 
 ![](<../../.gitbook/assets/image (355).png>)
+
+### Setting a Static IP
+
+I recommend setting a static IP for the server so it doesn't change when turned on. Open the Control Panel from the Start Menu, in the top right, change Category to Large or Small Icons, your choice. Then select Network and Sharing Center.
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+In the left panel, select Change Adapter Settings, then right click on the adapter and select properties.
+
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Select Internet Protocol Version 4 (TCP/IPv4), and select properties.
+
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Now open command prompt and run ipconfig
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+In the Properties window, change it to be either the same IP or something very close.
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ### Template Mode
 

@@ -26,7 +26,7 @@ go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 subfinder -d domain
 ```
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Put this into a file for httprobe&#x20;
 
@@ -37,7 +37,7 @@ go install -v github.com/tomnomnom/assetfinder@latest
 assetfinder domain
 ```
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Put this into a file for httprobe&#x20;
 
@@ -48,7 +48,7 @@ go install -v github.com/tomnomnom/httprobe@latest
 cat tesla.txt | sort -u | httprobe -s -p https:443
 ```
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 Only returns sites that are up/active
 

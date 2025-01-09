@@ -37,7 +37,7 @@ breach-parse
 theHarvester -d domain -b search
 ```
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 [h8mail](https://github.com/khast3x/h8mail)
 
@@ -45,7 +45,7 @@ theHarvester -d domain -b search
 h8mail -t target@domain.com
 ```
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Username Search Tools
 
@@ -68,4 +68,4 @@ h8mail -t target@domain.com
 sherlock user
 ```
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
