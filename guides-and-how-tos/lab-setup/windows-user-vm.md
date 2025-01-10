@@ -126,11 +126,11 @@ We're now logged in and can install VMWare Tools
 
 We need to set out DNS Server to be the IP of our Domain Controller. So open the start menu, search for and open Control Panel.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 In the top right, change it from 'Category' to 'Small/Large Icons', then open network and sharing center.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the left hand side, select 'Change Adapter Settings', then right click on the adapter, and select properties.
 
@@ -156,4 +156,12 @@ Select 'Join this device to a local Active Directory domain'.
 
 ![](<../../.gitbook/assets/image (198).png>)
 
-and follow the steps. Add in your domain name followed by .local, Eg. Gibson.local, sign in with Domain Admin credentials, reboot, and ta-da!
+and follow the steps. Add in your domain name followed by .local, Eg. Gibson.local, sign in with Domain Admin credentials, reboot, and ta-da! You're now on a domain
+
+### Optional Setup:
+
+There a great [Setup.bat](https://raw.githubusercontent.com/Tib3rius/Windows-PrivEsc-Setup/master/setup.bat) from [Tib3rius](https://github.com/Tib3rius) we can run that will give us a nice setup to practice Privilege Escalation tactics.
+
+From an admin CMD on the User Machine, we can run the script.
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

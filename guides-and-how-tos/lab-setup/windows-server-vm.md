@@ -226,7 +226,7 @@ From the Server Manager, on the left hand side, select 'File and Storage service
 
 In the top section, select Tasks, New Share. In the new Window, select SMB Share - Quick.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click next till you get to give it a share name, then next till you create it.
 
@@ -242,7 +242,7 @@ Now is when you will want to shut down the VM and adjust RAM and Processors if n
 
 I recommend setting a static IP for the server so it doesn't change when turned on. Open the Control Panel from the Start Menu, in the top right, change Category to Large or Small Icons, your choice. Then select Network and Sharing Center.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
