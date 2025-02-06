@@ -126,23 +126,23 @@ We're now logged in and can install VMWare Tools
 
 We need to set out DNS Server to be the IP of our Domain Controller. So open the start menu, search for and open Control Panel.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the top right, change it from 'Category' to 'Small/Large Icons', then open network and sharing center.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the left hand side, select 'Change Adapter Settings', then right click on the adapter, and select properties.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select Internet Protocol Version 4 (TCP/IPv4) and then properties.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Change the DNS settings and set it to be the Domain Controllers IP address.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open the start menu and search for domain, and select 'Access work or school'
 
@@ -164,4 +164,4 @@ There a great [Setup.bat](https://raw.githubusercontent.com/Tib3rius/Windows-Pri
 
 From an admin CMD on the User Machine, we can run the script.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
