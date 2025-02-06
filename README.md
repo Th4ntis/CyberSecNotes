@@ -39,7 +39,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated notes for setting a home lab with [Windows Server 2022](guides-and-how-tos/lab-setup/windows-server-vm.md) and [Windows 11](guides-and-how-tos/lab-setup/windows-user-vm.md).
+Updated notes for [Wireless Pentesting](guides-and-how-tos/wireless-pentesting/)
 
 ***
 
