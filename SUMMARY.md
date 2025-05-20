@@ -117,6 +117,7 @@
     * [Proxychains](quick-references/tools/proxychains.md)
     * [OneDriveUser Enum](quick-references/tools/onedriveuser-enum.md)
     * [Hashcat](quick-references/tools/hashcat.md)
+    * [Mimikatz](quick-references/tools/mimikatz.md)
   * [One-liners](quick-references/one-liners.md)
   * [Reverse Shells](quick-references/reverse-shells.md)
   * [Post Exploitation](quick-references/post-exploitation.md)
