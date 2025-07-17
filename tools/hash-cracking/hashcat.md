@@ -82,7 +82,7 @@ dd
 It woud generate hashes for the keys: aabb, aacc, aadd, bbcc, bbdd, ccdd, with no modifications other than rules.
 
 * Brute-Force - Tries all combinations from a given Keyspace. It is the easiest of all the attacks.
-* Hybrid Wordlist+Mask - "The hybrid attack is just a [Combinator attack](https://hashcat.net/wiki/doku.php?id=combinator\_attack). One side is simply a dictionary, the other is the result of a [Brute-Force attack](https://hashcat.net/wiki/doku.php?id=brute\_force\_attack). In other words, the full Brute-Force keyspace is either appended or prepended to each of the words from the dictionary. Hence the name, “hybrid”."
+* Hybrid Wordlist+Mask - "The hybrid attack is just a [Combinator attack](https://hashcat.net/wiki/doku.php?id=combinator_attack). One side is simply a dictionary, the other is the result of a [Brute-Force attack](https://hashcat.net/wiki/doku.php?id=brute_force_attack). In other words, the full Brute-Force keyspace is either appended or prepended to each of the words from the dictionary. Hence the name, “hybrid”."
 * Hybrid Mask+Wordlist - Same as "Hybrid Mask+Wordlist" above but swapped.
 * Association - This attack is not yet ready. More info can be found [here](https://hashcat.net/forum/thread-9534.html).
 
@@ -128,3 +128,25 @@ Replace the `?l` with whatever we deem fit.
 * ?b = 0x00 - 0xff
 
 This will cover the basics of the hash cracking with hashcat but it can get SO much more advanced with hashcat.
+
+## Quick References
+
+### NTLM:
+
+`hashcat -m 1000 hashes.txt rockyou.txt -O`
+
+### NTLMv2:
+
+`hashcat -m 5600 hashes.txt rockyou.txt -O`
+
+### Kerberoast:
+
+`hashcat -m 13100 kerb.txt rockyou.txt -O`
+
+### AS-REP:
+
+`hashcat -m 18200 asrep.txt rockyou.txt -O`
+
+### WPA/PMKID
+
+`hashcat -m 22000 wpa.txt rockyou.txt -O`

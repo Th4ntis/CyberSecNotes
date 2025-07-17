@@ -25,7 +25,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated notes for [Mimikatz](quick-references/tools/mimikatz.md) Quick Reference
+Updated notes for [Mimikatz](broken-reference) Quick Reference
 
 ***
 
