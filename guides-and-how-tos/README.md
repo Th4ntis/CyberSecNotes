@@ -4,7 +4,7 @@ This will be a section for my guides, walkthroughs, and how-to's on various subj
 
 ## How To's
 
-[Staying Private and going Dark Online](staying-private-and-goin-dark-online.md)
+[Staying Private and going Dark Online](broken-reference)
 
 ## Lab Setup
 
@@ -28,4 +28,4 @@ This will be a section for my guides, walkthroughs, and how-to's on various subj
 
 ## Walkthrough
 
-[OverTheWire](over-the-wire/)
+[OverTheWire](broken-reference)
