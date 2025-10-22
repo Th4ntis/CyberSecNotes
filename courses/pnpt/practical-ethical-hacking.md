@@ -42,13 +42,13 @@ I have a section on [OSINT](../../osint/) and [OSINT tools/methods](../../osint/
 
 As I have worked with these tools prior, I have other notes here as well.
 
-[Nmap](broken-reference) - [Dirb/Dirbuster](../../tools/enumeration/dirb-dirbuster.md) - [GoBuster](../../tools/enumeration/gobuster.md) - [Metasploit](../../tools/exploitation-framework/metasploit.md)
+[Nmap](broken-reference) - [Dirb/Dirbuster](broken-reference) - [GoBuster](broken-reference) - [Metasploit](broken-reference)
 
 {% file src="../../.gitbook/assets/Scanning and Enumeration.pdf" %}
 
 ## Vuln Scanning with Nessus
 
-As I have worked with Nessus prior, my notes in general can be found [here](../../tools/vulnerability-scanners/nessus.md).
+As I have worked with Nessus prior, my notes in general can be found [here](broken-reference).
 
 {% file src="../../.gitbook/assets/Vulnerability Scanning with Nessus.pdf" %}
 

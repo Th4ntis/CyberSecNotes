@@ -129,7 +129,7 @@ Domain Services are services that the domain controller provides to the rest of 
 
 ### Domain Authentication Overview
 
-The most important part of AD, as well as the most vulnerable part of AD, is the authentication protocols set in place. There are two main types of authentication in place for AD: NTLM and Kerberos. For more information on NTLM and Kerberos check out the [Attacking Kerberos room](https://tryhackme.com/room/attackingkerberos) on TrYHackMe as well as my notes on [Kerberos here](../tools/methods/kerberos-and-kerberoasting.md).
+The most important part of AD, as well as the most vulnerable part of AD, is the authentication protocols set in place. There are two main types of authentication in place for AD: NTLM and Kerberos. For more information on NTLM and Kerberos check out the [Attacking Kerberos room](https://tryhackme.com/room/attackingkerberos) on TrYHackMe as well as my notes on [Kerberos here](broken-reference).
 
 * Kerberos - The default authentication service for Active Directory uses ticket-granting tickets and service tickets to authenticate users and give users access to other resources across the domain.
 * NTLM - default Windows authentication protocol uses an encrypted challenge/response protocol
