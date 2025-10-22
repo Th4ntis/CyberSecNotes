@@ -10,7 +10,7 @@ I used my own notes on these subjects, added some of Heaths notes.
 
 ### Lab Setup
 
-The previous section was setting up Kali, [I've done this prior](../../guides-and-how-tos/lab-setup/kali-vm.md) so I skipped this section.
+The previous section was setting up Kali, [I've done this prior](../../lab-setup/kali-vm.md) so I skipped this section.
 
 I used the [pre-made VM](https://www.kali.org/get-kali/#kali-virtual-machines) (using [7-Zip](https://www.7-zip.org/download.html) to extract it) using the VMWare Pro software.
 
@@ -89,9 +89,9 @@ For their lab you will need roughly:
 
 There is a Cloud Alternative by Kamran Bilgrami that can be found here: [Building Free Active Directory Lab in Azure](https://kamran-bilgrami.medium.com/ethical-hacking-lessons-building-free-active-directory-lab-in-azure-6c67a7eddd7f)
 
-I have done this in the past so my notes and setup can be found: [Lab Setup](../../guides-and-how-tos/lab-setup/)
+I have done this in the past so my notes and setup can be found: [Lab Setup](../../lab-setup/)
 
-[Windows Server VM](../../guides-and-how-tos/lab-setup/windows-server-vm.md) - [Windows User VM](../../guides-and-how-tos/lab-setup/windows-user-vm.md)
+[Windows Server VM](../../lab-setup/windows-server-vm.md) - [Windows User VM](../../lab-setup/windows-user-vm.md)
 
 ## Attacking AD: Initial Attack Vectors
 

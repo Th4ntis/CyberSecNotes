@@ -6,7 +6,7 @@ A great place to start is [TryHackMe](https://tryhackme.com/). I can't recommend
 
 There is a good path called [Pre Security](https://tryhackme.com/path/outline/presecurity). This will go over intros to Offensive and Defensive Security, various Careers within CyberSec, and more. Overall TryHackMe if a great place to start as it is hands on. It allows you to use your own VirtualMachine (VM) or if you don't have that ability or don't know how to yet, you can use [their in browser machine](https://tryhackme.com/my-machine) to do everything from.
 
-If you would like to know more on setting up VMs, I have [guides here](../../guides-and-how-tos/lab-setup/).
+If you would like to know more on setting up VMs, I have [guides here](../../lab-setup/).
 
 My recommendations for beginner TryHackMe modules are:
 
