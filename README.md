@@ -25,7 +25,7 @@ Social stuff:
 
 ### Last updated:
 
-Updated notes for [Mimikatz](broken-reference) Quick Reference
+Coming soon - Overhaul on entire site in progress
 
 ***
 
