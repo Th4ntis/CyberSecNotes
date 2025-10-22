@@ -10,7 +10,7 @@ I’m Th4ntis, a cyber security and information security enthusiast. I enjoy the
 
 There will be pages with little to no content as this is and will be a work in progress for a while as some as placeholders as a reminder to update them, others will be updated as I move my personal notes over to here. This will updated as I learn more about various tools, trades, methods, you name it.
 
-Keep an eye at the bottom of this page where I put what was most recently updated. Any and all suggestions welcome.
+Any and all suggestions welcome!
 
 Social stuff:
 
