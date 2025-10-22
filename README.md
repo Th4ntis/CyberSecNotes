@@ -16,9 +16,9 @@ Social stuff:
 
 |                                                         |                                                 |
 | ------------------------------------------------------- | ----------------------------------------------- |
+| [Github](https://github.com/Th4ntis)                    | [Blog](https://th4ntis.com/blog)                |
+| [Webpage](https://th4ntis.github.io)                    | [LinkedIn](https://www.linkedin.com/in/th4ntis) |
 | [Twitter](https://twitter.com/Th4ntis)                  | [Mastodon](https://infosec.exchange/@th4ntis)   |
-| [Webpage](https://th4ntis.github.io)                    | [Blog](https://th4ntis.com/blog)                |
-| [Github](https://github.com/Th4ntis)                    | [LinkedIn](https://www.linkedin.com/in/th4ntis) |
 | [HackTheBox](https://app.hackthebox.com/profile/274909) | [TryHackMe](https://tryhackme.com/p/th4ntis)    |
 
 ***
