@@ -4,23 +4,23 @@ I have all my personal notes on [OSINT here](../../osint/). With all my notes on
 
 [Tools](../../osint/osint-tools.md)
 
-[IP/Domain](../../osint/ip-domain-osint.md)
+[IP/Domain](broken-reference)
 
-[Email/Username](../../osint/email-username-osint.md)
+[Email/Username](broken-reference)
 
-[URL](../../osint/url-osint-and-sandboxing.md)
+[URL](broken-reference)
 
-[Social Media](../../osint/social-media-osint.md)
+[Social Media](broken-reference)
 
-[Website](../../osint/website-osint.md)
+[Website](broken-reference)
 
-[Password](../../osint/password-osint.md)
+[Password](broken-reference)
 
-[Physical Location](../../osint/physical-location-osint.md)
+[Physical Location](broken-reference)
 
-[Image](../../osint/image-osint.md)
+[Image](broken-reference)
 
-[People](../../osint/people-osint.md)
+[People](broken-reference)
 
-[Phone Number](../../osint/phone-number-osint.md)
+[Phone Number](broken-reference)
 
