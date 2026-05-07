@@ -91,7 +91,9 @@ Domains, more than almost any other target, have one of the largest assortments 
 There are tons of highly effective tools for subdomain enumeration and brute forcing, but they can be quite noisy. During the Passive Recon phase of a penetration test, we can start with any subdomains recorded by other sources to plan out our attack/test.
 
 * [RDAP](https://client.rdap.org/) - **Registration Data Access Protocol** is the successor to WHOIS. Like WHOIS, RDAP provides access to information about Internet resources (domain names, autonomous systems, and IP addresses). Unlike WHOIS, RDAP provides: \* A machine-readable representation of registration data; \* Differentiated access; \* Structured request and response semantics; \* Internationalisation; \* Extensibility.
+* [IPGeolocation.io](https://ipgeolocation.io) - IP geolocation and threat intelligence APIs with proxy, VPN, ASN, company, timezone, and abuse related data.
 * [Whois](https://www.whois.com/whois) - A Whois domain lookup allows you to trace the ownership and tenure of a domain name.
+* [Whoisfreaks](https://www.whoisfreaks.com) - WHOIS, DNS, SSL, subdomain, domain availability, and historical domain intelligence APIs for OSINT investigations.
 * [Shodan.io](https://www.shodan.io/) - Shodan is a search engine that lets users search for various types of servers connected to the internet using a variety of filters.
 * [VirusTotal](https://www.virustotal.com/gui/home/upload) - Analyze suspicious files, domains, IPs and URLs to detect malware and other breaches, automatically share them with the security community
 * [AbuseIPDB](https://www.abuseipdb.com/) - AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet.
@@ -106,6 +108,7 @@ There are tons of highly effective tools for subdomain enumeration and brute for
 * [HostSpider](https://github.com/h3x0crypt/HostSpider) - Command line tool that gathers tons of information about a domain including DNS records, subdomains, WHOIS, Cloudflare IP, and more!
 * [OmnisintLabs](https://omnisint.io/) - Project Crobat: Rapid7's DNS Database easily searchable via a lightening fast API, with domains available in milliseconds.
 * [Sublist3r](https://github.com/aboul3la/Sublist3r) - Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather subdomains for the domain they are targeting. Sublist3r enumerates subdomains using many search engines.
+* [APIFreaks](https://apifreaks.com) - API platform for IP intelligence, WHOIS, DNS, email validation, screenshots, web scraping, geolocation, finance, weather, and automation workflows useful for OSINT and security research.
   * [https://tryhackme.com/room/rpsublist3r](https://tryhackme.com/room/rpsublist3r)
 
 ## Email/Username OSINT
