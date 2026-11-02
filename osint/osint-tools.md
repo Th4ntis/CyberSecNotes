@@ -222,6 +222,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [Twitter's Advanced Search](https://twitter.com/search-advanced)
 * [Twopcharts](https://twopcharts.com/)
 * [Twitonomy](https://www.twitonomy.com/)
+* [twtData Trends Archive](https://twtdata.com/twitter-trends/usa/) - Free daily archive of trending topics and hashtags on X (Twitter) by country.
 
 #### Tools
 
@@ -259,6 +260,7 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [Toutatis](https://github.com/megadose/toutatis) - Extract information from instagrams accounts such as e-mails & phone numbers.
 * [Who Posted What](https://www.whopostedwhat.com/) - Finds Posts on Date Tagged With Location, for people who work in the public interest
 * [Wopita](https://wopita.com/)
+* [IGDataHub](https://igdatahub.com/) - Public Instagram profile stats: followers, plus likes and comments on recent posts.
 
 ### Discord
 
