@@ -1,5 +1,25 @@
 ---
 description: Helpful links and resources for Cyber Security Analysts and Researchers
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+  anchors:
+    visible: true
 ---
 
 # OSINT Tools
@@ -194,6 +214,8 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 ### Twitter
 
 * [Nixintel How to find timestamps](https://nixintel.info/osint/how-to-find-timestamps-for-verification/) - Nixintel blog on how to find timestamps for verification (2022).
+* [twData](https://twtdata.com/twitter-trends/usa/) - a free daily archive of trending topics and hashtags on X by country. Useful for checking what was trending on a given date.
+  * Thank you to @twtdata for showing me this tool.
 * [Analyze Words](https://liwc.net/analyzewords/index.php)
 * [Aware-Online](http://aware-online.com/en/osint-tools/twitter-search-tool/)
 * [Birdhunt](https://birdhunt.co/)
@@ -247,7 +269,8 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [TOCP How to search Instagram part 2](https://osintcurio.us/2019/10/01/searching-instagram-part-2/) - Technisette continues her tutorial searching Instagram, for businessess, deleted content and tracking followers (2019).
 * [Codeofaninja](https://www.codeofaninja.com/tools/find-instagram-user-id/) - Easy way for developers and designers to get Instagram account numeric ID by username.
 * [Download Gram](https://downloadgram.app/) - Instagram downloader tool, it helps you to download Instagram photos and videos.
-* [InstaDP](https://www.instadp.com/)
+* [InstaDP](https://www.instadp.com/) -&#x20;
+* [IGDataHub](https://igdatahub.com/) - Public profile stats (followers, likes and comments on recent posts)
 * [Imginn](https://imginn.com/) - Download instagram photos, videos and stories highlights.
 * [Instaloader](https://github.com/instaloader/instaloader) - Download pictures (or videos) along with their captions.
 * [Inteltechniques](https://inteltechniques.com/tools/Instagram.html) - Inteltechniques Instagram search tool.
@@ -255,7 +278,8 @@ Social Media is huge a huge part of the internet now, from personal accounts, bu
 * [iZuum](https://izuum.net/) - Instagram profile downloader.
 * [Osint Combinne](https://www.osintcombine.com/instagram-explorer) - Find images by date on Instagram at particular locations easier and more efficient.
 * [Picnob](https://www.picnob.com/) - Enables you to browse Instagram profiles without the need of an account.
-* [Picuki](https://www.picuki.com/) - Instgram Editor & Viewer.
+* [TikVib](https://www.tikvib.com/) - Anonymously view and download public TikTok videos, stories without watermark, explore TikTok profile statistics and analytics.
+  * Previously picuki
 * [Toutatis](https://github.com/megadose/toutatis) - Extract information from instagrams accounts such as e-mails & phone numbers.
 * [Who Posted What](https://www.whopostedwhat.com/) - Finds Posts on Date Tagged With Location, for people who work in the public interest
 * [Wopita](https://wopita.com/)
