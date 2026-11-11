@@ -129,8 +129,6 @@ Directories are empty, C$ and ADMIN$ we don't have access by default.
 
 BUT we were able to find the users with CrackMapExec and trying various passwords(username as pass but upper and lower), we find a valid user/password combination: `Operator:operator`
 
-&#x20;&#x20;
-
 <figure><img src="../../.gitbook/assets/image (875).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (876).png" alt=""><figcaption></figcaption></figure>
@@ -152,11 +150,11 @@ Administrator S-1-5-21-4078382237-1492182817-2568127209-500 (User: 1
 
 #### Impacket-mssqlclient
 
-Were able to log in with `Operator:operator`&#x20;
+Were able to log in with `Operator:operator`
 
 <figure><img src="../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
 
-Using xp\_dirtree to look around in various directories we eventually found:&#x20;
+Using xp\_dirtree to look around in various directories we eventually found:
 
 <figure><img src="../../.gitbook/assets/image (878).png" alt=""><figcaption></figcaption></figure>
 
@@ -263,7 +261,7 @@ sudo faketime -f '(date/time of dc)'/bin/date
 
 <figure><img src="../../.gitbook/assets/image (894).png" alt=""><figcaption></figcaption></figure>
 
-Re-run our certipy command and get the hash of the administrator!&#x20;
+Re-run our certipy command and get the hash of the administrator!
 
 <figure><img src="../../.gitbook/assets/image (895).png" alt=""><figcaption></figcaption></figure>
 
@@ -279,6 +277,6 @@ crackmapexec smb 10.129.139.52 -u Administrator -H aad3b435b51404eeaad3b435b5140
 crackmapexec smb 10.129.139.52 -u Administrator -H aad3b435b51404eeaad3b435b51404ee:ae5064c2f62317332c88629e025924ef -x 'type C:\Users\Administrator\Desktop\root.txt'
 ```
 
-<figure><img src="../../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
 
 Root.txt: `35891a19f5ad0f5c2fced375b3c7142e`

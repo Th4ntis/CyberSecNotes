@@ -30,7 +30,7 @@ What credentials do you have to pass to rsync in order to use anonymous authenti
 
 ## Task 6
 
-What is the option to only list shares and files on rsync? - Look at `rsync -h`  Answer: list-only
+What is the option to only list shares and files on rsync? - Look at `rsync -h` Answer: list-only
 
 <figure><img src="../../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure>
 
@@ -38,7 +38,7 @@ What is the option to only list shares and files on rsync? - Look at `rsync -h` 
 
 Get the flag
 
-<figure><img src="../../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (112).png" alt=""><figcaption></figcaption></figure>
 
 Sync the file, cat it. Flag obtained `rsync 10.129.243.254::public/flag.txt flag.txt`
 

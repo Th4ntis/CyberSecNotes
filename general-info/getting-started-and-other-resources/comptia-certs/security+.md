@@ -15,8 +15,3 @@ Broken into 5 'Domains'
 Like most Comptia exams, you will have 165 min to answer **up to** 90 questions, can be 70-90. Questions are multiple choice, multiple select, and a small Performance Based Questions(Simulations) and drag and drop them in the proper order. **Usually** exams are: 3-5 Simulations, 80-85 multiple choice, but this can vary. You need 750 out of 900 points(80-85%) to pass.
 
 2 Resources that are provided from the course:
-
-{% file src="../../.gitbook/assets/CompTIA+Security+(SY0-601)+Exam+Objectives.pdf" %}
-
-{% file src="../../.gitbook/assets/CompTIA+Security++601+Study+Guide.pdf" %}
-

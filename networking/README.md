@@ -4,7 +4,7 @@ description: Networking Basics
 
 # 💻 Networking
 
-This is my notes on networking, covering the basics and details that I feel most everyone should grasp and understand. Such as the [OSI Model](osi-model.md) - [TCP/IP Model](tcp-ip-model.md) - [Common Ports and Protocols](common-ports-and-protocols.md) - and [Subnetting](subnetting.md)
+This is my notes on networking, covering the basics and details that I feel most everyone should grasp and understand. Such as the [OSI Model](/broken/pages/HXbw2BjMSuBej8hfhGnr) - [TCP/IP Model](/broken/pages/9MGxcaemBZK6rgYJ3jGQ) - [Common Ports and Protocols](/broken/pages/b5HkO5o7fYkIcuyLSa69) - and [Subnetting](/broken/pages/oWNwKlu0At3CrXlJzDj2)
 
 ## IPv4
 
@@ -57,4 +57,3 @@ MAC addresses allow devices to communicate with each other within a local area n
 It's important to note that MAC addresses are specific to a LAN, and do not have global uniqueness like IP addresses. When data needs to be transmitted outside the LAN, it is encapsulated in network packets that contain source and destination IP addresses.
 
 In summary, a MAC address is a unique identifier assigned to the network interface controller of a device. It is used at the data link layer to facilitate communication within a local network. MAC addresses are hardware-based, manufacturer-specific, and differ from IP addresses, which are used for network communication on a larger scale.
-

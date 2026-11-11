@@ -6,7 +6,7 @@ A **container** is a standard unit of software that packages up code and all its
 
 A Docker container **image** is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
 
-My notes on Docker can be found [here](../general-info/docker.md).
+My notes on Docker can be found [here](../general-info/reference/docker.md).
 
 ## Introduction
 

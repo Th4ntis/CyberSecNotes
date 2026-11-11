@@ -1,12 +1,35 @@
-# Sed Awk and Grep
+# sed, awk, and grep
 
-## **grep (Global Regular Expression Print)**
+Three classic text-processing tools that work beautifully together, especially in pipelines. Each does one job well, and most real-world shell one-liners are just two or three of them chained with pipes. A quick way to remember the division of labor:
 
-Searches text for patterns (strings or regex), most often used for finding lines that match (or don’t match) a pattern. Searches input for lines that match a regular expression and prints those lines (or optionally the count, filenames, etc.).
+* **grep** - _find_ the lines that match a pattern.
+* **sed** - _edit_ a stream of text (substitute, delete, insert).
+* **awk** - _process_ structured/columnar data (fields, calculations, reports).
 
-#### Examples:
+All three read their input line by line and are commonly chained with pipes (`|`). See Common Commands > Redirection, pipes, and wildcards for the pipe and redirection basics these examples rely on.
 
-```
+### A note on regular expressions
+
+grep and sed both match text with **regular expressions** (regex) - a mini language for describing patterns. The essentials:
+
+| Pattern   | Matches                                                 |
+| --------- | ------------------------------------------------------- |
+| `.`       | any single character                                    |
+| `*`       | zero or more of the preceding item                      |
+| `^` / `$` | start / end of the line                                 |
+| `[abc]`   | any one of a, b, or c; `[^abc]` = none of them          |
+| `[0-9]`   | any digit (a range)                                     |
+| `\`       | escapes a special character so it's literal (e.g. `\.`) |
+
+There are two dialects. **Basic** regex (BRE) is the default in grep and sed and requires backslashes before `+`, `?`, `|`, `(`, `{`. **Extended** regex (ERE), enabled with `grep -E` or `sed -E`, treats those as special without the backslash - usually what you want when a pattern gets complicated.
+
+### grep (Global Regular Expression Print)
+
+Searches text for patterns (literal strings or regex) and prints the lines that match - or, with options, the non-matching lines, a count, filenames, and more.
+
+#### Examples
+
+```bash
 # Find lines containing "error" in a file
 grep "error" logfile.txt
 
@@ -19,73 +42,113 @@ grep -n "error" logfile.txt
 # Show lines that do NOT match
 grep -v "error" logfile.txt
 
-# Show all lines containing the word "error" (case‑insensitive) in a log file
-grep -i "error" /var/log/syslog
+# Search recursively through a directory
+grep -r "error" /var/log/
 
 # Count how many times "TODO" appears in source files
 grep -c "TODO" *.c *.h
+
+# Use extended regex (alternation, +, ?, grouping)
+grep -E "error|warning|fail" logfile.txt
+
+# Show 3 lines of context around each match
+grep -C 3 "error" logfile.txt
+
+# Only print the matching text, not the whole line (e.g. pull out IPs)
+grep -oE "[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+" access.log
 ```
 
-## sed (Stream Editor)
+> Common flags: `-i` ignore case, `-n` line numbers, `-v` invert match, `-r` recursive, `-c` count, `-w` whole word, `-o` only the match, `-E` extended regex, `-A`/`-B`/`-C` lines of context after/before/around.
 
-Edits text streams, mostly used for substitution, deletion, insertion, of strings within files. Reads a stream line‑by‑line, applies editing commands (substitutions, deletions, insertions, etc.), and writes the result.
+### sed (Stream Editor)
+
+Edits a text stream line by line - most often used for find-and-replace, but also for deleting, inserting, and printing specific lines. By default it prints the (possibly modified) stream to standard output and leaves your file untouched.
 
 #### Examples
 
-```
-# Replace first occurrence of "foo" with "bar" on each line
+```bash
+# Replace the FIRST occurrence of "foo" with "bar" on each line
 sed 's/foo/bar/' file.txt
 
-# Replace ALL occurrences of "foo" with "bar"
+# Replace ALL occurrences of "foo" with "bar" on each line
 sed 's/foo/bar/g' file.txt
+
+# Case-insensitive substitution
+sed 's/foo/bar/gi' file.txt
 
 # Delete lines containing "error"
 sed '/error/d' file.txt
 
-# Print only line 5
+# Print only line 5 (-n suppresses the default print)
 sed -n '5p' file.txt
 
-# Edit file in-place
+# Print a range of lines (10 through 20)
+sed -n '10,20p' file.txt
+
+# Edit a file IN PLACE (modifies the file directly)
 sed -i 's/foo/bar/g' file.txt
 
-# Replace the first occurrence of "foo" with "bar" on each line
-sed 's/foo/bar/' file.txt
+# Make an in-place edit but keep a .bak backup of the original
+sed -i.bak 's/foo/bar/g' file.txt
 
 # Delete blank lines and lines starting with #
 sed '/^\s*#/d;/^$/d' config.cfg
 
-# In‑place edit: change all tabs to four spaces in a source file
+# In-place: change all tabs to four spaces in a source file
 sed -i 's/\t/    /g' source.c
 ```
 
-## AWK
+> `-i` rewrites the file in place - there is no undo, so test without `-i` first (or use `-i.bak`). The substitution syntax is `s/pattern/replacement/flags`; you can swap the delimiter when your text contains slashes, e.g. `s|/usr/local|/opt|g` - much more readable than escaping every `/`.
 
-Pattern scanning and processing language. Mostly used for working with structured data (columns), calculations, reports. Scans input line‑by‑line, splits each line into fields (default whitespace), and executes user‑defined actions when patterns match.
+### awk
+
+A pattern-scanning and processing language. It's ideal for working with columns, doing calculations, and generating reports. awk reads input line by line, splits each line into **fields** (by whitespace by default), and runs your actions when a pattern matches. Fields are referenced as `$1`, `$2`, …, and `$0` is the whole line.
+
+The general shape is `awk 'pattern { action }'` - either part is optional. A pattern with no action prints matching lines; an action with no pattern runs on every line.
 
 #### Examples
 
-```
-# Print first column of a space-separated file
+```bash
+# Print the first column of a whitespace-separated file
 awk '{print $1}' file.txt
 
-# Print 1st and 3rd columns (tab or space separated)
+# Print the 1st and 3rd columns
 awk '{print $1, $3}' file.txt
 
-# Print lines where 3rd column > 100
+# Print only lines where the 3rd column is greater than 100
 awk '$3 > 100' file.txt
 
-# Calculate sum of values in column 2
+# Print lines where the 5th field > 100, showing fields 1 and 5
+awk '$5 > 100 {print $1, $5}' report.log
+
+# Sum the values in column 2 and print the total at the end
 awk '{sum += $2} END {print sum}' file.txt
 
-# Use -F to specify delimiter (e.g., CSV)
-awk -F, '{print $1,$2}' file.csv
+# Use -F to set the field delimiter (e.g. a CSV)
+awk -F, '{print $1, $2}' file.csv
 
-# Print the second column of a space‑separated file
-awk '{print $2}' data.txt
-
-# Sum the values in the third column of a CSV (comma as FS)
+# Sum the third column of a CSV with a labeled total
 awk -F',' '{sum += $3} END {print "Total:", sum}' sales.csv
 
-# Show lines where the 5th field > 100 and print fields 1 and 5
-awk '$5 > 100 {print $1, $5}' report.log
+# Print the line number and total number of fields on each line
+awk '{print NR, NF, $0}' file.txt
 ```
+
+> Useful built-in variables: `NR` (current record/line number), `NF` (number of fields on the line), `FS` (input field separator, set with `-F`), `OFS` (output field separator). A `BEGIN { }` block runs before any input, and `END { }` runs after all input - handy for printing headers and totals.
+
+### Putting them together
+
+The real payoff is chaining them. A few representative pipelines:
+
+```bash
+# Top 10 client IPs in a web log: pull the first field, sort, count, rank
+awk '{print $1}' access.log | sort | uniq -c | sort -rn | head -10
+
+# Find TODOs across a project, strip the path noise, and number them
+grep -rn "TODO" src/ | sed 's/:.*TODO/: TODO/' | nl
+
+# Average of the second column, ignoring comment lines
+grep -v '^#' data.txt | awk '{sum+=$2; n++} END {print sum/n}'
+```
+
+`sort` and `uniq -c` aren't part of this trio, but they show up constantly alongside it - `sort | uniq -c | sort -rn` is the canonical "count and rank" idiom.

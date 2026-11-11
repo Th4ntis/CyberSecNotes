@@ -14,15 +14,13 @@ Starting with typical setup
 
 I add the .iso after
 
-<figure><img src="../../.gitbook/assets/image (1).avif" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image.avif" alt=""><figcaption></figcaption></figure>
 
 Select the size of the VM. This will **NOT** the overall size, this is just the max size of the VMs HDD space and will fill up as we add more to the VM that takes up space.
 
 If this VM will be on a PC and not be used from an external HDD or moved around you can store it as a single file but if you plan on using this VM on other PC or from an external HDD it's a better idea to split it into multiple files.
 
-<figure><img src="../../.gitbook/assets/image (3).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).avif" alt=""><figcaption></figcaption></figure>
 
 Finally we can now customize our hardware. This is where we can customize the RAM, Processors, ISO files, Network Settings, etc. This is where we select our Windows Server ISO.
 
@@ -34,29 +32,27 @@ For install purposes, I up it to 8GB of ram and 4 Processors. Also add in the .i
 
 <figure><img src="https://cybersec.th4ntis.com/~gitbook/image?url=https%3A%2F%2F667808901-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FTdW22AGCceN8oUXfdlKI%252Fuploads%252F5Uqo0wIHz0nrjvfdV9EZ%252Fimage.png%3Falt%3Dmedia%26token%3Dd79f9af0-7219-4f27-a44b-a2a79d8845ca&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=6b4fe7f6&#x26;sv=2" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (4).avif" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image (4).avif" alt=""><figcaption></figcaption></figure>
 
 When finished, click close > finish > turn on the VM. Be sure to click into the VM to press a button when it starts.
 
 ## Installing Windows 11
 
-<figure><img src="../../.gitbook/assets/image (5).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).avif" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (6).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).avif" alt=""><figcaption></figcaption></figure>
 
 You MAY need to bypass TPM. If so, continue on. If not, skip ahead a little bit to [INSTALL NOW](windows-user-vm.md#install-now).
 
-![](<../../.gitbook/assets/image (548).png>)
+![](<../.gitbook/assets/image (548).png>)
 
 Press `Shift+F10` to bring up the Command Prompt
 
-![](<../../.gitbook/assets/image (712).png>)
+![](<../.gitbook/assets/image (712).png>)
 
 Run `regedit` and navigate to `HKEY_`_`LOCAL_MACHINE\SYSTEM\Setup` and make a new Key called "LabConfig"_
 
-![](<../../.gitbook/assets/image (745).png>)
+![](<../.gitbook/assets/image (745).png>)
 
 _Inside there create DWord(32-Bit) Values for:_
 
@@ -66,7 +62,7 @@ _Inside there create DWord(32-Bit) Values for:_
 
 _and change their value to 1_
 
-![](<../../.gitbook/assets/image (713).png>)
+![](<../.gitbook/assets/image (713).png>)
 
 Close out that window to exit the installation and start from the beginning window.
 
@@ -74,9 +70,9 @@ Close out that window to exit the installation and start from the beginning wind
 
 Click INSTALL NOW, then accept the EULA and click next
 
-<figure><img src="../../.gitbook/assets/image (7).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).avif" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (8).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).avif" alt=""><figcaption></figcaption></figure>
 
 I go with the custom installation option.
 
@@ -86,75 +82,75 @@ Select the hard drive and click next
 
 Click Next
 
-<figure><img src="../../.gitbook/assets/image (9).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).avif" alt=""><figcaption></figcaption></figure>
 
 Wait for the install process to finish and restart
 
-<figure><img src="../../.gitbook/assets/image (10).avif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).avif" alt=""><figcaption></figcaption></figure>
 
-After install and it reboots&#x20;
+After install and it reboots
 
-![](<../../.gitbook/assets/image (779).png>)
+![](<../.gitbook/assets/image (779).png>)
 
 We choose our region, keyboard layout, etc. and we can setup our account. Select 'sign-in options'
 
-![](<../../.gitbook/assets/image (242).png>)
+![](<../.gitbook/assets/image (242).png>)
 
 Then 'Domain Join Instead'
 
-![](<../../.gitbook/assets/image (390).png>)
+![](<../.gitbook/assets/image (390).png>)
 
 Input our username and password, password confirmation, and security questions
 
-![](<../../.gitbook/assets/image (462).png>)
+![](<../.gitbook/assets/image (462).png>)
 
 Disable all the privacy settings and click accept.
 
-![](<../../.gitbook/assets/image (290).png>)
+![](<../.gitbook/assets/image (290).png>)
 
 It will now do Windows setup and such
 
-![](<../../.gitbook/assets/image (768).png>)
+![](<../.gitbook/assets/image (768).png>)
 
 We're now logged in and can install VMWare Tools
 
-![](<../../.gitbook/assets/image (346).png>)
+![](<../.gitbook/assets/image (346).png>)
 
-![](<../../.gitbook/assets/image (454).png>)
+![](<../.gitbook/assets/image (454).png>)
 
 ### Joining a domain
 
 We need to set out DNS Server to be the IP of our Domain Controller. So open the start menu, search for and open Control Panel.
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 In the top right, change it from 'Category' to 'Small/Large Icons', then open network and sharing center.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 On the left hand side, select 'Change Adapter Settings', then right click on the adapter, and select properties.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Select Internet Protocol Version 4 (TCP/IPv4) and then properties.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Change the DNS settings and set it to be the Domain Controllers IP address.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Open the start menu and search for domain, and select 'Access work or school'
 
-![](<../../.gitbook/assets/image (359).png>)
+![](<../.gitbook/assets/image (359).png>)
 
 Click the blue 'Connect' button
 
-![](<../../.gitbook/assets/image (546).png>)
+![](<../.gitbook/assets/image (546).png>)
 
 Select 'Join this device to a local Active Directory domain'.
 
-![](<../../.gitbook/assets/image (198).png>)
+![](<../.gitbook/assets/image (198).png>)
 
 and follow the steps. Add in your domain name followed by .local, Eg. Gibson.local, sign in with Domain Admin credentials, reboot, and ta-da! You're now on a domain
 
@@ -164,4 +160,4 @@ There a great [Setup.bat](https://raw.githubusercontent.com/Tib3rius/Windows-Pri
 
 From an admin CMD on the User Machine, we can run the script.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>

@@ -100,7 +100,7 @@ There are a lot of learning resources out there and some are free, some paid, so
 
 ## Keeping Up with Cyber/Info Sec
 
-There's multiple ways to do this, I have my recommendations over in the [CyberSec News](../cybersec-news.md) section of this.
+There's multiple ways to do this, I have my recommendations over in the [CyberSec News](../reference/cybersec-news.md) section of this.
 
 ## Additional
 
