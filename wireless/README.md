@@ -1,6 +1,0 @@
----
-icon: wifi
----
-
-# Wireless
-
