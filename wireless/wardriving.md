@@ -2,19 +2,19 @@
 
 ## About
 
-Wardriving, also known as "WiFi sniffing" is the process of locating WiFi networks, and potentially sniffing their traffic. War driving involves searching for wireless networks with vulnerabilities while moving around an area in various methods such as driving, walking, or biking. They use hardware and software to discover unsecured WiFi networks then can gain unauthorized access to the network by cracking WiFi passwords. Then records vulnerable network locations on digital maps, known as access point mapping, and may share that information with third-party applications or websites.
+Wardriving, also known as "Wi-Fi sniffing," is the process of locating Wi-Fi networks and potentially sniffing their traffic. It involves searching for wireless networks while moving around an area by driving, walking, or biking. A wardriver uses hardware and software to discover nearby networks, records their locations on digital maps (known as access point mapping), and may share that information with third-party applications or websites. That data can then be used to gain unauthorized access, for example by cracking Wi-Fi passwords.
 
-As mentioned before this is able to detect unsecured WiFi traffic. So when you're connected to an open public WiFi, sniffing is able to capture and log the traffic between your machine and the access point, and potentially capture unsecured credentials when logging into an insecure website, or gather encrypted traffic to attempt to decrypt later.
+Wardriving can also detect unsecured Wi-Fi traffic. When you are connected to an open public network, sniffing can capture and log the traffic between your machine and the access point, potentially grabbing unsecured credentials sent to an insecure website, or gathering encrypted traffic to attempt to decrypt later.
 
-In some cases, a method of war driving is also capturing encrypted WiFi passwords in the form of a Handshake or a PMKid, using methods and tools like aircracl or hcxdumpttool, to then crack later and connect to later.
+In some cases wardriving also captures encrypted Wi-Fi passwords in the form of a handshake or a PMKID, using tools like aircrack-ng or hcxdumptool, to crack and connect with later.
 
 ### Methods
 
-There's multiple ways of war driving, using your laptop a [Raspberry Pi](https://www.raspberrypi.com/) with appropriate devices such as [GPS adapters](https://www.amazon.com/gp/product/B01EROIUEW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8\&psc=1), [antennas](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8\&psc=1), or even your phone with the [WiGLE WiFi app](https://play.google.com/store/apps/details?id=net.wigle.wigleandroid\&utm_source=global_co\&utm_medium=prtnr\&utm_content=Mar2515\&utm_campaign=PartBadge\&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1). Popular softwares include Wireshark, Kismet, or use specified devices such as the [WiFi Coconut](https://hakshop.com/products/wifi-coconut) from [Hak5](https://hak5.org/pages/about).
+There are several ways to wardrive: a laptop, a [Raspberry Pi](https://www.raspberrypi.com/) with the appropriate peripherals such as [GPS adapters](https://www.amazon.com/gp/product/B01EROIUEW/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8\&psc=1) and [antennas](https://www.amazon.com/gp/product/B08SJBV1N3/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8\&psc=1), or even your phone with the [WiGLE WiFi app](https://play.google.com/store/apps/details?id=net.wigle.wigleandroid\&utm_source=global_co\&utm_medium=prtnr\&utm_content=Mar2515\&utm_campaign=PartBadge\&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1). Popular software includes Wireshark and Kismet, or you can use a dedicated device such as the [WiFi Coconut](https://hakshop.com/products/wifi-coconut) from [Hak5](https://hak5.org/pages/about).
 
 ### Is this legal?
 
-This is a bit of a grey area in some cases/areas and depending what you doing, weather you're just scanning networks and nothing more, or attempting to gather WiFi hashes. Typically this is not as it's just collecting basic public information, such as the WiFi name(BSSID), the security(WPA, WPA2, etc), and location(using GPS). This isn't inherently malicious or nefarious but it _could_ be used that way by those with malicious intent.
+This is a grey area that depends on your location and on what you are doing: just scanning networks, or actively gathering Wi-Fi hashes. Typically plain scanning is fine, since it only collects basic public information such as the network name (ESSID), the BSSID, the security type (WPA, WPA2, etc.), and the location (via GPS). This isn't inherently malicious, but it _could_ be used that way by those with malicious intent.
 
 ***
 
@@ -91,15 +91,15 @@ We need to find the UUID of the Drive we mounted, most likely will be `/dev/sda1
 sudo blkid /dev/sda1
 ```
 
-!\[\[image 180.png]]
+<figure><img src="../.gitbook/assets/image (834).png" alt=""><figcaption></figcaption></figure>
 
-We need to create a directory for this to me auto mounted on boot:
+We need to create a directory for this to be auto-mounted on boot:
 
 ```
 sudo mkdir -p /mnt/usb1
 ```
 
-Now change the ower of the newly made directory (changing th4ntis with your username):
+Now change the owner of the newly made directory (replacing th4ntis with your username):
 
 ```
 sudo chown -R th4ntis:th4ntis /mnt/usb1
@@ -117,7 +117,9 @@ Then added this to the bottom of the file:
 UUID=[UUID] /mnt/usb1 [TYPE] defaults,auto,users,rw,nofail,noatime 0 0
 ```
 
-changing the \[UUID] and \[TYPE] to the UUID and type of your drive when we used `sudo blkid /dev/sda1`. !\[\[image 181.png]]
+changing the \[UUID] and \[TYPE] to the UUID and type of your drive when we used `sudo blkid /dev/sda1`.
+
+<figure><img src="../.gitbook/assets/image (835).png" alt=""><figcaption></figcaption></figure>
 
 We have a couple options, we can edit the kismet.conf file OR use the kismet\_site.conf file. I chose the kismet\_site.conf file.
 
@@ -127,7 +129,7 @@ Edit the file:
 sudo nano /etc/kismet/kismet_site.conf
 ```
 
-I changed the log location to the external HDD or USb Drive location: as well as added the wiglecsv format for logging to upload
+I changed the log location to the external HDD or USB drive, and added the wiglecsv format for logs to upload:
 
 ```
 # Changes log location
@@ -141,33 +143,35 @@ log_types+=wiglecsv
 
 Now we need to add the WiFi Radios, GPS, and Bluetooth sources to the kismet\_site.conf
 
-After plugging in your WiFi Radios, GPS, and Bluetooth adapters, depending which one you have, you'll wanna set the GPSD to the proper adapter. We can run `dmesg` to find the location of the USB device. The usual locations are:
+After plugging in your Wi-Fi radios, GPS, and Bluetooth adapters, you'll want to point GPSD at the proper adapter. We can run `dmesg` to find the device node of the USB device. The usual locations are below.
 
 ### WiFi Radios:
 
-Let's get the radio 'names' with: `ip a`
+Let's get the radio names with `ip a`.
 
-!\[\[image 182.png]]
+<figure><img src="../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
 
-As I am using a WiFi Coconut, I will be having a lot of WiFi Radios. So take the WiFi interface name, eg. `wlx0cefafd1408b`, and copy as many of them as you have/will be using. Then we will edit the `kismet_site.conf` file and add the sources to that. !\[\[image 183.png]]
+As I am using a WiFi Coconut, I will be having a lot of WiFi Radios. So take the WiFi interface name, eg. `wlx0cefafd1408b`, and copy as many of them as you have/will be using. Then we will edit the `kismet_site.conf` file and add the sources to that.
+
+<figure><img src="../.gitbook/assets/image (837).png" alt=""><figcaption></figcaption></figure>
 
 ### GPS:
 
-GlobatSat BU-353-S4:
+GlobalSat BU-353-S4:
 
 ```bash
 /dev/ttyUSB0
 ```
 
-!\[\[image 184.png]]
+<figure><img src="../.gitbook/assets/image (838).png" alt=""><figcaption></figcaption></figure>
 
 VK-162/VK172:
 
 ```
-/dev/ttyASM0
+/dev/ttyACM0
 ```
 
-!\[\[image 185.png]]
+<figure><img src="../.gitbook/assets/image (839).png" alt=""><figcaption></figcaption></figure>
 
 With the device plugged in, set GPSD to the device, it shouldn't return an error, if it does you may need to troubleshoot the error.
 
@@ -181,13 +185,15 @@ OR
 gpsd -b /dev/ttyUSB0
 ```
 
-To verify if it is working properly we can run `gpsmon` **OR** `cgps` !\[\[image 187.png]]
+To verify if it is working properly we can run `gpsmon` **OR** `cgps`
 
-!\[\[image 188.png]]
+<figure><img src="../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
 
-Now, in our kismet\_site.conf, we will add GPSD as a GPS source.
+<figure><img src="../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
 
-!\[\[image 189.png]]
+Now, in our `kismet_site.conf`, we add GPSD as a GPS source.
+
+<figure><img src="../.gitbook/assets/image (952).png" alt=""><figcaption></figcaption></figure>
 
 ## Running - Normal Mode
 
@@ -197,19 +203,19 @@ Now we can start and run kismet! We need to specify the WiFi Adapter and gps.
 kismet -c (interface) gps=gpsd:host=localhost,port=2947,reconnect=true
 ```
 
-!\[\[image 190.png]]
+<figure><img src="../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 
-!\[\[image 191.png]]
+<figure><img src="../.gitbook/assets/image (954).png" alt=""><figcaption></figcaption></figure>
 
 Now as the banner at the top says, we can go to the web interface at [http://localhost:2501/](http://localhost:2501/).
 
-!\[\[image 15.avif]]
+<figure><img src="../.gitbook/assets/image (955).png" alt=""><figcaption></figcaption></figure>
 
 If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-!\[\[image 192.png]]
+<figure><img src="../.gitbook/assets/image (956).png" alt=""><figcaption></figcaption></figure>
 
-!\[\[image 193.png]]
+<figure><img src="../.gitbook/assets/image (957).png" alt=""><figcaption></figcaption></figure>
 
 From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
 
@@ -221,15 +227,13 @@ If you're on the newest kismet version (2022-01-git and subsequent releases) we 
 kismet -t some_wardrive --override wardrive
 ```
 
-!\[\[image 194.png]]
-
-!\[\[image 195.png]]
+<figure><img src="../.gitbook/assets/image (1025).png" alt=""><figcaption></figcaption></figure>
 
 and just as above, If you don't specify an interface in the original command, when on the dashboard, you can select the 3 Lines in the top left, select 'Datasources' and enable the sources you want to use.
 
-!\[\[image 196.png]]
+<figure><img src="../.gitbook/assets/image (1061).png" alt=""><figcaption></figcaption></figure>
 
-!\[\[image 197.png]]
+<figure><img src="../.gitbook/assets/image (1071).png" alt=""><figcaption></figcaption></figure>
 
 From here we can verify the GPS is working with the green cross hair icon in the top right, as well as seeing the info.
 
@@ -250,7 +254,7 @@ By default, the Kismet systemd service runs Kismet as root; this is NOT best pra
 
 So lets set this up to run as our user. `sudo systemctl edit kismet` so edit the service. Changing the user to the 'kismet' user **OR** as the user you have setup.
 
-!\[\[image 198.png]]
+<figure><img src="../.gitbook/assets/image (1072).png" alt=""><figcaption></figcaption></figure>
 
 So with this setup, let's start the service with `sudo service kismet start`.
 
@@ -258,13 +262,15 @@ Set the service to start on boot with: `sudo systemctl enable kismet`.
 
 Verify the Kismet service is running with: `sudo service kismet status`.
 
-!\[\[image 199.png]]
+<figure><img src="../.gitbook/assets/image (1073).png" alt=""><figcaption></figcaption></figure>
 
 ## Post Capture
 
 ### Normal Mode
 
-This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run. !\[\[image 200.png]]
+This will automatically log all traffic to a Kismet log file with the date from the directory where the command was run.
+
+<figure><img src="../.gitbook/assets/image (1074).png" alt=""><figcaption></figcaption></figure>
 
 If we have GPS enabled and the info, we can convert the file into a KML File to be used with [Google Earth](https://earth.google.com/web/). [More info here](https://www.kismetwireless.net/docs/readme/kml/).
 
@@ -278,7 +284,7 @@ We are able to convert the file to pcap to be analyzed in Wireshark. Docs can be
 kismetdb_to_pcap --in some-kismet-log.kismet --out some-pcap-log.pcapng
 ```
 
-!\[\[image 201.png]]
+<figure><img src="../.gitbook/assets/image (1075).png" alt=""><figcaption></figcaption></figure>
 
 We can also upload the logs to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wigle/).
 
@@ -290,13 +296,13 @@ You can then upload it.
 
 ### Wardrive Mode
 
-This mode will automatically create 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/). This will sho that logging is greately reduced and will only be used for Access Point(AP) collection.
+This mode automatically creates 2 files: a kismet file and a wiglecsv file to upload to [Wigle.net](https://wigle.net/index). Docs can be found [here](https://www.kismetwireless.net/docs/readme/wardriving/). In this mode logging is greatly reduced and is used only for Access Point (AP) collection.
 
 ```
 kismet --override wardrive
 ```
 
-!\[\[image 202.png]]
+<figure><img src="../.gitbook/assets/image (1076).png" alt=""><figcaption></figcaption></figure>
 
 If we have GPS enabled and the info, we can convert the file into a KML File to be used with [Google Earth](https://earth.google.com/web/). [More info here](https://www.kismetwireless.net/docs/readme/kml/).
 

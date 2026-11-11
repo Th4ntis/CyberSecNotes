@@ -1,5 +1,15 @@
 # Wireless Basics
 
+This note collects the background theory behind the wireless attacks in these guides: the authentication schemes, key sizes, and the 4-way handshake.
+
+## Adapter references
+
+Useful references for picking a Linux-compatible adapter:
+
+* [Alfa AWUS036AXML](https://www.alfa.com.tw/products/awus036axml?variant=39754360684616)
+* [morrownr - Recommended Adapters for Kali Linux](https://github.com/morrownr/USB-WiFi/blob/main/home/Recommended_Adapters_for_Kali_Linux.md)
+* [morrownr - Adapters supported by in-kernel Linux drivers](https://github.com/morrownr/USB-WiFi/blob/main/home/USB_WiFi_Adapters_that_are_supported_with_Linux_in-kernel_drivers.md)
+
 ## OSA and WEP
 
 Open System Authentication (OSA) is a process by which a computer can gain access to a wireless network that uses the Wired Equivalent Privacy (WEP) protocol. With OSA, a computer equipped with a wireless modem can access any WEP network and receive files that are not encrypted
@@ -23,7 +33,7 @@ It might seem as though SKA is more secure than OSA since the latter offers no r
 
 Standard 64-bit WEP uses a 40 bit key (also known as WEP-40), which is concatenated with a 24-bit initialization vector (IV) to form the RC4 key.
 
-A 64-bit WEP key is usually entered as a string of 10 hexadecimal (hex) characters. Each character represents 4 bits, 10 digits of 4 bits each gives 40 bits. Adding the 24-bit IV produces the complete 64-bit WEP key (4 bits × 10 + 24 bits IV = 64 bits of WEP key). Most devices also allow us to enter the key as 5 ASCII characters (0–9, a–z, A–Z), each of which is turned into 8 bits using the character's byte value in ASCII (8 bits × 5 + 24 bits IV = 64 bits of WEP key). This does restrict each byte to be a printable ASCII character, which is only a small fraction of possible byte values, greatly reducing the space of possible keys.
+A 64-bit WEP key is usually entered as a string of 10 hexadecimal (hex) characters. Each character represents 4 bits, 10 digits of 4 bits each gives 40 bits. Adding the 24-bit IV produces the complete 64-bit WEP key (4 bits × 10 + 24 bits IV = 64 bits of WEP key). Most devices also allow us to enter the key as 5 ASCII characters (0-9, a-z, A-Z), each of which is turned into 8 bits using the character's byte value in ASCII (8 bits × 5 + 24 bits IV = 64 bits of WEP key). This does restrict each byte to be a printable ASCII character, which is only a small fraction of possible byte values, greatly reducing the space of possible keys.
 
 A 128-bit WEP key is usually entered as a string of 26 hex characters. 26 digits of 4 bits each, gives us 104 bits. Adding the 24-bit IV produces the complete 128-bit WEP key (4 bits × 26 + 24 bits IV = 128 bits of WEP key). Most devices also allow us to enter it as 13 ASCII characters (8 bits × 13 + 24 bits IV = 128 bits of WEP key).
 
@@ -45,7 +55,7 @@ In all WiFi Protected Setup networks, a unique PIN (Personal Identification Numb
 
 ## WPA/WPA2/WPA3
 
-WiFi Protected Access (WPA) is protocol implements the Temporal Key Integrity Protocol (TKIP). WEP used a 64-bit or 128-bit encryption key that must be manually entered on wireless access points and devices and does not change. TKIP employs a per-packet key, meaning that it dynamically generates a new 128-bit key for each packet
+Wi-Fi Protected Access (WPA) is a protocol that implements the Temporal Key Integrity Protocol (TKIP). WEP used a 64-bit or 128-bit encryption key that had to be manually entered on wireless access points and devices and did not change. TKIP instead employs a per-packet key, dynamically generating a new 128-bit key for each packet.
 
 ## WPA-Personal
 
@@ -82,3 +92,17 @@ In simpler words, a 4-way handshake does this:
 4. Supplicant installs the keys and sends confirmation back
 
 This process is rather long and when a client goes out of range and comes back in range of the AP (called roaming) the process is lacking in efficiency. This is why routers host a smart roaming feature known as PMK caching.
+
+## Partial Handshakes
+
+We can get some information from partial handshakes. !\[\[Pasted image 20260217200854.png]]
+
+## Full Handshakes
+
+With a .pcap file, we can open it with Wireshark and we can search for messages. We need all 4 for a complete handshake.
+
+```
+eapol
+```
+
+!\[\[Pasted image 20260217200609.png]]
