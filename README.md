@@ -14,12 +14,11 @@ Any and all suggestions welcome!
 
 Social stuff:
 
-|                                                         |                                                 |
-| ------------------------------------------------------- | ----------------------------------------------- |
-| [Github](https://github.com/Th4ntis)                    | [Blog](https://th4ntis.com/blog)                |
-| [Webpage](https://th4ntis.github.io)                    | [LinkedIn](https://www.linkedin.com/in/th4ntis) |
-| [Twitter](https://twitter.com/Th4ntis)                  | [Mastodon](https://infosec.exchange/@th4ntis)   |
-| [HackTheBox](https://app.hackthebox.com/profile/274909) | [TryHackMe](https://tryhackme.com/p/th4ntis)    |
+|                                        |                                                                                                                                                                     |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Webpage](https://th4ntis.github.io)   | [Blog](https://th4ntis.com/blog)                                                                                                                                    |
+| [Github](https://github.com/Th4ntis)   | [LinkedIn](https://www.linkedin.com/in/th4ntis)                                                                                                                     |
+| [Twitter](https://twitter.com/Th4ntis) | [HackTheBox](https://app.hackthebox.com/public/users/274909) \| [Hack The Box Academy](https://profile.hackthebox.com/profile/019e1ce8-be30-7364-9463-1ccb5c28ddac) |
 
 ### **Disclaimer**
 
