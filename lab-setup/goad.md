@@ -1,158 +1,137 @@
 # GOAD
 
-## About
-
-### [GOAD](https://orange-cyberdefense.github.io/GOAD/)
-
-[Game Of Active Directory](https://orange-cyberdefense.github.io/GOAD/) is a free pentest active directory LAB(s) project. The purpose of this tool is to give pentesters a vulnerable Active directory environment ready to use to practice usual attack techniques. The idea behind this project is to give you an environment where you can try and train your pentest skills without having the pain to build all by yourself.
-
-### Links
-
-[Install Ludus](https://docs.ludus.cloud/docs/quick-start/install-ludus/)
-
-[Ludus-GOAD Guide](https://docs.ludus.cloud/docs/environment-guides/goad/)
-
 ## Installing
 
-Once Ludus is installed
+Once we have [installed Ludus](ludus.md) onto our machine, we can proceed with installing [Game of Active Directory (GOAD)](https://orange-cyberdefense.github.io/GOAD). This will give us a great environment to attack, test tools against, and more.
 
-1. Clone the GOAD repository
+### CLI
 
-```
-git clone https://github.com/Orange-Cyberdefense/GOAD.git && cd GOAD
-```
-
-3. Start GOAD, check that everything is set with no errors, and install. This will take a long time.
+To install GOAD via CLI we need to add the source first. Pressing space to select `Game of Active Directory (GOAD)`, then press `enter`.
 
 ```
-./goad.sh -p ludus
+ludus source add ludus-source-bsl
 ```
 
-4. Exit GOAD and update `/root/.goad/goad.ini` with your users API key, then install
+<figure><img src="../.gitbook/assets/image (1151).png" alt=""><figcaption></figcaption></figure>
+
+Create the range, user, and select the blueprint
 
 ```
-GOAD/ludus/local > check
-GOAD/ludus/local > set_lab XXX # GOAD/GOAD-Light/NHA/SCCM
-GOAD/ludus/local > install
+ludus range create -r GOAD --name GOAD --user th4ntis-ludus --from-blueprint ludus-source-bsl/goad
 ```
 
-<figure><img src="../.gitbook/assets/image (1111).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (1112).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../.gitbook/assets/image (1113).png" alt=""><figcaption></figcaption></figure>
-
-I did have a couple error that stopped the install, so added the API of my admin user key to `/root/.goad/goad.ini` then started the install again.
+Then deploy the range.
 
 ```
-./goad.sh -p ludus
-GOAD/ludus/local > install
+ludus range deploy -r GOAD
 ```
 
-<figure><img src="../.gitbook/assets/image (1114).png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+This will take some time, so step away for a few. This also may fail, but can be selected to be deployed again.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1115).png" alt=""><figcaption></figcaption></figure>
-
-Then once more when it was using the API key from the environment and deploying So I had to load the instance from within GOAD.
-
-```
-./goad.sh
-GOAD/ludus/local > ls
-GOAD/ludus/local > load (INSTANCE-ID)
-GOAD/ludus/local > install
-```
-
-<figure><img src="../.gitbook/assets/image (1116).png" alt=""><figcaption></figcaption></figure>
-
-## Kali VM with Ludus and GOAD
-
-1. Find the GOAD UserID
+We can view the deploy progress with:
 
 ```
-ludus users list all
+ludus range logs -f -r GOAD
 ```
 
-<figure><img src="../.gitbook/assets/image (1117).png" alt=""><figcaption></figcaption></figure>
+### Web UI
 
-2. Get the `config.yml` file
+Installing GOAD from the source blueprints, we simply select `Sources`, select the `Ludus Source - Bad Sector Labs` source.
 
-```
-ludus --user GOAD-USERID range config get > basic-config.yml
-```
+<figure><img src="../.gitbook/assets/image (1152).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1118).png" alt=""><figcaption></figcaption></figure>
+To install GOAD we select `Blueprints`, then check box, and hit install.
 
-3. Edit the `basic-config.yml` file with the following added to the bottom
+<figure><img src="../.gitbook/assets/image (1153).png" alt=""><figcaption></figcaption></figure>
 
-```yaml
-  - vm_name: "{{ range_id }}-kali"
-    hostname: "{{ range_id }}-kali"
-    template: kali-x64-desktop-template
-    vlan: 10
-    ip_last_octet: 99
-    ram_gb: 4
-    cpus: 4
-    linux: true
-    testing:
-      snapshot: false
-      block_internet: false
-```
+Now we go to Ranges and make a new one, and name it. I went with GOAD, then select `Create Range`
 
-4. Set the new config file and deploy it
+<figure><img src="../.gitbook/assets/image (1154).png" alt=""><figcaption></figcaption></figure>
 
-```
-ludus --user GOAD-USERID range config set -f basic-config.yml
-ludus --user GOAD-USERID range deploy -t vm-deploy
-```
+<figure><img src="../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
 
-5. Check on the deployment process
+Now select `Blueprints` from the side panel, and you should see `Game of Active Directory (GOAD)`. Select the 3 dots and apply it to a range.
 
-```
-ludus --user GOAD-USERID range logs -f
-```
+<figure><img src="../.gitbook/assets/image (1156).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1119).png" alt=""><figcaption></figcaption></figure>
+Select the Target Range we created, and select `Apply Blueprint`.
 
-<figure><img src="../.gitbook/assets/image (1120).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1157).png" alt=""><figcaption></figcaption></figure>
 
-6. Deploy the Kali VM
+This will take us right into our range, and give us a run down of configuration canvas and show us the layout. From here, to deploy the range, we select the Play button icon in the top right. This will take some time.
 
-```
-ludus --user GOAD-USERID range deploy --limit localhost,GOAD-USERID-kali
-```
+{% hint style="info" %}
+This will take some time, so step away for a few. This also may fail, but can be selected to be deployed again.
+{% endhint %}
 
-<figure><img src="../.gitbook/assets/image (1121).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1122).png" alt=""><figcaption></figcaption></figure>
+## Connection
 
-7. Verify all VMs with their status
+Now that GOAD is installed and running, we need to access it. We can do this by getting the WireGuard config.
 
-```
-ludus --user GOAD-USERID range status
-```
+### CLI
 
-<figure><img src="../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
-
-8\. If the machines are offline we can start them with
-
-```
-ludus --user GOADe202d2 range deploy
-```
-
-9. Get Wireguard configuration file
+With our API key exported, we can run:
 
 ```
 ludus user wireguard | tee ludus.conf
 ```
 
-<figure><img src="../.gitbook/assets/image (1125).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1159).png" alt=""><figcaption></figcaption></figure>
 
-9. Save the file as a `.conf` file and use Wireguard to connect to it. Once connected, access your Kali machine via GUI in the browser, over SSH.
+From here, we copy/paste that into a new.conf file.
+
+### Web UI
+
+When on any page, we can select our name in bottom right, then `WireGuard Config`
+
+<figure><img src="../.gitbook/assets/image (1160).png" alt=""><figcaption></figcaption></figure>
+
+With that, we can either copy or download it.
+
+<figure><img src="../.gitbook/assets/image (1161).png" alt=""><figcaption></figcaption></figure>
+
+From our machine we use the .conf file to connect to the environment. For Linux it's under `/etc/wireguard/` so we can run:
 
 ```
-sudo wg-quick up GOAD.conf
+sudo mv wireguard.conf /etc/wireguard/wireguard.conf
 ```
 
-<figure><img src="../.gitbook/assets/image (1126).png" alt=""><figcaption></figcaption></figure>
+## Access
 
-<figure><img src="../.gitbook/assets/image (1127).png" alt=""><figcaption></figcaption></figure>
+We now connect to the Kali machine (or the other machines) with
+
+```
+sudo wg-quick up wireguard
+```
+
+<figure><img src="../.gitbook/assets/image (1162).png" alt=""><figcaption></figcaption></figure>
+
+We verify by pinging our Kali machine.
+
+<figure><img src="../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
+
+From here, we can SSH to the machine or if we want a GUI we can go to `https://10.1.10.99:8444` and login with `kali:kali`
+
+<figure><img src="../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
+
+## Power
+
+### CLI
+
+```bash
+ludus power on/off --name all -r RANGE_ID # Power on/off all range VMs
+```
+
+### WebUI
+
+To power on/off the VMs, we either right-click anywhere within the range editor and select `power on/off All VMs` .&#x20;
+
+<figure><img src="../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
+
+Or we can click the three dots in the top right, go to power, and select power on/off.
+
+<figure><img src="../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
